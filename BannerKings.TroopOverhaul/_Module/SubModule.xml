@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd">
+	<Id value="BannerKings.TroopOverhaul" />
+	<Name value="BannerKings - Troop Overhaul" />
+	<Version value="v1.0.0" />
+	<Official value="false" />
+	<DefaultModule value="true" />
+	<ModuleCategory value="Singleplayer" />
+	<DependedModules>
+		<DependedModule Id="Bannerlord.Harmony" />
+		<DependedModule Id="Bannerlord.ButterLib" />
+		<DependedModule Id="Bannerlord.UIExtenderEx" />
+		<DependedModule Id="Bannerlord.MBOptionScreen" />
+		<DependedModule Id="Native" />
+		<DependedModule Id="SandBoxCore" />
+		<DependedModule Id="Sandbox" />
+		<DependedModule Id="StoryMode" />
+		<DependedModule Id="CustomBattle" />
+		<DependedModule Id="ExpandedArmouryBL" />
+		<DependedModule Id="RBM" />
+		<DependedModule Id="OpenSourceArmoryRBM" />
+		<DependedModule Id="OpenSourceSaddleryRBM" />
+		<DependedModule Id="OpenSourceWeaponryRBM" />
+		<DependedModule Id="BannerKings" />
+	</DependedModules>
+	<!-- Community Dependency Metadata -->
+	<DependedModuleMetadatas>
+		<DependedModuleMetadata id="Native" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" /> 
+		<DependedModuleMetadata id="ExpandedArmouryBL" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="RBM" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="OpenSourceArmoryRBM" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="OpenSourceSaddleryRBM" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="OpenSourceWeaponryRBM" order="LoadBeforeThis" />
+		<DependedModuleMetadata id="BannerKings" order="LoadBeforeThis" />
+		
+	</DependedModuleMetadatas>
+	<!-- Community Dependency Metadata -->
+	<SubModules>
+		<SubModule>
+			<Name value="BannerKings.TroopOverhaul" />
+			<DLLName value="BannerKings.TroopOverhaul.dll" />
+			<SubModuleClassType value="BannerKings.TroopOverhaul.Main" />
+			<Tags />
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+            <XmlName path="weapons" id="Items"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="Characters" />
+			<IncludedGameTypes>
+				<GameType value="Campaign" />
+				<GameType value="CampaignStoryMode" />
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>
