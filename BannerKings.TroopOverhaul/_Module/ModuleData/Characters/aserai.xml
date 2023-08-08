@@ -1,0 +1,1635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="bk_aserai_faaris" default_group="Cavalry" level="31" name="{=!}Aseran Faaris" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="110" />
+      <skill id="Riding" value="170" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_c" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_f2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_aserai_lord_helmet_e" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_f2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_aserai_helmet_f" />
+			<equipment slot="Cape" id="Item.AR_aserai_scale_cape_a2" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_aserai_lord_helmet_a" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_g" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_t2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_aserai_lord_helmet_a" />
+			<equipment slot="Cape" id="Item.AR_aserai_scale_cape_a" />
+			<equipment slot="Body" id="Item.desert_scale_armor" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_t2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_n2" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_e" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_g2" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_t2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g" />
+			<equipment slot="Cape" id="Item.desert_scale_shoulders" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_b" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_u2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_noble_helmet" />
+			<equipment slot="Cape" id="Item.desert_scale_shoulders" />
+			<equipment slot="Body" id="Item.desert_scale_armor" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_u2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_n" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_d" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_u2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_lord_helmet_a" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_c" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_u" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_aserai_lord_helmet_f" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_u" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_g" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_u" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zo" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		    <equipment slot="Item2" id="Item.empire_mace_5_t5" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+			
+  <NPCCharacter id="bk_aserai_squire" default_group="Cavalry" level="26" name="{=!}Aseran Highborn" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_aserai_faaris" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_h" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_d" />
+			<equipment slot="Body" id="Item.aserai_armor_02_b" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r3" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_d" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+			<equipment slot="Body" id="Item.aserai_armor_02_b" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r3" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_m2" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+			<equipment slot="Body" id="Item.TV_aserai_robe_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r3" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_m" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+			<equipment slot="Body" id="Item.aserai_robe_c_chain" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_l2" />
+			<equipment slot="Body" id="Item.aserai_robe_c_chain" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_l" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.desert_robe_over_mail" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_q3" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_k2" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_c" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_q3" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_k" />
+			<equipment slot="Body" id="Item.TV_aserai_robe_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_q" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_q" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_d" />
+			<equipment slot="Body" id="Item.TV_aserai_robe_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_q" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_h" />
+			<equipment slot="Body" id="Item.aserai_armor_02" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_q2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_aserai_lord_helmet_e" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+			<equipment slot="Body" id="Item.aserai_armor_02" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_q2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_aserai_lord_helmet_f" />
+			<equipment slot="Body" id="Item.aserai_armor_02" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_lord_helmet_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_noble_helmet" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_aserai_lord_helmet_a" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_d" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_c2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_r2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zn2" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+			<equipment slot="Item3" id="Item.bk_southern_javelins" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_aserai_tuareg_noble" default_group="Cavalry" level="26" name="{=!}Nahasi Noble Lancer" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="180" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_mail_helm_band" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_mail_helm_band" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_mail_helm_band" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+			<equipment slot="Body" id="Item.TV_aserai_robe_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_mail_helm_band" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+			<equipment slot="Body" id="Item.aserai_robe_c_chain" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_i" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_mail_helm_band" />
+			<equipment slot="Body" id="Item.aserai_robe_c_chain" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_i" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_mail_veil" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.desert_robe_over_mail" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_j" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_mail_veil" />
+			<equipment slot="Body" id="Item.aserai_armor_02_b" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_j" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_mail_veil" />
+			<equipment slot="Body" id="Item.TV_aserai_robe_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_f" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_mail_veil" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_p" />
+			<equipment slot="Body" id="Item.TV_aserai_robe_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_f" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_mail_veil" />
+			<equipment slot="Body" id="Item.aserai_armor_02" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_f" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+			<equipment slot="Body" id="Item.aserai_armor_02" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_h" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Body" id="Item.aserai_armor_02" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_h" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_light_helmet_a" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_c2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_h" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_light_helmet_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_e" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_n" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_j" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
+		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+			<equipment slot="Horse" id="Item.war_camel" />
+		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_e" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+   <NPCCharacter id="bk_aserai_tuareg"
+                default_group="Cavalry"
+                level="16"
+                name="{=!}Nahasi Camel Lancer"
+                occupation="Soldier"
+                culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="90" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.wrapped_scarf" />
+		    <equipment slot="Body" id="Item.tassled_southern_robes" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.bk_takouba" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+		    <equipment slot="Body" id="Item.thick_sleeved_robe" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.bk_takouba" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_j" />
+		    <equipment slot="Body" id="Item.layered_robe" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.bk_takouba" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.wrapped_scarf" />
+		    <equipment slot="Body" id="Item.tassled_southern_robes" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.bk_takouba" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+		    <equipment slot="Body" id="Item.AR_aserai_armor_n" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.bk_takouba" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Body" id="Item.aserai_civil_a" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.bk_takouba" />
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.wrapped_scarf" />
+		    <equipment slot="Body" id="Item.tassled_southern_robes" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.bk_takouba" />
+		</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_aserai_sergeant" default_group="Infantry" level="21" name="{=!}Aseran Muharib" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.TV_aserai_helmet_n" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.leather_strips_over_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_i" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Body" id="Item.AR_aserai_leather_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_cone_helmet" />
+			<equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.hmj_southern_headband_helm" />
+			<equipment slot="Body" id="Item.ringed_desert_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_o" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_cloth" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.leather_strips_over_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_helmet_with_band" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.leather_strips_over_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.desert_helmet_with_mail" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_j" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.large_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.desert_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_f" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.desert_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_light_helmet_a" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_heavy_helmet" />
+			<equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.battle_axe_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_r" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_i" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.battle_axe_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_m" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.bamboo_axe_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_n" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_leather_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.bamboo_axe_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_leather_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Item0" id="Item.desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_aserai_militiaman"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Aseran Militiaman"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_aserai_sergeant" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_f" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Cape" id="Item.desert_leather_shoulderpad" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_heavy_tuareg" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_helmet_IIII" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_s2" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_s" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_f" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_j" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_b" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_light_helmet_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_cloth" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_o" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_cone_helmet" />
+			<equipment slot="Body" id="Item.desert_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+			<equipment slot="Body" id="Item.aserai_civil_c" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_d" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_desert_helmet" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.saracen_helmet_c" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.bound_desert_round_shield" />
+		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_aserai_levy"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Aseran Levy"
+                occupation="Soldier"
+                culture="Culture.aserai"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_aserai_militiaman" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+			<equipment slot="Body" id="Item.aserai_civil_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tied_head_wrapping" />
+			<equipment slot="Body" id="Item.aserai_civil_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.turban" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.aserai_sword_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.wrapped_desert_cap" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.aserai_sword_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.woven_turban" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.aserai_sword_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tuareg" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_n" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.aserai_civil_f" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.turban" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.aserai_civil_f" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.bound_adarga" />
+		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.turban" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.desert_robe" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.layered_robe" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+			<equipment slot="Body" id="Item.aserai_female_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		    <equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_d_hscarf" />
+			<equipment slot="Body" id="Item.aserai_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.adarga" />
+		    <equipment slot="Item1" id="Item.aserai_sword_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+			<equipment slot="Body" id="Item.aserai_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_c_head" />
+			<equipment slot="Body" id="Item.aserai_female_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.adarga" />
+		    <equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.aserai_civil_a" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.adarga" />
+		    <equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_aserai_militiaman_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=!}Aseran Militiaman Archer"
+                occupation="Soldier"
+                culture="Culture.aserai"
+                skill_template="SkillSet.bk_militia_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_f" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Cape" id="Item.desert_leather_shoulderpad" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_heavy_tuareg" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_helmet_IIII" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_s2" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_s" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_f" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_j" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_b" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_light_helmet_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_cloth" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_o" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_cone_helmet" />
+			<equipment slot="Body" id="Item.desert_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+			<equipment slot="Body" id="Item.aserai_civil_c" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_d" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_desert_helmet" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.saracen_helmet_c" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_aserai_levy_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=!}Aseran Levy Archer"
+                occupation="Soldier"
+                culture="Culture.aserai"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_aserai_militiaman_archer" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+			<equipment slot="Body" id="Item.aserai_civil_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tied_head_wrapping" />
+			<equipment slot="Body" id="Item.aserai_civil_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.turban" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_sword_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.wrapped_desert_cap" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_sword_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.woven_turban" />
+			<equipment slot="Body" id="Item.aserai_civil_e" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_sword_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tuareg" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_n" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.aserai_civil_f" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.turban" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.aserai_civil_f" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.turban" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.desert_robe" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.layered_robe" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
+			<equipment slot="Body" id="Item.aserai_female_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_d_hscarf" />
+			<equipment slot="Body" id="Item.aserai_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_sword_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
+			<equipment slot="Body" id="Item.aserai_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_civil_c_head" />
+			<equipment slot="Body" id="Item.aserai_female_civil_b" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.aserai_civil_a" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+		    <equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>
