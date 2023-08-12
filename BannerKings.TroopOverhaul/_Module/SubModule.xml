@@ -65,5 +65,21 @@
 				<GameType value="CampaignStoryMode" />
 			</IncludedGameTypes>
 		</XmlNode>
+		<XmlNode>
+            <XmlName path="cultures" id="SPCultures"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+		<XmlNode>
+            <XmlName path="partyTemplates" id="partyTemplates"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
 	</Xmls>
 </Module>
