@@ -24,6 +24,7 @@ namespace BannerKings.TroopOverhaul
         public RecruitSpawn EmpireMeleeT3 { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireEques { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireNoble { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpirePeltast { get; } = new RecruitSpawn();
         #endregion empire
 
         #region Vlandia
@@ -32,7 +33,8 @@ namespace BannerKings.TroopOverhaul
         public RecruitSpawn VlandiaMeleeT2 { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaRangedT2 { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaMeleeT3 { get; } = new RecruitSpawn();
-        public RecruitSpawn VlandiaEques { get; } = new RecruitSpawn();
+        public RecruitSpawn VlandiaJaculan { get; } = new RecruitSpawn();
+        public RecruitSpawn VlandiaPravend { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaNoble { get; } = new RecruitSpawn();
         #endregion Vlandia
 
@@ -53,8 +55,11 @@ namespace BannerKings.TroopOverhaul
         public RecruitSpawn AseraiMeleeT2 { get; } = new RecruitSpawn();
         public RecruitSpawn AseraiRangedT2 { get; } = new RecruitSpawn();
         public RecruitSpawn AseraiMeleeT3 { get; } = new RecruitSpawn();
-        public RecruitSpawn AseraiEques { get; } = new RecruitSpawn();
+        public RecruitSpawn AseraiCamel { get; } = new RecruitSpawn();
+        public RecruitSpawn AseraiCamelNoble { get; } = new RecruitSpawn();
         public RecruitSpawn AseraiNoble { get; } = new RecruitSpawn();
+        public RecruitSpawn KanicRider { get; } = new RecruitSpawn();
+        public RecruitSpawn KanicHorseman { get; } = new RecruitSpawn();
         #endregion Aserai
 
         #region Khuzait
@@ -82,6 +87,7 @@ namespace BannerKings.TroopOverhaul
                 yield return EmpireRangedT1;
                 yield return EmpireMeleeT2;
                 yield return EmpireRangedT2;
+                yield return EmpirePeltast;
                 yield return EmpireMeleeT3;
                 yield return EmpireEques;
                 yield return EmpireNoble;
@@ -90,7 +96,8 @@ namespace BannerKings.TroopOverhaul
                 yield return VlandiaMeleeT2;
                 yield return VlandiaRangedT2;
                 yield return VlandiaMeleeT3;
-                yield return VlandiaEques;
+                yield return VlandiaPravend;
+                yield return VlandiaJaculan;
                 yield return VlandiaNoble;
                 yield return BattaniaMeleeT1;
                 yield return BattaniaMeleeT2;
@@ -99,16 +106,17 @@ namespace BannerKings.TroopOverhaul
                 yield return BattaniaRangedT1;     
                 yield return BattaniaRangedT2;
                 yield return BattaniaSkirmisher;
-                yield return BattaniaNoble;
-               
+                yield return BattaniaNoble;             
                 yield return AseraiMeleeT1;
                 yield return AseraiRangedT1;
                 yield return AseraiMeleeT2;
                 yield return AseraiRangedT2;
                 yield return AseraiMeleeT3;
-                //yield return AseraiEques;
+                yield return KanicRider;
+                yield return KanicHorseman;
+                yield return AseraiCamel;
+                yield return AseraiCamelNoble;
                 yield return AseraiNoble;
-
                 yield return KhuzaitRangedT1;
                 yield return KhuzaitMeleeT2;
                 yield return KhuzaitRangedT2;
@@ -162,9 +170,9 @@ namespace BannerKings.TroopOverhaul
             SturgiaTyal.Initialize(GetTroop("bk_sturgian_tyalese_archer"),
                 sturgia,
                 1f,
-                Managers.PopulationManager.PopType.Craftsmen,
-                "town_S5"
+                Managers.PopulationManager.PopType.Craftsmen
                 );
+            SturgiaTyal.AddFiefString("town_S5");
 
             #endregion sturgia
 
@@ -184,7 +192,13 @@ namespace BannerKings.TroopOverhaul
 
             EmpireMeleeT2.Initialize(GetTroop("bk_imperial_militiaman"),
                 empire,
-                0.7f,
+                0.5f,
+                Managers.PopulationManager.PopType.Tenants
+                );
+
+            EmpirePeltast.Initialize(GetTroop("bk_imperial_peltast"),
+                empire,
+                0.2f,
                 Managers.PopulationManager.PopType.Tenants
                 );
 
@@ -251,12 +265,19 @@ namespace BannerKings.TroopOverhaul
                Managers.PopulationManager.PopType.Nobles
                );
 
-            VlandiaEques.Initialize(GetTroop("bk_vlandia_jaculan_xbow"),
+            VlandiaPravend.Initialize(GetTroop("bk_vlandia_longbowman"),
                 Vlandia,
                 1f,
-                Managers.PopulationManager.PopType.Craftsmen,
-                "town_V6"
+                Managers.PopulationManager.PopType.Craftsmen
                 );
+            VlandiaPravend.AddFiefString("town_V3");
+
+            VlandiaJaculan.Initialize(GetTroop("bk_vlandia_jaculan_xbow"),
+                Vlandia,
+                1f,
+                Managers.PopulationManager.PopType.Craftsmen
+                );
+            VlandiaJaculan.AddFiefString("town_V6");
             #endregion Vlandia
 
             #region Battania
@@ -336,11 +357,71 @@ namespace BannerKings.TroopOverhaul
                 Managers.PopulationManager.PopType.Tenants
                 );
 
+            AseraiCamel.Initialize(GetTroop("bk_aserai_tuareg"),
+               Aserai,
+               0.3f,
+               Managers.PopulationManager.PopType.Tenants
+               );
+            AseraiCamel.AddFiefString("town_A7");
+            AseraiCamel.AddFiefString("castle_A3");
+            AseraiCamel.AddFiefString("castle_A9");
+            AseraiCamel.AddFiefString("castle_A4");
+            AseraiCamel.AddFiefString("town_A3");
+            AseraiCamel.AddFiefString("castle_A5"); 
+            AseraiCamel.AddFiefString("town_A5");
+            AseraiCamel.AddFiefString("castle_A2");
+            AseraiCamel.AddFiefString("castle_A7");
+            AseraiCamel.AddFiefString("town_A6"); 
+            AseraiCamel.AddFiefString("town_A8");
+            AseraiCamel.AddFiefString("castle_A1");
+
+            AseraiCamelNoble.Initialize(GetTroop("bk_aserai_tuareg_noble"),
+               Aserai,
+               0.7f,
+               Managers.PopulationManager.PopType.Nobles
+               );
+            AseraiCamelNoble.AddFiefString("town_A7");
+            AseraiCamelNoble.AddFiefString("castle_A3");
+            AseraiCamelNoble.AddFiefString("castle_A9");
+            AseraiCamelNoble.AddFiefString("castle_A4");
+            AseraiCamelNoble.AddFiefString("town_A3");
+            AseraiCamelNoble.AddFiefString("castle_A5");
+            AseraiCamelNoble.AddFiefString("town_A5");
+            AseraiCamelNoble.AddFiefString("castle_A2");
+            AseraiCamelNoble.AddFiefString("castle_A7");
+            AseraiCamelNoble.AddFiefString("town_A6");
+            AseraiCamelNoble.AddFiefString("town_A8");
+            AseraiCamelNoble.AddFiefString("castle_A1");
+            
             AseraiMeleeT3.Initialize(GetTroop("bk_aserai_sergeant"),
                 Aserai,
                 1f,
                 Managers.PopulationManager.PopType.Craftsmen
                 );
+
+            KanicRider.Initialize(GetTroop("bk_kanic_rider"),
+                Aserai,
+                0.15f,
+                Managers.PopulationManager.PopType.Tenants
+                );
+            KanicRider.AddFiefString("town_A1");
+            KanicRider.AddFiefString("castle_A1");
+            KanicRider.AddFiefString("castle_A7");
+            KanicRider.AddFiefString("town_A6");
+            KanicRider.AddFiefString("town_A8");
+            KanicRider.AddFiefString("town_A4");
+
+            KanicHorseman.Initialize(GetTroop("bk_kanic_horseman"),
+                Aserai,
+                0.15f,
+                Managers.PopulationManager.PopType.Craftsmen
+                );
+            KanicHorseman.AddFiefString("town_A1");
+            KanicHorseman.AddFiefString("castle_A1");
+            KanicHorseman.AddFiefString("castle_A7");
+            KanicHorseman.AddFiefString("town_A6");
+            KanicHorseman.AddFiefString("town_A8");
+            KanicHorseman.AddFiefString("town_A4");
 
             AseraiNoble.Initialize(GetTroop("bk_aserai_squire"),
                Aserai,

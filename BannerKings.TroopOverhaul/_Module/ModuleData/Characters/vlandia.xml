@@ -251,6 +251,7 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
+  
 
   <NPCCharacter id="bk_vlandia_squire" default_group="Cavalry" level="26" name="{=!}Vlandic Squire" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
     <face>
@@ -643,6 +644,151 @@
 		</EquipmentRoster>
 	  <EquipmentSet id="vlandia_troop_civilian_template_t3"
                     civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_vlandia_longbowman" default_group="Infantry" level="21" name="{=!}Vlandic Pravendian Longbowman" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="120" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.reinf_nasal_1" />
+			<equipment slot="Body" id="Item.el_hauberk_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.baltic_slonim1" />
+			<equipment slot="Body" id="Item.norm_hauberk_sleeves_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cercelliere_1" />
+			<equipment slot="Cape" id="Item.shoulder_cloth1" />
+			<equipment slot="Body" id="Item.norm_sleeved_hauberk_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.reinf_nasal_1" />
+			<equipment slot="Cape" id="Item.shoulder_cloth1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.protofaceplate_1" />
+			<equipment slot="Body" id="Item.el_hauberk_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.levy_nasal_el_1" />
+			<equipment slot="Body" id="Item.chainmail_tableau_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.protofaceplate_1" />
+			<equipment slot="Body" id="Item.vest_sleeved_mail_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_axe_2_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.sta_nasal_el1" />
+			<equipment slot="Body" id="Item.vest_sleeved_mail_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_mace_2_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.sta_nasal_el1" />
+			<equipment slot="Cape" id="Item.shoulder_cloth1" />
+			<equipment slot="Body" id="Item.vest_sleeved_mail_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_mace_2_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.painted_es_naal1" />
+			<equipment slot="Body" id="Item.el_hauberk_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_mace_2_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.protofaceplate_1" />
+			<equipment slot="Body" id="Item.mail_vest_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.wencheslav_nasal1" />
+			<equipment slot="Body" id="Item.norm_sleeved_hauberk_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+			<equipment slot="Item1" id="Item.tribal_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3"
+						civilian="true" />
     </Equipments>
   </NPCCharacter>
 

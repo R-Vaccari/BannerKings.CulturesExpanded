@@ -629,6 +629,99 @@
     </Equipments>
   </NPCCharacter>
   
+  <NPCCharacter id="bk_imperial_peltast"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Imperial Peltast"
+                occupation="Soldier"
+                culture="Culture.empire"
+                skill_template="SkillSet.bk_militia_skirmisher_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
+			<equipment slot="Body" id="Item.AR_empire_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_r" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_f" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_q" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_d" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_b" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_c" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
   <NPCCharacter id="bk_imperial_levy"
                 default_group="Infantry"
                 level="11"
