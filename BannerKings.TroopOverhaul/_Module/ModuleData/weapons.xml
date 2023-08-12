@@ -35,7 +35,16 @@
 	</Pieces>
   </CraftedItem>
   
-
+  <CraftedItem id="bk_southern_axe_t3"
+							 name="Southern Long Axe"
+							 crafting_template="OneHandedAxe">
+	<Pieces>
+	  <Piece id="axe_craft_27_head" Type="Blade" scale_factor="110"/>
+	  <Piece id="axe_craft_27_handle" Type="Handle"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
   
   <CraftedItem id="bk_1h_falx"
 							 name="Falx"
@@ -71,7 +80,7 @@
   </CraftedItem>
   
   <CraftedItem id="bk_glaive_polesword"
-							 name="War Scythe"
+							 name="Polesword"
 							 crafting_template="TwoHandedPolearm">
 	<Pieces>
 	  <Piece id="spear_blade_22" Type="Blade" scale_factor="110"/>
