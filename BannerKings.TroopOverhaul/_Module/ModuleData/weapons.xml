@@ -35,6 +35,8 @@
 	</Pieces>
   </CraftedItem>
   
+
+  
   <CraftedItem id="bk_southern_axe_t3"
 							 name="Southern Long Axe"
 							 crafting_template="OneHandedAxe">
@@ -42,6 +44,29 @@
 	  <Piece id="axe_craft_27_head" Type="Blade" scale_factor="110"/>
 	  <Piece id="axe_craft_27_handle" Type="Handle"/>
 	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+
+  <CraftedItem id="bk_empire_2hsword_1_t3"
+							 name="Imperial Steel Long Spatha"
+							 crafting_template="TwoHandedSword">
+	<Pieces>
+	  <Piece id="empire_blade_1" Type="Blade" scale_factor="110"/>
+	  <Piece id="cleaver_guard_3" Type="Guard"/>
+	  <Piece id="empire_grip_12" Type="Handle"/>
+	  <Piece id="empire_pommel_4" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_empire_2hsword_2_t3"
+							 name="Imperial Long Piercer"
+							 crafting_template="TwoHandedSword">
+	<Pieces>
+	  <Piece id="vlandian_blade_8" Type="Blade" scale_factor="110"/>
+	  <Piece id="aserai_guard_6" Type="Guard" scale_factor="90"/>
+	  <Piece id="empire_grip_14" Type="Handle"/>
+	  <Piece id="empire_pommel_4" Type="Pommel"/>
 	</Pieces>
   </CraftedItem>
   

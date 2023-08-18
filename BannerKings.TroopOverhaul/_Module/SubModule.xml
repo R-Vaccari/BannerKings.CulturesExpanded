@@ -2,8 +2,8 @@
 
 <Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd">
-	<Id value="BannerKings.TroopOverhaul" />
-	<Name value="BannerKings - Troop Overhaul" />
+	<Id value="BannerKings.CulturesExpanded" />
+	<Name value="BannerKings - Cultures Expanded" />
 	<Version value="v1.0.0" />
 	<Official value="false" />
 	<DefaultModule value="true" />
@@ -43,9 +43,9 @@
 	<!-- Community Dependency Metadata -->
 	<SubModules>
 		<SubModule>
-			<Name value="BannerKings.TroopOverhaul" />
-			<DLLName value="BannerKings.TroopOverhaul.dll" />
-			<SubModuleClassType value="BannerKings.TroopOverhaul.Main" />
+			<Name value="BannerKings.CulturesExpanded" />
+			<DLLName value="BannerKings.CulturesExpanded.dll" />
+			<SubModuleClassType value="BannerKings.CulturesExpanded.Main" />
 			<Tags />
 		</SubModule>
 	</SubModules>

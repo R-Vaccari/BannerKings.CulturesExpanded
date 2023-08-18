@@ -6,6 +6,32 @@
         </xsl:copy>
     </xsl:template>
 
+
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_mercenary_sturgia_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_skolder" />
+        </stacks>
+    </xsl:template>
+	
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_mercenary_vlandia_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_golden_boar" />
+        </stacks>
+    </xsl:template>
+	
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_outlaw_empire_e_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_ember" />
+        </stacks>
+    </xsl:template>
+	
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_jawwal_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_jawwal" />
+        </stacks>
+    </xsl:template>
+	
+	
    
     <xsl:template match='MBPartyTemplate[@id="rebels_empire_template"]/stacks'>
         <stacks>

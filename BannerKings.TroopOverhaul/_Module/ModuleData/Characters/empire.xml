@@ -1,6 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
+   <NPCCharacter id="bk_ember" default_group="Infantry" level="21" name="{=!}Ember Mercenary" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="130" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	    <EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_mail" />
+			<equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+			<equipment slot="Body" id="Item.TV_monk_robe_d" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+			<equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
+			<equipment slot="Item0" id="Item.bk_empire_2hsword_1_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_mail" />
+			<equipment slot="Body" id="Item.TV_monk_robe_b" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+			<equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
+			<equipment slot="Item0" id="Item.bk_empire_2hsword_1_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vlandia_helmet_q" />
+			<equipment slot="Body" id="Item.AR_monk_robe_c2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+			<equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
+			<equipment slot="Item0" id="Item.bk_empire_2hsword_1_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_mail" />
+			<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2" />
+			<equipment slot="Body" id="Item.AR_monk_robe_c" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+			<equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
+			<equipment slot="Item0" id="Item.bk_empire_2hsword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+			<equipment slot="Body" id="Item.TV_monk_robe_b" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+			<equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
+			<equipment slot="Item0" id="Item.bk_empire_2hsword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+			<equipment slot="Body" id="Item.AR_monk_robe_c2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g" />
+			<equipment slot="Leg" id="Item.TV_vlandia_boots_b" />
+			<equipment slot="Item0" id="Item.bk_empire_2hsword_2_t3" />
+		</EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
   <NPCCharacter id="bk_imperial_cataphract" default_group="Cavalry" level="31" name="{=!}Imperial Kataphraktos" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
@@ -26,6 +93,9 @@
 	    <equipment slot="Leg" id="Item.tv_empire_plate_b" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.TV_empire_lord_helmet_e" />
@@ -35,6 +105,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.empire_battle_crown_west" />
@@ -44,6 +117,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_a" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b" />
@@ -53,6 +129,9 @@
 	    <equipment slot="Leg" id="Item.tv_empire_plate_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_a" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>   
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b" />
@@ -62,6 +141,9 @@
 	    <equipment slot="Leg" id="Item.tv_empire_plate_b" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
@@ -71,6 +153,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.TV_empire_lord_helmet_b" />
@@ -80,6 +165,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b2" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_crested_helm_a" />
@@ -89,6 +177,9 @@
 	    <equipment slot="Leg" id="Item.tv_empire_plate_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b2" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>  
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_crested_helm_a" />
@@ -98,6 +189,9 @@
 	    <equipment slot="Leg" id="Item.tv_empire_plate_b" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_crested_helm_b" />
@@ -107,6 +201,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_crested_helm_b" />
@@ -116,6 +213,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_g" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_legatus_helm_a" />
@@ -125,6 +225,9 @@
 	    <equipment slot="Leg" id="Item.tv_empire_plate_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_g" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_legatus_helm_a" />
@@ -133,6 +236,9 @@
 	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_h" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.TV_empire_lord_helmet_d" />
@@ -142,6 +248,9 @@
 	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_h" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_legatus_helm_b" />
@@ -151,6 +260,9 @@
 	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_f" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.TV_empire_lord_helmet_k" />
@@ -160,11 +272,13 @@
 	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_f" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster> 
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-
 
   <NPCCharacter id="bk_imperial_squire" default_group="Cavalry" level="26" name="{=!}Imperial Equites" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
@@ -192,6 +306,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_intercisa_helmet_c" />
@@ -201,6 +318,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_intercisa_helmet_d" />
@@ -210,6 +330,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_crested_helm_b" />
@@ -219,6 +342,9 @@
 	    <equipment slot="Leg" id="Item.empire_horseman_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_i" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_c" />
@@ -228,6 +354,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_i" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated" />
@@ -237,6 +366,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_vlandia_helmet_r" />
@@ -246,6 +378,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_vlandia_helmet_q" />
@@ -255,6 +390,9 @@
 	    <equipment slot="Leg" id="Item.empire_horseman_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_empire_crested_helm_a" />
@@ -264,6 +402,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_vlandia_helmet_r2" />
@@ -273,6 +414,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.AR_vlandia_helmet_q2" />
@@ -282,6 +426,9 @@
 	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
@@ -291,6 +438,9 @@
 	    <equipment slot="Leg" id="Item.empire_horseman_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
+		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
@@ -736,6 +886,7 @@
     <skills></skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.bk_imperial_militiaman" />
+	  <upgrade_target id="NPCCharacter.bk_imperial_peltast" />  
     </upgrade_targets>
     <Equipments>
 		<EquipmentRoster>

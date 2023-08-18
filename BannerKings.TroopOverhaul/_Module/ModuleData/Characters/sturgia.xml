@@ -567,9 +567,7 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  
-			
-  
+ 
   <NPCCharacter id="bk_sturgian_militiaman"
                 default_group="Infantry"
                 level="16"

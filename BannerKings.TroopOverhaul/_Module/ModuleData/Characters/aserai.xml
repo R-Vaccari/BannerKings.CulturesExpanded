@@ -1,6 +1,99 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
+  <NPCCharacter id="bk_jawwal"
+                default_group="Cavalry"
+                level="21"
+                name="{=!}Jawwal Mercenary"
+                occupation="Soldier"
+                culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_jawwal" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="130" />
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_p" />
+		    <equipment slot="Body" id="Item.tassled_southern_robes" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.bamboo_axe_t4" />
+		    <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+		    <equipment slot="Body" id="Item.thick_sleeved_robe" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zg" />
+		    <equipment slot="Item1" id="Item.bamboo_axe_t4" />
+		    <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_j" />
+		    <equipment slot="Body" id="Item.layered_robe" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zi" />
+		    <equipment slot="Item1" id="Item.bamboo_axe_t4" />
+		    <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.wrapped_scarf" />
+		    <equipment slot="Body" id="Item.tassled_southern_robes" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zh" />
+		    <equipment slot="Item1" id="Item.bamboo_axe_t4" />
+		    <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_h" />
+		    <equipment slot="Body" id="Item.AR_aserai_armor_n" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zl" />
+		    <equipment slot="Item1" id="Item.bamboo_axe_t4" />
+		    <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Body" id="Item.aserai_civil_a" />
+		    <equipment slot="Horse" id="Item.camel" />
+		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zk" />
+		    <equipment slot="Item1" id="Item.bamboo_axe_t4" />
+		    <equipment slot="Item2" id="Item.eastern_javelin_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster civilian="true">
+			<equipment slot="Head" id="Item.tight_head_scarf" />
+		    <equipment slot="Cape" id="Item.wrapped_scarf" />
+		    <equipment slot="Body" id="Item.tassled_southern_robes" />
+			<equipment slot="Item0" id="Item.studded_adarga" />
+		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
   <NPCCharacter id="bk_aserai_faaris" default_group="Cavalry" level="31" name="{=!}Aseran Faaris" occupation="Soldier" culture="Culture.aserai">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
@@ -415,7 +508,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g" />
 		</EquipmentRoster>
@@ -427,7 +520,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g" />
 		</EquipmentRoster>
@@ -439,7 +532,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_g" />
 		</EquipmentRoster>
@@ -451,7 +544,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_i" />
 		</EquipmentRoster>
@@ -462,7 +555,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_i" />
 		</EquipmentRoster>	
@@ -474,7 +567,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_j" />
 		</EquipmentRoster>
@@ -485,7 +578,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_j" />
 		</EquipmentRoster>
@@ -496,7 +589,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_f" />
 		</EquipmentRoster>
@@ -508,7 +601,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_f" />
 		</EquipmentRoster>
@@ -519,7 +612,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_f" />
 		</EquipmentRoster>	
@@ -531,7 +624,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_h" />
 		</EquipmentRoster>
@@ -542,7 +635,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_h" />
 		</EquipmentRoster>
@@ -553,7 +646,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_h" />
 		</EquipmentRoster>
@@ -564,7 +657,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_e" />
 		</EquipmentRoster>
@@ -576,7 +669,7 @@
 			<equipment slot="Leg" id="Item.TV_moccasins_c" />
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_2_t4" />
-		    <equipment slot="Item2" id="Item.bk_takouba_noble" />
+		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
 			<equipment slot="Horse" id="Item.war_camel" />
 		    <equipment slot="HorseHarness" id="Item.tv_camel_armor_e" />
 		</EquipmentRoster>
@@ -615,7 +708,7 @@
 		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
-		    <equipment slot="Item2" id="Item.bk_takouba" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.closed_head_scarf" />
@@ -625,7 +718,7 @@
 		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
-		    <equipment slot="Item2" id="Item.bk_takouba" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tight_head_scarf" />
@@ -635,7 +728,7 @@
 		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
-		    <equipment slot="Item2" id="Item.bk_takouba" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tight_head_scarf" />
@@ -645,7 +738,7 @@
 		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
-		    <equipment slot="Item2" id="Item.bk_takouba" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.closed_head_scarf" />
@@ -655,7 +748,7 @@
 		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
-		    <equipment slot="Item2" id="Item.bk_takouba" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tight_head_scarf" />
@@ -664,7 +757,7 @@
 		    <equipment slot="HorseHarness" id="Item.camel_saddle" />
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
-		    <equipment slot="Item2" id="Item.bk_takouba" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster civilian="true">
 			<equipment slot="Head" id="Item.tight_head_scarf" />
@@ -672,7 +765,7 @@
 		    <equipment slot="Body" id="Item.tassled_southern_robes" />
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.AR_aserai_lance_1_t3" />
-		    <equipment slot="Item2" id="Item.bk_takouba" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
 		</EquipmentRoster>
     </Equipments>
   </NPCCharacter>

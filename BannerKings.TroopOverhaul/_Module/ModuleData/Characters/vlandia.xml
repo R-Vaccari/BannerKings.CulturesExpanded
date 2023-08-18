@@ -1,6 +1,199 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
+  <NPCCharacter id="bk_brotherhood" default_group="Ranged" level="21" name="{=!}Brotherhood Mercenary" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="120" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_a2" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_j" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k2" />
+			<equipment slot="Body" id="Item.padded_coat" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_a2" />
+			<equipment slot="Body" id="Item.leather_scale_armor" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_vlandia_helmet_l" />
+			<equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_a3" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_n" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.hood" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_vlandia_helmet_c2" />
+			<equipment slot="Body" id="Item.gambeson_b" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_vlandia_helmet_e2" />
+			<equipment slot="Body" id="Item.aketon" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+   <NPCCharacter id="bk_golden_boar" default_group="Ranged" level="21" name="{=!}Golden Boar Mercenary" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="120" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_a2" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_j" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_k2" />
+			<equipment slot="Body" id="Item.padded_coat" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_a2" />
+			<equipment slot="Body" id="Item.leather_scale_armor" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_vlandia_helmet_l" />
+			<equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.DZ_vlandia_shoulders_b" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.tv_vlandia_helmet_a3" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_n" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Cape" id="Item.hood" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_vlandia_helmet_c2" />
+			<equipment slot="Body" id="Item.gambeson_b" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.DZ_vlandia_helmet_e2" />
+			<equipment slot="Body" id="Item.aketon" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_a" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.vlandia_sword_4_t4" />
+			<equipment slot="Item1" id="Item.crossbow_b" />
+			<equipment slot="Item2" id="Item.GRE_bolt_b" />
+			<equipment slot="Item3" id="Item.GRE_bolt_b" />
+		</EquipmentRoster>
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
   <NPCCharacter id="bk_vlandia_knight" default_group="Cavalry" level="31" name="{=!}Vlandic Knight" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
@@ -786,6 +979,35 @@
 			<equipment slot="Item1" id="Item.tribal_bow" />
 			<equipment slot="Item2" id="Item.bodkin_arrows_a" />
 			<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		</EquipmentRoster>
+		<EquipmentSet id="vlandia_troop_civilian_template_t3"
+						civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="bk_vlandia_pikeman" default_group="Infantry" level="21" name="{=!}Vlandic Pikeman" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.sta_nasal_el1" />
+			<equipment slot="Body" id="Item.vest_sleeved_mail_1" />
+			<equipment slot="Gloves" id="Item.leathergloves_1" />
+			<equipment slot="Leg" id="Item.longboots_1" />
+			<equipment slot="Item0" id="Item.thamaskene_pike_t4" />
 		</EquipmentRoster>
 		<EquipmentSet id="vlandia_troop_civilian_template_t3"
 						civilian="true" />
