@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
 
-namespace BannerKings.TroopOverhaul
+namespace BannerKings.CulturesExpanded
 {
     internal class BKTORecruitSpawns : DefaultTypeInitializer<BKTORecruitSpawns, RecruitSpawn>
     {

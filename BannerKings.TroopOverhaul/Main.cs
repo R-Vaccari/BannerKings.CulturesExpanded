@@ -1,7 +1,7 @@
 ﻿using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
-namespace BannerKings.TroopOverhaul
+namespace BannerKings.CulturesExpanded
 {
     public class Main : MBSubModuleBase
     {

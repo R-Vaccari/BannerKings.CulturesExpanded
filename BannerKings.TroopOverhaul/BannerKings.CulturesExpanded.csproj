@@ -2,13 +2,14 @@
 
 	<PropertyGroup>
 		<Version>1.8.0</Version>
-		<TargetFramework>net48</TargetFramework>
+		<TargetFramework>net481</TargetFramework>
 		<Platforms>x64</Platforms>
 		<LangVersion>9.0</LangVersion>
 		<Nullable>disable</Nullable>
 		<ModuleId>$(MSBuildProjectName)</ModuleId>
 		<ModuleName>$(MSBuildProjectName)</ModuleName>
 		<GameFolder>$(BANNERLORD_GAME_DIR)</GameFolder>
+		<BaseOutputPath>D:\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\BannerKings.CulturesExpanded\bin\Win64_Shipping_Client</BaseOutputPath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -57,6 +58,10 @@
 		<PackageReference Include="Bannerlord.ButterLib" Version="2.6.3" IncludeAssets="compile" />
 		<PackageReference Include="Bannerlord.UIExtenderEx" Version="2.6.0" IncludeAssets="compile" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" PrivateAssets="all" IncludeAssets="compile" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Behaviors\" />
 	</ItemGroup>
 
 </Project>
