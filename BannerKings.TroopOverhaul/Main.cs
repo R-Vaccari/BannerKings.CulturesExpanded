@@ -1,4 +1,5 @@
-﻿using TaleWorlds.Core;
+﻿using BannerKings.CulturesExpanded.Cultures;
+using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
 namespace BannerKings.CulturesExpanded
@@ -9,6 +10,8 @@ namespace BannerKings.CulturesExpanded
         {
             base.OnGameStart(game, gameStarter);
             BannerKingsConfig.Instance.AddInitializer(new BKTORecruitSpawns());
+            BannerKingsConfig.Instance.AddInitializer(new BKTOPopulationNames());
+            BannerKingsConfig.Instance.AddInitializer(new BKTOTitleNames());
         }
     }
 }
