@@ -5,12 +5,12 @@ namespace BannerKings.CulturesExpanded.Goals
 {
     internal class BKTOGoals : DefaultTypeInitializer<BKTOGoals, Goal>
     {
-        public RoyalGuardGoal Royal { get; } = new RoyalGuardGoal();
+        public CrownGuardGoal CrownGuard { get; } = new CrownGuardGoal();
         public override IEnumerable<Goal> All
         {
             get
             {
-                yield return Royal;
+                yield return CrownGuard;
             }
         }
 
