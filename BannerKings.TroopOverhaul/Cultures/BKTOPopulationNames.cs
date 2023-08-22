@@ -57,7 +57,47 @@ namespace BannerKings.CulturesExpanded.Cultures
         public CulturalPopulationName KhuzaitSlaves { get; set; }
         #endregion Khuzai
 
-        public override IEnumerable<CulturalPopulationName> All => throw new NotImplementedException();
+        public override IEnumerable<CulturalPopulationName> All
+        {
+            get
+            {
+                yield return AseraiNobles;
+                yield return AseraiCraftsmen;
+                yield return AseraiTenants;
+                yield return AseraiSerfs;
+                yield return AseraiSlaves;
+
+                yield return EmpireNobles;
+                yield return EmpireCraftsmen;
+                yield return EmpireTenants;
+                yield return EmpireSerfs;
+                yield return EmpireSlaves;
+
+                /*yield return KhuzaitNobles;
+                yield return KhuzaitCraftsmen;
+                yield return KhuzaitTenants;
+                yield return KhuzaitSerfs;
+                yield return KhuzaitSlaves;*/
+
+                yield return VlandiaNobles;
+                yield return VlandiaCraftsmen;
+                yield return VlandiaTenants;
+                yield return VlandiaSerfs;
+                yield return VlandiaSlaves;
+
+                yield return SturgiaNobles;
+                yield return SturgiaCraftsmen;
+                yield return SturgiaTenants;
+                yield return SturgiaSerfs;
+                yield return SturgiaSlaves;
+
+                yield return BattaniaNobles;
+                yield return BattaniaCraftsmen;
+                yield return BattaniaTenants;
+                yield return BattaniaSerfs;
+                yield return BattaniaSlaves;
+            }
+        }
 
         public override void Initialize()
         {
@@ -158,25 +198,16 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             /*
              *   #region Osrickin https://www.anglo-norman.net/entry/artificer
-            VlandiaNobles = CulturalPopulationName.CreateNobles("VlandiaNobles",
-                vlandia,
-                new TextObject("{=!}Gesithas"));
 
             VlandiaCraftsmen = CulturalPopulationName.CreateCraftsmen("VlandiaCraftsmen",
                 vlandia,
                new TextObject("{=!}Artefeceres"));
 
-            VlandiaTenants = CulturalPopulationName.CreateTenants("VlandiaTenants",
-                vlandia,
-                new TextObject("{=!}Ceorlas"));
 
             VlandiaSerfs = CulturalPopulationName.CreateSerfs("VlandiaSerfs",
                 vlandia,
                 new TextObject("{=!}Villeins"));
 
-            VlandiaSlaves = CulturalPopulationName.CreateSlaves("VlandiaSlaves",
-                vlandia,
-                new TextObject("{=!}Theowe"));
             #endregion Osrickin
              */
 
@@ -226,8 +257,8 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             foreach (CulturalPopulationName name in All)
             {
-                DefaultPopulationNames.Instance.AddObject(name)
-            };
+                DefaultPopulationNames.Instance.AddObject(name);
+            }
         }
     }
 }
