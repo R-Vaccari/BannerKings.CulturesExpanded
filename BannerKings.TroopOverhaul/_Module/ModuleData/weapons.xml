@@ -114,7 +114,18 @@
 	  <Piece id="spear_pommel_7" Type="Pommel"/>
 	</Pieces>
   </CraftedItem>
-
+  
+  <CraftedItem id="bk_empire_spear_t5"
+							 name="Imperial Laconian Warspear"
+							 crafting_template="TwoHandedPolearm">
+	<Pieces>
+	  <Piece id="spear_blade_18" Type="Blade" scale_factor="90"/>
+	  <Piece id="spear_guard_3" Type="Guard" />
+	  <Piece id="spear_handle_17" Type="Handle" scale_factor="110"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
 
   
   <!--

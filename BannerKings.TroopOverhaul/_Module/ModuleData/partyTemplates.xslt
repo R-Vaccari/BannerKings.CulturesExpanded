@@ -31,6 +31,30 @@
         </stacks>
     </xsl:template>
 	
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_mercenary_empire_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_legion" />
+        </stacks>
+    </xsl:template>
+	
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_eleftheroi_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_eleftheroi" />
+        </stacks>
+    </xsl:template>
+	
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_outlaw_empire_w_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_hand" />
+        </stacks>
+    </xsl:template>
+	
+	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_karakhuzaits_template"]/stacks'>
+        <stacks>
+            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_karakhergit" />
+        </stacks>
+    </xsl:template>
+	
 	
    
     <xsl:template match='MBPartyTemplate[@id="rebels_empire_template"]/stacks'>
