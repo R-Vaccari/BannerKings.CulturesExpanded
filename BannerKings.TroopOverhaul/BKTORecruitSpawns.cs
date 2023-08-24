@@ -1,6 +1,8 @@
-﻿using BannerKings.Managers.Recruits;
+﻿using BannerKings.Managers.Innovations.Eras;
+using BannerKings.Managers.Recruits;
 using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.Core;
 
 namespace BannerKings.CulturesExpanded
 {
@@ -213,18 +215,30 @@ namespace BannerKings.CulturesExpanded
                 1f,
                 Managers.PopulationManager.PopType.Craftsmen
                 );
+            EmpireMeleeT3.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_skoutatos_e2");
+            EmpireMeleeT3.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_skoutatos_e3");
 
             EmpireNoble.Initialize(GetTroop("bk_imperial_squire"),
                empire,
                1f,
                Managers.PopulationManager.PopType.Nobles
                );
+            EmpireNoble.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_imperial_squire_e2");
+            EmpireNoble.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_imperial_squire_e3");
+
+            var cataphract = GetTroop("bk_imperial_cataphract");
+            DefaultEras.Instance.SecondEra.AddTroopAdvancement(new BKTroopAdvancement(cataphract, 
+                "bk_cataphract_e2"));
+            DefaultEras.Instance.ThirdEra.AddTroopAdvancement(new BKTroopAdvancement(cataphract,
+                "bk_cataphract_e3"));
 
             EmpireEques.Initialize(GetTroop("bk_imperial_eques"),
                 empire,
                 1f,
                 Managers.PopulationManager.PopType.Craftsmen
                 );
+            EmpireEques.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_imperial_eques_e2");
+            EmpireEques.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_imperial_eques_e3");
             #endregion empire
 
             #region Vlandia
@@ -264,6 +278,7 @@ namespace BannerKings.CulturesExpanded
                1f,
                Managers.PopulationManager.PopType.Nobles
                );
+            VlandiaNoble.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_vlandia_knight_e2");
 
             VlandiaPravend.Initialize(GetTroop("bk_vlandia_longbowman"),
                 Vlandia,

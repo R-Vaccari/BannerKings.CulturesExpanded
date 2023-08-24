@@ -436,199 +436,108 @@
     </upgrade_targets>
     <Equipments>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.TV_empire_lord_helmet_c" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_u" />
-	    <equipment slot="Body" id="Item.TV_empire_armor_g" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
-	    <equipment slot="Leg" id="Item.tv_empire_plate_b" />
+        <equipment slot="Head" id="Item.AR_empire_legatus_helm_f" />
+	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_b" />
+	    <equipment slot="Body" id="Item.DZ_empire_armor_d2" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
 		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.TV_empire_lord_helmet_e" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_h" />
-	    <equipment slot="Body" id="Item.AR_empire_scale_armor_a" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+        <equipment slot="Head" id="Item.AR_empire_legatus_helm_a" />
+	    <equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+	    <equipment slot="Body" id="Item.DZ_empire_armor_d2" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_f" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
+	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_b" />
+	    <equipment slot="Body" id="Item.DZ_empire_armor_d" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_a" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_c" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_u" />
+	    <equipment slot="Body" id="Item.TV_empire_armor_f" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_b" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_v" />
+	    <equipment slot="Body" id="Item.TV_empire_armor_f" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_f" />
 		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.empire_battle_crown_west" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_x" />
-	    <equipment slot="Body" id="Item.TV_empire_armor_h" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_a" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_h" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_a" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
 		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b" />
-	    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
-	    <equipment slot="Body" id="Item.TV_empire_armor_f" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
-	    <equipment slot="Leg" id="Item.tv_empire_plate_a" />
+        <equipment slot="Head" id="Item.empire_battle_crown_west" />
+	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_a" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_g" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness" id="Item.AR_horse_armor_a" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
 		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
-      </EquipmentRoster>   
+      </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b" />
-	    <equipment slot="Cape" id="Item.TV_empire_shoulders_b" />
-	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_d" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
-	    <equipment slot="Leg" id="Item.tv_empire_plate_b" />
+        <equipment slot="Head" id="Item.AR_empire_legatus_helm_f" />
+	    <equipment slot="Cape" id="Item.varangian_bra_scale" />
+	    <equipment slot="Body" id="Item.DZ_empire_armor_d2" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
+		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
 		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
         <equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_w" />
-	    <equipment slot="Body" id="Item.TV_empire_armor_i" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c2" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.TV_empire_lord_helmet_b" />
-	    <equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
-	    <equipment slot="Body" id="Item.TV_empire_armor_p" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b2" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_crested_helm_a" />
-	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_b" />
-	    <equipment slot="Body" id="Item.AR_empire_scale_armor_f" />
-	    <equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
-	    <equipment slot="Leg" id="Item.tv_empire_plate_a" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.AR_horse_armor_b2" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>  
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_crested_helm_a" />
-	    <equipment slot="Cape" id="Item.AR_imperial_leather_cape_b2" />
-	    <equipment slot="Body" id="Item.AR_empire_scale_armor_g" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.tv_empire_plate_b" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_crested_helm_b" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_v" />
-	    <equipment slot="Body" id="Item.AR_empire_scale_armor_h" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_crested_helm_b" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_x" />
-	    <equipment slot="Body" id="Item.TV_empire_armor_h" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_g" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_legatus_helm_a" />
-	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_a" />
-	    <equipment slot="Body" id="Item.AR_empire_scale_armor_b" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.tv_empire_plate_a" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_g" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_legatus_helm_a" />
+	    <equipment slot="Cape" id="Item.varangian_bra_royal" />
 	    <equipment slot="Body" id="Item.TV_empire_armor_g" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_a" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_h" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.TV_empire_lord_helmet_d" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_l" />
-	    <equipment slot="Body" id="Item.DZ_empire_armor_d2" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_h" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
+		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_e" />
 		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_legatus_helm_b" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_c" />
-	    <equipment slot="Body" id="Item.tv_empire_armor_b" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_f" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.TV_empire_lord_helmet_k" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_za" />
-	    <equipment slot="Body" id="Item.tv_empire_armor_a" />
-	    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
-	    <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-		<equipment slot="HorseHarness" id="Item.DZ_horse_armor_f" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_c" />
-		<equipment slot="Item1" id="Item.empire_lance_3_t5" />
-		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
-      </EquipmentRoster> 
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
+
 
   <NPCCharacter id="bk_imperial_squire" default_group="Cavalry" level="26" name="{=!}Imperial Equites" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
@@ -649,152 +558,96 @@
     </upgrade_targets>
     <Equipments>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_c" />
-	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_b" />
-	    <equipment slot="Body" id="Item.AR_empire_armor_c" />
-	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
-		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_intercisa_helmet_c" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_o2" />
-	    <equipment slot="Body" id="Item.AR_empire_scout_armor_b" />
-	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
-		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_intercisa_helmet_d" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_b" />
-	    <equipment slot="Body" id="Item.AR_empire_scout_armor_d" />
-	    <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n2" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
-		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_crested_helm_b" />
-	    <equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
-	    <equipment slot="Body" id="Item.AR_empire_armor_j" />
-	    <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-	    <equipment slot="Leg" id="Item.empire_horseman_boots" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_i" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
-		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_c" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
-	    <equipment slot="Body" id="Item.TV_empire_armor_p" />
-	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_i" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
-		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_roman_helmet_b_decorated" />
-	    <equipment slot="Cape" id="Item.AR_empire_shoulders_b" />
-	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_c" />
-	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_u" />
+	    <equipment slot="Body" id="Item.TV_empire_armor_f" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a2" />
-		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_vlandia_helmet_r" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_zb" />
-	    <equipment slot="Body" id="Item.AR_empire_armor_c" />
-	    <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_vlandia_helmet_q" />
-	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_z" />
-	    <equipment slot="Body" id="Item.AR_empire_armor_c" />
-	    <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-	    <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_b" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_v" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_h" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
 		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_empire_crested_helm_a" />
-	    <equipment slot="Cape" id="Item.DZ_empire_shoulder_b" />
+        <equipment slot="Head" id="Item.AR_empire_legatus_helm_e" />
+	    <equipment slot="Cape" id="Item.varangian_bra_royal" />
+	    <equipment slot="Body" id="Item.TV_empire_armor_g" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.AR_empire_legatus_helm_c" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_a" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.AR_empire_lord_helmet_g" />
+	    <equipment slot="Cape" id="Item.AR_imperial_leather_cape_a" />
 	    <equipment slot="Body" id="Item.empire_horseman_armor" />
-	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
-		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
-		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
-      </EquipmentRoster>
-	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_vlandia_helmet_r2" />
-	    <equipment slot="Cape" id="Item.TV_empire_shoulders_b" />
-	    <equipment slot="Body" id="Item.imperial_mail_vest" />
-	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.AR_vlandia_helmet_q2" />
-	    <equipment slot="Cape" id="Item.AR_imperial_leather_cape_b2" />
-	    <equipment slot="Body" id="Item.imperial_mail_over_leather" />
-	    <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-	    <equipment slot="Leg" id="Item.TV_empire_boots_c" />
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_f" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
         <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
       </EquipmentRoster>
 	  <EquipmentRoster>
-        <equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
-	    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
-	    <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather" />
-	    <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-	    <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_b" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_x" />
+	    <equipment slot="Body" id="Item.TV_empire_armor_h" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
 		<equipment slot="Horse" id="Item.t2_empire_horse" />
-        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
-		<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_zb" />
 		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
-		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.AR_empire_lord_helmet_g" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_w" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_b" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_zb" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
       </EquipmentRoster>
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
+
 
   <NPCCharacter id="bk_imperial_eques" default_group="Cavalry" level="21" name="{=!}Imperial Eques" occupation="Soldier" culture="Culture.empire">
     <face>
@@ -813,24 +666,11 @@
     <upgrade_targets>
     </upgrade_targets>
     <Equipments>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.plumed_helmet" />
-			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
-			<equipment slot="Body" id="Item.AR_empire_armor_d" />
+	    <EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
+			<equipment slot="Body" id="Item.AR_empire_armor_c" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.empire_horseman_boots" />
-			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
-			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
-			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
-			<equipment slot="Horse" id="Item.empire_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
-		</EquipmentRoster>
-	    <EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed" />
-			<equipment slot="Cape" id="Item.ao_focale" />
-			<equipment slot="Body" id="Item.AR_empire_scout_armor_a" />
-			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
@@ -840,7 +680,7 @@
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed_b" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m" />
-			<equipment slot="Body" id="Item.AR_empire_armor_a" />
+			<equipment slot="Body" id="Item.mercenary_mail_armor" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.empire_horseman_boots" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
@@ -848,46 +688,34 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 			<equipment slot="Horse" id="Item.empire_horse" />
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
-		</EquipmentRoster>	
+		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.imperial_nasal_helm" />
+			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d" />
 			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_o" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
+			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Horse" id="Item.empire_horse" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed" />
+			<equipment slot="Cape" id="Item.ao_focale" />
 			<equipment slot="Body" id="Item.imperial_mail_over_leather" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
-			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
 			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 			<equipment slot="Horse" id="Item.empire_horse" />
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_mail" />
+			<equipment slot="Head" id="Item.plumed_helmet" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p" />
-			<equipment slot="Body" id="Item.eastern_studded_leather" />
-			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
-			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
-			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
-			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
-			<equipment slot="Horse" id="Item.empire_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_mail" />
-			<equipment slot="Body" id="Item.eastern_studded_leather" />
-			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
-			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
-			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
-			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
-			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
-			<equipment slot="Horse" id="Item.empire_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
-			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
-			<equipment slot="Body" id="Item.eastern_studded_leather" />
+			<equipment slot="Body" id="Item.empire_horseman_armor" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.empire_horseman_boots" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
@@ -897,7 +725,30 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif" />
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_d" />
+			<equipment slot="Body" id="Item.AR_empire_armor_j" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
+			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Horse" id="Item.empire_horse" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_intercisa_helmet_c" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
+			<equipment slot="Body" id="Item.AR_empire_horseman_armor_c" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.bk_thrown_spear_empire" />
+			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Horse" id="Item.empire_horse" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m" />
 			<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
@@ -909,7 +760,7 @@
 			<equipment slot="HorseHarness" id="Item.AR_horse_armor_zg" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_mail" />
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated" />
 			<equipment slot="Body" id="Item.imperial_mail_vest" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.empire_horseman_boots" />
@@ -923,6 +774,7 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
+
 
 
   <NPCCharacter id="bk_imperial_sergeant" default_group="Infantry" level="21" name="{=!}Imperial Skoutatos" occupation="Soldier" culture="Culture.empire">
@@ -943,9 +795,9 @@
     </upgrade_targets>
     <Equipments>
 	    <EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed" />
-			<equipment slot="Cape" id="Item.ao_focale" />
-			<equipment slot="Body" id="Item.AR_empire_scout_armor_a" />
+			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d" />
+			<equipment slot="Cape" id="Item.varangian_bra_basic" /> 
+			<equipment slot="Body" id="Item.AR_empire_armor_j" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
@@ -955,7 +807,7 @@
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed_b" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m" />
-			<equipment slot="Body" id="Item.AR_empire_armor_a" />
+			<equipment slot="Body" id="Item.mercenary_mail_armor" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.empire_horseman_boots" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
@@ -963,9 +815,9 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.plumed_helmet" />
+			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d" />
 			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
-			<equipment slot="Body" id="Item.AR_empire_armor_d" />
+			<equipment slot="Body" id="Item.AR_vlandia_armor_o" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.empire_horseman_boots" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
@@ -973,8 +825,8 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.imperial_nasal_helm" />
-			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed" />
+			<equipment slot="Cape" id="Item.ao_focale" />
 			<equipment slot="Body" id="Item.imperial_mail_over_leather" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
@@ -983,9 +835,9 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_mail" />
+			<equipment slot="Head" id="Item.plumed_helmet" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p" />
-			<equipment slot="Body" id="Item.eastern_studded_leather" />
+			<equipment slot="Body" id="Item.empire_horseman_armor" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
@@ -993,8 +845,8 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_mail" />
-			<equipment slot="Body" id="Item.eastern_studded_leather" />
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_d" />
+			<equipment slot="Body" id="Item.AR_empire_armor_j" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.TV_empire_boots_c" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
@@ -1002,7 +854,7 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail" />
+			<equipment slot="Head" id="Item.AR_intercisa_helmet_c" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
 			<equipment slot="Body" id="Item.eastern_studded_leather" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
@@ -1012,7 +864,7 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif" />
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m" />
 			<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
@@ -1022,7 +874,7 @@
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_mail" />
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated" />
 			<equipment slot="Body" id="Item.imperial_mail_vest" />
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.empire_horseman_boots" />
@@ -1034,6 +886,7 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
+
   
   <NPCCharacter id="bk_imperial_militiaman"
                 default_group="Infantry"
@@ -1050,6 +903,16 @@
 	  <upgrade_target id="NPCCharacter.bk_imperial_sergeant" />
 	</upgrade_targets>
     <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
+			<equipment slot="Body" id="Item.eastern_studded_leather" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_plumbata" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
 			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />

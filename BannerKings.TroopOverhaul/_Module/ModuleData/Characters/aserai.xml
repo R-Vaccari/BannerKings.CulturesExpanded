@@ -93,6 +93,55 @@
     </Equipments>
   </NPCCharacter>
 
+  <NPCCharacter id="bk_mamluk_guard" default_group="Infantry" level="21" name="{=!}Mamluk Guard" occupation="Soldier" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_jawwal" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="110" />
+      <skill id="Riding" value="170" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_n2" />
+			<equipment slot="Cape" id="Item.TV_sturgia_shoulders_h" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_h" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_m2" />
+			<equipment slot="Cape" id="Item.TV_sturgia_shoulders_n" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_m" />
+			<equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_f2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_n" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_c" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_d" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
 
   <NPCCharacter id="bk_aserai_faaris" default_group="Cavalry" level="31" name="{=!}Aseran Faaris" occupation="Soldier" culture="Culture.aserai">
     <face>

@@ -49,11 +49,6 @@
         </stacks>
     </xsl:template>
 	
-	<xsl:template match='MBPartyTemplate[@id="kingdom_hero_party_karakhuzaits_template"]/stacks'>
-        <stacks>
-            <PartyTemplateStack min_value="40" max_value="40" troop="NPCCharacter.bk_karakhergit" />
-        </stacks>
-    </xsl:template>
 	
 	
    
