@@ -11,6 +11,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_k" />
@@ -21,6 +22,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_h" />
@@ -31,6 +33,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_i" />
@@ -40,6 +43,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>	
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_b" />
@@ -50,6 +54,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_c" />
@@ -60,6 +65,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_b" />
@@ -70,6 +76,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_l" />
@@ -79,6 +86,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.TV_pict_helmet_k" />
@@ -88,6 +96,7 @@
 	  <Equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 	  <Equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -100,7 +109,7 @@
 	  <Equipment slot="Leg" id="Item.plated_strip_boots" />
 	  <Equipment slot="Item0" id="Item.heavy_heater_shield" />
 	  <Equipment slot="Item1" id="Item.empire_polearm_1_t4" />
-	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.byz_noblekettle_1" />
@@ -109,7 +118,7 @@
 	  <Equipment slot="Leg" id="Item.plated_strip_boots" />
 	  <Equipment slot="Item0" id="Item.heavy_heater_shield" />
 	  <Equipment slot="Item1" id="Item.empire_polearm_1_t4" />
-	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.DZ_empire_helmet_g" />
@@ -118,7 +127,7 @@
 	  <Equipment slot="Leg" id="Item.plated_strip_boots" />
 	  <Equipment slot="Item0" id="Item.heavy_heater_shield" />
 	  <Equipment slot="Item1" id="Item.empire_polearm_1_t4" />
-	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Head" id="Item.ao_imperial_noblemans_cone_helmet" />
@@ -127,7 +136,7 @@
 	  <Equipment slot="Leg" id="Item.plated_strip_boots" />
 	  <Equipment slot="Item0" id="Item.heavy_heater_shield" />
 	  <Equipment slot="Item1" id="Item.empire_polearm_1_t4" />
-	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.DZ_empire_helmet_h" />
@@ -136,7 +145,7 @@
 	  <Equipment slot="Leg" id="Item.plated_strip_boots" />
 	  <Equipment slot="Item0" id="Item.heavy_heater_shield" />
 	  <Equipment slot="Item1" id="Item.empire_polearm_1_t4" />
-	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+	  <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.DZ_empire_helmet_g" />
@@ -186,6 +195,7 @@
 	  <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
   </EquipmentRoster>
+  
   
 
   <EquipmentRoster id="bk_imperial_eques_e2">
@@ -276,9 +286,9 @@
   
   <EquipmentRoster id="bk_imperial_eques_e3">
     <EquipmentSet>
-      <Equipment slot="Head" id="Item.byz_noblekettle_1" />
-      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      <Equipment slot="Head" id="Item.byz_nasal_1" />
+      <Equipment slot="Body" id="Item.TV_vlandia_armor_f" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.TV_empire_boots_c" /> 
 	  <Equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
@@ -289,8 +299,8 @@
     </EquipmentSet>
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.varang_helmet1" />
-      <Equipment slot="Body" id="Item.tv_empire_armor_a" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+      <Equipment slot="Body" id="Item.TV_vlandia_armor_f" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.TV_empire_boots_c" /> 
 	  <Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
@@ -302,7 +312,7 @@
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.byz_decor_kettle1" />
       <Equipment slot="Body" id="Item.TV_empire_armor_j" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.TV_empire_boots_c" /> 
 	  <Equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
@@ -314,7 +324,7 @@
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.byz_noblekettle_1" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.TV_empire_boots_c" /> 
 	  <Equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
@@ -326,7 +336,7 @@
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.ao_imperial_cone_helmet_with_mail_coif" />
       <Equipment slot="Body" id="Item.TV_empire_armor_j" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.TV_empire_boots_c" /> 
 	  <Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
@@ -338,7 +348,7 @@
 	<EquipmentSet>
       <Equipment slot="Head" id="Item.DZ_empire_helmet_h" />
       <Equipment slot="Body" id="Item.TV_empire_armor_j" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.TV_empire_boots_c" /> 
 	  <Equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
@@ -351,7 +361,7 @@
       <Equipment slot="Head" id="Item.DZ_empire_helmet_g" />
       <Equipment slot="Body" id="Item.TV_empire_armor_h" />
 	  <Equipment slot="Cape" id="Item.AR_imperial_shoulders_w" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.plated_strip_boots" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
 	  <Equipment slot="Item1" id="Item.empire_polearm_1_t4" />
@@ -363,7 +373,7 @@
       <Equipment slot="Head" id="Item.ao_imperial_noblemans_cone_helmet" />
       <Equipment slot="Body" id="Item.TV_empire_armor_h" />
 	  <Equipment slot="Cape" id="Item.AR_imperial_shoulders_x" />
-	  <Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+	  <Equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
 	  <Equipment slot="Leg" id="Item.plated_strip_boots" />
 	  <Equipment slot="Item0" id="Item.flat_heater_shield" />
 	  <Equipment slot="Item1" id="Item.empire_polearm_1_t4" />

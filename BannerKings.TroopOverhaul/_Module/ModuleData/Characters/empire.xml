@@ -803,6 +803,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed_b" />
@@ -813,6 +814,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.TV_empire_lord_helmet_d" />
@@ -823,6 +825,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed" />
@@ -833,6 +836,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.plumed_helmet" />
@@ -843,6 +847,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_gladiator_helmet_d" />
@@ -852,6 +857,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_intercisa_helmet_c" />
@@ -862,6 +868,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated_b" />
@@ -872,6 +879,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated" />
@@ -881,6 +889,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata_heavy" />
 			<equipment slot="Item2" id="Item.empire_sword_4_t4" />
+			<equipment slot="Item3" id="Item.empire_polearm_1_t4" />
 		</EquipmentRoster>
 	  <EquipmentSet id="empire_troop_civilian_template_t3"
                     civilian="true" />
@@ -912,6 +921,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
@@ -922,6 +932,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
@@ -932,6 +943,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_empire_helmet_r" />
@@ -941,6 +953,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_empire_helmet_q" />
@@ -950,6 +963,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather" />
@@ -960,6 +974,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather" />
@@ -969,6 +984,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather" />
@@ -978,6 +994,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.light_mace_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather" />
@@ -987,6 +1004,7 @@
 			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
 			<equipment slot="Item1" id="Item.AR_plumbata" />
 			<equipment slot="Item2" id="Item.light_mace_t3" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t3" />
 		</EquipmentRoster>
 		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
@@ -1108,24 +1126,28 @@
 			<equipment slot="Leg" id="Item.leather_shoes" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
 			<equipment slot="Item2" id="Item.empire_mace_1_t2" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
 			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
 			<equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.AR_empire_armor_k" />
 			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
 			<equipment slot="Item2" id="Item.small_bit_axe_t2" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.layered_leather_tunic" />
 			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
 			<equipment slot="Item2" id="Item.empire_sword_1_t2" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_hat_a2" />
@@ -1134,6 +1156,7 @@
 			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
 			<equipment slot="Item2" id="Item.empire_sword_1_t2" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_roman_hat_a" />
@@ -1142,6 +1165,7 @@
 			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
 			<equipment slot="Item2" id="Item.iron_spatha_sword_t2" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.imperial_cloth_coif" />
@@ -1150,6 +1174,7 @@
 			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
 			<equipment slot="Item2" id="Item.iron_spatha_sword_t2" />
+			<equipment slot="Item3" id="Item.AR_imperial_spear_t2" />
 		</EquipmentRoster>
 		<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
     </Equipments>
