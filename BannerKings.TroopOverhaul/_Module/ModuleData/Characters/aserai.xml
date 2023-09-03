@@ -321,7 +321,7 @@
   </NPCCharacter>
 
 			
-  <NPCCharacter id="bk_aserai_squire" default_group="Cavalry" level="26" name="{=!}Aseran Highborn" occupation="Soldier" culture="Culture.aserai">
+  <NPCCharacter id="bk_aserai_squire" default_group="Cavalry" level="26" name="{=!}Aseran Highborn" occupation="Soldier" is_basic_troop="true" culture="Culture.aserai">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -849,6 +849,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.southern_spear_3_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
@@ -859,6 +861,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.southern_spear_3_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
@@ -869,6 +873,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.southern_spear_3_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.southern_heavy_tuareg" />
@@ -878,6 +884,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.southern_helmet_IIII" />
@@ -888,6 +896,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_helmet_s2" />
@@ -898,6 +908,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_helmet_s" />
@@ -907,6 +919,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_f" />
@@ -917,6 +931,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
@@ -927,6 +943,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
@@ -937,6 +955,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.TV_aserai_helmet_j" />
@@ -946,6 +966,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_helmet_b" />
@@ -956,6 +978,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.southern_light_helmet_a" />
@@ -965,6 +989,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_nasalhelm_cloth" />
@@ -975,6 +1001,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.TV_aserai_helmet_o" />
@@ -985,6 +1013,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.southern_cone_helmet" />
@@ -994,6 +1024,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
@@ -1004,6 +1036,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.AR_southern_spear_1_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.closed_head_scarf" />
@@ -1013,6 +1047,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.AR_southern_spear_1_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.TV_aserai_helmet_d" />
@@ -1022,6 +1058,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.AR_southern_spear_1_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.closed_desert_helmet" />
@@ -1031,6 +1069,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.AR_southern_spear_1_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.saracen_helmet_c" />
@@ -1040,6 +1080,8 @@
 			<equipment slot="Item0" id="Item.large_adarga" />
 		    <equipment slot="Item1" id="Item.northern_javelin_2_t3" />
 		    <equipment slot="Item2" id="Item.AR_southern_spear_1_t4" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentSet id="aserai_troop_civilian_template_t3"
                     civilian="true" />
@@ -1047,7 +1089,7 @@
   </NPCCharacter>
   
    <NPCCharacter id="bk_kanic_rider"
-                default_group="Infantry"
+                default_group="Cavalry"
                 level="16"
                 name="{=!}Kanic Rider"
                 occupation="Soldier"
@@ -1077,6 +1119,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.light_mace_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.closed_head_scarf" />
@@ -1085,6 +1129,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tied_head_wrapping" />
@@ -1093,6 +1139,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tight_head_scarf" />
@@ -1101,6 +1149,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_spear_3_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.turban" />
@@ -1109,6 +1159,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.wrapped_desert_cap" />
@@ -1117,6 +1169,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.woven_turban" />
@@ -1125,6 +1179,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_spear_4_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.aserai_civil_f" />
@@ -1132,6 +1188,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.light_mace_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.turban" />
@@ -1141,6 +1199,8 @@
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.light_mace_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.turban" />
@@ -1150,6 +1210,8 @@
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.bk_southern_axe_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tight_head_scarf" />
@@ -1159,6 +1221,8 @@
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.bk_southern_axe_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
@@ -1167,6 +1231,8 @@
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.bk_southern_axe_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_d_hscarf" />
@@ -1175,6 +1241,8 @@
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.bk_southern_axe_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
@@ -1183,6 +1251,8 @@
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.bk_southern_axe_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_c_head" />
@@ -1191,6 +1261,8 @@
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.aserai_sword_3_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.aserai_civil_a" />
@@ -1198,6 +1270,8 @@
 			<equipment slot="Item0" id="Item.studded_adarga" />
 		    <equipment slot="Item1" id="Item.aserai_sword_3_t3" />
 			<equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
 		</EquipmentRoster>
 		<EquipmentSet id="aserai_troop_civilian_template_t2"
                     civilian="true" />

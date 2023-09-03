@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="bk_khuzait_glaiveman" default_group="Infantry" level="31" name="{=!}Kuzait Khevtuul" occupation="Soldier" culture="Culture.khuzait">
+  <NPCCharacter id="bk_khuzait_glaiveman" default_group="Infantry" level="31" name="{=!}Khuzait Khevtuul" occupation="Soldier" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -21,16 +21,34 @@
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
 		    <equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Head" id="Item.DZ_khuzait_helmet_d" />
-		    <equipment slot="Cape" id="Item.TV_khuzait_shoulder_i" />
-		    <equipment slot="Body" id="Item.TV_khuzait_armor_l" />
-		    <equipment slot="Gloves" id="Item.AR_khuzait_gloves_b" />
-		    <equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		    <equipment slot="Head" id="Item.TV_khuzait_helmet_b" />
+		    <equipment slot="Cape" id="Item.AR_aserai_shoulder_w2" />
+		    <equipment slot="Body" id="Item.AR_aserai_armor_z" />
+		    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+		    <equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+		    <equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		    <equipment slot="Head" id="Item.AR_khuzait_helmet_w" />
+		    <equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders" />
+		    <equipment slot="Body" id="Item.eastern_heavy_lamellar_armor" />
+		    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+		    <equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+		    <equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		    <equipment slot="Head" id="Item.AR_goth_helmet_g" />
+		    <equipment slot="Body" id="Item.eastern_heavy_lamellar_armor" />
+		    <equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+		    <equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
 		</EquipmentRoster>
 	    <EquipmentSet id="khuzait_troop_civilian_template_t3"
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
+
 
   <NPCCharacter id="bk_khuzait_kheshig" default_group="HorseArcher" level="31" name="{=!}Khuzait Torguud" occupation="Soldier" culture="Culture.khuzait">
     <face>
@@ -51,207 +69,90 @@
     <Equipments>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.ao_durkhan_cataphract_helmet_b" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_p" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_y" />
 			<equipment slot="Leg" id="Item.eastern_splint_boots" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_g" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
 		    <equipment slot="Item1" id="Item.noble_bow" />
 			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
 		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_goth_helmet_f" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_i" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_w" />
+			<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.desert_lamellar" />
 			<equipment slot="Leg" id="Item.eastern_splint_boots" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_g" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
 		    <equipment slot="Item1" id="Item.noble_bow" />
 			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
 		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_goth_helmet_f" />
+			<equipment slot="Head" id="Item.AR_goth_helmet_g" />
 			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_g" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_x" />
 			<equipment slot="Leg" id="Item.eastern_splint_boots" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_g" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
 		    <equipment slot="Item1" id="Item.noble_bow" />
 			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
 		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
+		</EquipmentRoster>	
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_heavy_fur_trimmed_helmet" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_o" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_t" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_y" />
 			<equipment slot="Leg" id="Item.eastern_splint_boots" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
 		    <equipment slot="Item1" id="Item.noble_bow" />
 			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
 		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_heavy_fur_trimmed_helmet" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_e" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+			<equipment slot="Head" id="Item.ao_durkhan_cataphract_helmet_a" />
+			<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.desert_lamellar" />
 			<equipment slot="Leg" id="Item.eastern_splint_boots" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
 		    <equipment slot="Item1" id="Item.noble_bow" />
 			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
 		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_heavy_fur_trimmed_helmet" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_m" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+			<equipment slot="Head" id="Item.AR_khuzait_lord_helmet_c2" />
+			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_g" />
+			<equipment slot="Body" id="Item.eastern_heavy_lamellar_armor" />
 			<equipment slot="Leg" id="Item.eastern_splint_boots" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
 		    <equipment slot="Item1" id="Item.noble_bow" />
 			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
 		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
+		</EquipmentRoster>	
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_goth_helmet_l" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_n" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+			<equipment slot="Head" id="Item.TV_khuzait_helmet_b" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_y" />
 			<equipment slot="Leg" id="Item.eastern_splint_boots" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_goth_helmet_l" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_n" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_n" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.DZ_khuzait_helmet_c" />
-			<equipment slot="Cape" id="Item.AR_khuzait_cape_a" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_k" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.DZ_khuzait_helmet_c" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_k" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_goth_helmet_k" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_o" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_f" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_s" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_f" />
-			<equipment slot="Cape" id="Item.TV_sturgia_shoulders_g" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_s" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_f" />
-			<equipment slot="Cape" id="Item.AR_khuzait_cape_b" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_s" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_cataphract_helmet_b" />
-			<equipment slot="Cape" id="Item.TV_sturgia_shoulders_m" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_s" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
-		    <equipment slot="Item1" id="Item.noble_bow" />
-			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
-		    <equipment slot="Item3" id="Item.GRE_piercing_arrows" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.DZ_khuzait_helmet_c" />
-			<equipment slot="Cape" id="Item.TV_sturgia_shoulders_m" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_j" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
 		    <equipment slot="Item1" id="Item.noble_bow" />
 			<equipment slot="Item2" id="Item.GRE_piercing_arrows" />
@@ -262,7 +163,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_khuzait_squire" default_group="HorseArcher" level="26" name="{=!}Khuzait Highborn" occupation="Soldier" culture="Culture.khuzait">
+  <NPCCharacter id="bk_khuzait_squire" default_group="HorseArcher" level="26" name="{=!}Khuzait Highborn" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -281,129 +182,64 @@
     </upgrade_targets>
     <Equipments>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_khuzait_helmet_z2" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_l" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+			<equipment slot="Head" id="Item.AR_goth_helmet_f" />
+			<equipment slot="Cape" id="Item.DZ_sturgia_shoulder_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_w2" />
 			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+			<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
 		    <equipment slot="Item1" id="Item.steppe_war_bow" />
 			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
 		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.TV_khuzait_helmet_z" />
-			<equipment slot="Cape" id="Item.ao_durkhan_tassled_necklace" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_q" />
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_v" />
+			<equipment slot="Cape" id="Item.eastern_heavy_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_w" />
 			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+			<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
 		    <equipment slot="Item1" id="Item.steppe_war_bow" />
 			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
 		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.sloven_helmet" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
-			<equipment slot="Body" id="Item.eastern_plated_leather" />
+			<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_f" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_w2" />
 			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+			<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+			<equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
 		    <equipment slot="Item1" id="Item.steppe_war_bow" />
 			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
 		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_iron_helmet_with_leather_spiked" />
-			<equipment slot="Cape" id="Item.TV_sturgia_shoulders_g" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_i" />
+			<equipment slot="Cape" id="Item.DZ_sturgia_shoulder_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_w2" />
 			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+			<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
+			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
 		    <equipment slot="Item1" id="Item.steppe_war_bow" />
 			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
 		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_guarded_iron_helmet" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_k" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_p" />
+			<equipment slot="Head" id="Item.TV_khuzait_helmet_z3" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_w" />
 			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+			<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
-		    <equipment slot="Item1" id="Item.steppe_war_bow" />
-			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
-		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_fur_trimmed_helmet" />
-			<equipment slot="Cape" id="Item.AR_khuzait_cape_d" />
-			<equipment slot="Body" id="Item.eastern_lamellar_armor" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
-		    <equipment slot="Item1" id="Item.steppe_war_bow" />
-			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
-		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_iron_lamellar_helmet" />
-			<equipment slot="Cape" id="Item.AR_khuzait_cape_g" />
-			<equipment slot="Body" id="Item.eastern_lamellar_armor" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.steppe_half_barding" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
-		    <equipment slot="Item1" id="Item.steppe_war_bow" />
-			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
-		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.ao_durkhan_iron_lamellar_helmet" />
-			<equipment slot="Cape" id="Item.AR_khuzait_cape_h" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_l" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
-		    <equipment slot="Item1" id="Item.steppe_war_bow" />
-			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
-		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_goth_helmet_e" />
-			<equipment slot="Cape" id="Item.AR_khuzait_cape_f" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_l" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y2" />
-			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
-		    <equipment slot="Item1" id="Item.steppe_war_bow" />
-			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
-		    <equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
-		</EquipmentRoster>
-		<EquipmentRoster>
-			<equipment slot="Head" id="Item.AR_khuzait_helmet_c_fur" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_m" />
-			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
-			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y2" />
+			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
 		    <equipment slot="Item1" id="Item.steppe_war_bow" />
 			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
@@ -411,12 +247,11 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_khuzait_helmet_c" />
-			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
-			<equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_w2" />
 			<equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
-			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
+			<equipment slot="Gloves" id="Item.TV_khuzait_gloves_a" />
 			<equipment slot="Horse" id="Item.t2_khuzait_horse" />
-			<equipment slot="HorseHarness" id="Item.AR_horse_armor_y2" />
+			<equipment slot="HorseHarness" id="Item.studded_steppe_barding" />
 			<equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
 		    <equipment slot="Item1" id="Item.steppe_war_bow" />
 			<equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
