@@ -9,11 +9,11 @@
 	
 	
 	<xsl:template match="Kingdom[@id='vlandia']/@title">
-        <xsl:attribute name="title">Kyningdóm Wilundinges</xsl:attribute>
+        <xsl:attribute name="title">Vlandia</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='vlandia']/@name">
-        <xsl:attribute name="name">Vlandia</xsl:attribute>
+        <xsl:attribute name="name">Kyningdóm Wilundinges</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='vlandia']/@short_name">
@@ -27,11 +27,11 @@
 	
 	
 	<xsl:template match="Kingdom[@id='battania']/@title">
-        <xsl:attribute name="title">Brenhiniaeth Battanwr</xsl:attribute>
+        <xsl:attribute name="title">Battania</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='battania']/@name">
-        <xsl:attribute name="name">Battania</xsl:attribute>
+        <xsl:attribute name="name">Brenhiniaeth Battanwr</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='battania']/@short_name">
@@ -45,11 +45,11 @@
 	
 	
 	<xsl:template match="Kingdom[@id='sturgia']/@title">
-        <xsl:attribute name="title">Sturgiske Knyazivstvo</xsl:attribute>
+        <xsl:attribute name="title">Sturgia</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='sturgia']/@name">
-        <xsl:attribute name="name">Sturgia</xsl:attribute>
+        <xsl:attribute name="name">Sturgiske Knyazivstvo</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='sturgia']/@short_name">
@@ -63,11 +63,11 @@
 	
 	
 	<xsl:template match="Kingdom[@id='aserai']/@title">
-        <xsl:attribute name="title">Saljuqiyan-i Aserai</xsl:attribute>
+        <xsl:attribute name="title">Aserai</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='aserai']/@name">
-        <xsl:attribute name="name">Aserai</xsl:attribute>
+        <xsl:attribute name="name">Saljuqiyan-i Aserai</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='aserai']/@short_name">
@@ -81,11 +81,11 @@
 	
 	
 	<xsl:template match="Kingdom[@id='khuzait']/@title">
-        <xsl:attribute name="title">Yeke Khuzait Ulus</xsl:attribute>
+        <xsl:attribute name="title">Khuzaits</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='khuzait']/@name">
-        <xsl:attribute name="name">Khuzaits</xsl:attribute>
+        <xsl:attribute name="name">Yeke Khuzait Ulus</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='khuzait']/@short_name">
@@ -99,11 +99,11 @@
 	
 
     <xsl:template match="Kingdom[@id='empire']/@title">
-        <xsl:attribute name="title">Politeia ton Calradoi</xsl:attribute>
+        <xsl:attribute name="title">Northern Calradoi</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='empire']/@name">
-        <xsl:attribute name="name">Northern Calradoi</xsl:attribute>
+        <xsl:attribute name="name">Politeia ton Calradoi</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='empire']/@short_name">
@@ -117,11 +117,11 @@
 	
 	
 	<xsl:template match="Kingdom[@id='empire_w']/@title">
-        <xsl:attribute name="title">Diktatoría ton Calradoi</xsl:attribute>
+        <xsl:attribute name="title">Western Calradoi</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='empire_w']/@name">
-        <xsl:attribute name="name">Western Calradoi</xsl:attribute>
+        <xsl:attribute name="name">Diktatoría ton Calradoi</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='empire_w']/@short_name">
@@ -135,11 +135,11 @@
 	
 	
 	<xsl:template match="Kingdom[@id='empire_s']/@title">
-        <xsl:attribute name="title">Basileia ton Calradoi</xsl:attribute>
+        <xsl:attribute name="title">Southern Calradoi</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='empire_s']/@name">
-        <xsl:attribute name="name">Southern Calradoi</xsl:attribute>
+        <xsl:attribute name="name">Basileia ton Calradoi</xsl:attribute>
     </xsl:template>
 	
 	 <xsl:template match="Kingdom[@id='empire_s']/@short_name">
