@@ -697,6 +697,1863 @@
 	  <Equipment slot="Item2" id="Item.empire_mace_4_t5" />
     </EquipmentSet>
   </EquipmentRoster>
+  
 
+  <EquipmentRoster id="bk_aserai_sergeant_e2">
+    <EquipmentSet>
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		<Equipment slot="Head" id="Item.TV_aserai_helmet_q" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.aserai_armor_02" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		<Equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_g2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		<Equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+		<Equipment slot="Body" id="Item.AR_empire_brass_lamellar_d" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.southern_cone_helmet" />
+		<Equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_c2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.hmj_southern_headband_helm" />
+		<Equipment slot="Body" id="Item.ringed_desert_armor" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_aserai_helmet_o" />
+		<Equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+		<Equipment slot="Body" id="Item.AR_aserai_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.aserai_nasalhelm_cloth" />
+		<Equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+		<Equipment slot="Body" id="Item.TV_aserai_robe_a" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.large_adarga" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.southern_helmet_with_band" />
+		<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_c" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.large_adarga" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.desert_helmet_with_mail" />
+		<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+		<Equipment slot="Body" id="Item.AR_aserai_armor_e2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.large_adarga" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+		<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+		<Equipment slot="Body" id="Item.aserai_armor_02_b" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_archer_helmet_f" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.desert_robe_over_mail" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.southern_light_helmet_a" />
+		<Equipment slot="Body" id="Item.aserai_robe_c_chain" />
+		<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.southern_heavy_helmet" />
+		<Equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+		<Equipment slot="Body" id="Item.aserai_robe_c_chain" />
+		<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.battle_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_aserai_helmet_r" />
+		<Equipment slot="Body" id="Item.aserai_armor_02" />
+		<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.battle_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_aserai_helmet_m" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_g2" />
+		<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.bamboo_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_aserai_helmet_n" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.AR_empire_brass_lamellar_d" />
+		<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.bamboo_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_c2" />
+		<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+		<Equipment slot="Body" id="Item.desert_robe_over_mail" />
+		<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+	</EquipmentSet>
+  </EquipmentRoster>
+
+
+  <EquipmentRoster id="bk_aserai_sergeant_e3">
+    <EquipmentSet>
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u2" />
+		<Equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+		<Equipment slot="Body" id="Item.aserai_brass_plate_a" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u" />
+		<Equipment slot="Body" id="Item.aserai_chain_plate_armor_a" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+		<Equipment slot="Head" id="Item.brass_aserai_helmet_b_open" />
+		<Equipment slot="Body" id="Item.AR_empire_brass_lamellar_d" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_aserai_helmet_s" />
+		<Equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_d" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_c2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.hmj_southern_headband_helm" />
+		<Equipment slot="Body" id="Item.aserai_chain_plate_armor_d" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_archer_helmet_g" />
+		<Equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+		<Equipment slot="Body" id="Item.AR_aserai_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.shishpar_mace_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_aserai_helmet_u" />
+		<Equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+		<Equipment slot="Body" id="Item.TV_aserai_robe_a" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.large_adarga" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.southern_heavy_helmet" />
+		<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_c" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.large_adarga" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_4_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.desert_helmet_with_mail" />
+		<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+		<Equipment slot="Body" id="Item.AR_aserai_armor_e2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.large_adarga" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.desert_mail_coif" />
+		<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+		<Equipment slot="Body" id="Item.aserai_armor_02_b" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_5_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.aserai_nasalhelm_mailcoif" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.desert_robe_over_mail" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u2" />
+		<Equipment slot="Body" id="Item.aserai_robe_c_chain" />
+		<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_sword_6_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.southern_heavy_helmet" />
+		<Equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+		<Equipment slot="Body" id="Item.aserai_robe_c_chain" />
+		<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.battle_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u2" />
+		<Equipment slot="Body" id="Item.aserai_armor_02" />
+		<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.battle_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u" />
+		<Equipment slot="Body" id="Item.aserai_chain_plate_armor_b" />
+		<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.bamboo_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u" />
+		<Equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b" />
+		<Equipment slot="Body" id="Item.aserai_brass_plate_b" />
+		<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.bamboo_axe_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.aserai_brass_plate_a" />
+		<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_helmet_u" />
+		<Equipment slot="Body" id="Item.desert_robe_over_mail" />
+		<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Item0" id="Item.desert_round_shield" />
+		<Equipment slot="Item1" id="Item.southern_spear_3_t4" />
+		<Equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+	</EquipmentSet>
+  </EquipmentRoster>
+  
+
+  <EquipmentRoster id="bk_faaris_e2">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_d" />
+		<Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_e" />
+		<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_m" />
+		<Equipment slot="Body" id="Item.AR_aserai_scale_armor_c" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_b" />
+		<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_i" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_f2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_a" />
+		<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_n" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_f" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.tv_aserai_lord_helmet_h" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_e2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_e" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_h" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_a" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_d" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_h2" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+  </EquipmentRoster>
+
+  <EquipmentRoster id="bk_faaris_e3">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.brass_aserai_helmet_b_closed" />
+		<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_n" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_e2" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_e" />
+		<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_m" />
+		<Equipment slot="Body" id="Item.AR_aserai_scale_armor_c" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_b" />
+		<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_i" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_f2" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_a" />
+		<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_n" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_f" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.tv_aserai_lord_helmet_h" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_e2" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_e" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_h" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_aserai_cataphract_helmet_a" />
+		<Equipment slot="Cape" id="Item.wrapped_scarf" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_e" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_aserai_helmet_d" />
+		<Equipment slot="Body" id="Item.tv_aserai_lamellar_h2" />
+		<Equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+		<Equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+		<Equipment slot="Horse" id="Item.t2_aserai_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t" />
+		<Equipment slot="Item0" id="Item.AR_shield_infantry_zo2" />
+		<Equipment slot="Item1" id="Item.AR_aserai_lance_5_t5" />
+		<Equipment slot="Item2" id="Item.aserai_sword_7_t5" />
+		<Equipment slot="Item3" id="Item.bk_southern_javelins" />
+	</EquipmentSet>
+  </EquipmentRoster>
+  
+   <EquipmentRoster id="bk_khuzait_glaiveman_e2">
+    <EquipmentSet>
+		<Equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+		<Equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_k" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_i" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_b" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.TV_khuzait_helmet_r" />
+		<Equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Head" id="Item.DZ_khuzait_helmet_d" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_k" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_b" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+		<Equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_q" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_g" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_k" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_b" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+		<Equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_j" />
+		<Equipment slot="Body" id="Item.eastern_heavy_lamellar_armor" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_b" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+		<Equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_q" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_i" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_b" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+		<Equipment slot="Item1" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Head" id="Item.DZ_khuzait_helmet_d" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_g" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_b" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+	</EquipmentSet>
+  </EquipmentRoster>
+  
+  <EquipmentRoster id="bk_khuzait_squire_e2">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_i" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_l" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_h" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_khuzait_helmet_m" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_k" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_khuzait_helmet_v" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_n" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_e" />
+		<Equipment slot="Cape" id="Item.AR_khuzait_cape_d" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_l" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_p" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_k" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_m" />
+		<Equipment slot="Cape" id="Item.AR_khuzait_cape_d" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_b" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z2" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+  </EquipmentRoster>
+  
+   <EquipmentRoster id="bk_khuzait_squire_e3">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_j" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_e" />
+		<Equipment slot="Body" id="Item.eastern_lamellar_armor" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.sloven_helmet" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_m" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_g" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_i" />
+		<Equipment slot="Body" id="Item.eastern_lamellar_armor" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_khuzait_helmet_a" />
+		<Equipment slot="Cape" id="Item.AR_khuzait_cape_a" />
+		<Equipment slot="Body" id="Item.eastern_lamellar_armor" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_i" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_l" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_h" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_khuzait_helmet_m" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_k" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_khuzait_helmet_v" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_n" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_e" />
+		<Equipment slot="Cape" id="Item.AR_khuzait_cape_d" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_l" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_l" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_p" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_k" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_e" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_m" />
+		<Equipment slot="Cape" id="Item.AR_khuzait_cape_d" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_m" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_1_t4" />
+		<Equipment slot="Item1" id="Item.steppe_war_bow" />
+		<Equipment slot="Item2" id="Item.GRE_arrow_emp_1_a" />
+		<Equipment slot="Item3" id="Item.GRE_arrow_emp_1_a" />
+	</EquipmentSet>
+  </EquipmentRoster>
+  
+
+  <EquipmentRoster id="bk_kheshig_e2">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_j" /> 
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_i" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_k" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_k" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_h" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_g" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_q" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_r" />
+		<Equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_s" />
+		<Equipment slot="Body" id="Item.brass_lamellar_over_mail" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_khuzait_helmet_c" />
+		<Equipment slot="Body" id="Item.AR_aserai_armor_z" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_u" />
+		<Equipment slot="Body" id="Item.eastern_heavy_lamellar_armor" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
+		<Equipment slot="Leg" id="Item.AO_durkhan_boots_c" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+  </EquipmentRoster>
+  
+
+  <EquipmentRoster id="bk_kheshig_e3">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.DZ_khuzait_helmet_e" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_p" />
+		<Equipment slot="Body" id="Item.AR_khuzait_armor_b" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_lord_helmet_k" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_o" />
+		<Equipment slot="Body" id="Item.AR_khuzait_armor_b" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_khuzait_lord_helmet_b" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_khuzait_helmet_o" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_g" />
+		<Equipment slot="Body" id="Item.AR_khuzait_armor_b" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.khuzait_noble_helmet_with_neckguard" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_i" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_j" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_j" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_h" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_k" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_k" />
+		<Equipment slot="Cape" id="Item.TV_khuzait_shoulder_g" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_k" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_khuzait_helmet_q" />
+		<Equipment slot="Body" id="Item.TV_khuzait_armor_k" />
+		<Equipment slot="Leg" id="Item.eastern_splint_boots" />
+		<Equipment slot="Gloves" id="Item.AR_khuzait_gloves_a" />
+		<Equipment slot="Horse" id="Item.t2_khuzait_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z3" />
+		<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5" />
+		<Equipment slot="Item1" id="Item.noble_bow" />
+		<Equipment slot="Item2" id="Item.GRE_piercing_arrows" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+  </EquipmentRoster>
+
+
+
+  
+  <EquipmentRoster id="bk_fian_e2">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_helmet" />
+		<Equipment slot="Cape" id="Item.hmj_battanian_shoulders_a" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_n" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_e" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_s" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_n2" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_i" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_s2" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_q3" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_h" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_s3" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_q" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_f" />
+		<Equipment slot="Body" id="Item.tv_battania_armor_c" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_d" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_a" />
+		<Equipment slot="Body" id="Item.battanian_scale_armor_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_k" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_c" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_q2" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_d" />
+		<Equipment slot="Body" id="Item.TV_vlandia_armor_p" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_g" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_e" />
+		<Equipment slot="Body" id="Item.TV_vlandia_armor_q" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+  </EquipmentRoster>
+  
+
+  <EquipmentRoster id="bk_fian_e3">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_g" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_e" />
+		<Equipment slot="Body" id="Item.TV_vlandia_armor_t2" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_helmet" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_r" />
+		<Equipment slot="Body" id="Item.ao_battanian_decorated_scale_armor_c" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_e" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_r2" />
+		<Equipment slot="Body" id="Item.ao_battanian_decorated_scale_armor_b" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_i" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_r3" />
+		<Equipment slot="Body" id="Item.ao_battanian_decorated_scale_armor" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_helmet" />
+		<Equipment slot="Cape" id="Item.hmj_battanian_shoulders_a" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_n" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_e" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_s" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_n2" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_i" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_s2" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_q3" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_h" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_s3" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_q" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_f" />
+		<Equipment slot="Body" id="Item.tv_battania_armor_c" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_d" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_a" />
+		<Equipment slot="Body" id="Item.battanian_scale_armor_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.AR_battania_lord_helmet_k" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_c" />
+		<Equipment slot="Body" id="Item.TV_vlandia_armor_t" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.battanian_noble_helmet_with_feather" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_d" />
+		<Equipment slot="Body" id="Item.TV_empire_armor_n" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Item0" id="Item.woodland_longbow" />
+        <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+        <Equipment slot="Item3" id="Item.battania_2hsword_5_t5" />
+	</EquipmentSet>
+  </EquipmentRoster>
+
+
+  
+  <EquipmentRoster id="bk_battanian_squire_e2">
+    <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_o" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_r2" />
+		<Equipment slot="Body" id="Item.ao_battanian_alt_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_d" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r2" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_c" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m2" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_d" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m2" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_d" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_u2" />
+		<Equipment slot="Cape" id="Item.ao_battanian_mail_shoulders" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_d" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+	  </EquipmentSet>  
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_t" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_g" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_r" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_k" />
+		<Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+		<Equipment slot="Body" id="Item.ao_battanian_bronze_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_o" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_c" />
+		<Equipment slot="Cape" id="Item.hmj_battanian_shoulders_a" />
+		<Equipment slot="Body" id="Item.ao_battanian_iron_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_p" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_d" />
+		<Equipment slot="Cape" id="Item.hmj_battanian_shoulders_e" />
+		<Equipment slot="Body" id="Item.ao_battanian_alt_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_c" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_q" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_p" />
+		<Equipment slot="Cape" id="Item.battanian_mail_scarf" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_o" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_r" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_n" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_o2" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_o" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_u" />
+		<Equipment slot="Body" id="Item.battania_brass_plate_armor" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_p" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_q" />
+		<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+		<Equipment slot="Body" id="Item.battanian_chainmail_armor_d" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_q" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_o" />
+		<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+		<Equipment slot="Body" id="Item.battanian_chainmail_armor_d" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r2" />
+		<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+		<Equipment slot="Body" id="Item.battanian_scale_armor_b" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_i" />
+		<Equipment slot="Body" id="Item.battanian_chainmail_armor_c" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.battania_earmuff_helmet_c" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_j" />
+		<Equipment slot="Body" id="Item.tv_battania_armor_b" />
+		<Equipment slot="Gloves" id="Item.battania_noble_bracers" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+	  </EquipmentSet>  
+  </EquipmentRoster>
+  
+  
+  <EquipmentRoster id="bk_battanian_squire_e3">
+    <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_q" />
+		<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+		<Equipment slot="Body" id="Item.TV_vlandia_armor_s2" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_q" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_o" />
+		<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+		<Equipment slot="Body" id="Item.TV_vlandia_armor_s" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+	  </EquipmentSet>
+	   <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_i" />
+		<Equipment slot="Body" id="Item.TV_empire_armor_o" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+	  </EquipmentSet>
+    <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_o" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_r2" />
+		<Equipment slot="Body" id="Item.ao_battanian_alt_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_l" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r2" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_c" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m2" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m2" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_m" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_u2" />
+		<Equipment slot="Cape" id="Item.ao_battanian_mail_shoulders" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+	  </EquipmentSet>  
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_t" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_g" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_m" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_r" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_k" />
+		<Equipment slot="Cape" id="Item.ao_battanian_medallion" />
+		<Equipment slot="Body" id="Item.ao_battanian_bronze_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_o" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_4_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_c" />
+		<Equipment slot="Cape" id="Item.hmj_battanian_shoulders_a" />
+		<Equipment slot="Body" id="Item.ao_battanian_iron_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_p" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_d" />
+		<Equipment slot="Cape" id="Item.hmj_battanian_shoulders_e" />
+		<Equipment slot="Body" id="Item.ao_battanian_alt_scale_over_tunic_with_kilt" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_q" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_p" />
+		<Equipment slot="Cape" id="Item.battanian_mail_scarf" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_o" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_r" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_n" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_o2" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_o" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_u" />
+		<Equipment slot="Body" id="Item.battania_brass_plate_armor" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_p" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r2" />
+		<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+		<Equipment slot="Body" id="Item.battanian_scale_armor_a" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_k" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.lowland_yew_bow" />
+		<Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+		<Equipment slot="Item3" id="Item.battania_2hsword_5_t4" />
+		<Equipment slot="Head" id="Item.battania_earmuff_helmet_c" />
+		<Equipment slot="Cape" id="Item.tv_battania_cloak_j" />
+		<Equipment slot="Body" id="Item.tv_battania_armor_b" />
+		<Equipment slot="Gloves" id="Item.AR_brass_scale_gloves" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_n" />
+	  </EquipmentSet>  
+  </EquipmentRoster>
+
+  
+  <EquipmentRoster id="bk_battanian_sergeant_e2">
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_axe_2_t4" />
+		<Equipment slot="Item1" id="Item.battania_large_shield_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_b" />
+		<Equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" /> 
+		<Equipment slot="Body" id="Item.AR_battania_armor_p" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_i" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_sword_4_t4" />
+		<Equipment slot="Item1" id="Item.battania_large_shield_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_a" />
+		<Equipment slot="Cape" id="Item.battanian_mail_scarf" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_p2" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_j" />
+	  </EquipmentSet>
+      <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_axe_2_t4" />
+		<Equipment slot="Item1" id="Item.battania_large_shield_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r2" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d" /> 
+		<Equipment slot="Body" id="Item.battanian_chainmail_armor_b" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_i" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_sword_4_t4" />
+		<Equipment slot="Item1" id="Item.battania_large_shield_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.battania_earmuff_helmet_a" />
+		<Equipment slot="Cape" id="Item.HMJ_battanian_leather_scarf" />
+		<Equipment slot="Body" id="Item.battanian_chainmail_armor_b" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_j" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_axe_2_t4" />
+		<Equipment slot="Item1" id="Item.battania_large_shield_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.battania_earmuff_helmet_c_cpr" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_g" />
+		<Equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_h" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_axe_2_t4" />
+		<Equipment slot="Item1" id="Item.battania_shield_targe_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_t3" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_b" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_i" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_g" />
+	  </EquipmentSet> 
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_axe_2_t4" />
+		<Equipment slot="Item1" id="Item.battania_shield_targe_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.battania_earmuff_helmet_c_brnz" />
+		<Equipment slot="Cape" id="Item.battania_cloak" />
+		<Equipment slot="Body" id="Item.tv_battania_armor_a" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_i" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_axe_2_t4" />
+		<Equipment slot="Item1" id="Item.battania_shield_targe_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_s" />
+		<Equipment slot="Cape" id="Item.TV_battania_cloak_p2" />
+		<Equipment slot="Body" id="Item.scale_armor" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_j" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_axe_2_t4" />
+		<Equipment slot="Item1" id="Item.battania_shield_targe_a" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_s2" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_d" />
+		<Equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_h" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_sword_4_t4" />
+		<Equipment slot="Item1" id="Item.AR_shield_infantry_zz" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.AR_battania_helmet_m" />
+		<Equipment slot="Cape" id="Item.AR_battanian_shoulder_c" />
+		<Equipment slot="Body" id="Item.ao_battanian_scale_armor" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_g" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battania_sword_4_t4" />
+		<Equipment slot="Item1" id="Item.AR_shield_infantry_zz" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz" />
+		<Equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+		<Equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_g" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battle_axe_t4" />
+		<Equipment slot="Item1" id="Item.AR_shield_infantry_zz" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.battania_earmuff_helmet_c" />
+		<Equipment slot="Cape" id="Item.battania_shoulder_strap_cloak" />
+		<Equipment slot="Body" id="Item.ao_battanian_scale_armor" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_g" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battle_axe_t4" />
+		<Equipment slot="Item1" id="Item.AR_shield_infantry_zz" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_t2" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_p" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_g" />
+	  </EquipmentSet>
+	  <EquipmentSet>
+		<Equipment slot="Item0" id="Item.battle_axe_t4" />
+		<Equipment slot="Item1" id="Item.AR_shield_infantry_zz" />
+		<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+		<Equipment slot="Head" id="Item.TV_battania_helmet_r" />
+		<Equipment slot="Body" id="Item.AR_battania_armor_p3" />
+		<Equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+		<Equipment slot="Leg" id="Item.TV_battania_boots_g" />
+	  </EquipmentSet>
+  </EquipmentRoster>
+
+  
 
 </EquipmentRosters>

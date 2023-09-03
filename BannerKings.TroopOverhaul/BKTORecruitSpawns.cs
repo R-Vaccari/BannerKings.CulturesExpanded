@@ -332,6 +332,7 @@ namespace BannerKings.CulturesExpanded
                 0.5f,
                 Managers.PopulationManager.PopType.Craftsmen
                 );
+            BattaniaMeleeT3.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_battanian_sergeant_e2");
 
             BattaniaSpearSergeant.Initialize(GetTroop("bk_battanian_sergeant_spear"),
                 Battania,
@@ -344,6 +345,15 @@ namespace BannerKings.CulturesExpanded
                1f,
                Managers.PopulationManager.PopType.Nobles
                );
+
+            BattaniaNoble.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_battanian_squire_e2");
+            BattaniaNoble.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_battanian_squire_e3");
+
+            var fian = GetTroop("bk_battanian_fian");
+            DefaultEras.Instance.SecondEra.AddTroopAdvancement(new BKTroopAdvancement(fian,
+                "bk_fian_e2"));
+            DefaultEras.Instance.ThirdEra.AddTroopAdvancement(new BKTroopAdvancement(fian,
+                "bk_fian_e3"));
             #endregion Battania
 
             #region Aserai
@@ -413,6 +423,8 @@ namespace BannerKings.CulturesExpanded
                 1f,
                 Managers.PopulationManager.PopType.Craftsmen
                 );
+            AseraiMeleeT3.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_aserai_sergeant_e2");
+            AseraiMeleeT3.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_aserai_sergeant_e3");
 
             KanicRider.Initialize(GetTroop("bk_kanic_rider"),
                 Aserai,
@@ -443,6 +455,12 @@ namespace BannerKings.CulturesExpanded
                1f,
                Managers.PopulationManager.PopType.Nobles
                );
+
+            var faaris = GetTroop("bk_aserai_faaris");
+            DefaultEras.Instance.SecondEra.AddTroopAdvancement(new BKTroopAdvancement(faaris,
+                "bk_faaris_e2"));
+            DefaultEras.Instance.ThirdEra.AddTroopAdvancement(new BKTroopAdvancement(faaris,
+                "bk_faaris_e3"));
             #endregion Aserai
 
             #region Khuzait
@@ -487,7 +505,20 @@ namespace BannerKings.CulturesExpanded
                Khuzait,
                1f,
                Managers.PopulationManager.PopType.Nobles
-               );      
+               );
+
+            KhuzaitNoble.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_khuzait_squire_e2");
+            KhuzaitNoble.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_khuzait_squire_e3");
+
+            var kheshig = GetTroop("bk_khuzait_kheshig");
+            DefaultEras.Instance.SecondEra.AddTroopAdvancement(new BKTroopAdvancement(kheshig,
+                "bk_kheshig_e2"));
+            DefaultEras.Instance.ThirdEra.AddTroopAdvancement(new BKTroopAdvancement(kheshig,
+                "bk_kheshig_e3"));
+
+            var glaiveman = GetTroop("bk_khuzait_glaiveman");
+            DefaultEras.Instance.SecondEra.AddTroopAdvancement(new BKTroopAdvancement(glaiveman,
+                "bk_khuzait_glaiveman_e2"));
             #endregion Khuzait
 
             foreach (var spawn in All)
