@@ -18,6 +18,27 @@ namespace BannerKings.CulturesExpanded.Models
                 {
                     result.Add(5f, BKCEDivinities.Instance.Erithrians.Name);
                 }
+
+                if (BannerKingsConfig.Instance.ReligionsManager.HasBlessing(leader, BKCEDivinities.Instance.Sarapios))
+                {
+                    result.Add(8f, BKCEDivinities.Instance.Sarapios.Name);
+                }
+            }
+
+            return result;
+        }
+
+        public new ExplainedNumber CalculateAcceptanceGain(CultureDataClass data)
+        {
+            ExplainedNumber result = base.CalculateAcceptanceGain(data);
+            Settlement settlement = data.Settlement;
+            if (settlement.OwnerClan != null)
+            {
+                Hero leader = settlement.OwnerClan.Leader;
+                if (BannerKingsConfig.Instance.ReligionsManager.HasBlessing(leader, BKCEDivinities.Instance.Sarapios))
+                {
+                    result.Add(0.05f, BKCEDivinities.Instance.Sarapios.Name);
+                }
             }
 
             return result;
