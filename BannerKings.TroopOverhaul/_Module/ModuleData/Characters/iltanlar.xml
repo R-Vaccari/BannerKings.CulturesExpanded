@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+  <NPCCharacter id="bk_iltanlar_sergeant_infantry" default_group="Infantry" level="21" name="{=!}Iltanlar Shieldbearer" occupation="Soldier" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="90" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.plumed_nomad_helmet" />
+			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
+			<equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_k" />
+			<equipment slot="Item1" id="Item.bk_thrown_spear_eastern" />
+			<equipment slot="Item2" id="Item.khuzait_sword_5_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.plumed_nomad_helmet" />
+			<equipment slot="Cape" id="Item.AR_khuzait_cape_e" />
+			<equipment slot="Body" id="Item.TV_khuzait_armor_r" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_k" />
+			<equipment slot="Item1" id="Item.bk_thrown_spear_eastern" />
+			<equipment slot="Item2" id="Item.khuzait_sword_5_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+			<equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+			<equipment slot="Body" id="Item.TV_khuzait_armor_r" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_k" />
+			<equipment slot="Item1" id="Item.bk_thrown_spear_eastern" />
+			<equipment slot="Item2" id="Item.khuzait_sword_5_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_p" />
+			<equipment slot="Body" id="Item.TV_khuzait_armor_i" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_k" />
+			<equipment slot="Item1" id="Item.AR_iltanlar_spear_4_t4" />
+			<equipment slot="Item2" id="Item.khuzait_sword_4_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_p" />
+			<equipment slot="Cape" id="Item.AR_khuzait_cape_e" />
+			<equipment slot="Body" id="Item.eastern_plated_leather_vest" />
+			<equipment slot="Leg" id="Item.steppe_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zw" />
+			<equipment slot="Item1" id="Item.AR_iltanlar_spear_4_t4" />
+			<equipment slot="Item2" id="Item.khuzait_sword_4_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_khuzait_helmet_z" />
+			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_k" />
+			<equipment slot="Body" id="Item.TV_khuzait_armor_d2" />
+			<equipment slot="Leg" id="Item.steppe_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zw" />
+			<equipment slot="Item1" id="Item.AR_iltanlar_spear_5_t4" />
+			<equipment slot="Item2" id="Item.khuzait_sword_4_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_c3" />
+			<equipment slot="Body" id="Item.TV_khuzait_armor_c" />
+			<equipment slot="Leg" id="Item.steppe_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zw" />
+			<equipment slot="Item1" id="Item.AR_iltanlar_spear_5_t4" />
+			<equipment slot="Item2" id="Item.khuzait_mace_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_durkhan_guarded_bronze_helmet" />
+			<equipment slot="Body" id="Item.TV_khuzait_armor_d" />
+			<equipment slot="Leg" id="Item.steppe_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zw" />
+			<equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+			<equipment slot="Item2" id="Item.khuzait_mace_2_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.plumed_lamellar_helmet" />
+			<equipment slot="Cape" id="Item.TV_khuzait_shoulder_j" />
+			<equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+			<equipment slot="Leg" id="Item.steppe_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zw" />
+			<equipment slot="Item1" id="Item.eastern_spear_4_t4" />
+			<equipment slot="Item2" id="Item.khuzait_mace_2_t4" />
+		</EquipmentRoster>
+	    <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+ 
+  <NPCCharacter id="bk_iltanlar_militiaman_infantry"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Iltanlar Militia Shieldbearer"
+                occupation="Soldier"
+                culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="60" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_khuzait_sergeant_infantry" />
+	</upgrade_targets>
+    <Equipments>
+	    <EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_b2" />
+			<equipment slot="Cape" id="Item.AR_khuzait_cape_d" />
+			<equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+			<equipment slot="Leg" id="Item.TV_khuzait_boots_b" />
+			<equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<equipment slot="Item1" id="Item.AR_iltanlar_spear_2_t3" />
+			<equipment slot="Item2" id="Item.khuzait_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_b2" />
+			<equipment slot="Cape" id="Item.AR_khuzait_cape_e" />
+			<equipment slot="Body" id="Item.khuzait_fortified_armor" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<equipment slot="Item1" id="Item.eastern_spear_3_t3" />
+			<equipment slot="Item2" id="Item.khuzait_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_f" />
+			<equipment slot="Cape" id="Item.AR_khuzait_cape_e" />
+			<equipment slot="Body" id="Item.khuzait_belt_leather" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<equipment slot="Item1" id="Item.AR_iltanlar_spear_2_t3" />
+			<equipment slot="Item2" id="Item.khuzait_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_e" />
+			<equipment slot="Body" id="Item.ao_durkhan_chestplate" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<equipment slot="Item1" id="Item.eastern_spear_2_t3" />
+			<equipment slot="Item2" id="Item.khuzait_sword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_d" />
+			<equipment slot="Body" id="Item.ao_khuzait_leather_vest" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<equipment slot="Item1" id="Item.eastern_spear_2_t3" />
+			<equipment slot="Item2" id="Item.khuzait_sword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_d2" />
+			<equipment slot="Body" id="Item.khuzait_fortified_armor" />
+			<equipment slot="Leg" id="Item.eastern_leather_boots" />
+			<equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<equipment slot="Item1" id="Item.eastern_spear_2_t3" />
+			<equipment slot="Item2" id="Item.khuzait_sword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_b2" />
+			<equipment slot="Cape" id="Item.AR_khuzait_cape_d" />
+			<equipment slot="Body" id="Item.reinforced_suede_armor" />
+			<equipment slot="Leg" id="Item.steppe_leather_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zu" />
+			<equipment slot="Item1" id="Item.eastern_spear_3_t3" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_d" />
+			<equipment slot="Body" id="Item.khuzait_sturdy_armor" />
+			<equipment slot="Leg" id="Item.TV_khuzait_boots_b" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zu" />
+			<equipment slot="Item1" id="Item.eastern_spear_3_t3" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_e" />
+			<equipment slot="Body" id="Item.crude_leather_armor" />
+			<equipment slot="Leg" id="Item.TV_khuzait_boots_b" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zu" />
+			<equipment slot="Item1" id="Item.eastern_spear_3_t3" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_khuzait_helmet_d2" />
+			<equipment slot="Body" id="Item.khuzait_leather_stitched" />
+			<equipment slot="Leg" id="Item.TV_khuzait_boots_b" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zu" />
+			<equipment slot="Item1" id="Item.eastern_spear_3_t3" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+
+</NPCCharacters>

@@ -1,5 +1,4 @@
 ﻿using BannerKings.Managers.Cultures;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using TaleWorlds.CampaignSystem;
@@ -49,13 +48,21 @@ namespace BannerKings.CulturesExpanded.Cultures
         public CulturalPopulationName AseraiSlaves { get; set; }
         #endregion Aserai
 
-        #region Khuzai
+        #region Khuzait
         public CulturalPopulationName KhuzaitNobles { get; set; }
         public CulturalPopulationName KhuzaitCraftsmen { get; set; }
         public CulturalPopulationName KhuzaitTenants { get; set; }
         public CulturalPopulationName KhuzaitSerfs { get; set; }
         public CulturalPopulationName KhuzaitSlaves { get; set; }
-        #endregion Khuzai
+        #endregion Khuzait
+
+        #region Darshi
+        public CulturalPopulationName DarshiNobles { get; set; }
+        public CulturalPopulationName DarshiCraftsmen { get; set; }
+        public CulturalPopulationName DarshiTenants { get; set; }
+        public CulturalPopulationName DarshiSerfs { get; set; }
+        public CulturalPopulationName DarshiSlaves { get; set; }
+        #endregion Darshi
 
         public override IEnumerable<CulturalPopulationName> All
         {
@@ -73,11 +80,11 @@ namespace BannerKings.CulturesExpanded.Cultures
                 yield return EmpireSerfs;
                 yield return EmpireSlaves;
 
-                /*yield return KhuzaitNobles;
+                yield return KhuzaitNobles;
                 yield return KhuzaitCraftsmen;
                 yield return KhuzaitTenants;
                 yield return KhuzaitSerfs;
-                yield return KhuzaitSlaves;*/
+                yield return KhuzaitSlaves;
 
                 yield return VlandiaNobles;
                 yield return VlandiaCraftsmen;
@@ -108,6 +115,7 @@ namespace BannerKings.CulturesExpanded.Cultures
             var khuzait = cultures.First(x => x.StringId == BannerKingsConfig.KhuzaitCulture);
             var aserai = cultures.First(x => x.StringId == BannerKingsConfig.AseraiCulture);
             var sturgia = cultures.First(x => x.StringId == BannerKingsConfig.SturgiaCulture);
+            //var darshi = cultures.First(x => x.StringId == "darshi");
             #region Empire
             EmpireNobles = CulturalPopulationName.CreateNobles("EmpireNobles",
                 empire,
@@ -133,45 +141,45 @@ namespace BannerKings.CulturesExpanded.Cultures
             #region Aserai
             AseraiNobles = CulturalPopulationName.CreateNobles("AseraiNobles",
                 aserai,
-                new TextObject("{=Uv29oSQT}Nobiles"));
+                new TextObject("{=!}Nubala"));
 
             AseraiCraftsmen = CulturalPopulationName.CreateCraftsmen("AseraiCraftsmen",
                 aserai,
-               new TextObject("{=6hrBerHd}Cives"));
+               new TextObject("{=!}Hirafiyyuna"));
 
             AseraiTenants = CulturalPopulationName.CreateTenants("AseraiTenants",
                 aserai,
-                new TextObject("{=GThkJp2s}Coloni"));
+                new TextObject("{=!}Fallahun"));
 
             AseraiSerfs = CulturalPopulationName.CreateSerfs("AseraiSerfs",
                 aserai,
-                new TextObject("{=5Ym25L00}Servi"));
+                new TextObject("{=!}Aqnan"));
 
             AseraiSlaves = CulturalPopulationName.CreateSlaves("AseraiSlaves",
                 aserai,
-                new TextObject("{=TASERbwx}Mameluke"));
+                new TextObject("{=!}Mamalik"));
             #endregion Aserai
 
             #region Battania
             BattaniaNobles = CulturalPopulationName.CreateNobles("BattaniaNobles",
                 battania,
-                new TextObject("{=Uv29oSQT}Nobiles"));
+                new TextObject("{=!}Uchelwr"));
 
             BattaniaCraftsmen = CulturalPopulationName.CreateCraftsmen("BattaniaCraftsmen",
                 battania,
-               new TextObject("{=6hrBerHd}Cives"));
+               new TextObject("{=!}Crefftwr"));
 
             BattaniaTenants = CulturalPopulationName.CreateTenants("BattaniaTenants",
                 battania,
-                new TextObject("{=GThkJp2s}Coloni"));
+                new TextObject("{=!}Gwerinwr"));
 
             BattaniaSerfs = CulturalPopulationName.CreateSerfs("BattaniaSerfs",
                 battania,
-                new TextObject("{=5Ym25L00}Servi"));
+                new TextObject("{=!}Aillt"));
 
             BattaniaSlaves = CulturalPopulationName.CreateSlaves("BattaniaSlaves",
                 battania,
-                new TextObject("{=B9hAxxuo}Sclavi"));
+                new TextObject("{=!}Gweision"));
             #endregion Battania
 
             #region Vlandia
@@ -214,33 +222,55 @@ namespace BannerKings.CulturesExpanded.Cultures
             #region Khuzait
             KhuzaitNobles = CulturalPopulationName.CreateNobles("KhuzaitNobles",
                 khuzait,
-                new TextObject("{=Uv29oSQT}Nobiles"));
+                new TextObject("{=!}Soyliglar"));
 
             KhuzaitCraftsmen = CulturalPopulationName.CreateCraftsmen("KhuzaitCraftsmen",
                 khuzait,
-               new TextObject("{=6hrBerHd}Cives"));
+               new TextObject("{=!}Ustalar"));
 
             KhuzaitTenants = CulturalPopulationName.CreateTenants("KhuzaitTenants",
                 khuzait,
-                new TextObject("{=GThkJp2s}Coloni"));
+                new TextObject("{=!}Kiracilar"));
 
             KhuzaitSerfs = CulturalPopulationName.CreateSerfs("KhuzaitSerfs",
                 khuzait,
-                new TextObject("{=5Ym25L00}Servi"));
+                new TextObject("{=!}Kolelar"));
 
             KhuzaitSlaves = CulturalPopulationName.CreateSlaves("KhuzaitSlaves",
                 khuzait,
-                new TextObject("{=B9hAxxuo}Sclavi"));
+                new TextObject("{=!}Kullar"));
             #endregion Khuzait
+
+            /*#region Darshi
+            DarshiNobles = CulturalPopulationName.CreateNobles("DarshiNobles",
+                darshi,
+                new TextObject("{=!}Soylig"));
+
+            DarshiCraftsmen = CulturalPopulationName.CreateCraftsmen("DarshiCraftsmen",
+                darshi,
+               new TextObject("{=!}Senetkarlar"));
+
+            DarshiTenants = CulturalPopulationName.CreateTenants("DarshiTenants",
+                darshi,
+                new TextObject("{=GThkJp2s}Coloni"));
+
+            DarshiSerfs = CulturalPopulationName.CreateSerfs("DarshiSerfs",
+                darshi,
+                new TextObject("{=5Ym25L00}Esir"));
+
+            DarshiSlaves = CulturalPopulationName.CreateSlaves("DarshiSlaves",
+                darshi,
+                new TextObject("{=!}Koleler"));
+            #endregion Darshi*/
 
             #region Sturgia
             SturgiaNobles = CulturalPopulationName.CreateNobles("SturgiaNobles",
                 sturgia,
-                new TextObject("{=!}Nobles"));
+                new TextObject("{=!}Dvorjáne"));
 
             SturgiaCraftsmen = CulturalPopulationName.CreateCraftsmen("SturgiaCraftsmen",
                 sturgia,
-               new TextObject("{=6hrBerHd}Cives"));
+               new TextObject("{=!}Remisnyky"));
 
             SturgiaTenants = CulturalPopulationName.CreateTenants("SturgiaTenants",
                 sturgia,

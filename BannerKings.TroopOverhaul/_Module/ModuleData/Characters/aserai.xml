@@ -1715,21 +1715,24 @@
 			<equipment slot="Body" id="Item.aserai_civil_c" />
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
-		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tied_head_wrapping" />
 			<equipment slot="Body" id="Item.aserai_civil_c" />
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
-		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tight_head_scarf" />
 			<equipment slot="Body" id="Item.aserai_civil_e" />
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
-		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.turban" />
@@ -1737,6 +1740,7 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.aserai_sword_1_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.wrapped_desert_cap" />
@@ -1744,6 +1748,7 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.aserai_sword_2_t2" />
+		 <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.woven_turban" />
@@ -1751,6 +1756,7 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.aserai_sword_2_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tuareg" />
@@ -1758,12 +1764,14 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			 <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.aserai_civil_f" />
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			 <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.turban" />
@@ -1772,6 +1780,7 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.bound_adarga" />
 		    <equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.turban" />
@@ -1779,7 +1788,7 @@
 			<equipment slot="Body" id="Item.desert_robe" />
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
-		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.tight_head_scarf" />
@@ -1788,6 +1797,7 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
 		    <equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_e_hscarf" />
@@ -1795,6 +1805,7 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.AR_shield_infantry_zm" />
 		    <equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_d_hscarf" />
@@ -1802,13 +1813,14 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.adarga" />
 		    <equipment slot="Item1" id="Item.aserai_sword_1_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_hscarf_a" />
 			<equipment slot="Body" id="Item.aserai_civil_b" />
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.adarga" />
-		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_1_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.aserai_civil_c_head" />
@@ -1816,12 +1828,14 @@
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.adarga" />
 		    <equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Body" id="Item.aserai_civil_a" />
 			<equipment slot="Leg" id="Item.southern_moccasins" />
 			<equipment slot="Item0" id="Item.adarga" />
 		    <equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+			<equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentSet id="aserai_troop_civilian_template_t2"
                     civilian="true" />

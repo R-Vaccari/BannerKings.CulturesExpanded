@@ -69,7 +69,7 @@ namespace BannerKings.CulturesExpanded.Goals
             int manpower = GetAvailableManpower(kingdom);
             int div = MathF.Floor(manpower / 10f);
 
-            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuarBehavior>();
+            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
             CharacterObject troop = behavior.GetKingdomTroop(kingdom);
             int cost = (int)(Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, Hero.MainHero) * 3f);
 
@@ -136,7 +136,7 @@ namespace BannerKings.CulturesExpanded.Goals
             }
 
             var kingdom = GetFulfiller().Clan.Kingdom;
-            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuarBehavior>();
+            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
             CharacterObject troop = behavior.GetKingdomTroop(kingdom);
             int cost = (int)(Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, GetFulfiller()) * 3f);
 
@@ -146,16 +146,17 @@ namespace BannerKings.CulturesExpanded.Goals
             }
 
             behavior.SetTime(kingdom);
-            while (guardsAmount > 0)
+            for (int i = 0; i < guardsAmount; i++)
             {
                 var fief = kingdom.Fiefs.GetRandomElement();
                 var data = BannerKingsConfig.Instance.PopulationManager.GetPopData(fief.Settlement);
-                int max = MathF.Floor(data.MilitaryData.NobleManpower);
-                max = MathF.Min(max, party.LimitedPartySize - party.MemberRoster.TotalManCount);
-                int take = MBRandom.RandomInt(0, max);
-                party.MemberRoster.AddToCounts(troop, take);
-                data.MilitaryData.DeduceManpower(data, take, Managers.PopulationManager.PopType.Nobles);
-                guardsAmount -= take;
+                int max = MathF.Min(1, (int)data.MilitaryData.NobleManpower);
+                if (max > 0)
+                {
+                    data.MilitaryData.DeduceManpower(data, max, Managers.PopulationManager.PopType.Nobles);
+                }
+
+                party.MemberRoster.AddToCounts(troop, 1);
             }
 
             GetFulfiller().ChangeHeroGold(-cost);
@@ -178,13 +179,13 @@ namespace BannerKings.CulturesExpanded.Goals
                 return;
             }
 
-            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuarBehavior>();
+            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
             CharacterObject troop = behavior.GetKingdomTroop(kingdom);
             int manpower = GetAvailableManpower(kingdom);
             int cost = (int)(Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, GetFulfiller()) * 3f);
             int take = MathF.Min(manpower, party.LimitedPartySize - party.MemberRoster.TotalManCount);
             int totalCost = (int)(cost * take);
-            if (hero.Gold >= take * 2f)
+            if (hero.Gold >= totalCost * 2f)
             {
                 ApplyGoal();
             }

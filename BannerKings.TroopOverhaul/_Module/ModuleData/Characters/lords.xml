@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+ 
+ <NPCCharacter id="bk_darshi_1_1"
+                name="{=!}Shahbuhr"
+                age="49"
+                voice="ironic"
+                culture="Culture.darshi"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+      <BodyProperties version="4" age="22.07" weight="0.9444" build="0.4475"  key="0020D00FD9001903BA783476F39878D65891533B3951464C2165C7347CA322260077E60307BC3588000000000000000000000000000000000000000042EC1002"  />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills"
+             value="3" />
+      <Trait id="Commander"
+             value="14" />
+      <Trait id="Politician"
+             value="14" />
+      <Trait id="Manager"
+             value="14" />
+      <Trait id="Valor"
+             value="-1" />
+      <Trait id="Generosity"
+             value="1" />
+      <Trait id="Calculating"
+             value="1" />
+      <Trait id="Oligarchic"
+             value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"  id="Item.AR_darshi_mace_5_t5" />
+        <equipment slot="Item1" id="Item.AR_shield_infantry_zc" />
+        <equipment slot="Item2" id="Item.AR_aserai_lance_5_t5" />
+        <equipment slot="Head" id="Item.aserai_battle_crown" />
+	    <equipment slot="Cape" id="Item.AR_aserai_scale_cape_c" />
+	    <equipment slot="Body" id="Item.empire_plate_vest_armor" />
+	    <equipment slot="Leg" id="Item.TV_aserai_boots_c" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.khuzait_civil_coat" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
+        <equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+      </EquipmentRoster>
+      <equipment slot="Horse" id="Item.t3_aserai_horse" />
+      <equipment slot="HorseHarness" id="Item.AR_horse_armor_c3" />
+    </Equipments>
+  </NPCCharacter>
+  
+</NPCCharacters> 

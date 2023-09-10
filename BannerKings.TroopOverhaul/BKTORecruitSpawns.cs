@@ -2,7 +2,6 @@
 using BannerKings.Managers.Recruits;
 using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
-using TaleWorlds.Core;
 
 namespace BannerKings.CulturesExpanded
 {
@@ -34,6 +33,7 @@ namespace BannerKings.CulturesExpanded
         public RecruitSpawn VlandiaRangedT1 { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaMeleeT2 { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaRangedT2 { get; } = new RecruitSpawn();
+        public RecruitSpawn VlandiaBillman { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaMeleeT3 { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaJaculan { get; } = new RecruitSpawn();
         public RecruitSpawn VlandiaPravend { get; } = new RecruitSpawn();
@@ -257,9 +257,15 @@ namespace BannerKings.CulturesExpanded
 
             VlandiaMeleeT2.Initialize(GetTroop("bk_vlandia_militiaman"),
                 Vlandia,
-                0.7f,
+                0.55f,
                 Managers.PopulationManager.PopType.Tenants
                 );
+
+            VlandiaBillman.Initialize(GetTroop("bk_vlandia_billman"),
+               Vlandia,
+               0.15f,
+               Managers.PopulationManager.PopType.Tenants
+               );
 
             VlandiaRangedT2.Initialize(GetTroop("bk_vlandia_militiaman_crossbow"),
                 Vlandia,
@@ -278,7 +284,14 @@ namespace BannerKings.CulturesExpanded
                1f,
                Managers.PopulationManager.PopType.Nobles
                );
-            VlandiaNoble.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_vlandia_knight_e2");
+            VlandiaNoble.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_vlandia_squire_e2");
+            VlandiaNoble.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_vlandia_squire_e3");
+
+            var knight = GetTroop("bk_vlandia_knight");
+            DefaultEras.Instance.SecondEra.AddTroopAdvancement(new BKTroopAdvancement(knight,
+                "bk_knight_e2"));
+            DefaultEras.Instance.ThirdEra.AddTroopAdvancement(new BKTroopAdvancement(knight,
+                "bk_knight_e3"));
 
             VlandiaPravend.Initialize(GetTroop("bk_vlandia_longbowman"),
                 Vlandia,
@@ -500,6 +513,8 @@ namespace BannerKings.CulturesExpanded
                 1f,
                 Managers.PopulationManager.PopType.Craftsmen
                 );
+            KhuzaitMeleeT3.SetTroopAdvancement(DefaultEras.Instance.SecondEra, "bk_khuzait_lancer_e2");
+            KhuzaitMeleeT3.SetTroopAdvancement(DefaultEras.Instance.ThirdEra, "bk_khuzait_lancer_e3");
 
             KhuzaitNoble.Initialize(GetTroop("bk_khuzait_squire"),
                Khuzait,

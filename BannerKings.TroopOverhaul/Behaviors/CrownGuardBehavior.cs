@@ -15,6 +15,8 @@ namespace BannerKings.CulturesExpanded.Behaviors
         public CharacterObject GetKingdomTroop(Kingdom kingdom)
         {
             if (kingdom.StringId == "empire") return Campaign.Current.ObjectManager.GetObject<CharacterObject>("bk_laconian_guard");
+            if (kingdom.Culture.StringId == "battania") return Campaign.Current.ObjectManager.GetObject<CharacterObject>("bk_battanian_teulu");
+            if (kingdom.Culture.StringId == "khuzait") return Campaign.Current.ObjectManager.GetObject<CharacterObject>("bk_khuzait_glaiveman");
             return null;
         }
 

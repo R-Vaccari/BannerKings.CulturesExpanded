@@ -708,6 +708,7 @@
 			<equipment slot="Leg" id="Item.leather_shoes" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat" />
@@ -715,6 +716,7 @@
 			<equipment slot="Leg" id="Item.leather_shoes" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.northern_fur_cap" />
@@ -722,6 +724,7 @@
 			<equipment slot="Leg" id="Item.leather_shoes" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_leather_cap" />
@@ -729,6 +732,7 @@
 			<equipment slot="Leg" id="Item.leather_shoes" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_leather_cap" />
@@ -736,6 +740,7 @@
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat_a" />
@@ -743,27 +748,28 @@
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.roughhide_cap" />
 			<equipment slot="Body" id="Item.fur_waistcoat_over_tunic" />
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
-			<equipment slot="Item1" id="Item.northern_spear_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat" />
 			<equipment slot="Body" id="Item.decorated_short_tunic" />
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
-			<equipment slot="Item1" id="Item.northern_spear_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_leather_cap" />
 			<equipment slot="Body" id="Item.fur_armor_with_strap" />
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
-			<equipment slot="Item1" id="Item.northern_spear_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_fur_cap" />
@@ -778,6 +784,7 @@
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat_a" />
@@ -786,6 +793,7 @@
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_fur_cap" />
@@ -794,6 +802,7 @@
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat_a" />
@@ -802,6 +811,7 @@
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.worn_kite_shield" />
 			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
 		<EquipmentSet id="sturgia_troop_civilian_template_t2"
                     civilian="true" />

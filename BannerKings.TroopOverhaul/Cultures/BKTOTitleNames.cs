@@ -1,6 +1,5 @@
 ﻿using BannerKings.Managers.Cultures;
 using BannerKings.Settings;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using TaleWorlds.CampaignSystem;
@@ -194,44 +193,44 @@ namespace BannerKings.CulturesExpanded.Cultures
                    new TextObject("{=!}Basileía"));
 
                 EmpireKing = CulturalTitleName.CreateKingdom("EmpireKing",
-                   null,
+                   empire,
                    new TextObject("{=!}Exarkhos"),
                    new TextObject("{=!}Exarkhousa"),
                    new TextObject("{=!}Exarkhontate"));
 
                 EmpireDuke = CulturalTitleName.CreateDuchy("EmpireDuke",
-                    null,
+                    empire,
                     new TextObject("{=!}Doux"),
                     new TextObject("{=!}Doucissa"),
                     new TextObject("{=!}Théma"));
 
                 EmpireCount = CulturalTitleName.CreateCounty("EmpireCount",
-                    null,
+                    empire,
                     new TextObject("{=!}Árkhon"),
                     new TextObject("{=!}Árkhousa"),
                     new TextObject("{=!}Árkhontate"));
 
                 EmpireBaron = CulturalTitleName.CreateBarony("EmpireBaron",
-                    null,
+                    empire,
                     new TextObject("{=!}Kephalé"),
                     new TextObject("{=!}Kephalé"),
                     new TextObject("{=!}Katepaníkion"));
 
                 EmpireLord = CulturalTitleName.CreateLordship("EmpireLord",
-                    null,
+                    empire,
                     new TextObject("{=HGfR1YAx}Dominus"),
                     new TextObject("{=go9MmDKr}Domina"),
                     new TextObject("{=dwMA32rq}Lordship"));
             }
 
             EmpirePrince = CulturalTitleName.CreatePrince("EmpirePrince",
-                    null,
+                    empire,
                     new TextObject("{=ouHkQtyZ}Princeps"),
                     new TextObject("{=gNVEqLz4}Principissa"),
                     new TextObject("{=!}Princes"));
 
             EmpireKnight = CulturalTitleName.CreateKnight("EmpireKnight",
-                null,
+                empire,
                 new TextObject("{=oapL1nXd}Pronoiarius"),
                 new TextObject("{=oapL1nXd}Pronoiarius"),
                 new TextObject("{=VLB8LyH0}Pronoiarii"));
@@ -261,7 +260,7 @@ namespace BannerKings.CulturesExpanded.Cultures
                 battania,
                 new TextObject("{=yUowh1Mz}Mormaer"),
                 new TextObject("{=FMWNKESs}Bantiarna"),
-                new TextObject("{=!}Mormaership"));
+                new TextObject("{=!}Mormaerdom"));
 
             BattaniaBaron = CulturalTitleName.CreateBarony("BattaniaBaron",
                 battania,
@@ -426,7 +425,7 @@ namespace BannerKings.CulturesExpanded.Cultures
                 khuzait,
                 new TextObject("{=YMr5KkWu}Erxem"),
                 new TextObject("{=dB9Rfp6W}Khatagtai"),
-                new TextObject("{=!}Chiefdom"));
+                new TextObject("{=!}Erxemlik"));
 
             KhuzaitPrince = CulturalTitleName.CreatePrince("KhuzaitPrince",
                 khuzait,
@@ -481,9 +480,9 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             AseraiPrince = CulturalTitleName.CreatePrince("AseraiPrince",
                 aserai,
-                new TextObject("{=ouHkQtyZ}Princeps"),
-                new TextObject("{=gNVEqLz4}Principissa"),
-                new TextObject("{=!}Princes"));
+                new TextObject("{=!}Shahzade"),
+                new TextObject("{=!}Shahzade"),
+                new TextObject("{=!}Shahzade"));
 
             AseraiKnight = CulturalTitleName.CreateKnight("AseraiKnight",
                 aserai,

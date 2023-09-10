@@ -20,7 +20,7 @@
     </upgrade_targets>
     <Equipments>
 	   <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.ao_eorling_guardian_helmet" />
@@ -32,7 +32,7 @@
 		<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
       </EquipmentRoster> 
 	  <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.ao_eorling_guardian_helmet" />
@@ -44,7 +44,7 @@
 		<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
       </EquipmentRoster> 
 	  <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.battanian_crowned_helmet" />
@@ -56,7 +56,7 @@
 		<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
       </EquipmentRoster> 
 	  <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.ao_battanian_guarded_aristocrats_helmet" />
@@ -68,7 +68,7 @@
 		<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
       </EquipmentRoster> 
 	  <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.AR_battania_lord_helmet_f" />
@@ -80,7 +80,7 @@
 		<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
       </EquipmentRoster> 
 	  <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.AR_battania_lord_helmet_d" />
@@ -92,7 +92,7 @@
 		<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
       </EquipmentRoster> 
 	  <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.AR_battania_lord_helmet_e" />
@@ -104,7 +104,7 @@
 		<equipment slot="HorseHarness" id="Item.battania_horse_harness_halfscaled" />
       </EquipmentRoster> 
 	  <EquipmentRoster>
-        <equipment slot="Item0" id="Item.bk_highland_Lance" />
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
         <equipment slot="Item1" id="Item.highland_riders_shield" />
         <equipment slot="Item3" id="Item.battania_sword_5_t5" />
         <equipment slot="Head" id="Item.AR_battania_lord_helmet_g" />
@@ -1158,6 +1158,7 @@
     <Equipments>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2"  id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.battania_civil_cloak" />
 			<equipment slot="Body" id="Item.battania_light_armor_b" />
@@ -1165,6 +1166,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.battania_civil_a" />
 			<equipment slot="Leg"  id="Item.battania_leather_boots" />
@@ -1173,6 +1175,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.battania_civil_b" />
 			<equipment slot="Leg" id="Item.highland_leg_wrappings" />
@@ -1181,6 +1184,7 @@
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.fur_armor_with_strap" />
 			<equipment slot="Leg" id="Item.ragged_boots" />
@@ -1193,86 +1197,99 @@
 			<equipment slot="Leg" id="Item.TV_battania_boots_u" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_sword_1_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.battania_light_armor_d" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_v" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item1" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.battania_light_armor_d" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_v" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item1" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.AR_battania_armor_d" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_u" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_mace_2_t2" />
+			<equipment slot="Item1" id="Item.battania_mace_2_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.ao_light_fur_shoulder" />
 			<equipment slot="Body" id="Item.AR_battania_armor_g" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_d" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_mace_2_t2" />
+			<equipment slot="Item1" id="Item.battania_mace_2_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.AR_battanian_shoulder_f" />
 			<equipment slot="Body" id="Item.battania_light_armor_b" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_a" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_mace_2_t2" />
+			<equipment slot="Item1" id="Item.battania_mace_2_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.AR_battania_armor_e" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_b" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item1" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Body" id="Item.ao_battanian_woolen_tunic_with_kilt" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item1" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.battania_cloak" />
 			<equipment slot="Body" id="Item.tied_cloth_tunic" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item1" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.battania_cloak_b" />
 			<equipment slot="Body" id="Item.battania_light_armor_e" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.TV_battania_cloak_m2" />
 			<equipment slot="Body" id="Item.long_fur_coat" />
 			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.TV_battania_cloak_p2" />
 			<equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt" />
 			<equipment slot="Leg" id="Item.leather_shoes" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
 			<equipment slot="Body" id="Item.fur_coat_over_tunic" />
 			<equipment slot="Leg" id="Item.ragged_boots" />
 		</EquipmentRoster>
 		<EquipmentRoster>
-			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
 			<equipment slot="Item2" id="Item.battania_targe_b" />
 			<equipment slot="Cape" id="Item.ao_battanian_cloak" />
 			<equipment slot="Body" id="Item.layered_leather_tunic" />

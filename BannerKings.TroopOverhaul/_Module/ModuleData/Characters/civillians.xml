@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<NPCCharacters>
+
+	<NPCCharacter id="bannerkings_preacher_calradian_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" age="55"
+	              is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire"
+	              occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait id="WandererEquipment" value="1" />
+			<Trait id="PeltastFightingSkills" value="2" />
+			<Trait id="ScoutSkills" value="1" />
+			<Trait id="Surgeon" value="3" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bannerkings_preacher_calradian_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" age="55"
+	              is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire"
+	              occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait id="WandererEquipment" value="1" />
+			<Trait id="PeltastFightingSkills" value="2" />
+			<Trait id="ScoutSkills" value="1" />
+			<Trait id="Surgeon" value="3" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter id="bannerkings_preacher_legionaries_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" age="55"
+	              is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire"
+	              occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait id="WandererEquipment" value="1" />
+			<Trait id="PeltastFightingSkills" value="2" />
+			<Trait id="ScoutSkills" value="1" />
+			<Trait id="Surgeon" value="3" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bannerkings_preacher_legionaries_2" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" age="55"
+	              is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire"
+	              occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait id="WandererEquipment" value="1" />
+			<Trait id="PeltastFightingSkills" value="2" />
+			<Trait id="ScoutSkills" value="1" />
+			<Trait id="Surgeon" value="3" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.monk_robe" />
+				<equipment slot="Leg" id="Item.folded_town_boots" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+
+</NPCCharacters>
