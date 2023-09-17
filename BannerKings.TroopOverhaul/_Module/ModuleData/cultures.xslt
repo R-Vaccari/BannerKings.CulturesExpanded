@@ -84,6 +84,11 @@
         <xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.bk_sturgian_militiaman_archer</xsl:attribute>
     </xsl:template>
 	
+	<xsl:template match="Culture[@id='empire']/basic_mercenary_troops">
+        <basic_mercenary_troops>
+            <template name="NPCCharacter.bk_sturgia_mercenary" />
+        </basic_mercenary_troops>
+    </xsl:template>
 	
 	
 
