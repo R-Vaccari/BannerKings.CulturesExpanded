@@ -1,6 +1,223 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
 
+
+  <EquipmentRoster id="bk_druzhina_e2">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_b" />
+		<Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		<Equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+		<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_c" />
+		<Equipment slot="Cape" id="Item.tv_sturgia_cloak_a" />
+		<Equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+		<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_c" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+		<Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		<Equipment slot="Body" id="Item.TV_sturgia_armor_e3" />
+		<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.sturgian_helmet_closed" />
+		<Equipment slot="Cape" id="Item.tv_sturgia_cloak_a" />
+		<Equipment slot="Body" id="Item.TV_sturgia_armor_e2" />
+		<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_c" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.ao_sturgian_feathered_helmet_with_closed_mail" />
+		<Equipment slot="Body" id="Item.TV_sturgia_armor_e" />
+		<Equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_white_b" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+		<Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail" />
+		<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_b" />
+		<Equipment slot="Cape" id="Item.brass_lamellar_cape_z" />
+		<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail" />
+		<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_c" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_d" />
+		<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+  </EquipmentRoster>
+
+
+  <EquipmentRoster id="bk_druzhina_e3">
+    <EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_b" />
+		<Equipment slot="Cape" id="Item.AR_sturgia_shoulders_c" />
+		<Equipment slot="Body" id="Item.ao_eorling_bronze_scale_over_mail" />
+		<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_c" />
+		<Equipment slot="Cape" id="Item.brass_scale_shoulders" />
+		<Equipment slot="Body" id="Item.ao_eorling_iron_scale_over_mail" />
+		<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_c" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+		<Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		<Equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+		<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_b" />
+		<Equipment slot="Cape" id="Item.tv_sturgia_cloak_a" />
+		<Equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+		<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_c" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.ao_sturgian_feathered_helmet_with_closed_mail" />
+		<Equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+		<Equipment slot="Cape" id="Item.a_brass_lamellar_shoulder_white_b" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+		<Equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail" />
+		<Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_b" />
+		<Equipment slot="Cape" id="Item.brass_lamellar_cape_z" />
+		<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail" />
+		<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_c" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+	<EquipmentSet>
+		<Equipment slot="Head" id="Item.TV_sturgia_helmet_d" />
+		<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail" />
+		<Equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+		<Equipment slot="Leg" id="Item.plated_strip_boots" />
+		<Equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+		<Equipment slot="Horse" id="Item.t2_sturgia_horse" />
+		<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaf" />
+		<Equipment slot="Item0" id="Item.sturgia_lance_2_t5" />
+		<Equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+		<Equipment slot="Item2" id="Item.steppe_war_bow" />
+		<Equipment slot="Item3" id="Item.GRE_piercing_arrows" />
+	</EquipmentSet>
+  </EquipmentRoster>
+
+
   <EquipmentRoster id="bk_khuzait_lancer_e2">
     <EquipmentSet>
 		<Equipment slot="Head" id="Item.TV_khuzait_helmet_g" />

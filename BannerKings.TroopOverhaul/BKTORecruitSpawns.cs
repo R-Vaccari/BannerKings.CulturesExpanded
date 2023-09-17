@@ -13,8 +13,11 @@ namespace BannerKings.CulturesExpanded
         public RecruitSpawn SturgiaMeleeT2 { get; } = new RecruitSpawn();
         public RecruitSpawn SturgiaRangedT2 { get; } = new RecruitSpawn();
         public RecruitSpawn SturgiaMeleeT3 { get; } = new RecruitSpawn();
+        public RecruitSpawn SturgiaTyalRecruit { get; } = new RecruitSpawn();
         public RecruitSpawn SturgiaTyal { get; } = new RecruitSpawn();
         public RecruitSpawn SturgiaNoble { get; } = new RecruitSpawn();
+        public RecruitSpawn SturgiaSkirmisher { get; } = new RecruitSpawn();
+        public RecruitSpawn SturgiaCavalry { get; } = new RecruitSpawn();
         #endregion sturgia
 
         #region empire
@@ -82,7 +85,10 @@ namespace BannerKings.CulturesExpanded
                 yield return SturgiaRangedT1;
                 yield return SturgiaMeleeT2;
                 yield return SturgiaRangedT2;
+                yield return SturgiaSkirmisher;
                 yield return SturgiaMeleeT3;
+                yield return SturgiaCavalry;
+                yield return SturgiaTyalRecruit;
                 yield return SturgiaTyal;
                 yield return SturgiaNoble;
                 yield return EmpireMeleeT1;
@@ -147,7 +153,7 @@ namespace BannerKings.CulturesExpanded
 
             SturgiaMeleeT2.Initialize(GetTroop("bk_sturgian_militiaman"),
                 sturgia,
-                0.7f,
+                0.5f,
                 Managers.PopulationManager.PopType.Tenants
                 );
 
@@ -157,17 +163,36 @@ namespace BannerKings.CulturesExpanded
                 Managers.PopulationManager.PopType.Tenants
                 );
 
+            SturgiaSkirmisher.Initialize(GetTroop("bk_sturgian_skirmisher"),
+                sturgia,
+                0.2f,
+                Managers.PopulationManager.PopType.Tenants
+                );
+
             SturgiaMeleeT3.Initialize(GetTroop("bk_sturgia_sergeant"),
                 sturgia,
-                1f,
+                0.5f,
                 Managers.PopulationManager.PopType.Craftsmen
                 );
 
-            SturgiaMeleeT3.Initialize(GetTroop("bk_sturgia_squire"),
+            SturgiaCavalry.Initialize(GetTroop("bk_sturgia_cavalry"),
+               sturgia,
+               1f,
+               Managers.PopulationManager.PopType.Craftsmen
+               );
+
+            SturgiaNoble.Initialize(GetTroop("bk_sturgia_squire"),
                 sturgia,
                 1f,
                 Managers.PopulationManager.PopType.Nobles
                 );
+
+            SturgiaTyalRecruit.Initialize(GetTroop("bk_sturgian_tyalese_scout"),
+                sturgia,
+                0.3f,
+                Managers.PopulationManager.PopType.Tenants
+                );
+            SturgiaTyal.AddFiefString("town_S5");
 
             SturgiaTyal.Initialize(GetTroop("bk_sturgian_tyalese_archer"),
                 sturgia,
