@@ -32,7 +32,6 @@ namespace BannerKings.CulturesExpanded
             BannerKingsConfig.Instance.AddInitializer(BKTOGoals.Instance);
             BannerKingsConfig.Instance.AddInitializer(BKCEDivinities.Instance);
             BannerKingsConfig.Instance.AddInitializer(BKCEFaithGroups.Instance);
-            BannerKingsConfig.Instance.AddInitializer(BKCEDoctrines.Instance);
             BannerKingsConfig.Instance.AddInitializer(BKCEFaiths.Instance);
             BannerKingsConfig.Instance.AddInitializer(BKCEReligions.Instance);
 
