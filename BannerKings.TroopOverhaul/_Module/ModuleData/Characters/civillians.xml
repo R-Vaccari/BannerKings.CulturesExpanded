@@ -106,6 +106,93 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-
-
+	
+	<NPCCharacter id="bannerkings_preacher_rodovera_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" age="55"
+	              is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia"
+	              occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits>
+			<Trait id="WandererEquipment" value="1" />
+			<Trait id="PeltastFightingSkills" value="2" />
+			<Trait id="ScoutSkills" value="1" />
+			<Trait id="Surgeon" value="3" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.nordic_leather_cap" />
+			  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			  <equipment slot="Body" id="Item.light_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.northern_fur_cap" />
+			  <equipment slot="Cape" id="Item.scarf" />
+			  <equipment slot="Body" id="Item.kaftan" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			  <equipment slot="Head" id="Item.nordic_leather_cap" />
+			  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			  <equipment slot="Body" id="Item.light_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			  <equipment slot="Head" id="Item.northern_fur_cap" />
+			  <equipment slot="Cape" id="Item.scarf" />
+			  <equipment slot="Body" id="Item.kaftan" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter id="bannerkings_preacher_junme_1" name="{=yr5pa0hs}{HERO.FIRSTNAME}" voice="softspoken" age="55"
+	              is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia"
+	              occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_sturgia" />
+		</face>
+		<Traits>
+			<Trait id="WandererEquipment" value="1" />
+			<Trait id="PeltastFightingSkills" value="2" />
+			<Trait id="ScoutSkills" value="1" />
+			<Trait id="Surgeon" value="3" />
+			<Trait id="Valor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			  <equipment slot="Body" id="Item.nordic_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+			  <equipment slot="Cape" id="Item.scarf" />
+			  <equipment slot="Body" id="Item.northern_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+			  <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			  <equipment slot="Body" id="Item.tundra_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			  <equipment slot="Body" id="Item.nordic_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			  <equipment slot="Cape" id="Item.scarf" />
+			  <equipment slot="Body" id="Item.northern_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+			  <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			  <equipment slot="Body" id="Item.tundra_tunic" />
+			  <equipment slot="Leg" id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
