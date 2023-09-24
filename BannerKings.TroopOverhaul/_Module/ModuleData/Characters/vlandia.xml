@@ -756,7 +756,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_vlandia_longbowman" default_group="Infantry" level="21" name="{=!}Vlandic Pravendian Longbowman" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_longbowman" default_group="Ranged" level="21" name="{=!}Vlandic Pravendian Longbowman" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>

@@ -6,14 +6,14 @@
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="30" />
-      <skill id="OneHanded" value="110" />
+      <skill id="Athletics" value="30" />
+      <skill id="Riding" value="180" />
+      <skill id="OneHanded" value="150" />
       <skill id="TwoHanded" value="40" />
-      <skill id="Polearm" value="80" />
-      <skill id="Bow" value="45" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="60" />
+      <skill id="Polearm" value="150" />
+      <skill id="Bow" value="170" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="40" />
     </skills>
     <upgrade_targets>
     </upgrade_targets>
@@ -100,19 +100,19 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_sturgia_squire" default_group="HorseArcher" level="26" name="{=!}Sturgian Varjag" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="bk_sturgia_squire" default_group="HorseArcher" level="26" name="{=!}Sturgian Varcheg" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="30" />
-      <skill id="OneHanded" value="110" />
+      <skill id="Athletics" value="30" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="120" />
       <skill id="TwoHanded" value="40" />
-      <skill id="Polearm" value="80" />
-      <skill id="Bow" value="45" />
-      <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="60" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="140" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="40" />
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.bk_sturgia_druzhinnik" />
@@ -250,7 +250,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_sturgia_mercenary" default_group="Infantry" level="26" name="{=!}Sturgian Mercenary Varjag" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="bk_sturgia_mercenary" default_group="Infantry" level="26" name="{=!}Sturgian Mercenary Varcheg" occupation="Soldier" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
