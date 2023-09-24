@@ -24,6 +24,7 @@
 		<DependedModule Id="OpenSourceSaddleryRBM" />
 		<DependedModule Id="OpenSourceWeaponryRBM" />
 		<DependedModule Id="BannerKings" />
+		<DependedModule Id="HistoricalBannerIcons" />
 	</DependedModules>
 	<!-- Community Dependency Metadata -->
 	<DependedModuleMetadatas>
@@ -38,7 +39,7 @@
 		<DependedModuleMetadata id="OpenSourceSaddleryRBM" order="LoadBeforeThis" />
 		<DependedModuleMetadata id="OpenSourceWeaponryRBM" order="LoadBeforeThis" />
 		<DependedModuleMetadata id="BannerKings" order="LoadBeforeThis" />
-		
+		<DependedModuleMetadata id="HistoricalBannerIcons" order="LoadBeforeThis" />
 	</DependedModuleMetadatas>
 	<!-- Community Dependency Metadata -->
 	<SubModules>
@@ -91,6 +92,14 @@
         </XmlNode>
 		<XmlNode>
             <XmlName path="kingdoms" id="Kingdoms"/>
+            <IncludedGameTypes>
+                <GameType value="Campaign"/>
+                <GameType value="CampaignStoryMode"/>
+                <GameType value="CustomGame"/>
+            </IncludedGameTypes>
+        </XmlNode>
+		<XmlNode>
+            <XmlName path="settlements" id="Settlements"/>
             <IncludedGameTypes>
                 <GameType value="Campaign"/>
                 <GameType value="CampaignStoryMode"/>
