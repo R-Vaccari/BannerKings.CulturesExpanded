@@ -291,9 +291,9 @@ namespace BannerKings.CulturesExpanded.Cultures
             #region Sturgia
             SturgiaEmperor = CulturalTitleName.CreateEmpire("SturgiaEmperor",
                 sturgia,
-                new TextObject("{=!}"),
-                new TextObject("{=!}"),
-                new TextObject("{=!}"));
+                new TextObject("{=!}Knyaz Polnoti"),
+                new TextObject("{=!}Knyaginya Polnoti"),
+                new TextObject("{=!}Grand Northern Principality"));
 
             SturgiaKing = CulturalTitleName.CreateKingdom("SturgiaKing",
                 sturgia,
