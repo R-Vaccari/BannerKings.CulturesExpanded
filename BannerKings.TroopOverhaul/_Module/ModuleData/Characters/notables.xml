@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<NPCCharacters>
+
+  <NPCCharacter id="spc_notable_vakken_0" 
+				name="{=!}Cautious Vakken merchant" 
+			    voice="ironic" 
+			    is_template="true" 
+			    default_group="Infantry" 
+			    is_hero="false" 
+			    culture="Culture.vakken" 
+			    occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_0" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="-1" />
+	  <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_vakken_notable_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="spc_notable_nord_0" 
+				name="{=!}Cautious Junme merchant" 
+			    voice="ironic" 
+			    is_template="true" 
+			    default_group="Infantry" 
+			    is_hero="false" 
+			    culture="Culture.nord" 
+			    occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_0" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="-1" />
+	  <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_vakken"
+                default_group="Infantry"
+                level="26"
+                name="{=!}Vakken Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.vakken">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.nordic_lamellar_vest" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_nord"
+                default_group="Infantry"
+                level="26"
+                name="{=!}Junme Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.nord">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.nordic_lamellar_vest" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>
