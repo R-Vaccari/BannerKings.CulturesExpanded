@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+  <NPCCharacter id="bk_vakken_companion" default_group="Infantry" level="31" name="{=!}Vakken Seuralainen" occupation="Soldier" culture="Culture.vakken">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="180" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="150" />
+      <skill id="Bow" value="45" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_d" />
+			<equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_e2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+			<equipment slot="Item3" id="Item.reinforced_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.sturgian_helmet_closed" />
+			<equipment slot="Cape" id="Item.tv_sturgia_cloak_a" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_e2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.sturgia_sword_5_t5" />
+			<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+			<equipment slot="Item3" id="Item.reinforced_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_feathered_helmet_with_closed_mail" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+			<equipment slot="Item3" id="Item.reinforced_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.eastern_vendel_helmet" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_e3" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+			<equipment slot="Item3" id="Item.reinforced_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.eastern_vendel_helmet" />
+			<equipment slot="Cape" id="Item.tv_sturgia_cloak_a" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_e2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+			<equipment slot="Item3" id="Item.reinforced_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_d" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+			<equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4" />
+			<equipment slot="Item3" id="Item.reinforced_kite_shield" />
+		</EquipmentRoster>
+	<EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_vakken_squire" default_group="Infantry" level="26" name="{=!}Vakken Highborn" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="140" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="45" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_vakken_companion" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_c" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_a2" /> 
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.vaegir_helmet_open" />
+			<equipment slot="Cape" id="Item.TV_wolf_pelt_b" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_f" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_a" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Body" id="Item.DZ_sturgia_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.sturgian_helmet_open" />
+			<equipment slot="Cape" id="Item.AR_sturgia_shoulders_b" />
+			<equipment slot="Body" id="Item.DZ_sturgia_armor_b3" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_c" />
+			<equipment slot="Cape" id="Item.AR_sturgia_shoulders_e2" />
+			<equipment slot="Body" id="Item.DZ_sturgia_armor_b2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_pointed_helmet_with_ring" />
+			<equipment slot="Cape" id="Item.tv_sturgia_cloak_a" />
+			<equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>		
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_pointed_helmet_with_ring" />
+			<equipment slot="Cape" id="Item.tv_sturgia_cloak_a" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_f2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.vaegir_helmet_open" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_f3" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_pointed_helmet_with_ring" />
+			<equipment slot="Body" id="Item.TV_sturgia_armor_a2" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_a" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_i" />
+			<equipment slot="Leg" id="Item.tv_empire_plate_c" />
+			<equipment slot="Item0" id="Item.northern_spear_3_t4" />
+			<equipment slot="Item1" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+	  <EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_vakken_sergeant" default_group="Infantry" level="21" name="{=!}Vakken Soturi" occupation="Soldier" culture="Culture.vakken">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="30" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="45" />
+      <skill id="Crossbow" value="15" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_pointed_helmet_with_ring" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.western_javelin_3_t4" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_a" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.nordic_sloven" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.western_javelin_3_t4" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_c" />
+			<equipment slot="Body" id="Item.DZ_sturgia_armor_a2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.western_javelin_3_t4" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.vaegir_helmet_open" />
+			<equipment slot="Body" id="Item.DZ_sturgia_armor_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.western_javelin_3_t4" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_a" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.western_javelin_3_t4" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.sturgian_helmet_open" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.nordic_lamellar_vest" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.empire_mace_3_t4" />
+			<equipment slot="Item2" id="Item.western_javelin_3_t4" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_pointed_helmet_with_ring" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.nordic_sloven_over_mail" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_sword_4_t4" />
+			<equipment slot="Item2" id="Item.western_javelin_3_t4" />
+			<equipment slot="Item3" id="Item.western_javelin_3_t4" />
+		</EquipmentRoster>
+		<EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_vakken_militiaman"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Vakken Militiaman"
+                occupation="Soldier"
+                culture="Culture.vakken"
+				skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_vakken_sergeant" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_f" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.northern_leather_tabard" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.ironrim_kite_shield" />
+			<equipment slot="Item1" id="Item.large_franziskaa_axe_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_e" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.AR_sturgia_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.ironrim_kite_shield" />
+			<equipment slot="Item1" id="Item.large_franziskaa_axe_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.large_franziskaa_axe_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_helmet_with_leather" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.nordic_sloven_leather" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.northern_round_shield" />
+			<equipment slot="Item1" id="Item.sturgia_sword_3_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.hmj_forpolkka_sturgia_gopniki_helm" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Body" id="Item.ao_sturgian_leather_over_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.ironrim_kite_shield" />
+			<equipment slot="Item1" id="Item.sturgia_sword_2_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_f" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.northern_leather_vest" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.ironrim_kite_shield" />
+			<equipment slot="Item1" id="Item.northern_battle_axe_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_e" />
+			<equipment slot="Body" id="Item.northern_padded_gambeson" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
+			<equipment slot="Item1" id="Item.northern_battle_axe_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.hmj_forpolkka_sturgia_gopniki_helm" />
+			<equipment slot="Body" id="Item.nordic_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
+			<equipment slot="Item1" id="Item.northern_battle_axe_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_helmet_with_leather" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
+			<equipment slot="Item1" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.padded_leather_shirt" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
+			<equipment slot="Item1" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_b2" />
+			<equipment slot="Body" id="Item.padded_leather_shirt" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_r" />
+			<equipment slot="Item1" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item2" id="Item.eastern_javelin_2_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  
+  <NPCCharacter id="bk_vakken_levy"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Vakken Levy"
+                occupation="Soldier"
+                culture="Culture.vakken"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_vakken_militiaman" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.battania_civil_hood" />
+			<equipment slot="Body" id="Item.heavy_nordic_coat" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.worn_kite_shield" />
+			<equipment slot="Item1" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item2" id="Item.AR_crude_javelin" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.worn_kite_shield" />
+			<equipment slot="Item1" id="Item.battania_mace_1_t2" />
+			<equipment slot="Item2" id="Item.AR_crude_javelin" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nordic_leather_cap" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_leather_vest" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.worn_kite_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+			<equipment slot="Item2" id="Item.AR_crude_javelin" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.roughhide_cap" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.fur_waistcoat_over_tunic" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.worn_kite_shield" />
+			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
+			<equipment slot="Item2" id="Item.AR_crude_javelin" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nordic_leather_cap" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.fur_armor_with_strap" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.worn_kite_shield" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.AR_crude_javelin" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nordic_fur_cap" />
+			<equipment slot="Body" id="Item.fur_armor_with_strap" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.worn_kite_shield" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2" id="Item.AR_crude_javelin" />
+		</EquipmentRoster>
+		<EquipmentSet id="sturgia_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+
+  
+  <NPCCharacter id="bk_vakken_militiaman_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=!}Vakken Archer"
+                occupation="Soldier"
+                culture="Culture.vakken"
+				skill_template="SkillSet.bk_militia_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_f" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.northern_leather_tabard" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_e" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.AR_sturgia_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_helmet_with_leather" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.nordic_sloven_leather" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.hmj_forpolkka_sturgia_gopniki_helm" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Body" id="Item.ao_sturgian_leather_over_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_f" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.northern_leather_vest" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_e" />
+			<equipment slot="Body" id="Item.northern_padded_gambeson" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.hmj_forpolkka_sturgia_gopniki_helm" />
+			<equipment slot="Body" id="Item.nordic_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_sturgian_helmet_with_leather" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.padded_leather_shirt" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_b2" />
+			<equipment slot="Body" id="Item.padded_leather_shirt" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.large_franziskaa_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="sturgia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_vakken_levy_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=!}Vakken Levy Archer"
+                occupation="Soldier"
+                culture="Culture.vakken"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_vakken_militiaman_archer" /> 
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.battania_civil_hood" />
+			<equipment slot="Body" id="Item.heavy_nordic_coat" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_default_arrows" />
+			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.sturgia_axe_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_default_arrows" />
+			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.sturgia_axe_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nordic_leather_cap" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_leather_vest" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_default_arrows" />
+			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.battania_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.roughhide_cap" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+			<equipment slot="Body" id="Item.fur_waistcoat_over_tunic" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_default_arrows" />
+			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.battania_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nordic_leather_cap" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.fur_armor_with_strap" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_default_arrows" />
+			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.battania_axe_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nordic_fur_cap" />
+			<equipment slot="Body" id="Item.fur_armor_with_strap" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
+			<equipment slot="Item0" id="Item.steppe_bow" />
+			<equipment slot="Item1" id="Item.GRE_default_arrows" />
+			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.battania_axe_1_t2" />
+		</EquipmentRoster>
+		<EquipmentSet id="sturgia_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+ 
+</NPCCharacters>
