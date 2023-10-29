@@ -5,16 +5,23 @@
 Banner Kings: Cultures Expanded is the official expansion to the Banner Kings mod. It contains our lore and game-world interpretation. In the same spirit of Banner Kings, this interpretation aims to be lore-accurate to the Mount & Blade world (not just Bannerlord), while expanding on gaps left by the creators.
 
 ***What does it do?***
-- Addition of several religions to BK religions system;
-- Cultural flavor through endonym kingdom names, custom population and title names;
-- Overhaul of all cultures and minor clan troop trees;
-- Addition and extension of existing sub-cultures to have gameplay relevance, such as Vakken, Nord and Darshi cultures;
-- (Planned) Map changes with the addition of a few new settlements, including some of new cultures, rebalanced village production types;
-- (Planned) Large-scale invasions from off-map lore cultures, such as Darshi and Nords, with full cultural and religious flavor.
+- What Banner Kings: Cultures Expanded IS NOT:
+  - A mod that adds a variety of systems that run in parallel and in conjunction to the base game, that is [Banner Kings](https://github.com/R-Vaccari/bannerlord-banner-kings);
+  - A mod that made to be sub-modded by other mods.
+- What Banner Kings: Cultures Expanded IS:
+  - A mod that adds religions to Banner Kings embedded Religions system
+  - A mod that alters the map;
+  - A mod that alters and adds factions;
+  - A mod that alters and adds cultures;
+  - A mod that overhauls troop trees.   
 
 
 ***Does it work with X mod?***
-If the mod has overlapping features, no. Troops mod? No. Factions mod? No. ATC? No.
+If the mod has overlapping features, no.   
+Troops mod? NO.   
+Factions mod? NO.   
+ATC? NO.   
+Map mod? NO.   
 
 ## Installation & Load Order
 
