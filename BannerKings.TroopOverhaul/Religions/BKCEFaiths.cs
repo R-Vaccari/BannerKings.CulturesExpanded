@@ -29,8 +29,10 @@ namespace BannerKings.CulturesExpanded.Religions
         public PolytheisticFaith Treelore { get; private set; } = new TreeloreFaith();
         public PolytheisticFaith Osfeyd { get; private set; } = new Osfeyd();
         public PolytheisticFaith SixWinds { get; } = new SixWinds();
+        public PolytheisticFaith Rodovera { get; } = new Rodovera();
         public MonotheisticFaith Calradism { get; } = new Calradism();
         public MonotheisticFaith Legionaries { get; } = new LegionariesSarapios();
+        public PolytheisticFaith Junme { get; } = new Junme();
 
         public override IEnumerable<Faith> All
         {
@@ -45,11 +47,81 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return Canticles;
                 yield return Calradism;
                 yield return Legionaries;
+                yield return Junme;
+                yield return Rodovera;
             }
         }
 
         public override void Initialize()
         {
+            Junme.Initialize(DefaultDivinities.Instance.GodsFate,
+                new List<Divinity>
+                {
+                },
+                new Dictionary<TraitObject, bool>
+                {
+                    {DefaultTraits.Mercy, false},
+                    {DefaultTraits.Valor, true},
+                    {BKTraits.Instance.Just, true}
+                },
+                BKCEFaithGroups.Instance.SturgiaGroup,
+                new List<Doctrine>
+                {
+                    DefaultDoctrines.Instance.AncestorWorship,
+                    DefaultDoctrines.Instance.Warlike,
+                    DefaultDoctrines.Instance.Animism
+                },
+                new List<Rite>
+                {
+                });
+
+            Rodovera.Initialize(BKCEDivinities.Instance.Perkos,
+                new List<Divinity>
+                {
+                    DefaultDivinities.Instance.Mehns
+                },
+                new Dictionary<TraitObject, bool>
+                {
+                    {DefaultTraits.Generosity, true},
+                    {DefaultTraits.Valor, true}
+                },
+                BKCEFaithGroups.Instance.SturgiaGroup,
+                new List<Doctrine>
+                {
+                    DefaultDoctrines.Instance.Druidism,
+                    DefaultDoctrines.Instance.Animism,
+                    DefaultDoctrines.Instance.AncestorWorship
+                },
+                new List<Rite>()
+                {
+                    new AxeOffering()
+                });
+
+            Treelore.Initialize(DefaultDivinities.Instance.TreeloreMain,
+                new List<Divinity>
+                {
+                    DefaultDivinities.Instance.Hirvi
+                },
+                new Dictionary<TraitObject, bool>
+                {
+                    {DefaultTraits.Mercy, false},
+                    {DefaultTraits.Valor, true}
+                },
+                BKCEFaithGroups.Instance.SturgiaGroup,
+                new List<Doctrine>
+                {
+                    DefaultDoctrines.Instance.Shamanism,
+                    DefaultDoctrines.Instance.AncestorWorship,
+                    DefaultDoctrines.Instance.Animism,
+                    DefaultDoctrines.Instance.Esotericism
+                },
+                new List<Rite>()
+                {
+                    new TreeloreFestival(),
+                    new AxeOffering()
+                },
+                Behaviours.Feasts.Feast.FeastType.Treelore);
+
             AseraCode.Initialize(DefaultDivinities.Instance.AseraMain,
                 new List<Divinity>
                 {
@@ -66,7 +138,7 @@ namespace BannerKings.CulturesExpanded.Religions
                     DefaultDoctrines.Instance.Literalism,
                     DefaultDoctrines.Instance.Legalism,
                     DefaultDoctrines.Instance.HeathenTax,
-                    BKCEDoctrines.Instance.Esotericism
+                    DefaultDoctrines.Instance.Esotericism
                 },
                 BKCEFaithGroups.Instance.AseraGroup,
                 new List<Rite>
@@ -107,8 +179,8 @@ namespace BannerKings.CulturesExpanded.Religions
                 new List<Doctrine>
                 {
                     DefaultDoctrines.Instance.RenovatioImperi,
-                    BKCEDoctrines.Instance.Esotericism,
-                    BKCEDoctrines.Instance.Astrology
+                    DefaultDoctrines.Instance.Esotericism,
+                    DefaultDoctrines.Instance.Astrology
                 },
                 BKCEFaithGroups.Instance.ImperialGroup,
                 new List<Rite>()
@@ -151,6 +223,7 @@ namespace BannerKings.CulturesExpanded.Religions
                 new List<Doctrine>
                 {
                     DefaultDoctrines.Instance.Legalism,
+                    DefaultDoctrines.Instance.Astrology,
                     DefaultDoctrines.Instance.Childbirth
                 },
                 BKCEFaithGroups.Instance.ImperialGroup, 
@@ -202,29 +275,6 @@ namespace BannerKings.CulturesExpanded.Religions
                     new VlandiaHorse(),
                     new LanceOffering()
                 });
-
-            Treelore.Initialize(DefaultDivinities.Instance.TreeloreMain,
-                new List<Divinity>
-                {
-                    DefaultDivinities.Instance.TreeloreMoon
-                },
-                new Dictionary<TraitObject, bool>
-                {
-                    {DefaultTraits.Generosity, true},
-                    {DefaultTraits.Valor, true}
-                },
-                BKCEFaithGroups.Instance.SturgiaGroup,
-                new List<Doctrine>
-                {
-                    DefaultDoctrines.Instance.Druidism,
-                    DefaultDoctrines.Instance.Animism
-                },
-                new List<Rite>()
-                {
-                    new TreeloreFestival(),
-                    new AxeOffering()
-                },
-                Behaviours.Feasts.Feast.FeastType.Treelore);
 
             SixWinds.Initialize(DefaultDivinities.Instance.WindHeaven,
                 new List<Divinity>
