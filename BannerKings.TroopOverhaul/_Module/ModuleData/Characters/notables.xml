@@ -2,14 +2,9 @@
 
 <NPCCharacters>
 
-  <NPCCharacter id="spc_notable_vakken_0" 
-				name="{=!}Cautious Vakken merchant" 
-			    voice="ironic" 
-			    is_template="true" 
-			    default_group="Infantry" 
-			    is_hero="false" 
-			    culture="Culture.vakken" 
-			    occupation="Merchant">
+  
+
+  <NPCCharacter id="spc_notable_nord_0" name="{=!}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
     <face>
       <face_key_template value="BodyProperty.villager_sturgia" />
     </face>
@@ -17,40 +12,4651 @@
     <skills></skills>
     <Traits>
       <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
       <Trait id="Valor" value="-1" />
-	  <Trait id="Mercy" value="-1" />
       <Trait id="Calculating" value="1" />
     </Traits>
     <Equipments>
       <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
-      <EquipmentSet id="bk_vakken_notable_template" civilian="true" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_0" />
     </Equipments>
   </NPCCharacter>
-  
-  <NPCCharacter id="spc_notable_nord_0" 
-				name="{=!}Cautious Junme merchant" 
-			    voice="ironic" 
-			    is_template="true" 
-			    default_group="Infantry" 
-			    is_hero="false" 
-			    culture="Culture.nord" 
-			    occupation="Merchant">
+  <NPCCharacter id="spc_notable_nord_0b" name="{=!}Caustic sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
     <face>
       <face_key_template value="BodyProperty.villager_sturgia" />
     </face>
-    <!--<Hero id="spc_notable_sturgia_0" faction="Kingdom.sturgia" />-->
+    <!--<Hero id="spc_notable_sturgia_0b" faction="Kingdom.sturgia" />-->
     <skills></skills>
     <Traits>
       <Trait id="RusHair" value="1" />
-      <Trait id="Valor" value="-1" />
-	  <Trait id="Mercy" value="-1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="-1" />
       <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_0b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_1" name="{=!}curt sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_1" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_2" name="{=!}Adventurous sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_2" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <!-- TEMPLATE INFO -->
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <!-- CHARACTER -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_2" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_2b" name="{=!}Honest Sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_2b" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="6" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_2b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_3b" name="{=!}Affable sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3b" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_3b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_3" name="{=!}Honorable female sturgian merchant" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_3" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_3c" name="{=!}Devious female sturgian merchant" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3c" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_3c" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_4" name="{=!}Sturgian seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_4" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_5" name="{=!}Sturgian female mystic" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.nord" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_5" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_5" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_6" name="{=!}Sturgian gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_6" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_6" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_7" name="{=!}Sturgian female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.nord" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_7" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_7" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_8" name="{=!}Sturgian artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.nord" occupation="Artisan">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_8" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_8" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_9" name="{=!}Sturgian land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.nord" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_9" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="-1" />
     </Traits>
     <Equipments>
       <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
       <EquipmentSet id="bk_nord_notable_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
+  <NPCCharacter id="spc_notable_nord_10" name="{=!}Sturgian land captain helpful notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.nord" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_10" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_nord_headman_1" name="{=!}sturgia rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_nord_headman_2" name="{=!}sturgia conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_nord_headman_3" name="{=!}sturgia devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="BalancedFightingSkills" value="3" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="bk_nord_notable_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="spc_wanderer_nord_0" name="{=yr5pa0hs}{FIRSTNAME} Willowbark" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Surgeon" value="6" />
+      <!-- maybe have the ScoutSkills/surgeon combo give herbalist perk -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--braggart backstory - claims he found skolderbrotva too soft -->
+  <NPCCharacter id="spc_wanderer_nord_1" name="{=W7aa22Yl}{FIRSTNAME} Breakskull" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--enterprising young would-be raider, wants to do his father proud -->
+  <NPCCharacter id="spc_wanderer_nord_2" name="{=aE8abvsQ}{FIRSTNAME} the Lucky" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- vaegir guard veteran backstory - bitter about riots -->
+  <NPCCharacter id="spc_wanderer_nord_3" name="{=LmlL8fVu}{FIRSTNAME} Bloodaxe" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="3" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--outlaw backstory,  easily angered  -->
+  <NPCCharacter id="spc_wanderer_nord_4" name="{=WU5GnkvR}{FIRSTNAME} the Fish" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_nord_4" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="6" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="-1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- coalbiter backstory -->
+  <NPCCharacter id="spc_wanderer_nord_5" name="{=NSaetzNJ}{FIRSTNAME} Coalbiter" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_nord_5" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="Blacksmith" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law, went to woods -->
+  <NPCCharacter id="spc_wanderer_nord_6" name="{=zXjdb1zT}{FIRSTNAME} Frostbeard" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_nord_6" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- dispossessed because of birthmark -->
+  <NPCCharacter id="spc_wanderer_nord_7" name="{=QyQPJJ9B}{FIRSTNAME} the Accursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_nord_7" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="EngineerSkills" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- shield maiden -->
+  <NPCCharacter id="spc_wanderer_nord_8" name="{=rtsnnL2J}{FIRSTNAME} the Shieldmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_nord_8" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--proud hireling who will do any task, values professionalism -->
+  <NPCCharacter id="spc_wanderer_nord_9" name="{=akALDUs0}{FIRSTNAME} Longknife" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.nord" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_nord_9" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="6" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+
+  <NPCCharacter id="spc_notable_vakken_0" name="{=!}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_0" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_0" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_0b" name="{=!}Caustic sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_0b" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_0b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_1" name="{=!}curt sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_1" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_2" name="{=!}Adventurous sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_2" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <!-- TEMPLATE INFO -->
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <!-- CHARACTER -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_2" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_2b" name="{=!}Honest Sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_2b" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="6" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_2b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_3b" name="{=!}Affable sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3b" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_3b" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_3" name="{=!}Honorable female sturgian merchant" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_3" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_3c" name="{=!}Devious female sturgian merchant" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3c" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_3c" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_4" name="{=!}Sturgian seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_4" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_5" name="{=!}Sturgian female mystic" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.vakken" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_5" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_5" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_6" name="{=!}Sturgian gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_6" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_6" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_7" name="{=!}Sturgian female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.vakken" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_7" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_7" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_8" name="{=!}Sturgian artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.vakken" occupation="Artisan">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_8" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="spc_notable_sturgia_8" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_9" name="{=!}Sturgian land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.vakken" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_9" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_vakken_10" name="{=!}Sturgian land captain helpful notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.vakken" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_10" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_vakken_headman_1" name="{=!}sturgia rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_vakken_headman_2" name="{=!}sturgia conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="BalancedFightingSkills" value="4" />
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_vakken_headman_3" name="{=!}sturgia devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Headman">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="BalancedFightingSkills" value="3" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_armed_wanderer_equipment_template_sturgia" />
+      <EquipmentSet id="npc_wanderer_equipment_template_sturgia" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="spc_wanderer_vakken_0" name="{=yr5pa0hs}{FIRSTNAME} Willowbark" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Surgeon" value="6" />
+      <!-- maybe have the ScoutSkills/surgeon combo give herbalist perk -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--braggart backstory - claims he found skolderbrotva too soft -->
+  <NPCCharacter id="spc_wanderer_vakken_1" name="{=W7aa22Yl}{FIRSTNAME} Breakskull" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--enterprising young would-be raider, wants to do his father proud -->
+  <NPCCharacter id="spc_wanderer_vakken_2" name="{=aE8abvsQ}{FIRSTNAME} the Lucky" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="3" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- vaegir guard veteran backstory - bitter about riots -->
+  <NPCCharacter id="spc_wanderer_vakken_3" name="{=LmlL8fVu}{FIRSTNAME} Bloodaxe" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="3" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--outlaw backstory,  easily angered  -->
+  <NPCCharacter id="spc_wanderer_vakken_4" name="{=WU5GnkvR}{FIRSTNAME} the Fish" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vakken_4" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="6" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="-1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- coalbiter backstory -->
+  <NPCCharacter id="spc_wanderer_vakken_5" name="{=NSaetzNJ}{FIRSTNAME} Coalbiter" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vakken_5" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="Blacksmith" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law, went to woods -->
+  <NPCCharacter id="spc_wanderer_vakken_6" name="{=zXjdb1zT}{FIRSTNAME} Frostbeard" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vakken_6" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="8" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- dispossessed because of birthmark -->
+  <NPCCharacter id="spc_wanderer_vakken_7" name="{=QyQPJJ9B}{FIRSTNAME} the Accursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vakken_7" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="EngineerSkills" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- shield maiden -->
+  <NPCCharacter id="spc_wanderer_vakken_8" name="{=rtsnnL2J}{FIRSTNAME} the Shieldmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vakken_8" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--proud hireling who will do any task, values professionalism -->
+  <NPCCharacter id="spc_wanderer_vakken_9" name="{=akALDUs0}{FIRSTNAME} Longknife" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vakken" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vakken_9" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="6" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter
+		id="spc_notable_darshi_0"
+		name="{=!}{FIRSTNAME} the Dateseller"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_0" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_0b"
+		name="{=!}{FIRSTNAME} the Minter"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_0b" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_1"
+		name="{=!}{FIRSTNAME} the Coppermonger"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_1" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_1b"
+		name="{=!}{FIRSTNAME} the Incensemonger"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_1b" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_2"
+		name="{=!}{FIRSTNAME} the Woolseller"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_2" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_2b"
+		name="{=!}{FIRSTNAME} the Appraiser"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_2b" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_3"
+		name="{=!}{FIRSTNAME} the Caravanser"
+		voice="ironic"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_3" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_3b"
+		name="{=!}{FIRSTNAME} the Benefactor"
+		voice="curt"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_3b" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_4"
+		name="{=!}Aserai rebellious preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_5"
+		name="{=!}Aserai fire-and-brimstone preacher"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_5" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_6"
+		name="{=!}Aserai female preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.darshi"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_6" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="0" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_7"
+		name="{=!}Aserai fitiwi"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_7" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_aserai_7" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_8"
+		name="{=!}Aserai fitiwi"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_8" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_aserai_8" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_9"
+		name="{=!}Fearsome female Aserai gang leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.darshi"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_9" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_10"
+		name="{=!}Aserai artisan leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Artisan">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_11"
+		name="{=!}Aserai earnest umda rural notable"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.darshi"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_darshi_12"
+		name="{=!}Aserai quiet umda rural notable"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.darshi"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_12" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_darshi_headman_1"
+		name="{=!}Aserai rebellious headman"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_darshi_headman_2"
+		name="{=!}Aserai conservative headman"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_darshi_headman_3"
+		name="{=!}Aserai devious headman"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+  
+   <NPCCharacter
+		id="spc_wanderer_darshi_0"
+		name="{=bvjFhiDr}{FIRSTNAME} the Scholar"
+		voice="ironic"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_0" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="3" />
+			<Trait
+				id="Surgeon"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Obsessed with own genealogy -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_1"
+		name="{=vtXRptVa}{FIRSTNAME} the Golden"
+		voice="earnest"
+		age="23"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--The falcon, chivalrous, but thinks great clans hog the glory -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_2"
+		name="{=TyxXbqVw}{FIRSTNAME} the Falcon"
+		voice="ironic"
+		age="25"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_2" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_3"
+		name="{=4GIoPUen}{FIRSTNAME} the Swordsman"
+		voice="softspoken"
+		age="33"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_3" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="LordIsNemesis" value="1" />-->
+			<Trait
+				id="HuscarlFightingSkills"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_4"
+		name="{=rgdi5Sxa}{FIRSTNAME} the Prince"
+		voice="ironic"
+		age="25"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_4" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="4" />
+			<Trait
+				id="RogueSkills"
+				value="7" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Hyena" (contemptuous killer) -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_5"
+		name="{=OFWvD0xe}{FIRSTNAME} the Hyena"
+		voice="curt"
+		age="27"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_5" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="HopliteFightingSkills"
+				value="5" />
+			<Trait
+				id="RogueSkills"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--of the Wastes - 'the searing gravel plain knows me' -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_6"
+		name="{=muC2SGlM}{FIRSTNAME} of the Wastes"
+		voice="curt"
+		age="31"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_6" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="ArcherFIghtingSkills"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="7" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- female member of clan that lost power -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_7"
+		name="{=28tWEFNi}{FIRSTNAME} the Wanderer"
+		voice="curt"
+		age="25"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_7" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="3" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--unlucky merchant -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_8"
+		name="{=XBJtv4mD}{FIRSTNAME} the Spicevendor"
+		voice="softspoken"
+		age="28"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_8" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="4" />
+			<Trait
+				id="Trader"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- female alley urchin -->
+	<NPCCharacter
+		id="spc_wanderer_darshi_9"
+		name="{=NWuGUi4p}{FIRSTNAME} the Leopardess"
+		voice="ironic"
+		age="22"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_9" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="3" />
+			<Trait
+				id="RogueSkills"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_wanderer_darshi_10"
+		name="{=ACqta1a5}{FIRSTNAME} the Engineer"
+		voice="ironic"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.darshi"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_darshi_10" faction="Faction.jawwal" clan="Clan.jawwal"/>-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="SpawnAsPrisoner" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="3" />
+			<Trait
+				id="EngineerSkills"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	 <NPCCharacter
+		id="spc_notable_kannic_0"
+		name="{=!}{FIRSTNAME} the Dateseller"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_0" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_0b"
+		name="{=!}{FIRSTNAME} the Minter"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_0b" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_1"
+		name="{=!}{FIRSTNAME} the Coppermonger"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_1" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_1b"
+		name="{=!}{FIRSTNAME} the Incensemonger"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_1b" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_2"
+		name="{=!}{FIRSTNAME} the Woolseller"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_2" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_2b"
+		name="{=!}{FIRSTNAME} the Appraiser"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_2b" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_3"
+		name="{=!}{FIRSTNAME} the Caravanser"
+		voice="ironic"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_3" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_3b"
+		name="{=!}{FIRSTNAME} the Benefactor"
+		voice="curt"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_3b" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_4"
+		name="{=!}Aserai rebellious preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_5"
+		name="{=!}Aserai fire-and-brimstone preacher"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_5" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_6"
+		name="{=!}Aserai female preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.kannic"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_6" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="0" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_7"
+		name="{=!}Aserai fitiwi"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_7" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_aserai_7" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_8"
+		name="{=!}Aserai fitiwi"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_8" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_aserai_8" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_9"
+		name="{=!}Fearsome female Aserai gang leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.kannic"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_9" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_10"
+		name="{=!}Aserai artisan leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Artisan">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_11"
+		name="{=!}Aserai earnest umda rural notable"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.kannic"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_kannic_12"
+		name="{=!}Aserai quiet umda rural notable"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.kannic"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_12" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_kannic_headman_1"
+		name="{=!}Aserai rebellious headman"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_kannic_headman_2"
+		name="{=!}Aserai conservative headman"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_kannic_headman_3"
+		name="{=!}Aserai devious headman"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_aserai_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+  
+   <NPCCharacter
+		id="spc_wanderer_kannic_0"
+		name="{=bvjFhiDr}{FIRSTNAME} the Scholar"
+		voice="ironic"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_0" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="3" />
+			<Trait
+				id="Surgeon"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Obsessed with own genealogy -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_1"
+		name="{=vtXRptVa}{FIRSTNAME} the Golden"
+		voice="earnest"
+		age="23"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--The falcon, chivalrous, but thinks great clans hog the glory -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_2"
+		name="{=TyxXbqVw}{FIRSTNAME} the Falcon"
+		voice="ironic"
+		age="25"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_2" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_3"
+		name="{=4GIoPUen}{FIRSTNAME} the Swordsman"
+		voice="softspoken"
+		age="33"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_3" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="LordIsNemesis" value="1" />-->
+			<Trait
+				id="HuscarlFightingSkills"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_4"
+		name="{=rgdi5Sxa}{FIRSTNAME} the Prince"
+		voice="ironic"
+		age="25"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_4" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="4" />
+			<Trait
+				id="RogueSkills"
+				value="7" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Hyena" (contemptuous killer) -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_5"
+		name="{=OFWvD0xe}{FIRSTNAME} the Hyena"
+		voice="curt"
+		age="27"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_5" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="HopliteFightingSkills"
+				value="5" />
+			<Trait
+				id="RogueSkills"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--of the Wastes - 'the searing gravel plain knows me' -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_6"
+		name="{=muC2SGlM}{FIRSTNAME} of the Wastes"
+		voice="curt"
+		age="31"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_6" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="ArcherFIghtingSkills"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="7" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- female member of clan that lost power -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_7"
+		name="{=28tWEFNi}{FIRSTNAME} the Wanderer"
+		voice="curt"
+		age="25"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_7" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="3" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--unlucky merchant -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_8"
+		name="{=XBJtv4mD}{FIRSTNAME} the Spicevendor"
+		voice="softspoken"
+		age="28"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_8" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="4" />
+			<Trait
+				id="Trader"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- female alley urchin -->
+	<NPCCharacter
+		id="spc_wanderer_kannic_9"
+		name="{=NWuGUi4p}{FIRSTNAME} the Leopardess"
+		voice="ironic"
+		age="22"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_9" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="3" />
+			<Trait
+				id="RogueSkills"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_wanderer_kannic_10"
+		name="{=ACqta1a5}{FIRSTNAME} the Engineer"
+		voice="ironic"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.kannic"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_kannic_10" faction="Faction.jawwal" clan="Clan.jawwal"/>-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="SpawnAsPrisoner" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="3" />
+			<Trait
+				id="EngineerSkills"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	
+	
+	<NPCCharacter
+		id="spc_notable_geroia_0"
+		name="{=!}Cautious imperial merchant"
+		is_template="true"
+		voice="ironic"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_0" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_0b"
+		name="{=!}{FIRSTNAME} the Vintner"
+		is_template="true"
+		voice="ironic"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_0b" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_1"
+		name="{=!}Empire merchant 3, ruthless"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_1b"
+		name="{=!}Cold imperial merchant"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_2"
+		name="{=!}{FIRSTNAME} the Saltpanner"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_2b"
+		name="{=!}Empire merchant 6, cautious"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Can be acater -->
+	<NPCCharacter
+		id="spc_notable_geroia_3"
+		name="{=!}Empire merchant 7, selfmade"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_3b"
+		name="{=!}Empire merchant 8, jocular"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_4"
+		name="{=!}Empire merchant 9, heiress"
+		voice="curt"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_4b"
+		name="{=!}Empire merchant 10, devious"
+		voice="ironic"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_5"
+		name="{=!}Messianic imperial preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_5" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_geroia_5" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_6"
+		name="{=!}Puritan imperial preacher"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_6" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_geroia_6" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_7"
+		name="{=!}Female imperial mystic"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.geroia"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="0" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_geroia_7" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_8"
+		name="{=!}Imperial gruff labor leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_female="false"
+		culture="Culture.geroia"
+		occupation="Artisan">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_geroia_8" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_9"
+		name="{=!}Imperial outgoing labor leader"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_female="false"
+		culture="Culture.geroia"
+		occupation="Artisan">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_9" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_geroia_9" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_gl1"
+		name="{=!}Protective imperial male gang leader"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_10" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_10"
+		name="{=!}Ironic imperial gang leader"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_10" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_11"
+		name="{=!}Intimidating male imperial gang leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_11" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_gl4"
+		name="{=!}Bestial male imperial gang leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_11" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_12"
+		name="{=!}Female imperial gang leader"
+		voice="ironic"
+		is_template="true"
+		is_female="true"
+		culture="Culture.geroia"
+		occupation="GangLeader"
+		default_group="Infantry">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_12" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_13"
+		name="{=!}Menacing female imperial gang leader"
+		voice="softspoken"
+		is_template="true"
+		is_female="true"
+		culture="Culture.geroia"
+		occupation="GangLeader"
+		default_group="Infantry">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_13" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_21"
+		name="{=!}Empire gruff rural notable"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.geroia"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+			<!--<hair_tags>
+        <hair_tag name ="Tousled"/>
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name ="Cleanshaven"/>
+        <beard_tag name ="LightShortBeard"/>
+        <beard_tag name ="HeavyShortBeard"/>
+      </beard_tags>-->
+		</face>
+		<!--<Hero id="spc_notable_geroia_21" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_geroia_22"
+		name="{=!}Empire rural notable agreeable"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.geroia"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.townsman_empire" />
+			<!--<hair_tags>
+        <hair_tag name ="Tousled"/>
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name ="Cleanshaven"/>
+        <beard_tag name ="HeavyShortBeard"/>
+      </beard_tags>-->
+		</face>
+		<!--<Hero id="spc_notable_geroia_22" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_geroia_headman_1"
+		name="{=!}empire rebellious headman"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_4" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_geroia_headman_2"
+		name="{=!}empire conservative headman"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_4" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_geroia_headman_3"
+		name="{=!}empire devious headman"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_empire" />
+		</face>
+		<!--<Hero id="spc_notable_geroia_4" faction="Kingdom.empire" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_empire" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_empire"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter
+		id="spc_wanderer_geroia_0"
+		name="{=bvjFhiDr}{FIRSTNAME} the Scholar"
+		voice="curt"
+		age="29"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_0" faction="Kingdom.empire"  is_template="true" /> -->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="BalancedFightingSkills"
+				value="2" />
+			<Trait
+				id="EngineerSkills"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Very boastful -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_1"
+		name="{=xTQPfmS9}{FIRSTNAME} the Bull"
+		voice="earnest"
+		age="29"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_1" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="HuscarlFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Family lost military land grant, must work for merchants -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_2"
+		name="{=Ivx4uJVp}{FIRSTNAME} the Silent"
+		voice="softspoken"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_2" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="KnightFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!--  Die-hard legionary -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_3"
+		name="{=1OZBZZCi}{FIRSTNAME} the Boar"
+		voice="ironic"
+		age="40"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_3" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="HopliteFightingSkills"
+				value="5" />
+			<Trait
+				id="SergeantCommandSkills"
+				value="3" />
+			<Trait
+				id="EngineerSkills"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bandit who found bandits too sociopathic -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_4"
+		name="{=t9e34kgH}{FIRSTNAME} the Robber"
+		voice="ironic"
+		age="22"
+		default_group="Infantry"
+		is_hero="false"
+		is_template="true"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_4" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="PeltastFightingSkills"
+				value="3" />
+			<Trait
+				id="RogueSkills"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- the butcher, doesn't give much away about himself -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_5"
+		name="{=pZSAdyC0}{FIRSTNAME} the Butcher"
+		voice="curt"
+		age="30"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_5" faction="Kingdom.empire" is_template="true" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="PeltastFightingSkills"
+				value="4" />
+			<Trait
+				id="RogueSkills"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- maquisard, ex-messianic rebel turned mafiosi -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_6"
+		name="{=OArAImbM}{FIRSTNAME} of the Hills"
+		voice="curt"
+		age="22"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_6" faction="Kingdom.empire" is_template="true" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="ArcherFIghtingSkills"
+				value="3" />
+			<Trait
+				id="ScoutSkills"
+				value="4" />
+			<Trait
+				id="RogueSkills"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- posed as man to join army. needed the money -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_7"
+		name="{=28tWEFNi}{FIRSTNAME} the Wanderer"
+		voice="ironic"
+		age="24"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_7" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="HopliteFightingSkills"
+				value="3" />
+			<Trait
+				id="Blacksmith"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- merchant-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_8"
+		name="{=PQkMcfAW}{FIRSTNAME} the Exile"
+		voice="curt"
+		age="23"
+		default_group="Infantry"
+		is_template="true"
+		is_female="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_8" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="CrossbowmanStyle"
+				value="3" />
+			<Trait
+				id="RogueSkills"
+				value="4" />
+			<Trait
+				id="Trader"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_9"
+		name="{=7apnGFz7}{FIRSTNAME} the Black"
+		voice="curt"
+		age="21"
+		default_group="Infantry"
+		is_template="true"
+		is_female="true"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_9" faction="Kingdom.empire" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="RogueSkills"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- extra imperials -->
+	<!--  Doctor, forced to torture -->
+	<NPCCharacter
+		id="spc_wanderer_geroia_10"
+		name="{=cud22JY1}{FIRSTNAME} the Surgeon"
+		voice="ironic"
+		is_template="true"
+		age="31"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.geroia"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_empire" />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_10" faction="Kingdom.empire" is_template="true" />-->
+		<Traits>
+			<Trait
+				id="RomanHair"
+				value="1" />
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Surgeon"
+				value="7" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_empire" />
+		</Equipments>
+	</NPCCharacter>
   
   <NPCCharacter id="caravan_master_vakken"
                 default_group="Infantry"
@@ -146,6 +4752,265 @@
                 culture="Culture.nord">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.nordic_lamellar_vest" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_geroia"
+                default_group="Infantry"
+                level="26"
+                name="{=!}Geroia Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.geroia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.nordic_lamellar_vest" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="caravan_master_darshi"
+                default_group="Infantry"
+                level="26"
+                name="{=!}Darshi Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.darshi">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.nordic_lamellar_vest" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="caravan_master_kannic"
+                default_group="Infantry"
+                level="26"
+                name="{=!}Kannic Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
     <skills>
       <skill id="Athletics"
