@@ -16,6 +16,8 @@ namespace BannerKings.CulturesExpanded.Religions
         public Religion Treelore { get; } = new Religion("treelore");
         public Religion Osfeyd { get; } = new Religion("osfeyd");
         public Religion SixWinds { get; } = new Religion("sixWinds");
+        public Religion Junme { get; } = new Religion("junme");
+        public Religion Rodovera { get; } = new Religion("rodovera");
         public override IEnumerable<Religion> All
         {
             get
@@ -25,9 +27,11 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return Calradism;
                 yield return Osfeyd;
                 yield return AseraCode;
-                yield return Amra;           
-                yield return Treelore;
                 yield return SixWinds;
+                yield return Amra;
+                yield return Junme;
+                yield return Rodovera;
+                yield return Treelore;
                 yield return Canticles;
                 //yield return ImmortalFlame;
             }
@@ -42,6 +46,7 @@ namespace BannerKings.CulturesExpanded.Religions
             var vlandia = Utils.Helpers.GetCulture("vlandia");
             var sturgia = Utils.Helpers.GetCulture("sturgia");
             var vakken = Utils.Helpers.GetCulture("vakken");
+            var nord = Utils.Helpers.GetCulture("nord");
             var swadia = Utils.Helpers.GetCulture("swadia");
             var rhodok = Utils.Helpers.GetCulture("rhodok");
             var osrickin = Utils.Helpers.GetCulture("osrickin");
@@ -67,7 +72,10 @@ namespace BannerKings.CulturesExpanded.Religions
                 new List<CultureObject> { battania });
 
             Treelore.Initialize(BKCEFaiths.Instance.Treelore,
-                new List<CultureObject> { sturgia, vakken });
+                new List<CultureObject> { vakken, sturgia });
+
+            Rodovera.Initialize(BKCEFaiths.Instance.Rodovera,
+                new List<CultureObject> { sturgia });
 
             Martyrdom.Initialize(BKCEFaiths.Instance.Darusosian,
                 new List<CultureObject> { imperial });
@@ -80,6 +88,9 @@ namespace BannerKings.CulturesExpanded.Religions
 
             SixWinds.Initialize(BKCEFaiths.Instance.SixWinds,
                 new List<CultureObject> { khuzait });
+
+            Junme.Initialize(BKCEFaiths.Instance.Junme,
+               new List<CultureObject> { nord });
 
             foreach (var religion in All)
             {
