@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+  <NPCCharacter id="bk_geroia_cavalier" default_group="Cavalry" level="31" name="{=!}Geroiako Cavalier" occupation="Soldier" culture="Culture.geroia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="150" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a3" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.grey_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_b" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />	
+      </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.brown_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_b" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Cape" id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a1" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.grey_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a2" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.brown_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+      </EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
+  
+  <NPCCharacter id="bk_geroia_highborn" default_group="Cavalry" level="31" name="{=!}Geroiako Privateer" occupation="Soldier" culture="Culture.geroia" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="120" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="180" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_geroia_cavalier" />
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a3" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.grey_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_horseman_armor_d" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />	
+      </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.brown_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_scout_armor_b" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Cape" id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a1" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.grey_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_scout_armor_d" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+	    <equipment slot="Item0" id="Item.rapier1" />
+		<equipment slot="Item1" id="Item.cts_roman_shield_round_a2" />
+		<equipment slot="Item1" id="Item.AR_naptha_pot" />
+        <equipment slot="Head" id="Item.brown_musketeer_hat" />
+	    <equipment slot="Body" id="Item.AR_empire_scout_armor_d" />
+	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
+	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+      </EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_geroia_sergeant" default_group="Infantry" level="21" name="{=!}Geroiako Marine" occupation="Soldier" culture="Culture.geroia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	    <EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_imperial_heavy_javelin_t3"/>
+			<equipment slot="Item2" id="Item.aserai_mace_3_t3"/>
+			<equipment slot="Item3" id="Item.cts_roman_augustus_shield_a"/>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_c"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
+			<equipment slot="Body" id="Item.imperial_mail_over_leather"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_imperial_heavy_javelin_t3"/>
+			<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+			<equipment slot="Item3" id="Item.cts_roman_scutum_a"/>
+			<equipment slot="Head" id="Item.AR_intercisa_helmet_c"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+			<equipment slot="Body" id="Item.imperial_mail_vest"/>
+			<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.reinforced_suede_boots"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_imperial_heavy_javelin_t3"/>
+			<equipment slot="Item2" id="Item.empire_mace_3_t4"/>
+			<equipment slot="Item3" id="Item.cts_roman_republic_square"/>
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+			<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
+			<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+			<equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_imperial_heavy_javelin_t3"/>
+			<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+			<equipment slot="Item3" id="Item.cts_roman_republic_square_a2"/>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_c"/>
+			<equipment slot="Body" id="Item.empire_horseman_armor"/>
+			<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_a"/>
+		</EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_geroia_sergeant_xbow" default_group="Infantry" level="21" name="{=!}Geroiako Ballestriere" occupation="Soldier" culture="Culture.geroia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="110" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="110" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.crossbow_d"/>
+			<equipment slot="Item1" id="Item.bolt_b"/>
+			<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+			<equipment slot="Item3" id="Item.cts_roman_republic_square_a2"/>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_c"/>
+			<equipment slot="Body" id="Item.empire_horseman_armor"/>
+			<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.sturgia_boots_a"/>
+		</EquipmentRoster>
+	    <EquipmentRoster>
+			<equipment slot="Item0" id="Item.crossbow_c"/>
+			<equipment slot="Item1" id="Item.bolt_b"/>
+			<equipment slot="Item2" id="Item.aserai_mace_3_t3"/>
+			<equipment slot="Item3" id="Item.cts_roman_augustus_shield_a"/>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_c"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a2"/>
+			<equipment slot="Body" id="Item.imperial_mail_over_leather"/>
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.crossbow_f"/>
+			<equipment slot="Item1" id="Item.bolt_b"/>
+			<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+			<equipment slot="Item3" id="Item.cts_roman_scutum_a"/>
+			<equipment slot="Head" id="Item.AR_intercisa_helmet_c"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a"/>
+			<equipment slot="Body" id="Item.imperial_mail_vest"/>
+			<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+			<equipment slot="Leg" id="Item.reinforced_suede_boots"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.crossbow_b"/>
+			<equipment slot="Item1" id="Item.bolt_b"/>
+			<equipment slot="Item2" id="Item.empire_mace_3_t4"/>
+			<equipment slot="Item3" id="Item.cts_roman_republic_square"/>
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_decorated"/>
+			<equipment slot="Cape" id="Item.cts_lorica_segmentata_shoulder_a1"/>
+			<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
+			<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+			<equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_geroia_militiaman"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Geroiako Milite"
+                occupation="Soldier"
+                culture="Culture.geroia"
+                skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_geroia_sergeant" />
+	  <upgrade_target id="NPCCharacter.bk_geroia_sergeant_xbow" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_gladiator_helmet_d" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
+			<equipment slot="Body" id="Item.AR_empire_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_helmet_b_plumed" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
+			<equipment slot="Body" id="Item.eastern_studded_leather" /> 
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelmet_with_mail" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelm_with_leather_strips_alt" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_f" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_imperial_nasal_spangenhelm_with_leather_strips" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_helmet_a" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_d" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_intercisa_helmet_b" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_imperial_spangenhelm_over_padded_coif" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_b" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_mail" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_c" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_a" />
+			<equipment slot="Item1" id="Item.AR_imperial_heavy_javelin_t2" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  
+  <NPCCharacter id="bk_geroia_levy_slave"
+                default_group="Infantry"
+                level="6"
+                name="{=!}Geroiako Indentured Remexe"
+                occupation="Soldier"
+                culture="Culture.geroia"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_melee_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bk_geroia_levy"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Item1" id="Item.military_fork_pike_t3"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a"/>
+				<equipment slot="Head" id="Item.AR_hat_a"/>
+				<equipment slot="Body" id="Item.peasant_costume"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.AR_gladiator_fork_a"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a1"/>
+				<equipment slot="Head" id="Item.womens_headwrap_b"/>
+				<equipment slot="Body" id="Item.leather_apron"/>
+				<equipment slot="Leg" id="Item.TV_moccasins_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hooked_cleaver"/>
+				<equipment slot="Item1" id="Item.military_fork_t2"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a2"/>
+				<equipment slot="Head" id="Item.female_head_wrap"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.simple_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
+				<equipment slot="Item1" id="Item.highland_spear_4_t4"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a3"/>
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Body" id="Item.vlandia_bandit_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item2" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_geroia_levy"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Geroiako Citizen Remexe"
+                occupation="Soldier"
+                culture="Culture.geroia"
+                skill_template="SkillSet.bk_levy_melee_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills >
+			<skill id="Athletics" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.bk_geroia_militiaman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Body" id="Item.cts_roman_tunic_a1"/>
+				<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a1"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Body" id="Item.cts_roman_tunic_b"/>
+				<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hooked_cleaver"/>
+				<equipment slot="Item1" id="Item.AR_imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a2"/>
+				<equipment slot="Body" id="Item.cts_roman_tunic_a"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.AR_imperial_spear_t2"/>
+				<equipment slot="Item3" id="Item.cts_roman_shield_round_a3"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.cts_roman_sandals_a"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+
+  
+  <NPCCharacter id="bk_geroia_militiaman_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=!}Imperial Militiaman Archer"
+                occupation="Soldier"
+                culture="Culture.geroia"
+                skill_template="SkillSet.bk_militia_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_p2" />
+			<equipment slot="Body" id="Item.AR_empire_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.empire_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_r" />
+			<equipment slot="Cape" id="Item.AR_imperial_shoulders_m" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_f" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_empire_helmet_q" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_d" />
+			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.imperial_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.tzkurion_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_b" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.empire_warrior_padded_armor_c" />
+			<equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item1"  id="Item.bodkin_arrows_b" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_geroia_levy_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=!}Imperial Levy Archer"
+                occupation="Soldier"
+                culture="Culture.geroia"
+				is_basic_troop="true"
+                skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_geroia_militiaman_archer" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.merchants_hat" />
+			<equipment slot="Body" id="Item.footmans_tunic" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+			<equipment slot="Item0" id="Item.hunting_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.empire_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+			<equipment slot="Item0" id="Item.hunting_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.AR_empire_armor_k" />
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+			<equipment slot="Item0" id="Item.hunting_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.small_bit_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.layered_leather_tunic" />
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+			<equipment slot="Item0" id="Item.hunting_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.empire_sword_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_hat_a2" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.imperial_padded_cloth" />
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+			<equipment slot="Item0" id="Item.hunting_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.empire_sword_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_roman_hat_a" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.AR_empire_scout_armor_c" />
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+			<equipment slot="Item0" id="Item.hunting_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.iron_spatha_sword_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.imperial_cloth_coif" />
+			<equipment slot="Cape" id="Item.ao_focale" />
+			<equipment slot="Body" id="Item.leather_tunic" />
+			<equipment slot="Leg" id="Item.DZ_empire_boots_b" />
+			<equipment slot="Item0" id="Item.hunting_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.iron_spatha_sword_t2" />
+		</EquipmentRoster>
+		<EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

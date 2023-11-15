@@ -1,0 +1,1393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <NPCCharacter id="bk_kanic_sacred_band_cavalry" default_group="Cavalry" level="31" name="{=!}Kannic Sacred Cavalry" occupation="Soldier" culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="60" />
+      <skill id="Riding" value="200" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="140" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_6" />
+			<equipment slot="Body" id="Item.greek_musculata_2" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_c1" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_12" />
+			<equipment slot="Body" id="Item.greek_musculata_1" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_1" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_11" />
+			<equipment slot="Body" id="Item.greek_musculata_1" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_1" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_c3" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Body" id="Item.greek_musculata_1" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_1" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d2" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_9" />
+			<equipment slot="Body" id="Item.greek_musculata_2" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_5" />
+			<equipment slot="Body" id="Item.greek_musculata_2" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_kanic_highborn" default_group="Cavalry" level="21" name="{=!}Kannic Citizen Cavalry" occupation="Soldier" culture="Culture.kannic" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="160" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_kanic_sacred_band_cavalry" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_1" />
+			<equipment slot="Body" id="Item.linothorax_3" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_3" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_3" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_3" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_3" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_b" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_3" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_4" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_fenician_lino" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_3" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_3" />
+			<equipment slot="Horse" id="Item.t2_aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.AR_horse_armor_zc" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_kanic_horseman"
+                default_group="Cavalry"
+                level="21"
+                name="{=!}Kannic Horseman"
+                occupation="Soldier"
+                culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="110" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="110" />
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield3" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_3" />
+			<equipment slot="Body" id="Item.linothorax_1" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_5" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield2" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a3" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthaginian_pylos" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield1" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_b" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_5" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a1" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Body" id="Item.linothorax_3" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="bk_kanic_rider"
+                default_group="Cavalry"
+                level="16"
+                name="{=!}Kannic Rider"
+                occupation="Soldier"
+                culture="Culture.kannic"
+				is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="20" />
+      <skill id="Riding" value="80" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_kanic_horseman" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_6" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_1" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a1" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_3" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield3" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_4" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a" />
+			<equipment slot="Item1" id="Item.light_mace_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_2" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield" />
+			<equipment slot="Item1" id="Item.light_mace_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthaginian_pylos" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield1" />
+			<equipment slot="Item1" id="Item.light_mace_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.footmans_tunic" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a3" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield2" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.northern_javelin_2_t3" />
+			<equipment slot="Horse" id="Item.aserai_horse" />
+		    <equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_kanic_sacred_band" default_group="Infantry" level="31" name="{=!}Kannic Sacred Hoplite" occupation="Soldier" culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="170" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="170" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="250" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_12" />
+			<equipment slot="Body" id="Item.greek_musculata_1" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_1" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_12" />
+			<equipment slot="Body" id="Item.greek_musculata_1" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_1" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_11" />
+			<equipment slot="Body" id="Item.greek_musculata_1" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_1" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Body" id="Item.greek_musculata_1" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_1" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_6" />
+			<equipment slot="Body" id="Item.greek_musculata_2" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_9" />
+			<equipment slot="Body" id="Item.greek_musculata_2" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t5" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_5" />
+			<equipment slot="Body" id="Item.greek_musculata_2" />
+			<equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_kanic_citizen" default_group="Infantry" level="26" name="{=!}Kannic Citizen Hoplite" occupation="Soldier" culture="Culture.kannic" is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="190" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_kanic_sacred_band" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a1" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_4" />
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_fenician_lino_a" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_3" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.cts_fenician_lino_b" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_3" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_3" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_b" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_1" />
+			<equipment slot="Body" id="Item.linothorax_3" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_a" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_4" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_fenician_lino" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_aspis_d" />
+		    <equipment slot="Item1" id="Item.bk_spear_kanic_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.bronze_greave_1" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_kannic_sergeant" default_group="Infantry" level="21" name="{=!}Kannic Sailor" occupation="Soldier" culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="90" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a1" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Body" id="Item.linothorax_3" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_5" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield2" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a3" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthaginian_pylos" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield1" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_b" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_5" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield3" />
+		    <equipment slot="Item1" id="Item.eastern_javelin_3_t4" />
+		    <equipment slot="Item2" id="Item.bk_kanic_sword_t4" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_3" />
+			<equipment slot="Body" id="Item.linothorax_1" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_kannic_militiaman"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Kannic Militiaman"
+                occupation="Soldier"
+                culture="Culture.kannic"
+                skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_kannic_sergeant" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_6" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_1" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a1" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_3" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield3" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_4" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a" />
+			<equipment slot="Item1" id="Item.light_mace_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_2" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield" />
+			<equipment slot="Item1" id="Item.light_mace_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthaginian_pylos" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield1" />
+			<equipment slot="Item1" id="Item.light_mace_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.footmans_tunic" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a3" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.cts_carthage_republic_shield2" />
+			<equipment slot="Item1" id="Item.bk_southern_axe_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_kannic_sergeant_pike" default_group="Infantry" level="21" name="{=!}Kannic Sarissaphoros" occupation="Soldier" culture="Culture.kannic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="150" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="60" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.phrygian_10" />
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_5" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.cts_carthaginian_pylos" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_a" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_5" />
+			<equipment slot="Body" id="Item.cts_carthage_lino_b" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Cape" id="Item.cts_carthage_shoulder_lino_a" />
+			<equipment slot="Body" id="Item.linothorax_5" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.phrygian_2" />
+			<equipment slot="Cape" id="Item.linothorax_shoulders_3" />
+			<equipment slot="Body" id="Item.linothorax_1" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t4" />
+			<equipment slot="Head" id="Item.phrygian_1" />
+			<equipment slot="Body" id="Item.linothorax_3" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_aserai_boots_e2" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_kannic_militiaman_pike"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Kannic Militiaman Phalangite"
+                occupation="Soldier"
+                culture="Culture.kannic"
+                skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.bk_kannic_sergeant_pike" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_6" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_1" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_3" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_6" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_4" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.pilos_2" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.linothorax_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthaginian_pylos" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.footmans_tunic" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Head" id="Item.cts_carthage_montferier" />
+			<equipment slot="Item0" id="Item.decorated_steppe_shield_shoulder" />
+			<equipment slot="Item1" id="Item.bk_kannic_pike_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_kannic_levy"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Kannic Levy"
+                occupation="Soldier"
+                culture="Culture.kannic"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_kannic_militiaman" />
+	  <upgrade_target id="NPCCharacter.bk_kannic_militiaman_pike" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_carthage_tunic_b" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.small_bit_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.small_bit_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_2" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.empire_mace_1_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_3" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_1" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.footmans_tunic" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_kannic_militiaman_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=!}Kannic Militiaman Archer"
+                occupation="Soldier"
+                culture="Culture.kannic"
+                skill_template="SkillSet.bk_militia_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_f" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Cape" id="Item.desert_leather_shoulderpad" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_heavy_tuareg" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_helmet_IIII" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_s2" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_s" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_f" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_h" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_j" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_b" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_light_helmet_a" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_p" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.aserai_nasalhelm_cloth" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_o" />
+			<equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.southern_cone_helmet" />
+			<equipment slot="Body" id="Item.desert_padded_cloth" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.light_mace_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+			<equipment slot="Body" id="Item.aserai_horseman_armor" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_head_scarf" />
+			<equipment slot="Body" id="Item.aserai_civil_c" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_d" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.closed_desert_helmet" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.saracen_helmet_c" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Body" id="Item.long_padded_robe" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.heavy_steppe_arrows" />
+		    <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_kannic_levy_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=!}Kannic Levy Archer"
+                occupation="Soldier"
+                culture="Culture.kannic"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_kannic_militiaman_archer" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.small_bit_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.cts_carthage_tunic_b" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.small_bit_axe_t2" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_2" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.empire_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_4" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_3" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.aserai_mace_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.exomis_1" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.aserai_mace_2_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.footmans_tunic" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+			<equipment slot="Item2" id="Item.steppe_arrows" />
+			<equipment slot="Item3" id="Item.steppe_arrows" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

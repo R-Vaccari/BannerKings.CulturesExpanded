@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  
+  <NPCCharacter id="bk_palaic_sergeant" default_group="Infantry" level="21" name="{=!}Palaicoi Tarusuras" occupation="Soldier" culture="Culture.palaic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+	    <equipment slot="Item1" id="Item.AD_shield_infantry_a" />
+	    <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.cts_dacian_helmet_leaf1" />
+	    <equipment slot="Cape" id="Item.TV_battania_cloak_p" /> 
+	    <equipment slot="Body" id="Item.cts_dac_scalemail_noslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+	    <equipment slot="Item1" id="Item.AD_shield_infantry_a" />
+	    <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.cts_dacian_helmet_leaf2" />
+	    <equipment slot="Body" id="Item.cts_dacian_mail_shortslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+	    <equipment slot="Item1" id="Item.AD_shield_infantry_a" />
+	    <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.cts_dacian_helmet_eagle" />
+	    <equipment slot="Cape" id="Item.TV_battania_cloak_p" /> 
+	    <equipment slot="Body" id="Item.cts_dacian_mail_shortslevs_a" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+	    <equipment slot="Item1" id="Item.AD_shield_infantry_a" />
+	    <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.cts_dacian_tall_helmet_griffin1" />
+	    <equipment slot="Cape" id="Item.TV_battania_cloak_p" /> 
+	    <equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+	    <equipment slot="Item1" id="Item.AD_shield_infantry_a" />
+	    <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.cts_dacian_helmet_top_poseidon1" />
+	    <equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_2_t4" />
+	    <equipment slot="Item1" id="Item.AD_shield_infantry_a" />
+	    <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.chalcidian_3" />
+	    <equipment slot="Cape" id="Item.TV_battania_cloak_p" /> 
+	    <equipment slot="Body" id="Item.cts_dacian_chainmail_longslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_b" />
+      </EquipmentRoster>
+	<EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_palaic_sergeant_falxman" default_group="Infantry" level="21" name="{=!}Battanian Picked Warrior" occupation="Soldier" culture="Culture.palaic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battle_axe_t4" />
+	    <equipment slot="Item1" id="Item.AD_shield_infantry_c" />
+	    <equipment slot="Item2" id="Item.highland_spear_4_t4" />
+        <equipment slot="Head" id="Item.TV_battania_helmet_r" />
+	    <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
+	    <equipment slot="Gloves" id="Item.TV_battania_gloves_a" />
+	    <equipment slot="Leg" id="Item.TV_battania_boots_g" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_palaic_militiaman"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Palaicoi Militiaman"
+                occupation="Soldier"
+                culture="Culture.palaic"
+                skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_palaic_sergeant" />
+	  <upgrade_target id="NPCCharacter.bk_palaic_sergeant_falxman" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_obraz_lana_bronze" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.cts_dacian_leather_armor" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_obraz_lana_iron" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+		  <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_c1" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.cts_dacian_leather_laminata" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_f1" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.cts_dacian_leather_armor" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_f" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+		  <equipment slot="Body" id="Item.empire_warrior_padded_armor_f" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_a1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_c" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.leather_scale_armor" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_f2" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.AR_empire_scout_armor_c" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b2" />
+		</EquipmentRoster>
+		<EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_palaic_skirmisher"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Palaicoi Peltast"
+                occupation="Soldier"
+                culture="Culture.palaic"
+                skill_template="SkillSet.bk_militia_skirmisher_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_palaic_sergeant" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.AR_imperial_heavy_javelin_t2" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_f2" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.AR_empire_scout_armor_c" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.AR_imperial_heavy_javelin_t2" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_obraz_lana_bronze" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.cts_dacian_leather_armor" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_obraz_lana_iron" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+		  <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_c1" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.cts_dacian_leather_laminata" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_f1" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.cts_dacian_leather_armor" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_f" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+		  <equipment slot="Body" id="Item.empire_warrior_padded_armor_f" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_a1" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+		  <equipment slot="Item1"  id="Item.woodland_axe_t3" />
+		  <equipment slot="Item2"  id="Item.AR_shield_infantry_zt" />
+		  <equipment slot="Head" id="Item.cts_dacian_helmet_c" /> 
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m" />
+		  <equipment slot="Body" id="Item.leather_scale_armor" />
+		  <equipment slot="Leg" id="Item.cts_dacian_pants_b" />
+		</EquipmentRoster>
+		
+		<EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_palaic_levy"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Palaicoi Levy"
+                occupation="Soldier"
+                culture="Culture.palaic"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_palaic_militiaman" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_b" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_b1" />
+			<equipment slot="Body" id="Item.plain_hemp_tunic" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_b2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_a" />
+			<equipment slot="Body" id="Item.tied_cloth_tunic" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_a1" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_c1" />
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_c" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+   <NPCCharacter id="bk_palaic_levy_skirmisher"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Palaicoi Skirmisher"
+                occupation="Soldier"
+                culture="Culture.palaic"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_palaic_skirmisher" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_b" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_b1" />
+			<equipment slot="Body" id="Item.plain_hemp_tunic" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_b2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_a" />
+			<equipment slot="Body" id="Item.tied_cloth_tunic" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_a1" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_c1" />
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_c" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  
+  <NPCCharacter id="bk_palaic_militiaman_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=!}Battanian Saethwr"
+                occupation="Soldier"
+                culture="Culture.palaic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="80" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="70" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="30" />
+      <skill id="Bow" value="100" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Body" id="Item.ao_battanian_gambeson" />
+		  <equipment slot="Leg"  id="Item.battania_leather_boots" />
+		  <equipment slot="Gloves" id="Item.highland_gloves" />
+		  <equipment slot="Cape"  id="Item.AR_battanian_shoulder_c" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_m" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz" /> 
+		  <equipment slot="Cape" id="Item.AR_battanian_shoulder_h" />
+		  <equipment slot="Body" id="Item.battania_light_armor_a" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_v" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>	
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Body" id="Item.ao_battanian_gambeson" />
+		  <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+		  <equipment slot="Cape" id="Item.battania_civil_cape" />
+		  <equipment slot="Gloves" id="Item.highland_gloves" />
+		  <equipment slot="Head" id="Item.battania_fur_helmet" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_q" />
+		  <equipment slot="Body" id="Item.AR_battania_armor_h" />
+		  <equipment slot="Leg" id="Item.ragged_boots" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_w2" /> 
+		  <equipment slot="Cape" id="Item.AR_empire_shoulders_a" />
+		  <equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_u" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_w2" />
+		  <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+		  <equipment slot="Body" id="Item.AR_battania_armor_g" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_v" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_w" />
+		  <equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_v" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_u" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Cape" id="Item.ao_light_fur_shoulder" />
+		  <equipment slot="Body" id="Item.tv_battania_armor_e" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_d" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Cape" id="Item.AR_battanian_shoulder_f" />
+		  <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_a" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_m" />
+		  <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_b" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+		  <equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+		  <equipment slot="Cape" id="Item.battania_cloak" />
+		  <equipment slot="Body" id="Item.ao_battanian_gambeson" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.woodland_axe_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_l" />
+		  <equipment slot="Cape" id="Item.battania_cloak_b" />
+		  <equipment slot="Body" id="Item.battania_light_armor_e" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.battania_sword_3_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_p" />
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_m2" />
+		  <equipment slot="Body" id="Item.AR_battania_armor_g" />
+		  <equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.battania_sword_3_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_p" />
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p2" />
+		  <equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt" />
+		  <equipment slot="Leg" id="Item.leather_shoes" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_w" />
+		  <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+		  <equipment slot="Body" id="Item.fur_coat_over_tunic" />
+		  <equipment slot="Leg" id="Item.ragged_boots" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		  <equipment slot="Item0" id="Item.battania_sword_2_t3" />
+		  <equipment slot="Item1" id="Item.lowland_longbow" />
+		  <equipment slot="Item2" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Item3" id="Item.bodkin_arrows_a" />
+		  <equipment slot="Head" id="Item.AR_battania_helmet_m" />
+		  <equipment slot="Cape" id="Item.ao_battanian_cloak" />
+		  <equipment slot="Body" id="Item.tv_battania_armor_e" />
+		  <equipment slot="Leg" id="Item.leather_shoes" />
+		  <equipment slot="Gloves" id="Item.TV_vlandia_gloves_f" />
+		</EquipmentRoster>
+		<EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_palaic_levy_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=!}Battanian Levy Archer"
+                occupation="Soldier"
+                culture="Culture.palaic"
+				is_basic_troop="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="50" />
+      <skill id="Riding" value="5" />
+      <skill id="OneHanded" value="40" />
+      <skill id="TwoHanded" value="15" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="5" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_palaic_militiaman_archer" />
+    </upgrade_targets>
+    <Equipments>
+	    <EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.fur_armor_with_strap" />
+			<equipment slot="Leg" id="Item.ragged_boots" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.battania_civil_cloak" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.battania_civil_a" />
+			<equipment slot="Leg"  id="Item.battania_leather_boots" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+			<equipment slot="Cape"  id="Item.battania_cloak" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.battania_civil_b" />
+			<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_l2" />
+			<equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_u" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.battania_light_armor_d" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_v" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.battania_light_armor_d" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_v" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.AR_battania_armor_d" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_u" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.ao_light_fur_shoulder" />
+			<equipment slot="Body" id="Item.AR_battania_armor_g" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_d" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.AR_battanian_shoulder_f" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.AR_battania_armor_e" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Body" id="Item.ao_battanian_woolen_tunic_with_kilt" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.battania_cloak" />
+			<equipment slot="Body" id="Item.tied_cloth_tunic" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.battania_cloak_b" />
+			<equipment slot="Body" id="Item.battania_light_armor_e" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_m2" />
+			<equipment slot="Body" id="Item.long_fur_coat" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p2" />
+			<equipment slot="Body" id="Item.ao_battanian_leather_tunic_with_kilt" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.fur_coat_over_tunic" />
+			<equipment slot="Leg" id="Item.ragged_boots" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.battania_sword_1_t2" />
+			<equipment slot="Item1" id="Item.glen_ranger_bow" />
+			<equipment slot="Item2" id="Item.bodkin_arrows_b" />
+			<equipment slot="Item3" id="Item.bodkin_arrows_b" />
+			<equipment slot="Cape" id="Item.ao_battanian_cloak" />
+			<equipment slot="Body" id="Item.layered_leather_tunic" />
+			<equipment slot="Leg" id="Item.leather_shoes" />
+		</EquipmentRoster>
+		<EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

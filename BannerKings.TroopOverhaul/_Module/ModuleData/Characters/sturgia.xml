@@ -1263,6 +1263,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.large_franziskaa_axe_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
@@ -1273,6 +1274,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.large_franziskaa_axe_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.ao_sturgian_spangenhelm_with_leather" />
@@ -1283,6 +1285,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.large_franziskaa_axe_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sturgian_nasal_helmet_fur" />
@@ -1293,6 +1296,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_sword_3_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_sturgia_helmet_k" />
@@ -1302,6 +1306,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_sword_2_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nasalhelm_over_leather" />
@@ -1311,6 +1316,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.northern_battle_axe_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nasalhelm_over_leather" />
@@ -1320,6 +1326,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.northern_battle_axe_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nasalhelm_over_leather" />
@@ -1329,6 +1336,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.northern_battle_axe_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nasalhelm_over_leather" />
@@ -1339,6 +1347,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_axe_3_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_sturgia_helmet_l" />
@@ -1349,6 +1358,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_axe_3_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nasal_helmet_with_leather" />
@@ -1358,6 +1368,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_axe_3_t3" />
 			<equipment slot="Item2" id="Item.GRE_heavy_steppe_arrows" />
+			<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows" />
 		</EquipmentRoster>
 		<EquipmentSet id="sturgia_troop_civilian_template_t3"
                     civilian="true" />
@@ -1387,6 +1398,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat" />
@@ -1395,6 +1407,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.northern_fur_cap" />
@@ -1403,6 +1416,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_leather_cap" />
@@ -1411,6 +1425,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_leather_cap" />
@@ -1419,6 +1434,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat_a" />
@@ -1427,6 +1443,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.roughhide_cap" />
@@ -1435,6 +1452,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.northern_spear_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat" />
@@ -1443,6 +1461,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.northern_spear_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_leather_cap" />
@@ -1451,6 +1470,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.northern_spear_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_fur_cap" />
@@ -1459,6 +1479,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.northern_spear_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat_a" />
@@ -1467,6 +1488,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat_a" />
@@ -1476,6 +1498,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.nordic_fur_cap" />
@@ -1485,6 +1508,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.sloven_hat_a" />
@@ -1494,6 +1518,7 @@
 			<equipment slot="Item0" id="Item.steppe_bow" />
 			<equipment slot="Item1" id="Item.sturgia_axe_2_t2" />
 			<equipment slot="Item2" id="Item.GRE_default_arrows" />
+			<equipment slot="Item3" id="Item.GRE_default_arrows" />
 		</EquipmentRoster>
 		<EquipmentSet id="sturgia_troop_civilian_template_t2"
                     civilian="true" />
