@@ -917,7 +917,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_hippotoxotes" default_group="Cavalry" level="21" name="{=!}Imperial Hippotoxotes" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_hippotoxotes" default_group="HorseArcher" level="21" name="{=!}Imperial Hippotoxotes" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
