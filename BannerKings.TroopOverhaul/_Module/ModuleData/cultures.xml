@@ -1,22 +1,966 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SPCultures>
 
+  <Culture
+		id="kannic"
+		name="{=!}Kannic"
+		is_main_culture="false"
+		color="0xffB57A1E"
+		color2="0xff4E1A13"
+		elite_basic_troop="NPCCharacter.bk_kanic_highborn"
+		basic_troop="NPCCharacter.bk_kannic_levy"
+		melee_militia_troop="NPCCharacter.bk_kannic_levy"
+		ranged_militia_troop="NPCCharacter.bk_kannic_levy_archer"
+		melee_elite_militia_troop="NPCCharacter.bk_kannic_militiaman"
+		ranged_elite_militia_troop="NPCCharacter.bk_kannic_militiaman_archer"
+		can_have_settlement="true"
+		town_edge_number="16"
+		villager_party_template="PartyTemplate.villager_aserai_template"
+		default_party_template="PartyTemplate.bk_kannic_party_template"
+		encounter_background_mesh="encounter_aserai"
+		faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
+		elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai"
+		caravan_party_template="PartyTemplate.caravan_template_aserai"
+		militia_party_template="PartyTemplate.militia_aserai_template"
+		rebels_party_template="PartyTemplate.rebels_aserai_template"
+		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
+		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+		text="{=!}The Kanic have ruled over the shores of the Perassic and Jade seas long before the advent of the Nahawasi confederation."
+		tournament_master="NPCCharacter.tournament_master_aserai"
+		villager="NPCCharacter.villager_aserai"
+		caravan_master="NPCCharacter.caravan_master_kannic"
+		armed_trader="NPCCharacter.armed_trader_aserai"
+		caravan_guard="NPCCharacter.caravan_guard_aserai"
+		veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
+		duel_preset="NPCCharacter.aserai_duel_preset"
+		prison_guard="NPCCharacter.prison_guard_aserai"
+		guard="NPCCharacter.guard_aserai"
+		blacksmith="NPCCharacter.blacksmith_aserai"
+		weaponsmith="NPCCharacter.weaponsmith_aserai"
+		townswoman="NPCCharacter.townswoman_aserai"
+		townswoman_infant="NPCCharacter.townswoman_infant_aserai"
+		townswoman_child="NPCCharacter.townswoman_child_aserai"
+		townswoman_teenager="NPCCharacter.townswoman_teenager_aserai"
+		townsman="NPCCharacter.townsman_aserai"
+		townsman_infant="NPCCharacter.townsman_infant_aserai"
+		townsman_child="NPCCharacter.townsman_child_aserai"
+		townsman_teenager="NPCCharacter.townsman_teenager_aserai"
+		village_woman="NPCCharacter.village_woman_aserai"
+		villager_male_child="NPCCharacter.villager_child_aserai"
+		villager_male_teenager="NPCCharacter.villager_teenager_aserai"
+		villager_female_child="NPCCharacter.village_woman_child_aserai"
+		villager_female_teenager="NPCCharacter.village_woman_teenager_aserai"
+		ransom_broker="NPCCharacter.ransom_broker_aserai"
+		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_aserai"
+		merchant_notary="NPCCharacter.merchant_notary_aserai"
+		artisan_notary="NPCCharacter.artisan_notary_aserai"
+		preacher_notary="NPCCharacter.preacher_notary_aserai"
+		rural_notable_notary="NPCCharacter.rural_notable_notary_aserai"
+		shop_worker="NPCCharacter.shop_worker_aserai"
+		tavernkeeper="NPCCharacter.tavernkeeper_aserai"
+		taverngamehost="NPCCharacter.taverngamehost_aserai"
+		musician="NPCCharacter.musician_aserai"
+		tavern_wench="NPCCharacter.tavern_wench_aserai"
+		armorer="NPCCharacter.armorer_aserai"
+		horseMerchant="NPCCharacter.horseMerchant_aserai"
+		barber="NPCCharacter.barber_aserai"
+		merchant="NPCCharacter.merchant_aserai"
+		beggar="NPCCharacter.beggar_aserai"
+		female_beggar="NPCCharacter.female_beggar_aserai"
+		female_dancer="NPCCharacter.female_dancer_aserai"
+		gear_practice_dummy="NPCCharacter.gear_practice_dummy_aserai"
+		weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_aserai"
+		weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_aserai"
+		weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_aserai"
+		gear_dummy="NPCCharacter.gear_dummy_aserai"
+		board_game_type="Seega">
+		<vassal_reward_items>
+			<item
+				id="Item.noble_horse_khamseen" />
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item
+				id="Item.aserai_sword_1_t2" />
+			<item
+				id="Item.aserai_sword_3_t3" />
+			<item
+				id="Item.aserai_sword_4_t4" />
+			<item
+				id="Item.aserai_sword_5_t4" />
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy
+				id="policy_council_of_the_commons" />
+			<policy
+				id="policy_senate" />
+		</default_policies>
+		<male_names>
+			<name name="{=!}Hannibl" />
+			<name name="{=!}Abidbl" />
+			<name name="{=!}Adonis" />
+			<name name="{=!}Dagon" />
+			<name name="{=!}Eshmun" />
+			<name name="{=!}Beneshor" />
+			<name name="{=!}Hanneshor" />
+			<name name="{=!}Baliaton" />
+		</male_names>
+		<female_names>
+			<name name="{=!}Eshora" />
+			<name name="{=!}Adonia" />
+			<name name="{=!}Adama" />
+		</female_names>
+		<clan_names>
+			<name
+				name="{=VV6p47Ee}Banu Arumaq" />
+			<name
+				name="{=By82n3gR}Banu Aska" />
+			<name
+				name="{=QBtprltg}Banu Ayan" />
+			<name
+				name="{=uwalgjVy}Banu Dilis" />
+			<name
+				name="{=IcB0xdbd}Banu Dhamin" />
+			<name
+				name="{=86LT9H6v}Banu Fasus" />
+			<name
+				name="{=0znqTt5G}Banu Harranad" />
+			<name
+				name="{=ZEwqRhHO}Banu Hund" />
+			<name
+				name="{=TIhFAZld}Banu Ijaraz" />
+			<name
+				name="{=c39lybQJ}Banu Julul" />
+			<name
+				name="{=Iwe7Xpke}Banu Kinyan" />
+			<name
+				name="{=UKcaINTn}Banu Khashal" />
+			<name
+				name="{=irccq0qs}Banu Laikh" />
+			<name
+				name="{=DygS1Bef}Banu Mushala" />
+			<name
+				name="{=bgNQtbS7}Banu Nir" />
+			<name
+				name="{=yrYO33f8}Banu Qaram" />
+			<name
+				name="{=7oBUn2V1}Banu Rawi" />
+			<name
+				name="{=fDbOCRMM}Banu Shum" />
+			<name
+				name="{=wRVVs7t4}Banu Sirsan" />
+			<name
+				name="{=SGFsmCJa}Banu Tammar" />
+			<name
+				name="{=sAa3o3vw}Banu Tharuq" />
+			<name
+				name="{=EbkJbzwO}Banu Unuth" />
+			<name
+				name="{=SJJobqeR}Banu Widhas" />
+			<name
+				name="{=oY2rbPH2}Banu Yurib" />
+			<name
+				name="{=L4XUK5n4}Banu Yatash" />
+			<name
+				name="{=WFfbxYu5}Banu Zus" />
+		</clan_names>
+		<cultural_feats>
+			<feat
+				id="aserai_cheaper_caravans" />
+			<feat
+				id="aserai_desert_speed" />
+			<feat
+				id="aserai_increased_wages" />
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon
+				id="110" />
+			<icon
+				id="155" />
+			<icon
+				id="156" />
+			<icon
+				id="200" />
+			<icon
+				id="201" />
+			<icon
+				id="204" />
+			<icon
+				id="212" />
+			<icon
+				id="218" />
+			<icon
+				id="219" />
+			<icon
+				id="220" />
+			<icon
+				id="221" />
+			<icon
+				id="222" />
+			<icon
+				id="223" />
+			<icon
+				id="321" />
+			<icon
+				id="400" />
+			<icon
+				id="401" />
+			<icon
+				id="403" />
+			<icon
+				id="404" />
+			<icon
+				id="405" />
+			<icon
+				id="425" />
+			<icon
+				id="426" />
+			<icon
+				id="427" />
+			<icon
+				id="428" />
+			<icon
+				id="430" />
+			<icon
+				id="309" />
+		</possible_clan_banner_icon_ids>
+		<notable_and_wanderer_templates>
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_0" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_1" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_2" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_3" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_4" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_5" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_6" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_7" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_8" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_9" />
+			<template
+				name="NPCCharacter.spc_wanderer_kannic_10" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_0" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_0b" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_1" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_1b" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_2" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_2b" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_3" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_3b" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_4" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_5" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_6" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_7" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_8" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_9" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_10" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_11" />
+			<template
+				name="NPCCharacter.spc_notable_kannic_12" />
+			<template
+				name="NPCCharacter.spc_kannic_headman_1" />
+			<template
+				name="NPCCharacter.spc_kannic_headman_2" />
+			<template
+				name="NPCCharacter.spc_kannic_headman_3" />
+		</notable_and_wanderer_templates>
+		<lord_templates>
+			<template
+				name="NPCCharacter.spc_ghilman_leader_0" />
+			<template
+				name="NPCCharacter.spc_ghilman_leader_1" />
+			<template
+				name="NPCCharacter.spc_ghilman_leader_2" />
+			<template
+				name="NPCCharacter.spc_ghilman_leader_3" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_0" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_1" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_2" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_3" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_0" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_1" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_2" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_3" />
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template
+				name="NPCCharacter.spc_ghilman_leader_0" />
+			<template
+				name="NPCCharacter.spc_ghilman_leader_1" />
+			<template
+				name="NPCCharacter.spc_ghilman_leader_2" />
+			<template
+				name="NPCCharacter.spc_ghilman_leader_3" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_0" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_1" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_2" />
+			<template
+				name="NPCCharacter.spc_beni_zilal_leader_3" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_0" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_1" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_2" />
+			<template
+				name="NPCCharacter.spc_jawwal_leader_3" />
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template
+				name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template
+				name="NPCCharacter.tournament_template_aserai_two_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_aserai_two_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_aserai_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template
+				name="NPCCharacter.tournament_template_aserai_four_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_aserai_four_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_aserai_four_participant_set_v3" />
+			<template
+				name="NPCCharacter.tournament_template_aserai_four_participant_set_v4" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template
+				name="NPCCharacter.eastern_mercenary" />
+			<template
+				name="NPCCharacter.sword_sisters_sister_t3" />
+		</basic_mercenary_troops>
+	</Culture>
+
+  <Culture id="darshi"
+           name="{=IHhWB1aa}Darshi"
+           is_main_culture="false"
+           color="0xffB57A1E"
+           color2="0xff4E1A13"
+           elite_basic_troop="NPCCharacter.bk_darshi_squire"
+           basic_troop="NPCCharacter.bk_darshi_levy"
+           melee_militia_troop="NPCCharacter.bk_darshi_levy"
+           ranged_militia_troop="NPCCharacter.bk_darshi_levy_archer"
+           melee_elite_militia_troop="NPCCharacter.bk_darshi_militiaman"
+           ranged_elite_militia_troop="NPCCharacter.bk_darshi_militiaman_archer"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_aserai_template"
+           default_party_template="PartyTemplate.bk_darshi_party_template"
+           encounter_background_mesh="encounter_aserai"
+           faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai"
+           caravan_party_template="PartyTemplate.caravan_template_aserai"
+           militia_party_template="PartyTemplate.militia_aserai_template"
+           rebels_party_template="PartyTemplate.rebels_aserai_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=!}"
+           tournament_master="NPCCharacter.tournament_master_aserai"
+           villager="NPCCharacter.villager_aserai"
+           caravan_master="NPCCharacter.caravan_master_darshi"
+           armed_trader="NPCCharacter.armed_trader_aserai"
+           caravan_guard="NPCCharacter.caravan_guard_aserai"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
+           duel_preset="NPCCharacter.aserai_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_aserai"
+           guard="NPCCharacter.guard_aserai"
+           blacksmith="NPCCharacter.blacksmith_aserai"
+           weaponsmith="NPCCharacter.weaponsmith_aserai"
+           townswoman="NPCCharacter.townswoman_aserai"
+           townswoman_infant="NPCCharacter.townswoman_infant_aserai"
+           townswoman_child="NPCCharacter.townswoman_child_aserai"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_aserai"
+           townsman="NPCCharacter.townsman_aserai"
+           townsman_infant="NPCCharacter.townsman_infant_aserai"
+           townsman_child="NPCCharacter.townsman_child_aserai"
+           townsman_teenager="NPCCharacter.townsman_teenager_aserai"
+           village_woman="NPCCharacter.village_woman_aserai"
+           villager_male_child="NPCCharacter.villager_child_aserai"
+           villager_male_teenager="NPCCharacter.villager_teenager_aserai"
+           villager_female_child="NPCCharacter.village_woman_child_aserai"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_aserai"
+           ransom_broker="NPCCharacter.ransom_broker_aserai"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_aserai"
+           merchant_notary="NPCCharacter.merchant_notary_aserai"
+           artisan_notary="NPCCharacter.artisan_notary_aserai"
+           preacher_notary="NPCCharacter.preacher_notary_aserai"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_aserai"
+           shop_worker="NPCCharacter.shop_worker_aserai"
+           tavernkeeper="NPCCharacter.tavernkeeper_aserai"
+           taverngamehost="NPCCharacter.taverngamehost_aserai"
+           musician="NPCCharacter.musician_aserai"
+           tavern_wench="NPCCharacter.tavern_wench_aserai"
+           armorer="NPCCharacter.armorer_aserai"
+           horseMerchant="NPCCharacter.horseMerchant_aserai"
+           barber="NPCCharacter.barber_aserai"
+           merchant="NPCCharacter.merchant_aserai"
+           beggar="NPCCharacter.beggar_aserai"
+           female_beggar="NPCCharacter.female_beggar_aserai"
+           female_dancer="NPCCharacter.female_dancer_aserai"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_aserai"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_aserai"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_aserai"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_aserai"
+           gear_dummy="NPCCharacter.gear_dummy_aserai"
+           board_game_type="Seega">
+    <vassal_reward_items>
+      <item id="Item.noble_horse_khamseen" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.aserai_sword_1_t2" />
+      <item id="Item.aserai_sword_3_t3" />
+      <item id="Item.aserai_sword_4_t4" />
+      <item id="Item.aserai_sword_5_t4" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_council_of_the_commons" />
+      <policy id="policy_senate" />
+    </default_policies>
+    <male_names>
+      <name name="{=JJtww9pt}Aryush" />
+      <name name="{=Zm0Ee6sp}Azadun" />
+      <name name="{=nisA6W98}Baheshtur" />
+      <name name="{=pEvpjIa9}Bunduk" />
+      <name name="{=Z261F0mj}Hamezan" />
+      <name name="{=KmzQabkH}Hivan" />
+      <name name="{=QR3aNalC}Imirza" />
+      <name name="{=mDZqpa9Z}Sanjar" />
+	  <name name="{=!}Bahram" />
+	  <name name="{=!}Shahbur" />
+	  <name name="{=!}Sargon" />
+	  <name name="{=!}Hormizhd" />
+	  <name name="{=!}Ardashar" />
+	  <name name="{=!}Kavadh" />
+	  <name name="{=!}Khosrau" />
+	  <name name="{=!}Balash" />
+	  <name name="{=!}Sarhad" />
+	  <name name="{=!}Esarhaddon" />
+	  <name name="{=!}Oshalimahun" />
+	  <name name="{=!}Zar-Adan-Ekhi" />
+	  <name name="{=!}Nabu-Ikbi" />
+	  <name name="{=!}Kudur-Yutsur" />
+	  <name name="{=!}Nabu-Ekhi-Erba" />
+	  <name name="{=!}Kanun" />
+	  <name name="{=!}Mannu-Ki-Ashur" />
+	  <name name="{=!}Namtar" />
+	  <name name="{=!}Nergal-Edir" />
+	  <name name="{=!}Nergal-Sar-Ussr" />
+	  <name name="{=!}Nergiglissar" />
+	  <name name="{=!}Nidintabel" />
+	  <name name="{=!}Shagaraktiyash" />
+	  <name name="{=!}Sisuthrus" />
+	  <name name="{=!}Kasu-Nadin-Ahu" />
+	  <name name="{=!}Merodak-Mu-Basa" />
+	  <name name="{=!}Misa-Nana-Kal-Ammi" />
+	  <name name="{=!}Mulaghunnuna" />
+	  <name name="{=!}Ul-Khum-Zabu" />
+	  <name name="{=!}Idadu" />
+	  <name name="{=!}Nabonahid" />
+	  <name name="{=!}Charbil" />
+	  <name name="{=!}Sayad" />
+	  <name name="{=!}Khamis" />
+	  <name name="{=!}Zeyno" />
+	  <name name="{=!}Adrahasis" />
+	  <name name="{=!}Annunitum" />
+	  <name name="{=!}Akku" />
+	  <name name="{=!}Furqan" />
+	  <name name="{=!}Farzad" />
+    </male_names>
+    <female_names>
+      <name name="{=lGRde77R}Anahita" />
+      <name name="{=sa0YrXiv}Azareh" />
+      <name name="{=epxmhQav}Daria" />
+      <name name="{=zSL3MgNQ}Ilzar" />
+      <name name="{=R7avnODK}Nasmeen" />
+      <name name="{=ZPHdPglH}Raksana" />
+      <name name="{=SHXt3kC5}Roshaneh" />
+      <name name="{=wERVdmjj}Sulnaz" />
+      <name name="{=Btb7NzFM}Shima" />
+      <name name="{=GqEEIYay}Tilzad" />
+	  <name name="{=!}Hedu" />
+	  <name name="{=!}Sharukina" />
+	  <name name="{=!}Ashurina" />
+	  <name name="{=!}Arbella" />
+	  <name name="{=!}Larsa" />
+	  <name name="{=!}Deqlat" />
+	  <name name="{=!}Sahdah" />
+	  <name name="{=!}Nviya" />
+	  <name name="{=!}Nahrain" />
+	  <name name="{=!}Tauno" />
+	  <name name="{=!}Khaya" />
+	  <name name="{=!}Warda" />
+	  <name name="{=!}Ramina" />
+	  <name name="{=!}Warduni" />
+	  <name name="{=!}Ilona" />
+	  <name name="{=!}Neesan" />
+	  <name name="{=!}Nuri-Shapira" />
+	  <name name="{=!}Dawa" />
+	  <name name="{=!}En-hedu-anna" />
+	  <name name="{=!}Naram-sin" />
+	  <name name="{=!}Tashlultum" />
+	  <name name="{=!}Agusaya" />
+    </female_names>
+    <clan_names>
+      <name name="{=VV6p47Ee}Banu Arumaq" />
+      <name name="{=By82n3gR}Banu Aska" />
+      <name name="{=QBtprltg}Banu Ayan" />
+      <name name="{=uwalgjVy}Banu Dilis" />
+      <name name="{=IcB0xdbd}Banu Dhamin" />
+      <name name="{=86LT9H6v}Banu Fasus" />
+      <name name="{=0znqTt5G}Banu Harranad" />
+      <name name="{=ZEwqRhHO}Banu Hund" />
+      <name name="{=TIhFAZld}Banu Ijaraz" />
+      <name name="{=c39lybQJ}Banu Julul" />
+      <name name="{=Iwe7Xpke}Banu Kinyan" />
+      <name name="{=UKcaINTn}Banu Khashal" />
+      <name name="{=irccq0qs}Banu Laikh" />
+      <name name="{=DygS1Bef}Banu Mushala" />
+      <name name="{=bgNQtbS7}Banu Nir" />
+      <name name="{=yrYO33f8}Banu Qaram" />
+      <name name="{=7oBUn2V1}Banu Rawi" />
+      <name name="{=fDbOCRMM}Banu Shum" />
+      <name name="{=wRVVs7t4}Banu Sirsan" />
+      <name name="{=SGFsmCJa}Banu Tammar" />
+      <name name="{=sAa3o3vw}Banu Tharuq" />
+      <name name="{=EbkJbzwO}Banu Unuth" />
+      <name name="{=SJJobqeR}Banu Widhas" />
+      <name name="{=oY2rbPH2}Banu Yurib" />
+      <name name="{=L4XUK5n4}Banu Yatash" />
+      <name name="{=WFfbxYu5}Banu Zus" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="aserai_cheaper_caravans" />
+      <feat id="aserai_desert_speed" />
+      <feat id="aserai_increased_wages" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="110" />
+      <icon id="155" />
+      <icon id="156" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="204" />
+      <icon id="212" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="321" />
+      <icon id="400" />
+      <icon id="401" />
+      <icon id="403" />
+      <icon id="404" />
+      <icon id="405" />
+      <icon id="425" />
+      <icon id="426" />
+      <icon id="427" />
+      <icon id="428" />
+      <icon id="430" />
+      <icon id="309" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_wanderer_darshi_0" />
+      <template name="NPCCharacter.spc_wanderer_darshi_1" />
+      <template name="NPCCharacter.spc_wanderer_darshi_2" />
+      <template name="NPCCharacter.spc_wanderer_darshi_3" />
+      <template name="NPCCharacter.spc_wanderer_darshi_4" />
+      <template name="NPCCharacter.spc_wanderer_darshi_5" />
+      <template name="NPCCharacter.spc_wanderer_darshi_6" />
+      <template name="NPCCharacter.spc_wanderer_darshi_7" />
+      <template name="NPCCharacter.spc_wanderer_darshi_8" />
+      <template name="NPCCharacter.spc_wanderer_darshi_9" />
+      <template name="NPCCharacter.spc_wanderer_darshi_10" />
+      <template name="NPCCharacter.spc_notable_darshi_0" />
+      <template name="NPCCharacter.spc_notable_darshi_0b" />
+      <template name="NPCCharacter.spc_notable_darshi_1" />
+      <template name="NPCCharacter.spc_notable_darshi_1b" />
+      <template name="NPCCharacter.spc_notable_darshi_2" />
+      <template name="NPCCharacter.spc_notable_darshi_2b" />
+      <template name="NPCCharacter.spc_notable_darshi_3" />
+      <template name="NPCCharacter.spc_notable_darshi_3b" />
+      <template name="NPCCharacter.spc_notable_darshi_4" />
+      <template name="NPCCharacter.spc_notable_darshi_5" />
+      <template name="NPCCharacter.spc_notable_darshi_6" />
+      <template name="NPCCharacter.spc_notable_darshi_7" />
+      <template name="NPCCharacter.spc_notable_darshi_8" />
+      <template name="NPCCharacter.spc_notable_darshi_9" />
+      <template name="NPCCharacter.spc_notable_darshi_10" />
+      <template name="NPCCharacter.spc_notable_darshi_11" />
+      <template name="NPCCharacter.spc_notable_darshi_12" />
+      <template name="NPCCharacter.spc_darshi_headman_1" />
+      <template name="NPCCharacter.spc_darshi_headman_2" />
+      <template name="NPCCharacter.spc_darshi_headman_3" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_ghilman_leader_0" />
+      <template name="NPCCharacter.spc_ghilman_leader_1" />
+      <template name="NPCCharacter.spc_ghilman_leader_2" />
+      <template name="NPCCharacter.spc_ghilman_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_aserai_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v3" />
+      <template name="NPCCharacter.tournament_template_aserai_four_participant_set_v4" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.eastern_mercenary" />
+      <template name="NPCCharacter.sword_sisters_sister_t3" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+  
+  <Culture id="geroia"
+		name="{=!}Geroiako"
+		is_main_culture="false"
+		color="0xff793191"
+		color2="0xffFCDE90"
+		elite_basic_troop="NPCCharacter.bk_geroia_highborn"
+		basic_troop="NPCCharacter.bk_geroia_levy"
+		melee_militia_troop="NPCCharacter.bk_geroia_levy"
+		ranged_militia_troop="NPCCharacter.bk_geroia_levy_archer"
+		melee_elite_militia_troop="NPCCharacter.bk_geroia_militiaman"
+		ranged_elite_militia_troop="NPCCharacter.bk_geroia_militiaman_archer"
+		can_have_settlement="true"
+		town_edge_number="16"
+		villager_party_template="PartyTemplate.villager_empire_template"
+		default_party_template="PartyTemplate.bk_geroia_party_template"
+		caravan_party_template="PartyTemplate.caravan_template_empire"
+		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
+		militia_party_template="PartyTemplate.militia_empire_template"
+		rebels_party_template="PartyTemplate.rebels_empire_template"
+		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_empire"
+		prosperity_bonus="1"
+		encounter_background_mesh="encounter_empire"
+		faction_banner_key="11.4.124.4345.4345.764.764.1.0.0.163.0.5.512.512.764.764.1.0.0"
+		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+		text="{=X0kKBzsW}The Calradians are the people of the Empire, though by now they have given their name to the entire continent which they dominate. A thousand years ago, they were an undistinguished tribe living in the hill country between the southern sea and the Battanian woods. One tradition set them apart from their neighbors - the Calradoi had no kings. Their citizenry has always taken an intense interest in the art of self-government, the balance between protecting the liberty of individuals and the needs of the state. Perhaps this is why they had a slight edge in the endless wars between one town and another, keeping armies in the field just a little longer, bouncing back just a little more quickly from a defeat. Some of their neighbors federated with them; others were overrun. Eventually the Calradians formed an empire, which evolved into a monarchy in all but name. Their leaders are no longer distinguished civic elders but great landholders scattered across the continent; the striking force of their armies is no longer citizen-infantry but heavily armored cataphracts in the retinues of the wealthy. But they still take their civic traditions very seriously, believing that the Calradian ideal can unite a continent in peace, if only the ”barbarians” beyond their borders would agree to submit to it."
+		tournament_master="NPCCharacter.tournament_master_empire"
+		villager="NPCCharacter.villager_empire"
+		caravan_master="NPCCharacter.caravan_master_empire"
+		armed_trader="NPCCharacter.armed_trader_empire"
+		caravan_guard="NPCCharacter.caravan_guard_empire"
+		veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire"
+		duel_preset="NPCCharacter.empire_duel_preset"
+		prison_guard="NPCCharacter.prison_guard_empire"
+		guard="NPCCharacter.guard_empire"
+		blacksmith="NPCCharacter.blacksmith_empire"
+		weaponsmith="NPCCharacter.weaponsmith_empire"
+		townswoman="NPCCharacter.townswoman_empire"
+		townswoman_infant="NPCCharacter.townswoman_infant_empire"
+		townswoman_child="NPCCharacter.townswoman_child_empire"
+		townswoman_teenager="NPCCharacter.townswoman_teenager_empire"
+		townsman="NPCCharacter.townsman_empire"
+		townsman_infant="NPCCharacter.townsman_infant_empire"
+		townsman_child="NPCCharacter.townsman_child_empire"
+		village_woman="NPCCharacter.village_woman_empire"
+		villager_male_child="NPCCharacter.villager_child_empire"
+		villager_male_teenager="NPCCharacter.villager_teenager_empire"
+		villager_female_child="NPCCharacter.village_woman_child_empire"
+		villager_female_teenager="NPCCharacter.village_woman_teenager_empire"
+		townsman_teenager="NPCCharacter.townsman_teenager_empire"
+		ransom_broker="NPCCharacter.ransom_broker_empire"
+		gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire"
+		merchant_notary="NPCCharacter.merchant_notary_empire"
+		artisan_notary="NPCCharacter.artisan_notary_empire"
+		preacher_notary="NPCCharacter.preacher_notary_empire"
+		rural_notable_notary="NPCCharacter.rural_notable_notary_empire"
+		shop_worker="NPCCharacter.shop_worker_empire"
+		tavernkeeper="NPCCharacter.tavernkeeper_empire"
+		taverngamehost="NPCCharacter.taverngamehost_empire"
+		musician="NPCCharacter.musician_empire"
+		tavern_wench="NPCCharacter.tavern_wench_empire"
+		armorer="NPCCharacter.armorer_empire"
+		horseMerchant="NPCCharacter.horseMerchant_empire"
+		barber="NPCCharacter.barber_empire"
+		merchant="NPCCharacter.merchant_empire"
+		beggar="NPCCharacter.beggar_empire"
+		female_beggar="NPCCharacter.female_beggar_empire"
+		female_dancer="NPCCharacter.female_dancer_empire"
+		gear_practice_dummy="NPCCharacter.gear_practice_dummy_empire"
+		weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_empire"
+		weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_empire"
+		weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_empire"
+		gear_dummy="NPCCharacter.gear_dummy_empire"
+		board_game_type="Tablut">
+	<vassal_reward_items>
+		<item
+			id="Item.justicier_2hsword" />
+	</vassal_reward_items>
+	<banner_bearer_replacement_weapons>
+		<item id="Item.iron_spatha_sword_t2" />
+		<item id="Item.empire_sword_1_t2" />
+		<item id="Item.empire_sword_2_t3" />
+		<item id="Item.empire_sword_6_t5" />
+	</banner_bearer_replacement_weapons>
+	<default_policies>
+		<policy
+			id="policy_senate" />
+	</default_policies>
+    <male_names>
+	  <name name="{=!}Arrig" />
+	  <name name="{=!}Calu" />
+	  <name name="{=!}Lomellin" />
+	  <name name="{=!}Basti" />
+	  <name name="{=!}Algher" />
+	  <name name="{=!}Chian" />
+	  <name name="{=!}Migon" />
+	  <name name="{=!}Timbor" />
+	  <name name="{=!}Parason" />
+	  <name name="{=!}Ugon" />
+	  <name name="{=!}Cossu" />
+    </male_names>
+    <female_names>
+	  <name name="{=!}Lai" />
+	  <name name="{=!}Loi" />
+	  <name name="{=!}Usai" />
+	  <name name="{=!}Marras" />
+	  <name name="{=!}Deian" />
+	  <name name="{=!}Fadda" />
+	  <name name="{=!}Serra" />
+	  <name name="{=!}Mura" />
+	  <name name="{=!}Pinna" />
+	  <name name="{=!}Sanna" />
+	  <name name="{=!}Manca" />
+	  <name name="{=!}Carta" />
+	  <name name="{=!}Murgia" />
+	  <name name="{=!}Spana" />
+	  <name name="{=!}Gara" />
+    </female_names>
+    <clan_names>
+      <name name="{=!}Ardar" />
+	  <name name="{=!}Maon" />
+	  <name name="{=!}Sassar" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="aserai_cheaper_caravans" />
+      <feat id="aserai_desert_speed" />
+      <feat id="aserai_increased_wages" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="110" />
+      <icon id="155" />
+      <icon id="156" />
+      <icon id="200" />
+      <icon id="201" />
+      <icon id="204" />
+      <icon id="212" />
+      <icon id="218" />
+      <icon id="219" />
+      <icon id="220" />
+      <icon id="221" />
+      <icon id="222" />
+      <icon id="223" />
+      <icon id="321" />
+      <icon id="400" />
+      <icon id="401" />
+      <icon id="403" />
+      <icon id="404" />
+      <icon id="405" />
+      <icon id="425" />
+      <icon id="426" />
+      <icon id="427" />
+      <icon id="428" />
+      <icon id="430" />
+      <icon id="309" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_0" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_1" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_2" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_3" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_4" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_5" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_6" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_7" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_8" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_9" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_10" />
+			<template
+				name="NPCCharacter.spc_wanderer_geroia_11" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_0" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_0b" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_1" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_1b" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_2" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_2b" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_3" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_3b" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_4" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_4b" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_5" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_6" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_7" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_8" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_9" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_10" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_11" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_12" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_13" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_21" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_22" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_gl1" />
+			<template
+				name="NPCCharacter.spc_notable_geroia_gl4" />
+			<template
+				name="NPCCharacter.spc_geroia_headman_1" />
+			<template
+				name="NPCCharacter.spc_geroia_headman_2" />
+			<template
+				name="NPCCharacter.spc_geroia_headman_3" />
+		</notable_and_wanderer_templates>
+    <lord_templates>
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_0" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_1" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_2" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_0" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_1" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_2" />
+			<template
+				name="NPCCharacter.spc_hidden_hand_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+			<template
+				name="NPCCharacter.tournament_template_empire_one_participant_set_v1" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template
+				name="NPCCharacter.tournament_template_empire_two_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_empire_two_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_empire_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template
+				name="NPCCharacter.tournament_template_empire_four_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_empire_four_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_empire_four_participant_set_v3" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template
+				name="NPCCharacter.eastern_mercenary" />
+			<template
+				name="NPCCharacter.western_mercenary" />
+			<template
+				name="NPCCharacter.sword_sisters_sister_t3" />
+		</basic_mercenary_troops>
+  </Culture>
  
   <Culture id="nord"
-           name="{=!}Junme"
-           is_main_culture="false"
+           name="{=!}Jumne"
+           is_main_culture="true"
            color="0xff224277"
            color2="0xffCEDAE7"
            elite_basic_troop="NPCCharacter.bk_nord_squire"
            basic_troop="NPCCharacter.bk_nord_levy"
            melee_militia_troop="NPCCharacter.bk_nord_levy"
-           ranged_militia_troop="NPCCharacter.sturgian_militia_archer"
+           ranged_militia_troop="NPCCharacter.bk_nord_levy_archer"
            melee_elite_militia_troop="NPCCharacter.bk_nord_militiaman"
-           ranged_elite_militia_troop="NPCCharacter.sturgian_militia_veteran_archer"
+           ranged_elite_militia_troop="NPCCharacter.bk_nord_militiaman_archer"
            can_have_settlement="true"
            town_edge_number="16"
            villager_party_template="PartyTemplate.villager_sturgia_template"
-           default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
+           default_party_template="PartyTemplate.bk_nord_party_template"
            encounter_background_mesh="encounter_sturgia"
            faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
            elite_caravan_party_template="PartyTemplate.elite_caravan_template_sturgia"
@@ -177,6 +1121,33 @@
     </possible_clan_banner_icon_ids>
     <notable_and_wanderer_templates>
       <template name="NPCCharacter.spc_notable_nord_0" />
+	  <template name="NPCCharacter.spc_notable_nord_0b" />
+	  <template name="NPCCharacter.spc_notable_nord_1" />
+	  <template name="NPCCharacter.spc_notable_nord_2" />
+	  <template name="NPCCharacter.spc_notable_nord_2b" />
+	  <template name="NPCCharacter.spc_notable_nord_3" />
+	  <template name="NPCCharacter.spc_notable_nord_3b" />
+	  <template name="NPCCharacter.spc_notable_nord_3c" />
+	  <template name="NPCCharacter.spc_notable_nord_4" />
+	  <template name="NPCCharacter.spc_notable_nord_5" />
+	  <template name="NPCCharacter.spc_notable_nord_6" />
+	  <template name="NPCCharacter.spc_notable_nord_7" />
+	  <template name="NPCCharacter.spc_notable_nord_8" />
+	  <template name="NPCCharacter.spc_notable_nord_9" />
+	  <template name="NPCCharacter.spc_notable_nord_10" />
+	  <template name="NPCCharacter.spc_nord_headman_1" />
+	  <template name="NPCCharacter.spc_nord_headman_2" />
+	  <template name="NPCCharacter.spc_nord_headman_3" />
+	  <template name="NPCCharacter.spc_wanderer_nord_0" />
+	  <template name="NPCCharacter.spc_wanderer_nord_1" />
+	  <template name="NPCCharacter.spc_wanderer_nord_2" />
+	  <template name="NPCCharacter.spc_wanderer_nord_3" />
+	  <template name="NPCCharacter.spc_wanderer_nord_4" />
+	  <template name="NPCCharacter.spc_wanderer_nord_5" />
+	  <template name="NPCCharacter.spc_wanderer_nord_6" />
+	  <template name="NPCCharacter.spc_wanderer_nord_7" />
+	  <template name="NPCCharacter.spc_wanderer_nord_8" />
+	  <template name="NPCCharacter.spc_wanderer_nord_9" />
     </notable_and_wanderer_templates>
     <lord_templates>
       <template name="NPCCharacter.spc_skolderbrotva_leader_0" />
@@ -229,6 +1200,254 @@
   
   <Culture id="vakken"
            name="{=bHh03ob0}Vakken"
+           is_main_culture="false"
+           color="0xff224277"
+           color2="0xffCEDAE7"
+           elite_basic_troop="NPCCharacter.bk_vakken_squire"
+           basic_troop="NPCCharacter.bk_vakken_levy"
+           melee_militia_troop="NPCCharacter.bk_vakken_levy"
+           ranged_militia_troop="NPCCharacter.bk_vakken_levy_archer"
+           melee_elite_militia_troop="NPCCharacter.bk_vakken_militiaman"
+           ranged_elite_militia_troop="NPCCharacter.bk_vakken_militiaman_archer"
+           can_have_settlement="true"
+           town_edge_number="16"
+           villager_party_template="PartyTemplate.villager_sturgia_template"
+           default_party_template="PartyTemplate.kingdom_hero_party_sturgia_template"
+           encounter_background_mesh="encounter_sturgia"
+           faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
+           elite_caravan_party_template="PartyTemplate.elite_caravan_template_sturgia"
+           caravan_party_template="PartyTemplate.caravan_template_sturgia"
+           militia_party_template="PartyTemplate.militia_sturgia_template"
+           rebels_party_template="PartyTemplate.rebels_sturgia_template"
+           vassal_reward_party_template="PartyTemplate.vassal_reward_troops_sturgia"
+           default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+           text="{=!}The Sturgians come from the northern woods, just south of the icy Byalic Sea. For centuries they lived an isolated existence in the dark forests, their numbers kept in check by the deadly winters. But as the Empire expanded to fill out the Calradian continent, traders ventured into the woods in search of honey, bog iron, and most of all fur. Great towns sprung up on the network of bays and lakes that joined the Sturgian lands to the outside world, attracting fortune-seekers from the coast, the steppes, and the Nordlands. The princes and boyars of this land have now begun to turn their eyes outward, earning themselves for a reputation for their warlike approach to business and their businesslike approach to war."
+           tournament_master="NPCCharacter.tournament_master_sturgia"
+           villager="NPCCharacter.villager_sturgia"
+           caravan_master="NPCCharacter.caravan_master_vakken"
+           armed_trader="NPCCharacter.armed_trader_sturgia"
+           caravan_guard="NPCCharacter.caravan_guard_sturgia"
+           veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_sturgia"
+           duel_preset="NPCCharacter.sturgia_duel_preset"
+           prison_guard="NPCCharacter.prison_guard_sturgia"
+           guard="NPCCharacter.guard_sturgia"
+           blacksmith="NPCCharacter.blacksmith_sturgia"
+           weaponsmith="NPCCharacter.weaponsmith_sturgia"
+           townswoman="NPCCharacter.townswoman_sturgia"
+           townswoman_infant="NPCCharacter.townswoman_infant_sturgia"
+           townswoman_child="NPCCharacter.townswoman_child_sturgia"
+           townswoman_teenager="NPCCharacter.townswoman_teenager_sturgia"
+           townsman="NPCCharacter.townsman_sturgia"
+           townsman_infant="NPCCharacter.townsman_infant_sturgia"
+           townsman_child="NPCCharacter.townsman_child_sturgia"
+           townsman_teenager="NPCCharacter.townsman_teenager_sturgia"
+           village_woman="NPCCharacter.village_woman_sturgia"
+           villager_male_child="NPCCharacter.villager_child_sturgia"
+           villager_male_teenager="NPCCharacter.villager_teenager_sturgia"
+           villager_female_child="NPCCharacter.village_woman_child_sturgia"
+           villager_female_teenager="NPCCharacter.village_woman_teenager_sturgia"
+           ransom_broker="NPCCharacter.ransom_broker_sturgia"
+           gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_sturgia"
+           merchant_notary="NPCCharacter.merchant_notary_sturgia"
+           artisan_notary="NPCCharacter.artisan_notary_sturgia"
+           preacher_notary="NPCCharacter.preacher_notary_sturgia"
+           rural_notable_notary="NPCCharacter.rural_notable_notary_sturgia"
+           shop_worker="NPCCharacter.shop_worker_sturgia"
+           tavernkeeper="NPCCharacter.tavernkeeper_sturgia"
+           taverngamehost="NPCCharacter.taverngamehost_sturgia"
+           musician="NPCCharacter.musician_sturgia"
+           tavern_wench="NPCCharacter.tavern_wench_sturgia"
+           armorer="NPCCharacter.armorer_sturgia"
+           horseMerchant="NPCCharacter.horseMerchant_sturgia"
+           barber="NPCCharacter.barber_sturgia"
+           merchant="NPCCharacter.merchant_sturgia"
+           beggar="NPCCharacter.beggar_sturgia"
+           female_beggar="NPCCharacter.female_beggar_sturgia"
+           female_dancer="NPCCharacter.female_dancer_sturgia"
+           gear_practice_dummy="NPCCharacter.gear_practice_dummy_sturgia"
+           weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_sturgia"
+           weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_sturgia"
+           weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_sturgia"
+           gear_dummy="NPCCharacter.gear_dummy_sturgia"
+           board_game_type="Konane">
+    <vassal_reward_items>
+      <item id="Item.avalanche_2haxe" />
+    </vassal_reward_items>
+    <banner_bearer_replacement_weapons>
+      <item id="Item.sturgia_sword_1_t2" />
+      <item id="Item.sturgia_sword_2_t3" />
+      <item id="Item.sturgia_sword_4_t4" />
+      <item id="Item.sturgia_sword_5_t5" />
+    </banner_bearer_replacement_weapons>
+    <default_policies>
+      <policy id="policy_lawspeakers" />
+      <policy id="policy_precarial_land_tenure" />
+    </default_policies>
+    <male_names>
+      <name name="{=jhT7CfhM}Aivar" />
+      <name name="{=GaMUU2Pf}Kaupi" />
+      <name name="{=3ipKaDWU}Natti" />
+      <name name="{=kL0ldFLG}Pekko" />
+      <name name="{=W1ZpjgQO}Rauko" />
+      <name name="{=WpTXwQw1}Vuoni" />
+    </male_names>
+    <female_names>
+      <name name="{=FlexUfSP}Alivar" />
+      <name name="{=4bQbv3oN}Arha" />
+      <name name="{=rDPExYMQ}Eitar" />
+      <name name="{=jFdZ7mlB}Ilikki" />
+      <name name="{=ELpRLYQt}Jalin" />
+      <name name="{=hBuBpxjb}Kaidi" />
+      <name name="{=j8IOY5Cy}Luona" />
+      <name name="{=iiGXfCWd}Menar" />
+      <name name="{=gG1O5V1n}Olianar" />
+      <name name="{=XAF12HV0}Vikka" />
+	  <name name="{=!}Laila" />
+    </female_names>
+    <clan_names>
+      <name name="{=tGEChxdb}Achanoving" />
+      <name name="{=OLLYkaWd}Asraloving" />
+      <name name="{=Y9qYt71a}Balikoving" />
+      <name name="{=yUuM8a0j}Boranoving" />
+      <name name="{=XJZJIZ9Q}Cholokhoving" />
+      <name name="{=NbprLzeU}Dazheroving" />
+      <name name="{=eNSZGTbN}Doronoving" />
+      <name name="{=euyyBbjq}Folyoroving" />
+      <name name="{=tKUIAmbV}Fyomanoving" />
+      <name name="{=ODcWVL1a}Gendiroving" />
+      <name name="{=NLXHafGS}Gissinoving" />
+      <name name="{=Va35TmQW}Igrunoving" />
+      <name name="{=UYqwbjTP}Iskanoving" />
+      <name name="{=dey9d9DX}Kasyoving" />
+      <name name="{=ctJub9Ah}Khirinoving" />
+      <name name="{=YJ6JKs9O}Kyorinoving" />
+      <name name="{=Vp9n86Wy}Lezhanoving" />
+      <name name="{=z2Oqk8aq}Maregoving" />
+      <name name="{=bBD4tF2y}Morochoving" />
+      <name name="{=XQfYxgti}Nimanoving" />
+      <name name="{=DxU5mVDg}Pyasoving" />
+      <name name="{=RpDv3cGI}Rimanoving" />
+      <name name="{=BrI1aJdo}Rukhanoving" />
+      <name name="{=lpbIXNdK}Suratoving" />
+      <name name="{=Lcbrsqw8}Syaveroving" />
+      <name name="{=jqaH0a35}Tymanoving" />
+      <name name="{=IVHobRWE}Usharoving" />
+      <name name="{=RFapQLfR}Vyshoving" />
+      <name name="{=OrUdifEU}Yathanoving" />
+      <name name="{=gC1paDtD}Yerchoving" />
+      <name name="{=DakafAXa}Zamantoving" />
+      <name name="{=qD72Ya4I}Zhanoving" />
+    </clan_names>
+    <cultural_feats>
+      <feat id="sturgian_cheaper_recruits_infantry" />
+      <feat id="sturgian_decreased_cohesion_rate" />
+      <feat id="sturgian_increased_decision_penalty" />
+    </cultural_feats>
+    <possible_clan_banner_icon_ids>
+      <icon id="112" />
+      <icon id="113" />
+      <icon id="114" />
+      <icon id="115" />
+      <icon id="116" />
+      <icon id="117" />
+      <icon id="118" />
+      <icon id="132" />
+      <icon id="138" />
+      <icon id="139" />
+      <icon id="307" />
+      <icon id="331" />
+      <icon id="407" />
+      <icon id="408" />
+      <icon id="409" />
+      <icon id="410" />
+      <icon id="439" />
+      <icon id="440" />
+      <icon id="441" />
+      <icon id="442" />
+      <icon id="443" />
+      <icon id="444" />
+      <icon id="445" />
+    </possible_clan_banner_icon_ids>
+    <notable_and_wanderer_templates>
+      <template name="NPCCharacter.spc_notable_vakken_0" />
+	  <template name="NPCCharacter.spc_notable_vakken_0b" />
+	  <template name="NPCCharacter.spc_notable_vakken_1" />
+	  <template name="NPCCharacter.spc_notable_vakken_2" />
+	  <template name="NPCCharacter.spc_notable_vakken_2b" />
+	  <template name="NPCCharacter.spc_notable_vakken_3" />
+	  <template name="NPCCharacter.spc_notable_vakken_3b" />
+	  <template name="NPCCharacter.spc_notable_vakken_3c" />
+	  <template name="NPCCharacter.spc_notable_vakken_4" />
+	  <template name="NPCCharacter.spc_notable_vakken_5" />
+	  <template name="NPCCharacter.spc_notable_vakken_6" />
+	  <template name="NPCCharacter.spc_notable_vakken_7" />
+	  <template name="NPCCharacter.spc_notable_vakken_8" />
+	  <template name="NPCCharacter.spc_notable_vakken_9" />
+	  <template name="NPCCharacter.spc_notable_vakken_10" />
+	  <template name="NPCCharacter.spc_vakken_headman_1" />
+	  <template name="NPCCharacter.spc_vakken_headman_2" />
+	  <template name="NPCCharacter.spc_vakken_headman_3" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_0" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_1" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_2" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_3" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_4" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_5" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_6" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_7" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_8" />
+	  <template name="NPCCharacter.spc_wanderer_vakken_9" />
+    </notable_and_wanderer_templates>
+    <lord_templates>
+      <template name="NPCCharacter.spc_skolderbrotva_leader_0" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_1" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_2" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_3" />
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+      <template name="NPCCharacter.spc_forest_people_leader_0" />
+      <template name="NPCCharacter.spc_forest_people_leader_1" />
+      <template name="NPCCharacter.spc_forest_people_leader_2" />
+      <template name="NPCCharacter.spc_forest_people_leader_3" />
+    </lord_templates>
+    <rebellion_hero_templates>
+      <template name="NPCCharacter.spc_skolderbrotva_leader_0" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_1" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_2" />
+      <template name="NPCCharacter.spc_skolderbrotva_leader_3" />
+      <template name="NPCCharacter.spc_lakepike_leader_0" />
+      <template name="NPCCharacter.spc_lakepike_leader_1" />
+      <template name="NPCCharacter.spc_lakepike_leader_2" />
+      <template name="NPCCharacter.spc_lakepike_leader_3" />
+      <template name="NPCCharacter.spc_forest_people_leader_0" />
+      <template name="NPCCharacter.spc_forest_people_leader_1" />
+      <template name="NPCCharacter.spc_forest_people_leader_2" />
+      <template name="NPCCharacter.spc_forest_people_leader_3" />
+    </rebellion_hero_templates>
+    <tournament_team_templates_one_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v2" />
+    </tournament_team_templates_one_participant>
+    <tournament_team_templates_two_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v3" />
+    </tournament_team_templates_two_participant>
+    <tournament_team_templates_four_participant>
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v1" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2" />
+      <template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3" />
+    </tournament_team_templates_four_participant>
+    <basic_mercenary_troops>
+      <template name="NPCCharacter.bk_sturgia_mercenary" />
+    </basic_mercenary_troops>
+  </Culture>
+  
+  
+  <Culture id="palaic"
+           name="{=!}Palaicoi"
            is_main_culture="false"
            color="0xff224277"
            color2="0xffCEDAE7"
