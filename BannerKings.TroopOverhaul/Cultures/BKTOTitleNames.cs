@@ -75,6 +75,50 @@ namespace BannerKings.CulturesExpanded.Cultures
         public CulturalTitleName KhuzaitKnight { get; private set; }
         #endregion Khuzait
 
+        #region Darshi
+        public CulturalTitleName DarshiEmperor { get; private set; }
+        public CulturalTitleName DarshiKing { get; private set; }
+        public CulturalTitleName DarshiDuke { get; private set; }
+        public CulturalTitleName DarshiCount { get; private set; }
+        public CulturalTitleName DarshiBaron { get; private set; }
+        public CulturalTitleName DarshiLord { get; private set; }
+        public CulturalTitleName DarshiPrince { get; private set; }
+        public CulturalTitleName DarshiKnight { get; private set; }
+        #endregion Darshi
+
+        #region Nord
+        public CulturalTitleName NordEmperor { get; private set; }
+        public CulturalTitleName NordKing { get; private set; }
+        public CulturalTitleName NordDuke { get; private set; }
+        public CulturalTitleName NordCount { get; private set; }
+        public CulturalTitleName NordBaron { get; private set; }
+        public CulturalTitleName NordLord { get; private set; }
+        public CulturalTitleName NordPrince { get; private set; }
+        public CulturalTitleName NordKnight { get; private set; }
+        #endregion Nord
+
+        #region Vakken
+        public CulturalTitleName VakkenEmperor { get; private set; }
+        public CulturalTitleName VakkenKing { get; private set; }
+        public CulturalTitleName VakkenDuke { get; private set; }
+        public CulturalTitleName VakkenCount { get; private set; }
+        public CulturalTitleName VakkenBaron { get; private set; }
+        public CulturalTitleName VakkenLord { get; private set; }
+        public CulturalTitleName VakkenPrince { get; private set; }
+        public CulturalTitleName VakkenKnight { get; private set; }
+        #endregion Vakken
+
+        #region Geroia
+        public CulturalTitleName GeroiaEmperor { get; private set; }
+        public CulturalTitleName GeroiaKing { get; private set; }
+        public CulturalTitleName GeroiaDuke { get; private set; }
+        public CulturalTitleName GeroiaCount { get; private set; }
+        public CulturalTitleName GeroiaBaron { get; private set; }
+        public CulturalTitleName GeroiaLord { get; private set; }
+        public CulturalTitleName GeroiaPrince { get; private set; }
+        public CulturalTitleName GeroiaKnight { get; private set; }
+        #endregion Geroia
+
         public override IEnumerable<CulturalTitleName> All
         {
             get
@@ -132,18 +176,58 @@ namespace BannerKings.CulturesExpanded.Cultures
                 yield return EmpireLord;
                 yield return EmpirePrince;
                 yield return EmpireKnight;
+
+                yield return VakkenEmperor;
+                yield return VakkenKing;
+                yield return VakkenDuke;
+                yield return VakkenCount;
+                yield return VakkenBaron;
+                yield return VakkenLord;
+                yield return VakkenPrince;
+                yield return VakkenKnight;
+
+                yield return GeroiaEmperor;
+                yield return GeroiaKing;
+                yield return GeroiaDuke;
+                yield return GeroiaCount;
+                yield return GeroiaBaron;
+                yield return GeroiaLord;
+                yield return GeroiaPrince;
+                yield return GeroiaKnight;
+
+                yield return DarshiEmperor;
+                yield return DarshiKing;
+                yield return DarshiDuke;
+                yield return DarshiCount;
+                yield return DarshiBaron;
+                yield return DarshiLord;
+                yield return DarshiPrince;
+                yield return DarshiKnight;
+
+                yield return NordEmperor;
+                yield return NordKing;
+                yield return NordDuke;
+                yield return NordCount;
+                yield return NordBaron;
+                yield return NordLord;
+                yield return NordPrince;
+                yield return NordKnight;
             }
         }
 
         public override void Initialize()
         {
-            var cultures = Campaign.Current.ObjectManager.GetObjectTypeList<CultureObject>();
+            var cultures = TaleWorlds.CampaignSystem.Campaign.Current.ObjectManager.GetObjectTypeList<CultureObject>();
             var empire = cultures.First(x => x.StringId == BannerKingsConfig.EmpireCulture);
             var vlandia = cultures.First(x => x.StringId == BannerKingsConfig.VlandiaCulture);
             var battania = cultures.First(x => x.StringId == BannerKingsConfig.BattaniaCulture);
             var khuzait = cultures.First(x => x.StringId == BannerKingsConfig.KhuzaitCulture);
             var aserai = cultures.First(x => x.StringId == BannerKingsConfig.AseraiCulture);
             var sturgia = cultures.First(x => x.StringId == BannerKingsConfig.SturgiaCulture);
+            var darshi = cultures.First(x => x.StringId == "darshi");
+            var vakken = cultures.First(x => x.StringId == "vakken");
+            var nord = cultures.First(x => x.StringId == "nord");
+            var geroia = cultures.First(x => x.StringId == "geroia");
 
             #region Empire
             if (BKTOSettings.Instance.LatinTitles)
@@ -491,6 +575,211 @@ namespace BannerKings.CulturesExpanded.Cultures
                 new TextObject("{=kgPoTnBi}Fursaan"));
 
             #endregion Aserai
+
+            #region Darshi
+            DarshiEmperor = CulturalTitleName.CreateEmpire("DarshiEmperor",
+                darshi,
+                new TextObject("{=!}Shahanshah"),
+                new TextObject("{=!}Shahbanu"),
+                new TextObject("{=!}Shahr"));
+
+            DarshiKing = CulturalTitleName.CreateKingdom("DarshiKing",
+                darshi,
+                new TextObject("{=!}Shah"),
+                new TextObject("{=!}Shahbanu"),
+                new TextObject("{=!}Shahr"));
+
+            DarshiDuke = CulturalTitleName.CreateDuchy("DarshiDuke",
+                darshi,
+                new TextObject("{=!}Shahrab"),
+                new TextObject("{=!}Shahrabanu"),
+                new TextObject("{=!}Satrapy"));
+
+            DarshiCount = CulturalTitleName.CreateCounty("DarshiCount",
+                darshi,
+                new TextObject("{=!}Marzban"),
+                new TextObject("{=!}Marzban"),
+                new TextObject("{=!}Marzbananate"));
+
+            DarshiBaron = CulturalTitleName.CreateBarony("DarshiBaron",
+                darshi,
+                new TextObject("{=!}Argbadh"),
+                new TextObject("{=!}Argbadh"),
+                new TextObject("{=!}Arg"));
+
+            DarshiLord = CulturalTitleName.CreateLordship("DarshiLord",
+                darshi,
+                new TextObject("{=!}Masmughan"),
+                new TextObject("{=!}Masmughan"),
+                new TextObject("{=!}Lordship"));
+
+            DarshiPrince = CulturalTitleName.CreatePrince("DarshiPrince",
+                darshi,
+                new TextObject("{=!}Shahpur"),
+                new TextObject("{=!}Shahdokht"),
+                new TextObject("{=!}Shahzade"));
+
+            DarshiKnight = CulturalTitleName.CreateKnight("DarshiKnight",
+                darshi,
+                new TextObject("{=!}Aswar"),
+                new TextObject("{=!}Aswar"),
+                new TextObject("{=!}Aswaran"));
+
+            #endregion Darshi
+
+            #region Nord
+            NordEmperor = CulturalTitleName.CreateEmpire("NordEmperor",
+                nord,
+                new TextObject("{=!}Storkungen"),
+                new TextObject("{=!}Riksdrottning"),
+                new TextObject("{=!}Storkungendómr"));
+
+            NordKing = CulturalTitleName.CreateKingdom("NordKing",
+                nord,
+                new TextObject("{=!}Konung"),
+                new TextObject("{=!}Drottning"),
+                new TextObject("{=!}Konungdómr"));
+
+            NordDuke = CulturalTitleName.CreateDuchy("NordDuke",
+                nord,
+                new TextObject("{=!}Jarl"),
+                new TextObject("{=!}Haerskarinna"),
+                new TextObject("{=!}Jarldómr"));
+
+            NordCount = CulturalTitleName.CreateCounty("NordCount",
+                nord,
+                new TextObject("{=!}Thegn"),
+                new TextObject("{=!}Marzban"),
+                new TextObject("{=!}Marzbananate"));
+
+            NordBaron = CulturalTitleName.CreateBarony("NordBaron",
+                nord,
+                new TextObject("{=!}Aedling"),
+                new TextObject("{=!}Drott"),
+                new TextObject("{=!}Arg"));
+
+            NordLord = CulturalTitleName.CreateLordship("NordLord",
+                nord,
+                new TextObject("{=!}Hoevding"),
+                new TextObject("{=!}Masmughan"),
+                new TextObject("{=!}Lordship"));
+
+            NordPrince = CulturalTitleName.CreatePrince("NordPrince",
+                nord,
+                new TextObject("{=!}Fursteson"),
+                new TextObject("{=!}Furstedatter"),
+                new TextObject("{=!}Furstanar"));
+
+            NordKnight = CulturalTitleName.CreateKnight("NordKnight",
+                nord,
+                new TextObject("{=!}Vaepnare"),
+                new TextObject("{=!}Vaepnarinna"),
+                new TextObject("{=!}Vaepnarenar"));
+
+
+            #endregion Nord
+
+            #region Vakken
+            VakkenEmperor = CulturalTitleName.CreateEmpire("VakkenEmperor",
+                vakken,
+                new TextObject("{=!}Maailmas"),
+                new TextObject("{=!}Maailmatar"),
+                new TextObject("{=!}Maailmanvalta"));
+
+            VakkenKing = CulturalTitleName.CreateKingdom("VakkenKing",
+                vakken,
+                new TextObject("{=!}Valtias"),
+                new TextObject("{=!}Valtiatar"),
+                new TextObject("{=!}Valtakunta"));
+
+            VakkenDuke = CulturalTitleName.CreateDuchy("VakkenDuke",
+                vakken,
+                new TextObject("{=!}Ruhtinas"),
+                new TextObject("{=!}Ruhtinatar"),
+                new TextObject("{=!}Ruhtinaskunta"));
+
+            VakkenCount = CulturalTitleName.CreateCounty("VakkenCount",
+                vakken,
+                new TextObject("{=!}Kreivi"),
+                new TextObject("{=!}Kreivatar"),
+                new TextObject("{=!}Kreivikunta"));
+
+            VakkenBaron = CulturalTitleName.CreateBarony("VakkenBaron",
+                vakken,
+                new TextObject("{=!}Vapaaherra"),
+                new TextObject("{=!}Vapaaherratar"),
+                new TextObject("{=!}Vapaaherrakunta"));
+
+            VakkenLord = CulturalTitleName.CreateLordship("VakkenLord",
+                vakken,
+                new TextObject("{=!}Johtaja"),
+                new TextObject("{=!}Johtajatar"),
+                new TextObject("{=!}Haimo"));
+
+            VakkenPrince = CulturalTitleName.CreatePrince("VakkenPrince",
+                vakken,
+                new TextObject("{=!}Ruhtinas"),
+                new TextObject("{=!}Ruhtinatar"),
+                new TextObject("{=!}Ruhtinaat"));
+
+            VakkenKnight = CulturalTitleName.CreateKnight("VakkenKnight",
+                vakken,
+                new TextObject("{=!}Seuralainen"),
+                new TextObject("{=!}Seuralainen"),
+                new TextObject("{=!}Seuralaiset"));
+
+            #endregion Vakken
+
+            #region Geroia
+            GeroiaEmperor = CulturalTitleName.CreateEmpire("GeroiaEmperor",
+                geroia,
+                new TextObject("{=!}Arciducxate"),
+                new TextObject("{=!}Arciducxata"),
+                new TextObject("{=!}Arciducxateri"));
+
+            GeroiaKing = CulturalTitleName.CreateKingdom("GeroiaKing",
+                geroia,
+                new TextObject("{=!}Arciducxate"),
+                new TextObject("{=!}Arciducxata"),
+                new TextObject("{=!}Arciducxateri"));
+
+            GeroiaDuke = CulturalTitleName.CreateDuchy("GeroiaDuke",
+                geroia,
+                new TextObject("{=!}Ducxate"),
+                new TextObject("{=!}Ducxata"),
+                new TextObject("{=!}Ducxateri"));
+
+            GeroiaCount = CulturalTitleName.CreateCounty("GeroiaCount",
+                geroia,
+                new TextObject("{=!}Gondh"),
+                new TextObject("{=!}Gonda"),
+                new TextObject("{=!}Gonderi"));
+
+            GeroiaBaron = CulturalTitleName.CreateBarony("GeroiaBaron",
+                geroia,
+                new TextObject("{=!}Giudicadh"),
+                new TextObject("{=!}Giudicada"),
+                new TextObject("{=!}Giudicaderi"));
+
+            GeroiaLord = CulturalTitleName.CreateLordship("GeroiaLord",
+                geroia,
+                new TextObject("{=!}Capitaine"),
+                new TextObject("{=!}Capitaine"),
+                new TextObject("{=!}Capitaneri"));
+
+            GeroiaPrince = CulturalTitleName.CreatePrince("GeroiaPrince",
+                geroia,
+                new TextObject("{=!}Principe"),
+                new TextObject("{=!}Principe"),
+                new TextObject("{=!}Principi"));
+
+            GeroiaKnight = CulturalTitleName.CreateKnight("GeroiaKnight",
+                geroia,
+                new TextObject("{=!}Cavaliere"),
+                new TextObject("{=!}Cavaliere"),
+                new TextObject("{=!}Cavalieri"));
+
+            #endregion Geroia
 
             foreach (CulturalTitleName name in All)
             {
