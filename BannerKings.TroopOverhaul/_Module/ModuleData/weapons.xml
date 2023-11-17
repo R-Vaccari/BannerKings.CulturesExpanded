@@ -1,5 +1,4 @@
 ﻿<Items>
-
   <CraftedItem id="bk_thrown_spear_empire"
 							 name="Throwing Spear - Empire"
 							 crafting_template="TwoHandedPolearm"
@@ -15,6 +14,7 @@
   
   <CraftedItem id="bk_thrown_spear_southern"
 							 name="Throwing Spear - Southern"
+							 culture="Culture.aserai"
 							 crafting_template="TwoHandedPolearm">
 	<Pieces>
 	  <Piece id="spear_blade_27" Type="Blade"/>
@@ -26,6 +26,7 @@
   
   <CraftedItem id="bk_thrown_spear_eastern"
 							 name="Throwing Spear - Eastern"
+							 culture="Culture.khuzait"
 							 crafting_template="TwoHandedPolearm">
 	<Pieces>
 	  <Piece id="spear_blade_36" Type="Blade"/>
@@ -35,10 +36,71 @@
 	</Pieces>
   </CraftedItem>
   
-
+  <CraftedItem id="bk_southern_javelins"
+							 name="Southern Fine Javelins"
+							 culture="Culture.aserai"
+							 crafting_template="Javelin">
+	<Pieces>
+	  <Piece id="spear_blade_27" Type="Blade"/>
+	  <Piece id="default_polearm_guard" Type="Guard"/>
+	  <Piece id="spear_handle_14" Type="Handle"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  
+  <CraftedItem id="bk_spear_kanic_t4"
+							 name="Kannic Hoplite Spear"
+							 culture="Culture.kannic"
+							 crafting_template="TwoHandedPolearm">
+	<Pieces>
+	  <Piece id="spear_blade_11" Type="Blade" scale_factor="110"/>
+	  <Piece id="default_polearm_guard" Type="Guard"/>
+	  <Piece id="spear_handle_17" Type="Handle" scale_factor="130" />
+	  <Piece id="spear_pommel_13" Type="Pommel" scale_factor="90"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_spear_kanic_t5"
+							 name="Kannic Hoplite Fine Spear"
+							 culture="Culture.kannic"
+							 crafting_template="TwoHandedPolearm">
+	<Pieces>
+	  <Piece id="spear_blade_41" Type="Blade" />
+	  <Piece id="default_polearm_guard" Type="Guard"/>
+	  <Piece id="spear_handle_19" Type="Handle" scale_factor="130"/>
+	  <Piece id="spear_pommel_13" Type="Pommel" scale_factor="90"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_kannic_pike_t3"
+							 name="Sarissa"
+							 culture="Culture.kannic"
+							 crafting_template="Pike">
+	<Pieces>
+	  <Piece id="spear_blade_8" Type="Blade" />
+	  <Piece id="default_polearm_guard" Type="Guard"/>
+	  <Piece id="spear_handle_27" Type="Handle" scale_factor="110"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel" />
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_kannic_pike_t4"
+							 name="Fine Sarissa"
+							 culture="Culture.kannic"
+							 crafting_template="Pike">
+	<Pieces>
+	  <Piece id="spear_blade_4" Type="Blade" />
+	  <Piece id="default_polearm_guard" Type="Guard"/>
+	  <Piece id="spear_handle_27" Type="Handle" scale_factor="140"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel" />
+	</Pieces>
+  </CraftedItem>
+  
   
   <CraftedItem id="bk_southern_axe_t3"
 							 name="Southern Long Axe"
+							 culture="Culture.aserai"
 							 crafting_template="OneHandedAxe">
 	<Pieces>
 	  <Piece id="axe_craft_27_head" Type="Blade" scale_factor="110"/>
@@ -50,6 +112,7 @@
 
   <CraftedItem id="bk_empire_2hsword_1_t3"
 							 name="Imperial Steel Long Spatha"
+							 culture="Culture.empire"
 							 crafting_template="TwoHandedSword">
 	<Pieces>
 	  <Piece id="empire_blade_1" Type="Blade" scale_factor="110"/>
@@ -61,12 +124,87 @@
   
   <CraftedItem id="bk_empire_2hsword_2_t3"
 							 name="Imperial Long Piercer"
+							 culture="Culture.empire"
 							 crafting_template="TwoHandedSword">
 	<Pieces>
 	  <Piece id="vlandian_blade_8" Type="Blade" scale_factor="110"/>
 	  <Piece id="aserai_guard_6" Type="Guard" scale_factor="90"/>
 	  <Piece id="empire_grip_14" Type="Handle"/>
 	  <Piece id="empire_pommel_4" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_empire_2hsword_1_t4"
+							 name="Imperial Fine Steel Long Spatha"
+							 culture="Culture.empire"
+							 crafting_template="TwoHandedSword">
+	<Pieces>
+	  <Piece id="empire_blade_6" Type="Blade" scale_factor="110"/>
+	  <Piece id="battania_guard_3" Type="Guard"/>
+	  <Piece id="empire_grip_11" Type="Handle"/>
+	  <Piece id="sturgian_pommel_8" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_vlandia_2haxe_t5"
+							 name="Thingman Axe"
+							 culture="Culture.vlandia"
+							 crafting_template="TwoHandedAxe">
+	<Pieces>
+	  <Piece id="axe_craft_1_head" Type="Blade" />
+	  <Piece id="axe_craft_1_handle" Type="Handle"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  
+  
+  <CraftedItem id="bk_kanic_sword_t4"
+							 name="Kanic Xyphos"
+							 culture="Culture.darshi"
+							 crafting_template="OneHandedSword">
+	<Pieces>
+	  <Piece id="kanic_blade_2" Type="Blade" scale_factor="250"/>
+	  <Piece id="empire_guard_3" Type="Guard"/>
+	  <Piece id="aserai_grip_1" Type="Handle"/>
+	  <Piece id="sturgian_pommel_4" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_kanic_sword_t5"
+							 name="Kanic Fine Xyphos"
+							 culture="Culture.darshi"
+							 crafting_template="OneHandedSword">
+	<Pieces>
+	  <Piece id="kanic_blade_1" Type="Blade" scale_factor="250"/>
+	  <Piece id="empire_guard_3" Type="Guard"/>
+	  <Piece id="aserai_grip_1" Type="Handle"/>
+	  <Piece id="sturgian_pommel_4" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  
+  <CraftedItem id="bk_darshi_sword_t4"
+							 name="Fine Steel Shamshir"
+							 culture="Culture.darshi"
+							 crafting_template="OneHandedSword">
+	<Pieces>
+	  <Piece id="aserai_blade_8" Type="Blade" />
+	  <Piece id="aserai_guard_3" Type="Guard"/>
+	  <Piece id="khuzait_grip_2" Type="Handle"/>
+	  <Piece id="aserai_pommel_9" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_darshi_sword_t3"
+							 name="Steel Shamshir"
+							 culture="Culture.darshi"
+							 crafting_template="OneHandedSword">
+	<Pieces>
+	  <Piece id="empire_noble_blade_3" Type="Blade" />
+	  <Piece id="aserai_guard_7" Type="Guard"/>
+	  <Piece id="khuzait_grip_2" Type="Handle"/>
+	  <Piece id="aserai_pommel_2" Type="Pommel"/>
 	</Pieces>
   </CraftedItem>
   
