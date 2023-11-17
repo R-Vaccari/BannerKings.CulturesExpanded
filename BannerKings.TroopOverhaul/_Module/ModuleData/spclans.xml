@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  
+    <Faction
+		id="fulq"
+		initial_posX="360.0"
+		initial_posY="212.0"
+		banner_key="11.179.162.1528.1528.764.764.1.0.0.309.22.116.300.300.946.596.0.1.33.10051.47.161.483.483.745.764.0.1.0"
+		label_color="FFD0884E"
+		color="FFD0884E"
+		color2="FFD0884E"
+		alternative_color="FFD0884E"
+		alternative_color2="FFD0884E"
+		owner="Hero.bk_fulq_1"
+		culture="Culture.darshi"
+		default_party_template="PartyTemplate.bk_fulq_party_template"
+		settlement_banner_mesh="encounter_flag_f"
+		is_minor_faction="true"
+		is_clan_type_mercenary="true"
+		name="{=!}Furqanzade"
+		tier="4"
+		text="{=!}The children of Furqan, known to the Calradoi as Phalcos and to the Nahwasi as Fulq. Furqan founded the town currently called Husn Fulq, and eventually sailing back south to the Darshi homelands. Farzad, warlord of the Furqanan, claims to be the true heir of Furqan, unlike others that make such claims such as the Sarrans, who are second sons at best. The Furqanan still rule over the city, as well as take contracts for their military service, employing their mounted Darshi tradition, though with Nahawasi influences.">
+		<minor_faction_character_templates>
+			<template
+				id="NPCCharacter.spc_ghilman_leader_0" />
+			<template
+				id="NPCCharacter.spc_ghilman_leader_1" />
+			<template
+				id="NPCCharacter.spc_ghilman_leader_2" />
+			<template
+				id="NPCCharacter.spc_ghilman_leader_3" />
+		</minor_faction_character_templates>
+	</Faction>
+  
+  
+    <Faction id="bk_clan_kannic_1"
+           name="{=!}Eshorid"
+           tier="6"
+           owner="Hero.bk_kannic_1"
+           culture="Culture.kannic"
+           super_faction="Kingdom.kannic"
+           is_noble="true"
+           banner_key="11.148.166.1528.1528.764.764.1.0.0.223.31.116.281.284.755.755.0.0.44.223.158.171.285.283.764.764.0.0.0.100614.208.116.537.536.755.755.1.0.0" />
+
+	<Faction id="bk_clan_kannic_2"
+           name="{=!}Bareqetid"
+           tier="6"
+           owner="Hero.bk_kannic_2"
+           culture="Culture.kannic"
+           super_faction="Kingdom.kannic"
+           is_noble="true"
+           banner_key="11.176.166.1528.1528.764.764.1.0.0.436.22.116.251.253.552.755.0.0.0.436.22.171.251.253.954.764.0.0.0.10048.22.116.406.406.755.755.0.0.0" />
+  
+    <Faction id="bk_clan_darshi_1"
+           name="{=!}Zimahurmahsimush"
+           tier="6"
+           owner="Hero.bk_darshi_1_1"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="2.41.1.1528.1528.751.764.1.0.0.10078.110.32.483.483.764.764.0.0.0" />
+		   
+    <Faction id="bk_clan_darshi_2"
+           name="{=!}Nuro"
+           tier="5"
+           owner="Hero.bk_darshi_1_2"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="34.211.22.1705.1716.768.746.0.0.0.101610.207.116.400.400.755.755.0.0.0" />
+		   
+    <Faction id="bk_clan_darshi_3"
+           name="{=!}Mishtalh"
+           tier="5"
+           owner="Hero.bk_darshi_1_3"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="11.40.166.1528.1528.764.764.1.0.0.101813.200.171.483.483.764.764.0.0.0" />
+		   
+    <Faction id="bk_clan_darshi_4"
+           name="{=!}Ashurat"
+           tier="4"
+           owner="Hero.bk_darshi_1_4"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="11.22.166.1528.1528.764.764.1.0.0.143.71.162.483.483.764.764.0.0.0.10067.71.116.248.246.755.564.1.0.0" />
+		   
+    <Faction id="bk_clan_darshi_5"
+           name="{=!}Nuranaiu"
+           tier="4"
+           owner="Hero.bk_darshi_1_5"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="11.71.166.1528.1528.764.764.1.0.0.10191.194.162.276.276.764.764.0.0.0.100615.194.194.523.526.760.762.1.0.0" />
+		   
+    <Faction id="bk_clan_darshi_6"
+           name="{=!}Mokhdanuta"
+           tier="3"
+           owner="Hero.bk_darshi_1_6"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="29.159.121.1879.1948.768.746.0.0.0.10067.142.212.570.540.755.755.0.0.0.101516.31.116.162.130.755.755.1.0.0" />
+		   
+    <Faction id="bk_clan_darshi_7"
+           name="{=!}Shuhallashuhazashanesha"
+           tier="3"
+           owner="Hero.bk_darshi_1_7"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="32.171.227.1195.1118.771.716.0.0.0.102713.211.149.721.470.767.887.0.0.0.10067.31.116.165.157.558.497.1.0.0" />
+	   
+    <Faction id="bk_clan_darshi_8"
+           name="{=!}Sakahstan"
+           tier="3"
+           owner="Hero.bk_darshi_1_8"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="35.171.227.1879.1948.768.746.0.0.0.10051.211.149.559.585.767.761.1.0.0.10067.31.116.165.157.558.497.1.0.0" />
+		   
+    <Faction id="bk_clan_darshi_9"
+           name="{=!}Kanaran"
+           tier="3"
+           owner="Hero.bk_darshi_1_9"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="2.71.227.1879.1948.768.746.0.0.0.10283.84.208.474.508.755.657.1.0.0.101512.142.142.570.540.755.838.0.0.0" />
+		   
+    <Faction id="bk_clan_darshi_10"
+           name="{=!}Adhurban"
+           tier="3"
+           owner="Hero.bk_darshi_10_1"
+           culture="Culture.darshi"
+           super_faction="Kingdom.darshi"
+           is_noble="true"
+           banner_key="1.215.194.1528.1528.764.764.1.0.0.10171.70.171.483.483.764.764.0.0.0" />
+
+    <Faction id="bk_clan_jumne_1"
+           name="{=!}Blotsborg"
+           tier="4"
+           owner="Hero.bk_jumne_1"
+           culture="Culture.nord"
+           super_faction="Kingdom.ebor_jarldom"
+           is_noble="true"
+           banner_key="9.96.176.2000.2000.768.746.0.0.0.307.31.116.402.403.595.755.1.0.0.307.31.116.400.400.755.849.1.0.0.307.31.116.399.398.903.755.1.0.0" />
+		   
+    <Faction id="bk_clan_jumne_2"
+           name="{=!}Spennare"
+           tier="3"
+           owner="Hero.bk_jumne_2"
+           culture="Culture.nord"
+           super_faction="Kingdom.ebor_jarldom"
+           is_noble="true"
+           banner_key="11.65.176.2000.2000.768.746.0.0.0.512.31.116.401.403.461.546.1.0.89.512.31.116.398.400.679.697.1.0.89.512.31.116.399.398.889.865.1.0.89.512.31.116.400.400.1107.1030.1.0.89" />
+		   
+    <Faction id="bk_clan_jumne_3"
+           name="{=!}Vinterkraaken"
+           tier="3"
+           owner="Hero.bk_jumne_3"
+           culture="Culture.nord"
+           super_faction="Kingdom.ebor_jarldom"
+           is_noble="true"
+           banner_key="11.122.176.645.967.768.746.0.0.0.10228.109.4.477.492.777.888.0.1.0" />
+		   
+    <Faction id="bk_clan_zendar"
+           name="{=!}Rhipsaspion"
+           tier="2"
+           owner="Hero.bk_zendar_1"
+           culture="Culture.empire"
+           super_faction="Kingdom.city_zendar"
+           is_noble="true"
+           banner_key="3.149.142.1528.1528.764.764.1.0.0.10159.171.171.483.483.768.668.0.0.0.10106.31.116.400.400.640.974.1.0.58.10106.31.116.400.400.880.963.1.1.304" />
+		   
+    <Faction id="bk_clan_vakken"
+           name="{=!}Vuurinen"
+           tier="3"
+           owner="Hero.bk_vakken_1"
+           culture="Culture.vakken"
+           super_faction="Kingdom.vakken_barony_1"
+           is_noble="true"
+           banner_key="1.158.226.1528.1528.764.764.1.0.89.135.40.171.483.483.764.764.0.0.0" />
+	
+	<Faction id="bk_clan_geroia_1"
+           name="{=!}Gallur"
+           tier="5"
+           owner="Hero.bk_geroia_1"
+           culture="Culture.geroia"
+           super_faction="Kingdom.geroia"
+           is_noble="true"
+           banner_key="34.142.110.645.967.768.746.0.0.0.119.162.236.812.769.768.922.0.1.0" />
+	
+    <Faction id="bk_clan_geroia_2"
+           name="{=!}Bos"
+           tier="4"
+           owner="Hero.bk_geroia_2"
+           culture="Culture.geroia"
+           super_faction="Kingdom.geroia"
+           is_noble="true"
+           banner_key="3.216.224.645.967.768.746.0.0.0.102315.31.116.364.289.926.890.0.0.0.100614.84.84.254.259.632.574.0.0.0.10055.31.116.264.304.628.879.1.0.0.323.208.116.272.303.916.590.1.0.0" />
+		   
+    <Faction id="bk_clan_geroia_3"
+           name="{=!}Logudor"
+           tier="4"
+           owner="Hero.bk_geroia_3"
+           culture="Culture.geroia"
+           super_faction="Kingdom.geroia"
+           is_noble="true"
+           banner_key="3.142.162.645.967.768.746.0.0.0.326.22.106.531.531.768.769.0.1.0" />   
+   
+   <!-- <Faction
+		id="clan_battania_2"
+		name="{=zvas3ieB}fen Derngil"
+		tier="5"
+		owner="Hero.lord_5_3"
+		culture="Culture.battania"
+		super_faction="Kingdom.duchy_derngil"
+		is_noble="true"
+		banner_key="11.101.75.4345.4345.764.764.1.0.0.412.39.0.454.454.764.764.0.0.180" />
+		
+	<Faction
+		id="clan_battania_3"
+		name="{=0m0IUnL1}fen Uvain"
+		tier="4"
+		owner="Hero.lord_5_5"
+		culture="Culture.battania"
+		super_faction="Kingdom.duchy_derngil"
+		is_noble="true"
+		banner_key="11.101.75.4345.4345.764.764.1.0.0.427.39.0.261.261.764.869.0.0.359.133.39.0.380.380.764.696.0.0.0" />
+		
+	<Faction
+		id="clan_battania_6"
+		name="{=qoLWSdRE}fen Eingal"
+		tier="3"
+		owner="Hero.lord_5_17"
+		culture="Culture.battania"
+		super_faction="Kingdom.duchy_derngil"
+		is_noble="true"
+		banner_key="11.101.75.4345.4345.764.764.1.0.0.504.39.0.90.90.764.942.0.0.180.503.39.0.84.84.764.760.0.0.0.406.39.0.455.455.764.764.0.0.0.504.39.0.90.90.764.587.0.0.0" />
+		-->
+ 
+</Factions>
