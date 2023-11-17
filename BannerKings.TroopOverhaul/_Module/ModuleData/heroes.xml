@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+
+  <Hero id="bk_darshi_1_1" faction="Faction.bk_clan_darshi_1" text="{=!}" />
+  <Hero id="bk_darshi_1_2" faction="Faction.bk_clan_darshi_2" text="{=!}" />
+  <Hero id="bk_darshi_1_3" faction="Faction.bk_clan_darshi_3" text="{=!}" />
+  <Hero id="bk_darshi_1_4" faction="Faction.bk_clan_darshi_4" text="{=!}" />
+  <Hero id="bk_darshi_1_5" faction="Faction.bk_clan_darshi_5" text="{=!}" />
+  <Hero id="bk_darshi_1_6" faction="Faction.bk_clan_darshi_6" text="{=!}" />
+  <Hero id="bk_darshi_1_7" faction="Faction.bk_clan_darshi_7" text="{=!}" />
+  <Hero id="bk_darshi_1_8" faction="Faction.bk_clan_darshi_8" text="{=!}" />
+  <Hero id="bk_darshi_1_9" faction="Faction.bk_clan_darshi_9" text="{=!}" />
+  <Hero id="bk_darshi_10_1" faction="Faction.bk_clan_darshi_10" text="{=!}" />
+  
+  <Hero id="bk_jumne_1" faction="Faction.bk_clan_jumne_1" text="{=!}" />
+  <Hero id="bk_jumne_2" faction="Faction.bk_clan_jumne_2" text="{=!}" />
+  <Hero id="bk_jumne_3" faction="Faction.bk_clan_jumne_3" text="{=!}" />
+  
+  <Hero id="bk_zendar_1" faction="Faction.bk_clan_zendar" text="{=!}" />
+  
+  <Hero id="bk_vakken_1" faction="Faction.bk_clan_vakken" text="{=!}" />
+  
+  <Hero id="bk_geroia_1" faction="Faction.bk_clan_geroia_1" text="{=!}" />
+  <Hero id="bk_geroia_2" faction="Faction.bk_clan_geroia_2" text="{=!}" />
+  <Hero id="bk_geroia_3" faction="Faction.bk_clan_geroia_3" text="{=!}" />
+  
+  <Hero id="bk_fulq_1" faction="Faction.fulq" text="{=!}" />
+  
+  <Hero id="bk_kannic_1" faction="Faction.bk_clan_kannic_1" text="{=!}" />
+  <Hero id="bk_kannic_2" faction="Faction.bk_clan_kannic_2" text="{=!}" />
+
+</Heroes>
