@@ -6,12 +6,18 @@
         </xsl:copy>
     </xsl:template>
 
+
+
     <xsl:template match="Culture[@id='empire']/@elite_basic_troop">
         <xsl:attribute name="elite_basic_troop">NPCCharacter.bk_imperial_squire</xsl:attribute>
     </xsl:template>
 
     <xsl:template match="Culture[@id='empire']/@basic_troop">
         <xsl:attribute name="basic_troop">NPCCharacter.bk_imperial_levy</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='empire']/@name">
+        <xsl:attribute name="name">Calradoi</xsl:attribute>
     </xsl:template>
 	
 	
@@ -38,6 +44,10 @@
 
     <xsl:template match="Culture[@id='aserai']/@basic_troop">
         <xsl:attribute name="basic_troop">NPCCharacter.bk_aserai_levy</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='aserai']/@name">
+        <xsl:attribute name="name">Nahawasi</xsl:attribute>
     </xsl:template>
 	
 	
@@ -67,6 +77,10 @@
         <xsl:attribute name="basic_troop">NPCCharacter.bk_sturgian_levy</xsl:attribute>
     </xsl:template>
 	
+	<xsl:template match="Culture[@id='sturgia']/@name">
+        <xsl:attribute name="name">Sturgiske</xsl:attribute>
+    </xsl:template>
+	
 	
 	<xsl:template match="Culture[@id='sturgia']/@melee_militia_troop">
         <xsl:attribute name="melee_militia_troop">NPCCharacter.bk_sturgian_levy</xsl:attribute>
@@ -84,10 +98,45 @@
         <xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.bk_sturgian_militiaman_archer</xsl:attribute>
     </xsl:template>
 	
-	<xsl:template match="Culture[@id='empire']/basic_mercenary_troops">
+	<xsl:template match="Culture[@id='sturgia']/basic_mercenary_troops">
         <basic_mercenary_troops>
             <template name="NPCCharacter.bk_sturgia_mercenary" />
+			<template name="NPCCharacter.bk_nord_mercenary" />
         </basic_mercenary_troops>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='sturgia']/notable_and_wanderer_templates">
+        <notable_and_wanderer_templates>
+          <template name="NPCCharacter.spc_wanderer_sturgia_0" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_1" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_2" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_3" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_4" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_5" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_6" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_7" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_8" />
+		  <template name="NPCCharacter.spc_wanderer_sturgia_9" />
+		  <template name="NPCCharacter.spc_notable_sturgia_0" />
+		  <template name="NPCCharacter.spc_notable_sturgia_0b" />
+		  <template name="NPCCharacter.spc_notable_sturgia_1" />
+		  <template name="NPCCharacter.spc_notable_sturgia_2" />
+		  <template name="NPCCharacter.spc_notable_sturgia_2b" />
+		  <template name="NPCCharacter.spc_notable_sturgia_3" />
+		  <template name="NPCCharacter.spc_notable_sturgia_3b" />
+		  <template name="NPCCharacter.spc_notable_sturgia_3c" />
+		  <template name="NPCCharacter.spc_notable_sturgia_4" />
+		  <template name="NPCCharacter.spc_notable_sturgia_5" />
+		  <template name="NPCCharacter.spc_notable_sturgia_6" />
+		  <template name="NPCCharacter.spc_notable_sturgia_7" />
+		  <template name="NPCCharacter.spc_notable_sturgia_8" />
+		  <template name="NPCCharacter.spc_notable_sturgia_9" />
+		  <template name="NPCCharacter.spc_notable_sturgia_10" />
+		  <template name="NPCCharacter.spc_sturgia_headman_1" />
+		  <template name="NPCCharacter.spc_sturgia_headman_2" />
+		  <template name="NPCCharacter.spc_sturgia_headman_3" />
+		  <template name="NPCCharacter.spc_notable_vakken_0" />
+        </notable_and_wanderer_templates>
     </xsl:template>
 	
 	
@@ -98,6 +147,10 @@
 
     <xsl:template match="Culture[@id='vlandia']/@basic_troop">
         <xsl:attribute name="basic_troop">NPCCharacter.bk_vlandia_levy</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='vlandia']/@name">
+        <xsl:attribute name="name">Wilunding</xsl:attribute>
     </xsl:template>
 	
 	
@@ -127,6 +180,10 @@
         <xsl:attribute name="basic_troop">NPCCharacter.bk_battanian_levy</xsl:attribute>
     </xsl:template>
 	
+	<xsl:template match="Culture[@id='battania']/@name">
+        <xsl:attribute name="name">Battanaidd</xsl:attribute>
+    </xsl:template>
+	
 	
 	<xsl:template match="Culture[@id='battania']/@melee_militia_troop">
         <xsl:attribute name="melee_militia_troop">NPCCharacter.bk_battanian_levy</xsl:attribute>
@@ -152,6 +209,10 @@
 
     <xsl:template match="Culture[@id='khuzait']/@basic_troop">
         <xsl:attribute name="basic_troop">NPCCharacter.bk_khuzait_levy</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='khuzait']/@name">
+        <xsl:attribute name="name">Devseg</xsl:attribute>
     </xsl:template>
 	
 	
