@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+  <Kingdom id="darshi" owner="Hero.bk_darshi_1_1" banner_key="26.191.8.1879.1948.768.746.0.0.0.10181.109.149.443.442.767.761.1.0.0" primary_banner_color="0xff793191" 
+		  secondary_banner_color="0xffFCDE90" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.darshi" 
+		  settlement_banner_mesh="encounter_flag_f" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Darshianshahr" 
+		  short_name="{=!}darshianshahr" 
+		  title="{=!}Darshianshahr"
+		  ruler_title="{=|}" 
+		  text="{=!}">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="massa" owner="Hero.bk_massa_1" 
+		  banner_key="5.142.215.1528.1528.764.764.1.0.0.10226.171.116.481.441.765.687.1.1.0.148.116.142.400.400.761.988.1.0.0" 
+		  primary_banner_color="0xff198304" 
+		  secondary_banner_color="0xff9E2007" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.massa" 
+		  settlement_banner_mesh="encounter_flag_c" 
+		  flag_mesh="info_screen_flags_a" 
+		  name="{=!}Masso Ufarreiki" 
+		  short_name="{=!}masso Ufarreiki" 
+		  title="{=!}Masso Ufarreiki"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="kannic" owner="Hero.bk_kannic_1" 
+		  banner_key="11.160.166.1528.1528.764.764.1.0.0.450.41.22.483.483.764.764.0.0.0.202.31.116.296.296.930.755.0.0.74.202.31.116.294.297.612.755.0.1.291" 
+		  primary_banner_color="0xff644568" 
+		  secondary_banner_color="0xffEAE2EB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.kannic" 
+		  settlement_banner_mesh="encounter_flag_c" 
+		  flag_mesh="info_screen_flags_a" 
+		  name="{=!}Kannic Politeia" 
+		  short_name="{=!}kannic Politeia" 
+		  title="{=!}Kannic Politeia"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="ebor_jarldom" owner="Hero.bk_jumne_1" banner_key="9.96.176.2000.2000.768.746.0.0.0.307.31.116.402.403.595.755.1.0.0.307.31.116.400.400.755.849.1.0.0.307.31.116.399.398.903.755.1.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.nord" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Jarldómr af Ebor" 
+		  short_name="{=!}Jarldómr af Ebor" 
+		  title="{=!}jarldómr af Ebor"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <Kingdom id="city_zendar" owner="Hero.bk_zendar_1" 
+		  banner_key="3.149.142.1528.1528.764.764.1.0.0.10159.171.171.483.483.768.668.0.0.0.10106.31.116.400.400.640.974.1.0.58.10106.31.116.400.400.880.963.1.1.304" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.empire" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Pólis tou Zendar" 
+		  short_name="{=!}Zendar" 
+		  title="{=!}pólis tou Zendar"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <Kingdom id="vakken_barony_1" owner="Hero.bk_vakken_1" 
+		  banner_key="1.158.226.1528.1528.764.764.1.0.89.135.40.171.483.483.764.764.0.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.vakken" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Vuulinnan Vapaaherrakunta" 
+		  short_name="{=!}Vuulinna" 
+		  title="{=!}vuulinnan Vapaaherrakunta"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <Kingdom id="vakken_barony_2" owner="Hero.bk_vakken_2" 
+		  banner_key="12.163.47.1528.1528.764.764.1.0.0.311.20.116.400.400.755.755.1.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.vakken" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Kuravan Vapaaherrakunta" 
+		  short_name="{=!}Kurava" 
+		  title="{=!}kuravan Vapaaherrakunta"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <Kingdom id="vakken_barony_3" owner="Hero.bk_vakken_3" 
+		  banner_key="11.177.166.1528.1528.764.764.1.0.0.203.158.116.400.400.581.755.1.0.0.203.158.116.400.400.943.755.1.0.0.203.158.116.400.399.755.714.1.0.0.137.22.116.400.400.755.755.1.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.vakken" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Karalinnan Vapaaherrakunta" 
+		  short_name="{=!}Karalinna" 
+		  title="{=!}karalinnan Vapaaherrakunta"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <Kingdom id="siri" owner="Hero.bk_siri_1" banner_key="35.97.40.1528.1528.764.764.1.0.0.143.171.96.483.483.764.764.1.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.siri" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Siri Queendom" 
+		  short_name="{=!}Siri" 
+		  title="{=!}siri Queendom"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <Kingdom id="geroia" owner="Hero.bk_geroia_1" banner_key="34.142.110.645.967.768.746.0.0.0.119.162.236.812.769.768.922.0.1.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.geroia" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Geroiako Ducxate" 
+		  short_name="{=!}Geroiako Ducxate" 
+		  title="{=!}geroiako Ducxate"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <!-- <Kingdom id="duchy_derngil" owner="Hero.lord_5_3" banner_key="11.101.75.4345.4345.764.764.1.0.0.412.39.0.454.454.764.764.0.0.180" 
+		  primary_banner_color="0xff793191" 
+		  secondary_banner_color="0xffFCDE90" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.battania" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Brenhiniaeth Cadd Lenthu" 
+		  short_name="{=!}brenhiniaeth Cadd Lenthu" 
+		  title="{=!}Brenhiniaeth Cadd Lenthu"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+    <relationships>
+      <relationship kingdom="Kingdom.battania" value="1" isAtWar="false" />
+    </relationships>
+  </Kingdom> -->
+</Kingdoms>

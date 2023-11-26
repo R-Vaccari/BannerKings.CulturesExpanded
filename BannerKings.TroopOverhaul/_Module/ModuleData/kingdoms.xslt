@@ -31,11 +31,11 @@
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='battania']/@name">
-        <xsl:attribute name="name">Brenhiniaeth Battanwr</xsl:attribute>
+        <xsl:attribute name="name">Brenhiniaeth y Battaniaid</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='battania']/@short_name">
-        <xsl:attribute name="short_name">brenhiniaeth Battanwr</xsl:attribute>
+        <xsl:attribute name="short_name">brenhiniaeth y Battaniaid</xsl:attribute>
     </xsl:template>
 	
 	<xsl:template match="Kingdom[@id='battania']/@ruler_title">
