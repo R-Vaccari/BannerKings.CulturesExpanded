@@ -1,6 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
+
+   <CraftingPiece id="bk_jav_double_menavlon" name="{=!}Double Menavlon Javelin Heads" tier="3" piece_type="Blade" mesh="spear_blade_14" length="46.28" weight="0.5268" 
+				  excluded_item_usage_features="swing:TwoHandedPolearm_Bracing">
+		<BladeData stack_amount="5" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4" holster_mesh_length="96.2">
+			<Thrust damage_type="Pierce" damage_factor="0.9" />
+		</BladeData>
+		<Materials>
+			<Material id="Iron3" count="1" />
+		</Materials>
+	</CraftingPiece>
 	
+	<CraftingPiece
+		id="bk_2h_mahogany"
+		name="{=!}Extra Long Two-Handed Mahogany Shaft"
+		tier="4"
+		piece_type="Handle"
+		mesh="spear_handle_27"
+		length="290"
+		weight="1.6"
+		is_default="true">
+		<BuildData
+			piece_offset="22.9" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
 	
 	<CraftingPiece
 		id="kanic_blade_1"

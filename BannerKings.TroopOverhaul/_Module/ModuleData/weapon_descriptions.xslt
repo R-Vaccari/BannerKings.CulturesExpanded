@@ -117,6 +117,7 @@
         <xsl:copy>
             <xsl:copy-of select="@*"/>
 				<AvailablePiece id="spear_blade_throw_single"/>
+				<AvailablePiece id="bk_2h_mahogany"/>
             <xsl:copy-of select="node()"/>
         </xsl:copy>
     </xsl:template>
@@ -124,7 +125,7 @@
 	<xsl:template match="WeaponDescription[@id='TwoHandedPolearm_Couchable']/AvailablePieces">
         <xsl:copy>
             <xsl:copy-of select="@*"/>
-
+				<AvailablePiece id="bk_2h_mahogany"/>
             <xsl:copy-of select="node()"/>
         </xsl:copy>
     </xsl:template>

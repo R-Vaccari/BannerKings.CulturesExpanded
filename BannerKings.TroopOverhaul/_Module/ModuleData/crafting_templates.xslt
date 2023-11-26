@@ -72,7 +72,7 @@
     <xsl:template match="CraftingTemplate[@id='TwoHandedPolearm']/UsablePieces">
         <xsl:copy>
             <xsl:copy-of select="@*"/>
-                <UsablePiece piece_id="spear_blade_throw_single"/>
+                <UsablePiece piece_id="bk_2h_mahogany"/>
             <xsl:copy-of select="node()"/>
         </xsl:copy>
     </xsl:template>
