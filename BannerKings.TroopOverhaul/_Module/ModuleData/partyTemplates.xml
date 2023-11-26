@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+	<MBPartyTemplate
+		id="bk_fulq_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="40"
+				max_value="40"
+				troop="NPCCharacter.bk_furq_cavalry" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_massa_mercenary_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="40"
+				max_value="40"
+				troop="NPCCharacter.bk_massa_nomad" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_vlandia_bandits_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="12"
+				troop="NPCCharacter.bk_vlandia_bandit" />
+			<PartyTemplateStack
+				min_value="4"
+				max_value="8"
+				troop="NPCCharacter.bk_vlandia_bandit_raider" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.bk_vlandia_bandit_chief" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_vlandia_bandits_party_boss_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="12"
+				troop="NPCCharacter.bk_vlandia_bandit" />
+			<PartyTemplateStack
+				min_value="4"
+				max_value="8"
+				troop="NPCCharacter.bk_vlandia_bandit_raider" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.bk_vlandia_bandit_chief" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.bk_vlandia_bandit_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_dryatic_bandits_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="12"
+				troop="NPCCharacter.bk_palaic_bandit" />
+			<PartyTemplateStack
+				min_value="4"
+				max_value="8"
+				troop="NPCCharacter.bk_palaic_raider" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.bk_palaic_pillager" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_dryatic_bandits_party_boss_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="8"
+				max_value="12"
+				troop="NPCCharacter.bk_palaic_bandit" />
+			<PartyTemplateStack
+				min_value="4"
+				max_value="8"
+				troop="NPCCharacter.bk_palaic_raider" />
+			<PartyTemplateStack
+				min_value="2"
+				max_value="4"
+				troop="NPCCharacter.bk_palaic_pillager" />
+			<PartyTemplateStack
+				min_value="1"
+				max_value="1"
+				troop="NPCCharacter.bk_palaic_boss" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_massa_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="20"
+				troop="NPCCharacter.bk_massa_sergeant" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_massa_militiaman_sling" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_massa_squire" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_nord_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="20"
+				troop="NPCCharacter.bk_nord_sergeant" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_nord_militiaman_archer" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_nord_squire" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_kannic_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="20"
+				troop="NPCCharacter.bk_kannic_sergeant_pike" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_kannic_militiaman_archer" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_kanic_highborn" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_darshi_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="20"
+				troop="NPCCharacter.bk_darshi_sergeant" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_darshi_sparabara_sergeant" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_darshi_squire" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_geroia_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="20"
+				troop="NPCCharacter.bk_geroia_sergeant" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_geroia_sergeant_xbow" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_geroia_highborn" />
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate
+		id="bk_siri_party_template">
+		<stacks>
+			<PartyTemplateStack
+				min_value="15"
+				max_value="20"
+				troop="NPCCharacter.bk_siri_sergeant" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_siri_militiaman_archer" />
+			<PartyTemplateStack
+				min_value="10"
+				max_value="15"
+				troop="NPCCharacter.bk_siri_squire" />
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>
