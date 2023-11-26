@@ -5,6 +5,7 @@ using BannerKings.CulturesExpanded.Models;
 using BannerKings.CulturesExpanded.Religions;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
+using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
 namespace BannerKings.CulturesExpanded
@@ -34,9 +35,12 @@ namespace BannerKings.CulturesExpanded
             BannerKingsConfig.Instance.AddInitializer(BKCEFaithGroups.Instance);
             BannerKingsConfig.Instance.AddInitializer(BKCEFaiths.Instance);
             BannerKingsConfig.Instance.AddInitializer(BKCEReligions.Instance);
+            BannerKingsConfig.Instance.AddInitializer(BKCELanguages.Instance);
 
             BannerKingsConfig.Instance.CultureModel = new BKCECultureModel();
             BannerKingsConfig.Instance.ReligionModel = new BKCEReligionModel();
+
+            BannerKingsConfig.Instance.TitlesGeneratorPath = BasePath.Name + "Modules/BannerKings.CulturesExpanded/ModuleData/titles.xml";
         }
     }
 }

@@ -119,6 +119,30 @@ namespace BannerKings.CulturesExpanded.Cultures
         public CulturalTitleName GeroiaKnight { get; private set; }
         #endregion Geroia
 
+        #region Siri
+        public CulturalTitleName SiriEmperor { get; private set; }
+        public CulturalTitleName SiriKing { get; private set; }
+        public CulturalTitleName SiriDuke { get; private set; }
+        public CulturalTitleName SiriCount { get; private set; }
+        public CulturalTitleName SiriBaron { get; private set; }
+        public CulturalTitleName SiriLord { get; private set; }
+        public CulturalTitleName SiriPrince { get; private set; }
+        public CulturalTitleName SiriKnight { get; private set; }
+        #endregion Siri
+
+        #region Massa
+        public CulturalTitleName MassaEmperor { get; private set; }
+        public CulturalTitleName MassaKing { get; private set; }
+        public CulturalTitleName MassaDuke { get; private set; }
+        public CulturalTitleName MassaCount { get; private set; }
+        public CulturalTitleName MassaBaron { get; private set; }
+        public CulturalTitleName MassaLord { get; private set; }
+        public CulturalTitleName MassaPrince { get; private set; }
+        public CulturalTitleName MassaKnight { get; private set; }
+        #endregion Massa
+
+
+
         public override IEnumerable<CulturalTitleName> All
         {
             get
@@ -195,6 +219,24 @@ namespace BannerKings.CulturesExpanded.Cultures
                 yield return GeroiaPrince;
                 yield return GeroiaKnight;
 
+                yield return SiriEmperor;
+                yield return SiriKing;
+                yield return SiriDuke;
+                yield return SiriCount;
+                yield return SiriBaron;
+                yield return SiriLord;
+                yield return SiriPrince;
+                yield return SiriKnight;
+
+                yield return MassaEmperor;
+                yield return MassaKing;
+                yield return MassaDuke;
+                yield return MassaCount;
+                yield return MassaBaron;
+                yield return MassaLord;
+                yield return MassaPrince;
+                yield return MassaKnight;
+
                 yield return DarshiEmperor;
                 yield return DarshiKing;
                 yield return DarshiDuke;
@@ -228,6 +270,8 @@ namespace BannerKings.CulturesExpanded.Cultures
             var vakken = cultures.First(x => x.StringId == "vakken");
             var nord = cultures.First(x => x.StringId == "nord");
             var geroia = cultures.First(x => x.StringId == "geroia");
+            var massa = cultures.First(x => x.StringId == "massa");
+            var siri = cultures.First(x => x.StringId == "siri");
 
             #region Empire
             if (BKTOSettings.Instance.LatinTitles)
@@ -729,6 +773,108 @@ namespace BannerKings.CulturesExpanded.Cultures
                 new TextObject("{=!}Seuralaiset"));
 
             #endregion Vakken
+
+            #region Siri
+            SiriEmperor = CulturalTitleName.CreateEmpire("SiriEmperor",
+                siri,
+                new TextObject("{=!}Arciducxate"),
+                new TextObject("{=!}Arciducxata"),
+                new TextObject("{=!}Arciducxateri"));
+
+            SiriKing = CulturalTitleName.CreateKingdom("SiriKing",
+                siri,
+                new TextObject("{=!}Arciducxate"),
+                new TextObject("{=!}Arciducxata"),
+                new TextObject("{=!}Arciducxateri"));
+
+            SiriDuke = CulturalTitleName.CreateDuchy("SiriDuke",
+                siri,
+                new TextObject("{=!}Ducxate"),
+                new TextObject("{=!}Ducxata"),
+                new TextObject("{=!}Ducxateri"));
+
+            SiriCount = CulturalTitleName.CreateCounty("SiriCount",
+                siri,
+                new TextObject("{=!}Gondh"),
+                new TextObject("{=!}Gonda"),
+                new TextObject("{=!}Gonderi"));
+
+            SiriBaron = CulturalTitleName.CreateBarony("SiriBaron",
+                siri,
+                new TextObject("{=!}Giudicadh"),
+                new TextObject("{=!}Giudicada"),
+                new TextObject("{=!}Giudicaderi"));
+
+            SiriLord = CulturalTitleName.CreateLordship("SiriLord",
+                siri,
+                new TextObject("{=!}Capitaine"),
+                new TextObject("{=!}Capitaine"),
+                new TextObject("{=!}Capitaneri"));
+
+            SiriPrince = CulturalTitleName.CreatePrince("SiriPrince",
+                siri,
+                new TextObject("{=!}Principe"),
+                new TextObject("{=!}Principe"),
+                new TextObject("{=!}Principi"));
+
+            SiriKnight = CulturalTitleName.CreateKnight("SiriKnight",
+                siri,
+                new TextObject("{=!}Cavaliere"),
+                new TextObject("{=!}Cavaliere"),
+                new TextObject("{=!}Cavalieri"));
+
+            #endregion Siri
+
+            #region Massa
+            MassaEmperor = CulturalTitleName.CreateEmpire("MassaEmperor",
+                massa,
+                new TextObject("{=!}Braidareiks"),
+                new TextObject("{=!}Braidoqino"),
+                new TextObject("{=!}Braidoreiki"));
+
+            MassaKing = CulturalTitleName.CreateKingdom("MassaKing",
+                massa,
+                new TextObject("{=!}Ao-Reiks"),
+                new TextObject("{=!}Ao-Qino"),
+                new TextObject("{=!}Ao-Reiki"));
+
+            MassaDuke = CulturalTitleName.CreateDuchy("MassaDuke",
+                massa,
+                new TextObject("{=!}Reiks"),
+                new TextObject("{=!}Qino"),
+                new TextObject("{=!}Reiki"));
+
+            MassaCount = CulturalTitleName.CreateCounty("MassaCount",
+                massa,
+                new TextObject("{=!}Gondh"),
+                new TextObject("{=!}Gonda"),
+                new TextObject("{=!}Gonderi"));
+
+            MassaBaron = CulturalTitleName.CreateBarony("MassaBaron",
+                massa,
+                new TextObject("{=!}Giudicadh"),
+                new TextObject("{=!}Giudicada"),
+                new TextObject("{=!}Giudicaderi"));
+
+            MassaLord = CulturalTitleName.CreateLordship("MassaLord",
+                massa,
+                new TextObject("{=!}Capitaine"),
+                new TextObject("{=!}Capitaine"),
+                new TextObject("{=!}Capitaneri"));
+
+            MassaPrince = CulturalTitleName.CreatePrince("MassaPrince",
+                massa,
+                new TextObject("{=!}Reikisunus"),
+                new TextObject("{=!}Reikidauhtar"),
+                new TextObject("{=!}Reikifraiwa"));
+
+            MassaKnight = CulturalTitleName.CreateKnight("MassaKnight",
+                massa,
+                new TextObject("{=!}Rìkis"),
+                new TextObject("{=!}Rìkis"),
+                new TextObject("{=!}Rìkiai"));
+
+            #endregion Massa
 
             #region Geroia
             GeroiaEmperor = CulturalTitleName.CreateEmpire("GeroiaEmperor",

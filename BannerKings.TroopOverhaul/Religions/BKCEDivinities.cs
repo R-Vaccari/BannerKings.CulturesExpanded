@@ -15,18 +15,27 @@ namespace BannerKings.CulturesExpanded.Religions
         public Divinity Sarapios { get; } = new Divinity("Sarapios");
         public Divinity Carsos { get; } = new Divinity("Carsos");
         public Divinity Erithrians { get; } = new Divinity("Erithrians");
+        public Divinity Perkos { get; } = new Divinity("Perkos");
+       // public Divinity Morabog { get; } = new Divinity("Morabog");
 
         public override IEnumerable<Divinity> All
         {
             get
             {
                 yield return Calradios;
+                yield return Erithrians;
+                yield return Sarapios;
+                yield return Ireos;
             }
         }
 
         public override void Initialize()
         {
-            //ImmortalFlame.
+            Perkos.Initialize(new TextObject("{=qBT3wpBX}Pérkos, Thunder Wielder"),
+               new TextObject("{=8gGop7db}Once, there was naught between the Underworld, nested deep in the roots of the Great Oak, and the heavenly canopy of the gods. Pérkos struck the Great Tree's bark, and from it's sap, mankind blossomed. Such is the tale told by the children of the forest, that is, those that adhere to Pérkenweyd. Though the faith accepts a multitude of gods, the Thunder Wielder is idolized as their ultimate protector, the highest and noblest of gods, charged with protecting the Great Oak itself."),
+               new TextObject("{=CfqOi9gq}Stability for all settlements of acceptable cultures\nRenown gain for every successful raid on foreign villages"),
+               new TextObject("{=z0VYqrO5}Supreme God"));
+
             Calradios.Initialize(new TextObject("{=!}Augoustos Calradios"),
                 new TextObject("{=!}A millenia ago, it is said, Calradios arrived on this land. He and his exiles sailed north, from another continent, until they arrived on the vicinities of Charas, where the first colony was stablished, Charasea. Over the following centuries, the Calradoi expanded over the continent, subjugating the native peoples, mainly Palaic and Battanian tribes. Imperial dynasties and claimants have ever since claimed descendancy to Calradios - descendant of Ireos, son of Sky-Father Iovis -, and thus, to the Gods themselves. True or not, Calradios has long since been annointed by the people as their founder, and by the state as Divus and Augoustos, meaning 'the Great one'."),
                 new TextObject("{=!}Greatly increased influence gain and Legitimacy"),

@@ -1,11 +1,9 @@
-﻿using BannerKings.Managers.Institutions.Religions;
-using BannerKings.Managers.Institutions.Religions.Faiths;
+﻿using BannerKings.Managers.Institutions.Religions.Faiths;
 using System;
 using System.Linq;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Core;
-using TaleWorlds.Library;
 using TaleWorlds.Localization;
 
 namespace BannerKings.CulturesExpanded.Religions
@@ -105,7 +103,7 @@ namespace BannerKings.CulturesExpanded.Religions
             throw new NotImplementedException();
         }
 
-        public override TextObject GetFaithName() => new TextObject("{=!}Amesha Atash");
+        public override TextObject GetFaithName() => new TextObject("{=!}Atash Amesha");
 
         public override string GetId() => "immortalFlame";
 
@@ -130,6 +128,11 @@ namespace BannerKings.CulturesExpanded.Religions
         }
 
         public override TextObject GetRankTitle(int rank)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override TextObject GetZealotsGroupName()
         {
             throw new NotImplementedException();
         }

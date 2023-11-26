@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+  <NPCCharacter id="bk_siri_kandi" default_group="Ranged" level="31" name="{=!}Siri Kandi" occupation="Soldier" is_female="true" culture="Culture.siri">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="110" />
+      <skill id="Riding" value="170" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="200" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="100" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_d" />
+			<equipment slot="Cape" id="Item.leopard_pelt" />
+			<equipment slot="Body" id="Item.AR_aserai_lamellar_b" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.woodland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_2_t5" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g2" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_q" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_d" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.woodland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_2_t5" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_lord_helmet_g" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_k" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.woodland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_2_t5" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_h" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_e" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.woodland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_2_t5" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_d" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.woodland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_2_t5" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_n2" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_d2" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.woodland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_125_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_2_t5" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+			
+  <NPCCharacter id="bk_siri_squire" default_group="Ranged" level="26" name="{=!}Siri Highborn" occupation="Soldier" is_basic_troop="true" is_female="true" culture="Culture.siri">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="140" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_siri_kandi" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.TV_aserai_helmet_a" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_k" />
+			<equipment slot="Body" id="Item.AR_aserai_leather_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.lowland_yew_bow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_g" />
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_k" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.lowland_yew_bow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_m2" />
+			<equipment slot="Cape" id="Item.leopard_pelt" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_i" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.lowland_yew_bow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_m" />
+			<equipment slot="Body" id="Item.tv_aserai_lamellar_j" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.lowland_yew_bow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_n2" />
+			<equipment slot="Body" id="Item.AR_aserai_leather_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.lowland_yew_bow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.AR_aserai_helmet_n" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_a" />
+			<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.lowland_yew_bow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item2" id="Item.GRE_hardened_110_gr_arrows" />
+			<equipment slot="Item3" id="Item.khuzait_polearm_1_t4" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+  <NPCCharacter id="bk_siri_sergeant" default_group="Infantry" level="21" name="{=!}Siri Warrior" occupation="Soldier" culture="Culture.siri">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="120" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.AR_aserai_helmet_k" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_c2" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zk" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.southern_cone_helmet" />
+			<equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_c2" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zk" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.hmj_southern_headband_helm" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_c3" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zl" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_3_t4" />
+		    <equipment slot="Item2" id="Item.shishpar_mace_t4" />
+			<equipment slot="Head" id="Item.TV_aserai_helmet_o" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_c3" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_siri_militiaman"
+                default_group="Infantry"
+                level="16"
+                name="{=!}Siri Militiaman"
+                occupation="Soldier"
+                culture="Culture.siri"
+                skill_template="SkillSet.bk_militia_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_siri_sergeant" />
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+			<equipment slot="Head" id="Item.desert_cap" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_b3" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.AR_aserai_axe_1_t3" />
+			<equipment slot="Head" id="Item.AR_aserai_helmet_k" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_b3" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_e" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_a" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_a" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_a2" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+		    <equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+			<equipment slot="Head" id="Item.southern_cone_helmet" />
+			<equipment slot="Cape" id="Item.aserai_horseman_shoulder" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_a3" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+			<equipment slot="Head" id="Item.hmj_southern_headband_helm" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_b" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zj" />
+		    <equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3" />
+		    <equipment slot="Item2" id="Item.bk_southern_axe_t3" />
+			<equipment slot="Head" id="Item.TV_aserai_helmet_o" />
+			<equipment slot="Cape" id="Item.AR_aserai_scarf_a" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_b2" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_siri_levy"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Siri Levy"
+                occupation="Soldier"
+                culture="Culture.siri"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_levy_melee_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_siri_militiaman" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zu" />
+			<equipment slot="Item1" id="Item.AR_shotel_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.ao_mabili_hide_skirt" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zg" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.ao_mabili_zebra_skirt" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zh" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.AR_aserai_armor_n" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zi" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.AR_shield_infantry_zu" />
+			<equipment slot="Item1" id="Item.AR_shotel_t2" />
+		    <equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  
+  <NPCCharacter id="bk_siri_militiaman_archer"
+                default_group="Ranged"
+                level="16"
+                name="{=!}Siri Militiawoman Archer"
+                occupation="Soldier"
+                culture="Culture.siri"
+				is_female="true"
+                skill_template="SkillSet.bk_militia_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	</upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_a2" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.lowland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item3" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item2" id="Item.AR_shotel_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_b" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.lowland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item3" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item2" id="Item.AR_shotel_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_b2" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.lowland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item3" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item2" id="Item.AR_shotel_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_b3" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.lowland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item3" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item2" id="Item.AR_shotel_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_a3" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.lowland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item3" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item2" id="Item.AR_shotel_t3" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_armor_a" />
+			<equipment slot="Leg" id="Item.sturgia_boots_a" />
+			<equipment slot="Item0" id="Item.lowland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item3" id="Item.GRE_vlandic_arrows" />
+			<equipment slot="Item2" id="Item.AR_shotel_t3" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  
+  <NPCCharacter id="bk_siri_levy_archer"
+                default_group="Ranged"
+                level="11"
+                name="{=!}Siri Levy Archer"
+                occupation="Soldier"
+                culture="Culture.siri"
+				is_basic_troop="true"
+				is_female="true"
+                skill_template="SkillSet.bk_levy_bowman_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_siri" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_siri_militiaman_archer" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.GRE_barbed_arrows" />
+			<equipment slot="Item3" id="Item.GRE_barbed_arrows" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.ao_mabili_hide_skirt" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.GRE_barbed_arrows" />
+			<equipment slot="Item3" id="Item.GRE_barbed_arrows" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.ao_mabili_zebra_skirt" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.GRE_barbed_arrows" />
+			<equipment slot="Item3" id="Item.GRE_barbed_arrows" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.AR_aserai_armor_n" />
+			<equipment slot="Leg" id="Item.southern_moccasins" />
+			<equipment slot="Item0" id="Item.highland_ranger_bow" />
+			<equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <equipment slot="Item2" id="Item.GRE_barbed_arrows" />
+			<equipment slot="Item3" id="Item.GRE_barbed_arrows" />
+		</EquipmentRoster>
+		<EquipmentSet id="aserai_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

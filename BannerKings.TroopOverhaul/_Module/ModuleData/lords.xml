@@ -2,21 +2,319 @@
 <NPCCharacters>
 
   <NPCCharacter
-		id="bk_vakken_1"
-		name="{=!}Rauko"
+		id="bk_massa_template_0"
+		name="{=!}of the Hildscarila"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.vlandia"
+		occupation="Lord">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_0" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="6" />
+			<Trait
+				id="KnightFightingSkills"
+				value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_massa_mercenaries_template" />
+			<EquipmentSet
+				id="bk_massa_mercenaries_template"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- jovial maniac -->
+	<NPCCharacter
+		id="bk_massa_template_1"
+		name="{=!}of the Hildscarila"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.vlandia"
+		occupation="Lord">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_1" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="5" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_massa_mercenaries_template" />
+			<EquipmentSet
+				id="bk_massa_mercenaries_template"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- gentleman ranker type -->
+	<NPCCharacter
+		id="bk_massa_template_2"
+		name="{=!}of the Hildscarila"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.vlandia"
+		occupation="Lord">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_2" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="5" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_massa_mercenaries_template" />
+			<EquipmentSet
+				id="bk_massa_mercenaries_template"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- functionary -->
+	<NPCCharacter
+		id="bk_massa_template_3"
+		name="{=!}of the Hildscarila"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.vlandia"
+		occupation="Lord">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_company_of_the_boar_leader_3" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar"/>-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="5" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_massa_mercenaries_template" />
+			<EquipmentSet
+				id="bk_massa_mercenaries_template"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_massa_1"
+		name="{=!}Respendal"
 		voice="curt"
 		default_group="Infantry"
-		age="48"
+		age="42"
 		is_hero="true"
-		culture="Culture.vakken"
+		culture="Culture.massa"
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<BodyProperties
-				version="4"
-				weight="0.9"
-				build="0.8"
-				key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042" />
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" 
+			key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.AR_vlandia_lord_helmet_d" />
+			  <equipment slot="Cape" id="Item.AR_lion_head_d" />
+			  <equipment slot="Body" id="Item.TV_vlandia_armor_t2" />
+			  <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			  <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse" />
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k" />
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5" />
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="bk_massa_mercenaries_template"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_massa_2"
+		name="{=!}Geseric"
+		voice="curt"
+		default_group="Infantry"
+		age="42"
+		is_hero="true"
+		culture="Culture.massa"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" 
+			key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.ao_durkhan_cataphract_helmet_a" />
+			  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_i" />
+			  <equipment slot="Body" id="Item.TV_empire_armor_n" />
+			  <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			  <equipment slot="Leg" id="Item.TV_vlandia_boots_c" />
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse" />
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k" />
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5" />
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="bk_massa_mercenaries_template"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_siri_1"
+		name="{=!}Usiatra"
+		voice="curt"
+		default_group="Infantry"
+		age="38"
+		is_female="true"
+		is_hero="true"
+		culture="Culture.siri"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" 
+			age="30" 
+			weight="0.5571" 
+			build="0.4559"  
+			key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			 <EquipmentRoster>
+			  <equipment slot="Head" id="Item.AR_aserai_archer_helmet_h" />
+			  <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_c" />
+			  <equipment slot="Body" id="Item.AR_aserai_armor_c" />
+			  <equipment slot="Gloves" id="Item.TV_aserai_gloves_a" />
+			  <equipment slot="Leg" id="Item.TV_moccasins_c" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="bk_lord_template_siri_noncom"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+ 
+  
+  <NPCCharacter
+		id="bk_siri_2"
+		name="{=!}Peksater"
+		voice="curt"
+		default_group="Infantry"
+		age="48"
+		is_female="true"
+		is_hero="true"
+		culture="Culture.siri"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" 
+			age="30" 
+			weight="0.5571" 
+			build="0.4559"  
+			key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"  />
 		</face>
 		<skills></skills>
 		<Traits>
@@ -31,9 +329,184 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="stu_bat_template_heavy" />
+				id="bk_lord_template_siri" />
 			<EquipmentSet
-				id="stu_civ_template_default"
+				id="bk_lord_template_siri_noncom"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_siri_3"
+		name="{=!}Wurthazuwt"
+		voice="curt"
+		default_group="Infantry"
+		age="31"
+		is_female="true"
+		is_hero="true"
+		culture="Culture.siri"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" 
+			age="30" 
+			weight="0.5571" 
+			build="0.4559"  
+			key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_lord_template_siri" />
+			<EquipmentSet
+				id="bk_lord_template_siri_noncom"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_siri_4"
+		name="{=!}Shepenupet"
+		voice="curt"
+		default_group="Infantry"
+		age="22"
+		is_female="true"
+		is_hero="true"
+		culture="Culture.siri"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" 
+			age="30" 
+			weight="0.5571" 
+			build="0.4559"  
+			key="003CB00E5FCC100875687F776C6CA92B498BA81AC666CBD77785BD79C6E8B87701C786140C748BAB000000000000000000000000000000000000000021A43003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_lord_template_siri" />
+			<EquipmentSet
+				id="bk_lord_template_siri_noncom"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+		id="bk_vakken_1"
+		name="{=W1ZpjgQO}Rauko"
+		voice="curt"
+		default_group="Infantry"
+		age="35"
+		is_hero="true"
+		culture="Culture.vakken"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50" weight="0.3946" build="0.7163"  key="000000000000344768B2ABC07CDC776F6EDD8485569637B798BCD5CB94671C5904CB60460CDBD36B000000000000000000000000000000000000000015989040"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_lord_template_vakken" />
+			<EquipmentSet
+				id="bk_lord_template_vakken_noncom"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_vakken_2"
+		name="{=jhT7CfhM}Aivar"
+		voice="curt"
+		default_group="Infantry"
+		age="48"
+		is_hero="true"
+		culture="Culture.vakken"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.07" weight="0.2438" build="0.8431"  key="0000480400FC26093CA9898577964957588DBB637BB4BCD7BA767C8CA314845700AD46030AA76E9700000000000000000000000000000000000000004B4460C2"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_lord_template_vakken" />
+			<EquipmentSet
+				id="bk_lord_template_vakken_noncom"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_vakken_3"
+		name="{=kL0ldFLG}Pekko"
+		voice="curt"
+		default_group="Infantry"
+		age="50"
+		is_hero="true"
+		culture="Culture.vakken"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50.07" weight="0.972" build="0.58"  key="000D88008014254645966A27B96AA88659937CB27CA675BC2478998967A5862400C9F6030C768657000000000000000000000000000000000000000031945042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="bk_lord_template_vakken" />
+			<EquipmentSet
+				id="bk_lord_template_vakken_noncom"
 				civilian="true" />
 		</Equipments>
   </NPCCharacter>
@@ -151,6 +624,80 @@
   
   <NPCCharacter
 		id="bk_jumne_3"
+		name="{=!}Gundur"
+		voice="curt"
+		default_group="Infantry"
+		age="48"
+		is_hero="true"
+		culture="Culture.nord"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				weight="0.9"
+				build="0.8"
+				key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_heavy" />
+			<EquipmentSet
+				id="stu_civ_template_default"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_jumne_4"
+		name="{=!}Gundur"
+		voice="curt"
+		default_group="Infantry"
+		age="48"
+		is_hero="true"
+		culture="Culture.nord"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				weight="0.9"
+				build="0.8"
+				key="00002C04405838836569E86B42547942A953B158E6A5883394A97756BC9B75A90197701309CE53B8000000000000000000000000000000000000000025283042" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="stu_bat_template_heavy" />
+			<EquipmentSet
+				id="stu_civ_template_default"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter
+		id="bk_jumne_5"
 		name="{=!}Gundur"
 		voice="curt"
 		default_group="Infantry"
@@ -345,7 +892,7 @@
   </NPCCharacter>
  
  
- <NPCCharacter id="bk_darshi_1_1"
+  <NPCCharacter id="bk_darshi_1_1"
                 name="{=!}Shahbuhr"
                 age="44"
                 voice="ironic"

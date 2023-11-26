@@ -29,7 +29,7 @@ namespace BannerKings.CulturesExpanded.Goals
         {
             failedReasons = new List<TextObject>();
 
-            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
+            var behavior = TaleWorlds.CampaignSystem.Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
             Kingdom kingdom = GetFulfiller().Clan.Kingdom;
 
             if (!behavior.IsTimeReady(kingdom))
@@ -69,9 +69,9 @@ namespace BannerKings.CulturesExpanded.Goals
             int manpower = GetAvailableManpower(kingdom);
             int div = MathF.Floor(manpower / 10f);
 
-            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
+            var behavior = TaleWorlds.CampaignSystem.Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
             CharacterObject troop = behavior.GetKingdomTroop(kingdom);
-            int cost = (int)(Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, Hero.MainHero) * 3f);
+            int cost = (int)(TaleWorlds.CampaignSystem.Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, Hero.MainHero) * 3f);
 
             for (int i = 1; i <= div; i++)
             {
@@ -136,9 +136,9 @@ namespace BannerKings.CulturesExpanded.Goals
             }
 
             var kingdom = GetFulfiller().Clan.Kingdom;
-            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
+            var behavior = TaleWorlds.CampaignSystem.Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
             CharacterObject troop = behavior.GetKingdomTroop(kingdom);
-            int cost = (int)(Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, GetFulfiller()) * 3f);
+            int cost = (int)(TaleWorlds.CampaignSystem.Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, GetFulfiller()) * 3f);
 
             if (GetFulfiller().Gold < cost)
             {
@@ -179,10 +179,10 @@ namespace BannerKings.CulturesExpanded.Goals
                 return;
             }
 
-            var behavior = Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
+            var behavior = TaleWorlds.CampaignSystem.Campaign.Current.GetCampaignBehavior<CrownGuardBehavior>();
             CharacterObject troop = behavior.GetKingdomTroop(kingdom);
             int manpower = GetAvailableManpower(kingdom);
-            int cost = (int)(Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, GetFulfiller()) * 3f);
+            int cost = (int)(TaleWorlds.CampaignSystem.Campaign.Current.Models.PartyWageModel.GetTroopRecruitmentCost(troop, GetFulfiller()) * 3f);
             int take = MathF.Min(manpower, party.LimitedPartySize - party.MemberRoster.TotalManCount);
             int totalCost = (int)(cost * take);
             if (hero.Gold >= totalCost * 2f)

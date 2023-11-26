@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<strings>
+	<string
+			id="str_culture_rich_name.vlandia"
+			text="{=!}Wilunding" />
+		<string
+			id="str_culture_rich_name.battania"
+			text="{=!}Battanaidd" />
+		<string
+			id="str_culture_rich_name.khuzait"
+			text="{=!}Devseg" />
+		<string
+			id="str_culture_rich_name.sturgia"
+			text="{=!}Sturgiske" />
+		<string
+			id="str_culture_rich_name.aserai"
+			text="{=!}Nahawasi" />
+		<string
+			id="str_culture_rich_name.empire"
+			text="{=!}Calradoi" />
+</strings>

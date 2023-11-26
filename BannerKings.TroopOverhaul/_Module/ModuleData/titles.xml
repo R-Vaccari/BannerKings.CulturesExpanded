@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<titles autoGenerate="true">
+		<kingdom faction="vlandia" government="Tribal" succession="WilundingElective" inheritance="Seniority" genderLaw="Agnatic" deJure="lord_4_1">
+			<duchy name="{=kS1GtIuD}Sargotha" deJure="lord_4_1">
+				<county settlement="town_V1" deJure="lord_4_1">
+					<barony settlement="castle_V7" deJure="lord_4_1" />
+				</county>
+				<county settlement="town_V7" deJure="lord_4_16">
+					<barony settlement="castle_V1" deJure="lord_V11_l" />
+				</county>
+			</duchy>
+			<duchy name="{=pTPcS7UL}Biscanend" deJure="lord_4_6">
+				<county settlement="town_V6" deJure="lord_4_6" />
+				<county settlement="town_V5" deJure="lord_4_1">
+					<barony settlement="castle_V2" deJure="lord_4_27" />
+				</county>
+			</duchy>
+			<duchy name="{=VkkdAZ6s}Paravenon" deJure="lord_4_3">
+				<county settlement="town_V3" deJure="lord_4_3">
+					<barony settlement="castle_V3" deJure="lord_4_3" />
+				</county>
+				<county settlement="town_V2" deJure="lord_4_23">
+					<barony settlement="castle_V8" deJure="lord_4_23" />
+				</county>
+			</duchy>
+			<duchy name="{=l8d0pJII}Eborend" deJure="bk_jumne_1">
+				<county settlement="town_V9" deJure="bk_jumne_2">
+					<barony settlement="castle_V4" deJure="lord_4_28" />
+					<barony settlement="castle_V6" deJure="lord_4_22" />
+				</county>
+				<county settlement="town_V8" deJure="bk_jumne_2">
+					<barony settlement="castle_V5" deJure="bk_jumne_1" />
+				</county>
+			</duchy>
+		</kingdom>
+
+		<kingdom faction="battania" government="Tribal" succession="BattanianElective" inheritance="Seniority" genderLaw="Agnatic" deJure="lord_5_1" >
+			<duchy name="{=3QYdOWmI}Ardus Dunnath" deJure="lord_5_1">
+				<county settlement="town_B5" deJure="lord_5_16">
+					<barony settlement="castle_B1" deJure="lord_B8_l" />
+					<barony settlement="castle_B2" deJure="lord_5_15" />
+				</county>
+				<county settlement="town_B1" deJure="lord_5_1">
+					<barony settlement="castle_B5" deJure="lord_5_1" />
+				</county>
+			</duchy>
+			<duchy name="{=5X65560i}Cadd Lenthu" deJure="lord_5_3">
+				<county settlement="town_B2" deJure="lord_5_3">
+					<barony settlement="castle_B7" deJure="lord_5_3" />
+				</county>
+				<county settlement="town_B3" deJure="lord_5_5">
+					<barony settlement="castle_B3" deJure="lord_5_17" />
+					<barony settlement="castle_B4" deJure="lord_5_5" />
+				</county>
+			</duchy>
+			<duchy name="{=dV3xJxVu}Ardus Lendh" deJure="lord_5_14">
+				<county settlement="town_B4" deJure="lord_5_14">
+					<barony settlement="castle_B7" deJure="lord_5_14" />
+				</county>
+			</duchy>
+		</kingdom>
+
+		<kingdom faction="sturgia" government="Tribal" succession="TribalElective" inheritance="Seniority" genderLaw="Agnatic" deJure="lord_2_1">
+			<duchy name="{=LsKyFaRs}Nordden" deJure="lord_2_1">
+				<county settlement="town_S2"  deJure="lord_2_1">
+					<barony settlement="castle_S6" deJure="lord_2_1"/>
+				</county>
+				<county settlement="town_S3" deJure="lord_2_17">
+					<barony settlement="castle_S5" deJure="lord_2_17"/>
+				</county>
+			</duchy>
+			<duchy name="{=x4IrrVOc}Kachyar" deJure="lord_2_17">
+				<county settlement="town_S7" deJure="lord_2_17">
+					<barony settlement="castle_S1" deJure="lord_2_17" />
+					<barony settlement="castle_S3" deJure="lord_2_1" />
+				</county>
+				<county settlement="town_S1" deJure="lord_2_1">
+					<barony settlement="castle_S4" deJure="lord_S9_l" />
+				</county>
+			</duchy>
+			<duchy name="{=cHWtzygp}Chertyg" deJure="lord_2_16">
+				<county settlement="town_S4" deJure="lord_2_16">
+					<barony settlement="castle_S8" deJure="lord_2_16" />
+				</county>
+				<county settlement="town_S6" deJure="lord_2_18">
+				</county>
+			</duchy>
+			<duchy name="{=dcfhVA8L}Iltan" deJure="lord_2_5">
+				<county settlement="town_S5" deJure="lord_2_5">
+					<barony settlement="castle_S7" deJure="lord_2_5" />
+				</county>
+			</duchy>
+		</kingdom>
+
+
+		<kingdom faction="empire" government="Republic" succession="Republic" inheritance="Seniority" genderLaw="Agnatic" deJure="lord_1_1">
+			<duchy name="{=MZ6IyLe9}Lakonia" deJure="lord_1_3">
+				<county settlement="town_EN1" deJure="lord_1_3">
+					<barony settlement="castle_EN9" deJure="lord_1_1" />
+					<barony settlement="castle_EN6" deJure="lord_1_3" />
+				</county>
+				<county settlement="town_EN2" deJure="lord_1_1">
+					<barony settlement="castle_EN3" deJure="lord_NE9_l" />
+				</county>
+			</duchy>
+			<duchy name="{=zx85YhOq}Nevys" deJure="lord_1_1">
+				<county settlement="town_EN3" deJure="lord_1_5">
+					<barony settlement="castle_EN1" deJure="lord_1_5" />
+				</county>
+				<county settlement="town_EN4" deJure="lord_1_1">
+					<barony settlement="castle_EN5" deJure="lord_1_1" />
+				</county>
+			</duchy>
+			<duchy name="{=bo4PqHJv}Myzead" deJure="lord_1_64">
+				<county settlement="town_EN5" deJure="lord_1_50">
+					<barony settlement="castle_EN4" deJure="lord_1_5" />
+				</county>
+				<county settlement="town_EN6" deJure="lord_1_64"> 
+					<barony settlement="castle_EN2" deJure="lord_1_51" />
+					<barony settlement="castle_EN7" deJure="lord_1_58" />
+					<barony settlement="castle_EN8" deJure="lord_NE8_l" />
+				</county>
+			</duchy>
+		</kingdom>
+
+		<kingdom faction="empire_w" government="Imperial" succession="Dictatorship" inheritance="Seniority" genderLaw="Agnatic" deJure="lord_1_7">
+			<duchy name="{=Cdf6hJNf}Gavys" deJure="lord_1_9">
+				<county settlement="town_EW4" deJure="lord_1_9">
+					<barony settlement="castle_EW1" deJure="lord_1_9" />
+					<barony settlement="castle_EW4" deJure="lord_1_11" />
+				</county>
+				<county settlement="town_EW1" deJure="lord_1_11">
+					<barony settlement="castle_EW6" deJure="lord_1_71" />
+				</county>
+			</duchy>
+			<duchy name="{=fIsbmmJs}Perassica" deJure="lord_1_7">
+				<county settlement="town_EW3" deJure="lord_1_7">
+					<barony settlement="castle_EW7" deJure="lord_WE9_l" />
+				</county>
+				<county settlement="town_EW2" deJure="lord_1_7">
+					<barony settlement="castle_EW3" deJure="lord_1_7" />
+				</county>
+			</duchy>
+			<duchy name="{=a9gaFIJa}Aria" deJure="lord_1_40">
+				<county settlement="town_EW6" deJure="lord_1_45">
+					<barony settlement="castle_EW8" deJure="lord_1_52" />
+				</county>
+				<county settlement="town_EW5" deJure="lord_1_40">
+					<barony settlement="castle_EW2" deJure="lord_1_40" />
+				</county>
+			</duchy>
+		</kingdom>
+
+		<kingdom faction="empire_s" government="Imperial" succession="Imperial" inheritance="Primogeniture" genderLaw="Cognatic" deJure="lord_1_14">
+			<duchy name="{=deVTg9cJ}Ornia" deJure="lord_1_14">
+				<county settlement="town_ES4" deJure="lord_1_14">
+					<barony settlement="castle_ES6" deJure="lord_1_14" />
+				</county>
+				<county settlement="Poros" deJure="lord_1_15" />
+			</duchy>
+			<duchy name="{=9OkLIPRC}Sethys" deJure="lord_1_54">
+				<county settlement="town_ES6" deJure="lord_1_54">
+					<barony settlement="castle_ES8" deJure="lord_1_14" />
+				</county>
+				<county settlement="town_ES2" deJure="lord_1_30">
+					<barony settlement="castle_ES5" deJure="lord_1_72" />
+				</county>
+			</duchy>
+			<duchy name="{=YG6kdeqq}Calsea" deJure="lord_1_17">
+				<county settlement="town_ES1" deJure="lord_1_17">
+					<barony settlement="castle_ES4" deJure="lord_1_17" />
+					<barony settlement="castle_ES1" deJure="lord_1_17" />
+				</county>
+				<county settlement="town_ES5" deJure="lord_1_14">
+					<barony settlement="castle_ES2" deJure="lord_1_63" />
+				</county>
+			</duchy>
+			<duchy name="{=IBQMT2FR}Tanaesis" deJure="lord_1_63">
+				<county settlement="town_ES7" deJure="lord_1_63">
+					<barony settlement="castle_ES3" deJure="lord_1_55" />
+					<barony settlement="castle_ES7" deJure="lord_SE9_l" />
+				</county>
+			</duchy>
+		</kingdom>
+
+
+		<kingdom faction="aserai" government="Tribal" succession="AseraiElective" inheritance="Primogeniture" genderLaw="Agnatic" deJure="lord_3_1">
+			<duchy name="{=HPbbd80j}Perassia" deJure="lord_3_1">
+				<county settlement="town_A1" deJure="lord_3_1">
+					<barony settlement="castle_A1" deJure="lord_3_1" />
+				</county>
+				<county settlement="town_A6" deJure="lord_3_1">
+					<barony settlement="castle_A7" deJure="lord_3_19" />
+					<barony settlement="castle_A3" deJure="lord_3_19" />
+				</county>
+			</duchy>
+			<duchy name="{=1sClYUoR}Jarjarys" deJure="lord_3_16">
+				<county settlement="town_A7" deJure="lord_3_17">
+					<barony settlement="castle_A9" deJure="lord_A9_l" />
+				</county>
+				<county settlement="town_A3" deJure="lord_3_16">
+					<barony settlement="castle_A5" deJure="lord_3_16" />
+				</county>
+			</duchy>
+			<duchy name="{=cRAddvoP}Retana" deJure="lord_3_5">
+				<county settlement="town_A8" deJure="lord_3_18">
+					<barony settlement="castle_A4" deJure="lord_3_3" />
+				</county>
+				<county settlement="town_A5" deJure="lord_3_5">
+					<barony settlement="castle_A2" deJure="lord_3_5" />
+				</county>
+			</duchy>
+			<duchy name="{=AJxv9Eqo}Caldea" deJure="lord_3_3">
+				<county settlement="town_A4" deJure="lord_3_3">
+					<barony settlement="castle_A8" deJure="lord_3_22" />
+				</county>
+				<county settlement="town_A2" deJure="lord_3_3">
+					<barony settlement="castle_A6" deJure="lord_3_5" />
+				</county>
+			</duchy>
+		</kingdom>
+
+		<kingdom faction="khuzait" government="Tribal" succession="TribalElective" inheritance="Seniority" genderLaw="Cognatic" deJure="lord_6_1">
+			<duchy name="{=kRXucvyJ}Kohi Rohini" deJure="lord_6_17">
+				<county settlement="town_K6" deJure="lord_6_17">
+					<barony settlement="castle_K7" deJure="lord_6_19" />
+				</county>
+				<county settlement="town_K2" deJure="lord_6_16">
+					<barony settlement="castle_K8" deJure="lord_K9_l" />
+				</county>
+			</duchy>
+			<duchy name="{=iuKWscHa}Tanaz Baikal" deJure="lord_6_1">
+				<county settlement="town_K5" deJure="lord_6_1">
+					<barony settlement="castle_K1" deJure="lord_6_5" />
+				</county>
+				<county settlement="town_K3" deJure="lord_6_1">
+					<barony settlement="castle_K4" deJure="lord_6_1" />
+				</county>
+			</duchy>
+			<duchy name="{=b8Ie5P26}Devseg" deJure="lord_6_5">
+				<county settlement="town_K4" deJure="lord_6_5">
+					<barony settlement="castle_K3" deJure="lord_6_20" />
+					<barony settlement="castle_K5" deJure="lord_6_19" />
+				</county>
+			</duchy>
+			<duchy name="{=krEv7xsL}Bars Dagan" deJure="lord_6_4">
+				<county settlement="town_K1" deJure="lord_6_4">
+					<barony settlement="castle_K9" deJure="lord_6_18" />
+					<barony settlement="castle_K6" deJure="lord_6_18" />
+				</county>
+			</duchy>
+		</kingdom>
+
+	</titles>
+</base>

@@ -5,10 +5,49 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
+	
+	 <xsl:template match="Settlement[@id='castle_village_S4_1']/Components/Village/@bound">
+        <xsl:attribute name='bound'>Settlement.castle_Vakken_2</xsl:attribute>
+    </xsl:template>
+	
+	
+	<xsl:template match="Settlement[@id='castle_A1']/@owner">
+        <xsl:attribute name='owner'>Faction.bk_clan_kannic_2</xsl:attribute>
+    </xsl:template>
+	
+
+	<xsl:template match="Settlement[@id='town_A2']/@owner">
+        <xsl:attribute name='owner'>Faction.fulq</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Settlement[@id='castle_S7']/@owner">
+        <xsl:attribute name='owner'>Faction.bk_clan_jumne_4</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Settlement[@id='castle_S1']/@owner">
+        <xsl:attribute name='owner'>Faction.clan_sturgia_5</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Settlement[@id='town_V9']/@owner">
+        <xsl:attribute name='owner'>Faction.bk_clan_jumne_3</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Settlement[@id='castle_V5']/@owner">
+        <xsl:attribute name='owner'>Faction.bk_clan_jumne_1</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Settlement[@id='castle_V6']/@owner">
+        <xsl:attribute name='owner'>Faction.bk_clan_jumne_2</xsl:attribute>
+    </xsl:template>
 
     <xsl:template match="Settlement[@id='castle_village_V1_1']/Components/Village/@village_type">
         <xsl:attribute name='village_type'>VillageType.salt_mine</xsl:attribute>
     </xsl:template>
+	
+	<xsl:template match="Settlement[@id='castle_village_V6_1']/Components/Village/@posX">
+        <xsl:attribute name='posX'>VillageType.flax_plant</xsl:attribute>
+    </xsl:template>
+	
 	
 	<xsl:template match="Settlement[@id='castle_village_V6_2']/Components/Village/@village_type">
         <xsl:attribute name='village_type'>VillageType.flax_plant</xsl:attribute>

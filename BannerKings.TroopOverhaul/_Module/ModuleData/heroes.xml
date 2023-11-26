@@ -15,10 +15,14 @@
   <Hero id="bk_jumne_1" faction="Faction.bk_clan_jumne_1" text="{=!}" />
   <Hero id="bk_jumne_2" faction="Faction.bk_clan_jumne_2" text="{=!}" />
   <Hero id="bk_jumne_3" faction="Faction.bk_clan_jumne_3" text="{=!}" />
+  <Hero id="bk_jumne_4" faction="Faction.bk_clan_jumne_4" text="{=!}" />
+  <Hero id="bk_jumne_5" faction="Faction.bk_clan_jumne_5" text="{=!}" />
   
   <Hero id="bk_zendar_1" faction="Faction.bk_clan_zendar" text="{=!}" />
   
   <Hero id="bk_vakken_1" faction="Faction.bk_clan_vakken" text="{=!}" />
+  <Hero id="bk_vakken_2" faction="Faction.bk_clan_vakken_2" text="{=!}" />
+  <Hero id="bk_vakken_3" faction="Faction.bk_clan_vakken_3" text="{=!}" />
   
   <Hero id="bk_geroia_1" faction="Faction.bk_clan_geroia_1" text="{=!}" />
   <Hero id="bk_geroia_2" faction="Faction.bk_clan_geroia_2" text="{=!}" />
@@ -28,5 +32,13 @@
   
   <Hero id="bk_kannic_1" faction="Faction.bk_clan_kannic_1" text="{=!}" />
   <Hero id="bk_kannic_2" faction="Faction.bk_clan_kannic_2" text="{=!}" />
+  
+  <Hero id="bk_massa_1" faction="Faction.bk_clan_massa_1" text="{=!}" /> 
+  <Hero id="bk_massa_2" faction="Faction.bk_clan_massa_2" text="{=!}" />
+  
+  <Hero id="bk_siri_1" faction="Faction.bk_clan_siri_1" text="{=!}" /> 
+  <Hero id="bk_siri_2" faction="Faction.bk_clan_siri_2" text="{=!}" />
+  <Hero id="bk_siri_3" faction="Faction.bk_clan_siri_3" text="{=!}" /> 
+  <Hero id="bk_siri_4" faction="Faction.bk_clan_siri_4" text="{=!}" /> 
 
 </Heroes>

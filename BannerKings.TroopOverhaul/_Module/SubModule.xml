@@ -46,11 +46,35 @@
 		<SubModule>
 			<Name value="BannerKings.CulturesExpanded" />
 			<DLLName value="BannerKings.CulturesExpanded.dll" />
-			<SubModuleClassType value="BannerKings.CulturesExpanded.Main" />
+			<SubModuleClassType value="BannerKings.CulturesExpanded.Main" /> 
 			<Tags />
 		</SubModule>
 	</SubModules>
 	<Xmls>
+		<XmlNode>                
+			<XmlName id="CraftingPieces" path="crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
+		<XmlNode>                
+			<XmlName id="CraftingTemplates" path="crafting_templates"/>
+		</XmlNode> 
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="weapon_descriptions"/>
+		</XmlNode>
+	    <XmlNode>                
+			<XmlName id="SkillSets" path="skill_templates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
 		<XmlNode>
             <XmlName path="weapons" id="Items"/>
             <IncludedGameTypes>
@@ -59,6 +83,15 @@
                 <GameType value="CustomGame"/>
             </IncludedGameTypes>
         </XmlNode>
+		<XmlNode>                
+			<XmlName id="BodyProperties" path="bodyproperties"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>    
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="Characters" />
 			<IncludedGameTypes>
@@ -90,6 +123,27 @@
                 <GameType value="CustomGame"/>
             </IncludedGameTypes>
         </XmlNode>
+		<XmlNode>               
+			<XmlName id="NPCCharacters" path="lords"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>               
+		<XmlNode>                
+			<XmlName id="Heroes" path="heroes"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="Factions" path="spclans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>   
 		<XmlNode>
             <XmlName path="kingdoms" id="Kingdoms"/>
             <IncludedGameTypes>

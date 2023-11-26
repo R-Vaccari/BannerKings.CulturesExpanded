@@ -4830,6 +4830,92 @@
     </Equipments>
   </NPCCharacter>
   
+  <NPCCharacter id="caravan_master_massa"
+                default_group="Infantry"
+                level="26"
+                name="{=!}Massa Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.massa">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.nordic_lamellar_vest" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
   <NPCCharacter id="caravan_master_geroia"
                 default_group="Infantry"
                 level="26"
@@ -5088,5 +5174,1234 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
+  
+    <NPCCharacter id="caravan_master_siri"
+                default_group="Infantry"
+                level="26"
+                name="{=!}Siri Caravan Master"
+                occupation="CaravanGuard"
+                culture="Culture.siri">
+    <face>
+      <face_key_template value="BodyProperty.fighter_jawwal" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="160" />
+      <skill id="TwoHanded"
+             value="80" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="80" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.nordic_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.nordic_lamellar_vest" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0"
+                   id="Item.star_falchion_sword_t3" />
+        <equipment slot="Head"
+                   id="Item.northern_fur_cap" />
+        <equipment slot="Body"
+                   id="Item.northern_leather_tabard" />
+        <equipment slot="Gloves"
+                   id="Item.northern_brass_bracers" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+    <NPCCharacter
+		id="spc_wanderer_siri_0"
+		name="{=bvjFhiDr}{FIRSTNAME} the Scholar"
+		voice="ironic"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_0" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="3" />
+			<Trait
+				id="Surgeon"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--Obsessed with own genealogy -->
+	<NPCCharacter
+		id="spc_wanderer_siri_1"
+		name="{=vtXRptVa}{FIRSTNAME} the Golden"
+		voice="earnest"
+		age="23"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--The falcon, chivalrous, but thinks great clans hog the glory -->
+	<NPCCharacter
+		id="spc_wanderer_siri_2"
+		name="{=TyxXbqVw}{FIRSTNAME} the Falcon"
+		voice="ironic"
+		age="25"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_2" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
+	<NPCCharacter
+		id="spc_wanderer_siri_3"
+		name="{=4GIoPUen}{FIRSTNAME} the Swordsman"
+		voice="softspoken"
+		age="33"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_3" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="LordIsNemesis" value="1" />-->
+			<Trait
+				id="HuscarlFightingSkills"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
+	<NPCCharacter
+		id="spc_wanderer_siri_4"
+		name="{=rgdi5Sxa}{FIRSTNAME} the Prince"
+		voice="ironic"
+		age="25"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_4" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="4" />
+			<Trait
+				id="RogueSkills"
+				value="7" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Hyena" (contemptuous killer) -->
+	<NPCCharacter
+		id="spc_wanderer_siri_5"
+		name="{=OFWvD0xe}{FIRSTNAME} the Hyena"
+		voice="curt"
+		age="27"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_5" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="HopliteFightingSkills"
+				value="5" />
+			<Trait
+				id="RogueSkills"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--of the Wastes - 'the searing gravel plain knows me' -->
+	<NPCCharacter
+		id="spc_wanderer_siri_6"
+		name="{=muC2SGlM}{FIRSTNAME} of the Wastes"
+		voice="curt"
+		age="31"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_6" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="ArcherFIghtingSkills"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="7" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- female member of clan that lost power -->
+	<NPCCharacter
+		id="spc_wanderer_siri_7"
+		name="{=28tWEFNi}{FIRSTNAME} the Wanderer"
+		voice="curt"
+		age="25"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_7" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CavalryFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="3" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!--unlucky merchant -->
+	<NPCCharacter
+		id="spc_wanderer_siri_8"
+		name="{=XBJtv4mD}{FIRSTNAME} the Spicevendor"
+		voice="softspoken"
+		age="28"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_8" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="4" />
+			<Trait
+				id="Trader"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- female alley urchin -->
+	<NPCCharacter
+		id="spc_wanderer_siri_9"
+		name="{=NWuGUi4p}{FIRSTNAME} the Leopardess"
+		voice="ironic"
+		age="22"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_9" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="3" />
+			<Trait
+				id="RogueSkills"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_wanderer_siri_10"
+		name="{=ACqta1a5}{FIRSTNAME} the Engineer"
+		voice="ironic"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_wanderer_siri_10" faction="Faction.jawwal" clan="Clan.jawwal"/>-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="SpawnAsPrisoner" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="3" />
+			<Trait
+				id="EngineerSkills"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_aserai" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter
+		id="spc_notable_siri_0"
+		name="{=!}{FIRSTNAME} the Dateseller"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_0" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_0b"
+		name="{=!}{FIRSTNAME} the Minter"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_0b" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_1"
+		name="{=!}{FIRSTNAME} the Coppermonger"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_1" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_1b"
+		name="{=!}{FIRSTNAME} the Incensemonger"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_1b" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_2"
+		name="{=!}{FIRSTNAME} the Woolseller"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_2" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_2b"
+		name="{=!}{FIRSTNAME} the Appraiser"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_2b" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_3"
+		name="{=!}{FIRSTNAME} the Caravanser"
+		voice="ironic"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_siri_3" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_3b"
+		name="{=!}{FIRSTNAME} the Benefactor"
+		voice="curt"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_siri_3b" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_4"
+		name="{=!}Aserai rebellious preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_5"
+		name="{=!}Aserai fire-and-brimstone preacher"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_5" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_6"
+		name="{=!}Aserai female preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.siri"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_siri_6" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="0" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_7"
+		name="{=!}Aserai fitiwi"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_7" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_siri_7" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_8"
+		name="{=!}Aserai fitiwi"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_8" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_siri_8" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_9"
+		name="{=!}Fearsome female Aserai gang leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.siri"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_aserai" />
+		</face>
+		<!--<Hero id="spc_notable_siri_9" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_10"
+		name="{=!}Aserai artisan leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Artisan">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_11"
+		name="{=!}Aserai earnest umda rural notable"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.siri"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_siri_12"
+		name="{=!}Aserai quiet umda rural notable"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.siri"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_12" faction="Kingdom.aserai" />-->
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_siri_headman_1"
+		name="{=!}Aserai rebellious headman"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_siri_headman_2"
+		name="{=!}Aserai conservative headman"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_siri_headman_3"
+		name="{=!}Aserai devious headman"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.siri"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_jawwal" />
+		</face>
+		<!--<Hero id="spc_notable_siri_4" faction="Kingdom.aserai" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="ArabianHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_aserai" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_aserai"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
 
 </NPCCharacters>

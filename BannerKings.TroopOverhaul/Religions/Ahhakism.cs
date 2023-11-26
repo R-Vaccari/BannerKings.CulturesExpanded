@@ -1,11 +1,9 @@
-﻿using BannerKings.Managers.Institutions.Religions;
-using BannerKings.Managers.Institutions.Religions.Faiths;
+﻿using BannerKings.Managers.Institutions.Religions.Faiths;
 using System;
 using System.Linq;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Settlements;
 using TaleWorlds.Core;
-using TaleWorlds.Library;
 using TaleWorlds.Localization;
 
 namespace BannerKings.CulturesExpanded.Religions
@@ -13,7 +11,7 @@ namespace BannerKings.CulturesExpanded.Religions
     public class Ahhakism : MonotheisticFaith
     {
         public override Settlement FaithSeat => Settlement.All.First(x => x.StringId == "");
-        public override Banner GetBanner() => new Banner("11.149.40.1836.1836.768.774.1.0.0.411.143.149.184.186.763.764.1.1.0.154.145.149.280.282.604.764.0.1.0.154.145.149.280.282.924.764.0.0.0");
+        public override Banner GetBanner() => new Banner("11.4.2.1528.1528.764.764.1.0.0.10058.22.3.483.483.764.764.0.0.0");
 
         public override TextObject GetBlessingAction()
         {
@@ -136,6 +134,11 @@ namespace BannerKings.CulturesExpanded.Religions
         }
 
         public override TextObject GetRankTitle(int rank)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override TextObject GetZealotsGroupName()
         {
             throw new NotImplementedException();
         }

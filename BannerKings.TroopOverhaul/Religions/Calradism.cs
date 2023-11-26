@@ -105,6 +105,11 @@ namespace BannerKings.CulturesExpanded.Religions
             return new TextObject("{=!}Flamines");
         }
 
+        public override TextObject GetZealotsGroupName()
+        {
+            return TextObject.Empty;
+        }
+
         public override bool IsCultureNaturalFaith(CultureObject culture) => culture.StringId == "empire";
         
 

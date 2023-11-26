@@ -125,6 +125,11 @@ namespace BannerKings.Managers.Institutions.Religions.Faiths.Empire
             return new TextObject("{=!}Flamines");
         }
 
+        public override TextObject GetZealotsGroupName()
+        {
+            return TextObject.Empty;
+        }
+
         public override bool IsCultureNaturalFaith(CultureObject culture) => culture.StringId == "empire";
 
         public override bool IsHeroNaturalFaith(Hero hero)
@@ -138,7 +143,7 @@ namespace BannerKings.Managers.Institutions.Religions.Faiths.Empire
                 hero.MapFaction.StringId == "empire_w")
             {
                 if (hero.IsLord) return true;
-                else if (MBRandom.RandomFloat < 0.3f) return true;
+                else if (MBRandom.RandomFloat < 0.9f) return true;
             }
 
             return false;

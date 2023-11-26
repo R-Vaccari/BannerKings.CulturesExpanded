@@ -314,7 +314,6 @@ namespace BannerKings.CulturesExpanded
 
             #endregion darshi
 
-
             #region sturgia
             var sturgia = GetCulture("sturgia");
             SturgiaMeleeT1.Initialize(GetTroop("bk_sturgian_levy"),
@@ -497,6 +496,9 @@ namespace BannerKings.CulturesExpanded
                 new Dictionary<Managers.PopulationManager.PopType, float>()
                 {
                     {
+                        Managers.PopulationManager.PopType.Tenants, 0.1f
+                    },
+                    {
                         Managers.PopulationManager.PopType.Craftsmen, 1f
                     }
                 });
@@ -507,6 +509,9 @@ namespace BannerKings.CulturesExpanded
                 empire,
                 new Dictionary<Managers.PopulationManager.PopType, float>()
                 {
+                    {
+                        Managers.PopulationManager.PopType.Tenants, 0.1f
+                    },
                     {
                         Managers.PopulationManager.PopType.Craftsmen, 1f
                     }

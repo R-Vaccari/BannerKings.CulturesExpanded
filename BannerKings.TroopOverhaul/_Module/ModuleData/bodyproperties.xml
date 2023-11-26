@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BodyProperties>
+	<BodyProperty
+		id="fighter_siri">
+		<BodyPropertiesMin
+			version="4"
+			age="25.64"
+			weight="0.5"
+			build="0.5"
+			key="0036E80C480010135D721A4BB3A5D2FAAE7C686AD5C01C469CFFFF3F9922C78900B776030B9BA4A300000000000000000000000000000000000000003B7C2003" />
+		<BodyPropertiesMax
+			version="4"
+			age="46.62"
+			weight="0.2408"
+			build="0.95941"
+			key="003FF80FCA003001EE8EEEDEEEEBEFFFEE7F9FDCCEEAFCDFEFFFFFCF992FEEF800FA26030FBCCCCA000000000000000000000000000000000000000005F49142" />
+	</BodyProperty>
+</BodyProperties>

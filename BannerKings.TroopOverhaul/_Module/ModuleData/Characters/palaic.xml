@@ -1,6 +1,272 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
+  <NPCCharacter id="bk_palaic_boss" default_group="Infantry" level="26" name="{=!}Dryaticoi Exiled Chief" occupation="Bandit" culture="Culture.palaic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="140" />
+      <skill id="Riding" value="40" />
+      <skill id="OneHanded" value="120" />
+      <skill id="TwoHanded" value="170" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_12" />
+		<equipment slot="Cape" id="Item.cts_pelerina_dac_c1" />
+	    <equipment slot="Body" id="Item.cts_dacian_scalemail_longslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.chalcidian_5" />
+		<equipment slot="Cape" id="Item.cts_pelerina_dac_b1" />
+	    <equipment slot="Body" id="Item.cts_dacian_noble_armor_a" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_12" />
+		<equipment slot="Cape" id="Item.TV_battania_shoulders_d" />
+	    <equipment slot="Body" id="Item.cts_dacian_scalemail_longslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.chalcidian_5" />
+		<equipment slot="Cape" id="Item.cts_pelerina_dac_c" />
+	    <equipment slot="Body" id="Item.cts_dac_scalemail_noslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_11" />
+		<equipment slot="Cape" id="Item.cts_pelerina_dac_a" />
+	    <equipment slot="Body" id="Item.cts_dac_scalemail_noslevs1" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_9" />
+		<equipment slot="Cape" id="Item.cts_pelerina_dac_b" />
+	    <equipment slot="Body" id="Item.cts_dacian_noble_armor_b" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_a" />
+      </EquipmentRoster>
+	   <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.chalcidian_5" />
+		<equipment slot="Cape" id="Item.TV_wolf_pelt_a" />
+	    <equipment slot="Body" id="Item.cts_dacian_noble_armor_a" />
+	    <equipment slot="Leg" id="Item.cts_dacian_greave_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="bk_palaic_pillager" default_group="Infantry" level="21" name="{=!}Dryaticoi Pillager" occupation="Bandit" culture="Culture.palaic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="20" />
+      <skill id="OneHanded" value="80" />
+      <skill id="TwoHanded" value="120" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="80" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_10" />
+		<equipment slot="Cape" id="Item.battania_civil_cape" />
+	    <equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_pants_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.chalcidian_6" />
+		<equipment slot="Cape" id="Item.TV_wolf_pelt_d" />
+	    <equipment slot="Body" id="Item.cts_dacian_mail_shortslevs_a" />
+	    <equipment slot="Leg" id="Item.cts_dacian_pants_b1" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_4" />
+		<equipment slot="Cape" id="Item.AR_battanian_shoulder_b" />
+	    <equipment slot="Body" id="Item.cts_dacian_chainmail_double_slevs1" />
+	    <equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_7" />
+	    <equipment slot="Body" id="Item.cts_dac_scalemail_noslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_pants_a1" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+	    <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4" />
+        <equipment slot="Head" id="Item.phrygian_8" />
+		<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+	    <equipment slot="Body" id="Item.cts_dacian_mail_shortslevs" />
+	    <equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+
+  <NPCCharacter id="bk_palaic_raider" default_group="Infantry" level="16" name="{=!}Dryaticoi Raider" occupation="Bandit" culture="Culture.palaic">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="90" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="10" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_palaic_pillager" />
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bk_1h_falx" />
+	    <equipment slot="Item1" id="Item.western_javelin_1_t2" />
+	    <equipment slot="Item2" id="Item.battania_targe_b" />
+	    <equipment slot="Head" id="Item.cts_dacian_obraz_lana_bronze" />
+	    <equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+	    <equipment slot="Body" id="Item.cts_dacian_leather_armor" />
+		<equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bk_1h_falx" />
+	    <equipment slot="Item1" id="Item.western_javelin_1_t2" />
+	    <equipment slot="Item2" id="Item.battania_targe_b" />
+	    <equipment slot="Head" id="Item.cts_dacian_obraz_lana_iron" />
+	    <equipment slot="Cape" id="Item.battania_civil_cape" />
+	    <equipment slot="Body" id="Item.cts_dacian_leather_armor" />
+		<equipment slot="Leg" id="Item.cts_dacian_pants_b" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Item0" id="Item.bk_1h_falx" />
+	    <equipment slot="Item1" id="Item.western_javelin_1_t2" />
+	    <equipment slot="Item2" id="Item.battania_targe_b" />
+	    <equipment slot="Head" id="Item.phrygian_1" />
+	    <equipment slot="Body" id="Item.cts_dacian_leather_armor" />
+		<equipment slot="Leg" id="Item.cts_dacian_pants_a1" />
+      </EquipmentRoster>
+	  <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="bk_palaic_bandit"
+                default_group="Infantry"
+                level="11"
+                name="{=!}Dryaticoi Bandit"
+                occupation="Bandit"
+                culture="Culture.palaic"
+				is_basic_troop="true"
+                skill_template="SkillSet.bk_militia_skirmisher_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <skills></skills>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.bk_palaic_raider" />
+    </upgrade_targets>
+    <Equipments>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_b" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.TV_battania_boots_x" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_b1" />
+			<equipment slot="Body" id="Item.plain_hemp_tunic" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_b2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_a" />
+			<equipment slot="Body" id="Item.tied_cloth_tunic" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_a1" />
+			<equipment slot="Body" id="Item.tunic_with_shoulder_pads" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_b" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_c1" />
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Head" id="Item.cts_dacian_hat_c" />
+			<equipment slot="Cape" id="Item.TV_battania_cloak_p" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.highland_spear_t2" />
+			<equipment slot="Item1" id="Item.battania_axe_1_t2" />
+			<equipment slot="Item2"  id="Item.AR_shield_infantry_zs" />
+			<equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
+			<equipment slot="Leg" id="Item.cts_dacian_pants_a2" />
+		</EquipmentRoster>
+		<EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
   
   <NPCCharacter id="bk_palaic_sergeant" default_group="Infantry" level="21" name="{=!}Palaicoi Tarusuras" occupation="Soldier" culture="Culture.palaic">
     <face>
@@ -355,7 +621,7 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="bk_palaic_levy_skirmisher"
+  <NPCCharacter id="bk_palaic_levy_skirmisher"
                 default_group="Infantry"
                 level="11"
                 name="{=!}Palaicoi Skirmisher"
