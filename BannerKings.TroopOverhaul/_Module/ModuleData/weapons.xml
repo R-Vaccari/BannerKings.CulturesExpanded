@@ -36,6 +36,55 @@
 	</Pieces>
   </CraftedItem>
   
+   <CraftedItem id="bk_javelin_double_western"
+							 name="{=!}Double Narrow Javelins"
+							 crafting_template="Javelin">
+	<Pieces>
+	  <Piece id="spear_blade_14" Type="Blade"/>
+	  <Piece id="default_polearm_guard" Type="Guard"/>
+	  <Piece id="spear_handle_14" Type="Handle"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  
+  <CraftedItem id="bk_massa_pike_t3"
+							 name="{=!}Massa Kontos Pike"
+							 culture="Culture.massa"
+							 crafting_template="Pike">
+	<Pieces>
+	  <Piece id="spear_blade_8" Type="Blade"/>
+	  <Piece id="default_polearm_guard" Type="Guard"/>
+	  <Piece id="spear_handle_5" Type="Handle"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  
+  <CraftedItem id="bk_massa_2hlance_t5"
+							 name="{=!}Massa Fine Cavalry Kontos"
+							 culture="Culture.massa"
+							 crafting_template="TwoHandedPolearm">
+	<Pieces>
+	  <Piece id="spear_blade_41" Type="Blade"/>
+	  <Piece id="spear_banner_17" Type="Guard"/>
+	  <Piece id="bk_2h_mahogany" Type="Handle"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="bk_massa_2hlance_t4"
+							 name="{=!}Massa Cavalry Kontos"
+							 culture="Culture.massa"
+							 crafting_template="TwoHandedPolearm">
+	<Pieces>
+	  <Piece id="spear_blade_8" Type="Blade"/>
+	  <Piece id="spear_banner_16" Type="Guard"/>
+	  <Piece id="bk_2h_mahogany" Type="Handle"/>
+	  <Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+  </CraftedItem>
+  
   <CraftedItem id="bk_southern_javelins"
 							 name="Southern Fine Javelins"
 							 culture="Culture.aserai"
