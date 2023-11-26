@@ -1,10 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Factions>
+
+
+	<Faction
+		id="dryatic_exiles"
+		banner_key="20.101.116.1536.1536.768.768.1.0.0"
+		label_color="FF8B7C73"
+		color="FF8B7C73"
+		color2="FF8B7C73"
+		alternative_color="FF8B7C73"
+		alternative_color2="FF8B7C73"
+		culture="Culture.bk_dryatic_bandits"
+		default_party_template="PartyTemplate.bk_dryatic_bandits_party_template"
+		settlement_banner_mesh="none"
+		is_bandit="true"
+		is_outlaw="true"
+		name="{=!}Dryaticoi Exiles"
+		tier="1"></Faction>
+		
+	<Faction
+		id="wilunding_outcasts"
+		banner_key="20.101.116.1536.1536.768.768.1.0.0"
+		label_color="FF8B7C73"
+		color="FF8B7C73"
+		color2="FF8B7C73"
+		alternative_color="FF8B7C73"
+		alternative_color2="FF8B7C73"
+		culture="Culture.bk_wilunding_bandits"
+		default_party_template="PartyTemplate.bk_vlandia_bandits_party_template"
+		settlement_banner_mesh="none"
+		is_bandit="true"
+		is_outlaw="true"
+		name="{=!}Wilunding Outcasts"
+		tier="1"></Faction>
   
     <Faction
 		id="fulq"
-		initial_posX="360.0"
-		initial_posY="212.0"
+		initial_posX="690.0"
+		initial_posY="234.0"
 		banner_key="11.179.162.1528.1528.764.764.1.0.0.309.22.116.300.300.946.596.0.1.33.10051.47.161.483.483.745.764.0.1.0"
 		label_color="FFD0884E"
 		color="FFD0884E"
@@ -31,7 +64,92 @@
 				id="NPCCharacter.spc_ghilman_leader_3" />
 		</minor_faction_character_templates>
 	</Faction>
-  
+	
+	<!-- 5.142.215.1528.1528.764.764.1.0.0.10226.171.164.481.441.765.687.1.1.0.148.123.203.400.400.761.988.1.0.0 -->
+	
+	<Faction
+		id="massa"
+		initial_posX="360.0"
+		initial_posY="72.0"
+		banner_key="10.158.142.690.752.764.764.1.0.0.102216.46.116.592.525.633.692.1.1.0.100115.46.116.373.290.878.585.1.1.0.304.185.116.400.400.915.877.1.0.0"
+		label_color="FFD0884E"
+		color="FFD0884E"
+		color2="FFD0884E"
+		alternative_color="FFD0884E"
+		alternative_color2="FFD0884E"
+		culture="Culture.vlandia"
+		default_party_template="PartyTemplate.bk_massa_mercenary_party_template"
+		settlement_banner_mesh="encounter_flag_f"
+		is_minor_faction="true"
+		is_clan_type_mercenary="true"
+		name="{=!}Hildscarila"
+		tier="4"
+		text="{=!}The Battle Band, Hildscarila, is the largest Massa group remaining in mainland Calradia. While most of their people have moved on to settle the rainforest shores of the south, these warmongers have chose to continue to live by the sword, bringing brutal pillaging to their victims. The Hildscarila fight in the traditional nomadic way of their ancestors - primarily skirmishing with bow and horse, and ultimately charging down their enemeis with lances.">
+		<minor_faction_character_templates>
+			<template
+				id="NPCCharacter.bk_massa_template_0" />
+			<template
+				id="NPCCharacter.bk_massa_template_1" />
+			<template
+				id="NPCCharacter.bk_massa_template_2" />
+			<template
+				id="NPCCharacter.bk_massa_template_3" />
+		</minor_faction_character_templates>
+	</Faction>
+	
+	<Faction id="bk_clan_siri_1"
+           name="{=!}Nabra"
+           tier="6"
+           owner="Hero.bk_siri_1"
+           culture="Culture.siri"
+           super_faction="Kingdom.siri"
+           is_noble="true"
+           banner_key="11.216.88.1528.1528.764.764.1.0.0.101313.171.171.483.483.764.764.0.0.0" />
+		   
+    <Faction id="bk_clan_siri_2"
+           name="{=!}Ashri"
+           tier="4"
+           owner="Hero.bk_siri_2"
+           culture="Culture.siri"
+           super_faction="Kingdom.siri"
+           is_noble="true"
+           banner_key="11.97.40.1528.1528.764.764.1.0.0.10042.171.96.483.483.764.764.1.0.0" />
+		   
+    <Faction id="bk_clan_siri_3"
+           name="{=!}Dessi"
+           tier="3"
+           owner="Hero.bk_siri_3"
+           culture="Culture.siri"
+           super_faction="Kingdom.siri"
+           is_noble="true"
+           banner_key="12.14.158.1528.1528.764.764.1.0.0.10033.171.96.483.483.764.764.1.0.0" /> 
+	
+	<Faction id="bk_clan_siri_4"
+           name="{=!}Miska"
+           tier="3"
+           owner="Hero.bk_siri_4"
+           culture="Culture.siri"
+           super_faction="Kingdom.siri"
+           is_noble="true"
+           banner_key="11.143.127.1528.1528.764.764.1.0.0.10044.123.96.483.483.764.764.1.0.0.311.123.116.304.319.862.614.0.1.0" /> 
+	
+	<Faction id="bk_clan_massa_1"
+           name="{=!}Respendaling"
+           tier="5"
+           owner="Hero.bk_massa_1"
+           culture="Culture.massa"
+           super_faction="Kingdom.massa"
+           is_noble="true"
+           banner_key="11.158.166.1528.1528.764.764.1.0.0.10232.5.171.483.483.764.764.0.0.0" />
+		   
+    <Faction id="bk_clan_massa_2"
+           name="{=!}Geseriling"
+           tier="4"
+           owner="Hero.bk_massa_2"
+           culture="Culture.massa"
+           super_faction="Kingdom.massa"
+           is_noble="true"
+           banner_key="11.158.166.1528.1528.764.764.1.0.0.10232.5.171.483.483.764.764.0.0.0" />
   
     <Faction id="bk_clan_kannic_1"
            name="{=!}Eshorid"
@@ -40,7 +158,7 @@
            culture="Culture.kannic"
            super_faction="Kingdom.kannic"
            is_noble="true"
-           banner_key="11.148.166.1528.1528.764.764.1.0.0.223.31.116.281.284.755.755.0.0.44.223.158.171.285.283.764.764.0.0.0.100614.208.116.537.536.755.755.1.0.0" />
+           banner_key="29.158.166.1528.1528.764.764.1.0.0.124.31.116.457.457.755.755.1.0.0" />
 
 	<Faction id="bk_clan_kannic_2"
            name="{=!}Bareqetid"
@@ -168,6 +286,24 @@
            is_noble="true"
            banner_key="11.122.176.645.967.768.746.0.0.0.10228.109.4.477.492.777.888.0.1.0" />
 		   
+    <Faction id="bk_clan_jumne_4"
+           name="{=!}Urikid"
+           tier="3"
+           owner="Hero.bk_jumne_4"
+           culture="Culture.nord"
+           super_faction="Kingdom.ebor_jarldom"
+           is_noble="true"
+           banner_key="11.227.40.2000.2000.768.746.0.0.0.10087.127.116.402.403.755.755.1.0.0" />
+		   
+    <Faction id="bk_clan_jumne_5"
+           name="{=!}Viksborg"
+           tier="3"
+           owner="Hero.bk_jumne_5"
+           culture="Culture.nord"
+           super_faction="Kingdom.ebor_jarldom"
+           is_noble="true"
+           banner_key="12.226.35.1528.1528.764.764.1.0.0.307.148.116.400.400.884.755.1.1.324.307.148.116.400.400.660.755.1.0.44.332.207.116.400.400.755.755.1.0.0" />
+		   
     <Faction id="bk_clan_zendar"
            name="{=!}Rhipsaspion"
            tier="2"
@@ -184,7 +320,27 @@
            culture="Culture.vakken"
            super_faction="Kingdom.vakken_barony_1"
            is_noble="true"
-           banner_key="1.158.226.1528.1528.764.764.1.0.89.135.40.171.483.483.764.764.0.0.0" />
+           banner_key="1.158.226.1528.1528.764.764.1.0.89.135.40.171.483.483.764.764.0.0.0"
+		   text="{=!}The Vuurinen rule over the most ancient standing forest-fort of the Vakken, Vuulinna. Though a small chiefdom by the standards of most Calradian folks, they represent one of the largest organized gathering of the Vakken. They maintain a trade relationship with the Sturgians to the south, but are weary of the Jumne who come sailing down the Byalic sea."		   
+		   />
+		   
+    <Faction id="bk_clan_vakken_2"
+           name="{=!}Kuranen"
+           tier="3"
+           owner="Hero.bk_vakken_2"
+           culture="Culture.vakken"
+           super_faction="Kingdom.vakken_barony_2"
+           is_noble="true"
+           banner_key="12.163.47.1528.1528.764.764.1.0.0.311.20.116.400.400.755.755.1.0.0" />
+		   
+    <Faction id="bk_clan_vakken_3"
+           name="{=!}Metsaanen"
+           tier="3"
+           owner="Hero.bk_vakken_3"
+           culture="Culture.vakken"
+           super_faction="Kingdom.vakken_barony_3"
+           is_noble="true"
+           banner_key="11.177.166.1528.1528.764.764.1.0.0.203.158.116.400.400.581.755.1.0.0.203.158.116.400.400.943.755.1.0.0.203.158.116.400.399.755.714.1.0.0.137.22.116.400.400.755.755.1.0.0" />
 	
 	<Faction id="bk_clan_geroia_1"
            name="{=!}Gallur"
