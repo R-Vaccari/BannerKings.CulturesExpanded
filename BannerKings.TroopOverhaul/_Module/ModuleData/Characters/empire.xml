@@ -559,7 +559,7 @@
   </NPCCharacter>
   
 
-  <NPCCharacter id="bk_imperial_cataphract" default_group="Cavalry" level="31" name="{=!}Imperial Kataphraktos" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_cataphract" default_group="Cavalry" level="31" name="{=!}Calradoi Kataphraktos" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -680,7 +680,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_imperial_squire" default_group="Cavalry" level="26" name="{=!}Imperial Equites" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_squire" default_group="Cavalry" level="26" name="{=!}Calradoi Equites" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -788,9 +788,133 @@
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
+  
+  <NPCCharacter id="bk_imperial_mercenary" default_group="HorseArcher" level="26" name="{=!}Calradoi Buccellarius Hippotoxotes" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="140" />
+      <skill id="Bow" value="140" />
+      <skill id="Crossbow" value="30" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.bk_imperial_cataphract" />
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_x" />
+	    <equipment slot="Body" id="Item.AR_empire_armor_c" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_b" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_w" />
+	    <equipment slot="Body" id="Item.AR_vlandia_armor_o" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.AR_empire_legatus_helm_e" />
+	    <equipment slot="Body" id="Item.TV_empire_armor_g" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_sword_6_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.AR_empire_legatus_helm_c" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_a" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.AR_empire_lord_helmet_g" />
+	    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+	    <equipment slot="Body" id="Item.empire_horseman_armor" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_f" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_o" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_f" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_n3" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_5_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.TV_empire_lord_helmet_b" />
+	    <equipment slot="Cape" id="Item.AR_imperial_shoulders_x" />
+	    <equipment slot="Body" id="Item.TV_empire_armor_h" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_zb" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentRoster>
+        <equipment slot="Head" id="Item.AR_empire_lord_helmet_g" />
+	    <equipment slot="Cape" id="Item.ao_focale" />
+	    <equipment slot="Body" id="Item.AR_empire_scale_armor_b" />
+	    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+	    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
+		<equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.AR_horse_armor_zb" />
+		<equipment slot="Item1" id="Item.empire_lance_2_t4" />
+		<equipment slot="Item2" id="Item.empire_mace_4_t5" />
+		<equipment slot="Item0" id="Item.steppe_heavy_bow" />
+		<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+      </EquipmentRoster>
+	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
 
 
-  <NPCCharacter id="bk_imperial_eques" default_group="Cavalry" level="21" name="{=!}Imperial Koursores" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_eques" default_group="Cavalry" level="21" name="{=!}Calradoi Koursores" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -917,7 +1041,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_hippotoxotes" default_group="HorseArcher" level="21" name="{=!}Imperial Hippotoxotes" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_hippotoxotes" default_group="HorseArcher" level="21" name="{=!}Calradoi Hippotoxotes" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -1053,7 +1177,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_imperial_menavlion" default_group="Infantry" level="21" name="{=!}Imperial Menavlatos" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_menavlion" default_group="Infantry" level="21" name="{=!}Calradoi Menavlatos" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -1163,7 +1287,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_imperial_sergeant" default_group="Infantry" level="21" name="{=!}Imperial Skoutatos" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_sergeant" default_group="Infantry" level="21" name="{=!}Calradoi Skoutatos" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -1286,7 +1410,7 @@
   <NPCCharacter id="bk_imperial_militiaman"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Imperial Militiaman"
+                name="{=!}Calradoi Militiaman"
                 occupation="Soldier"
                 culture="Culture.empire"
                 skill_template="SkillSet.bk_militia_melee_skills">
@@ -1400,7 +1524,7 @@
   <NPCCharacter id="bk_imperial_peltast"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Imperial Peltast"
+                name="{=!}Calradoi Peltast"
                 occupation="Soldier"
                 culture="Culture.empire"
                 skill_template="SkillSet.bk_militia_skirmisher_skills">
@@ -1493,7 +1617,7 @@
   <NPCCharacter id="bk_imperial_levy"
                 default_group="Infantry"
                 level="11"
-                name="{=!}Imperial Levy"
+                name="{=!}Calradoi Levy"
                 occupation="Soldier"
                 culture="Culture.empire"
 				is_basic_troop="true"
@@ -1571,7 +1695,7 @@
    <NPCCharacter id="bk_imperial_militiaman_archer"
                 default_group="Ranged"
                 level="16"
-                name="{=!}Imperial Militiaman Archer"
+                name="{=!}Calradoi Militiaman Archer"
                 occupation="Soldier"
                 culture="Culture.empire"
                 skill_template="SkillSet.bk_militia_bowman_skills">
@@ -1664,7 +1788,7 @@
   <NPCCharacter id="bk_imperial_levy_archer"
                 default_group="Ranged"
                 level="11"
-                name="{=!}Imperial Levy Archer"
+                name="{=!}Calradoi Levy Archer"
                 occupation="Soldier"
                 culture="Culture.empire"
 				is_basic_troop="true"

@@ -195,7 +195,7 @@
 
 
 
-  <NPCCharacter id="bk_vlandia_thingman" default_group="Cavalry" level="31" name="{=!}Vlandic Thingman" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_thingman" default_group="Cavalry" level="31" name="{=!}Wilunding Thingman" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -283,7 +283,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_vlandia_knight" default_group="Cavalry" level="31" name="{=!}Vlandic Cnicht" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_knight" default_group="Cavalry" level="31" name="{=!}Wilunding Cnicht" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -451,7 +451,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_vlandia_squire" default_group="Cavalry" level="26" name="{=!}Vlandic Squire" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_squire" default_group="Cavalry" level="26" name="{=!}Wilunding Squire" occupation="Soldier" is_basic_troop="true" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -668,8 +668,175 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
+  
+  <NPCCharacter id="bk_vlandia_mercenary" default_group="Cavalry" level="26" name="{=!}Wilunding Mercenary" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="160" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+	  <EquipmentRoster>
+			<equipment slot="Head" id="Item.norm_nasal_p_1" /> 
+			<equipment slot="Cape" id="Item.shoulder_cloth1" />
+			<equipment slot="Body" id="Item.chainskirt_strap_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.es_nasl_flattop" />
+			<equipment slot="Body" id="Item.chainmail_tableau_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cross_faceplate_1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nasal_conical_flattop1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.decor_nasal_1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.decor_nasal_2_1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.painted_es_naal1" />
+			<equipment slot="Body" id="Item.norm_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.12th_el_nasal_1" />
+			<equipment slot="Body" id="Item.norm_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.phrygian_nasal_p1" />
+			<equipment slot="Body" id="Item.norm_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.br_nasal_1" />
+			<equipment slot="Cape" id="Item.hood" />
+			<equipment slot="Body" id="Item.chainmail_tableau_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.sta_nasal_el1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.cross_faceplate_1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Head" id="Item.nasal_conical_flattop1" />
+			<equipment slot="Body" id="Item.chain_hauberk_1" />
+			<equipment slot="Gloves" id="Item.mailgloves_1" />
+			<equipment slot="Leg" id="Item.mailchasseus_1" />
+			<equipment slot="Horse" id="Item.t2_vlandia_horse" />
+			<equipment slot="HorseHarness" id="Item.celtic_frost" />
+			<equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Item1" id="Item.vlandia_lance_2_t4" />
+			<equipment slot="Item2" id="Item.heavy_horsemans_kite_shield" />
+		</EquipmentRoster>
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
  
-  <NPCCharacter id="bk_vlandia_jaculan_xbow" default_group="Ranged" level="21" name="{=!}Vlandic Jaculanese Crossbowman" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_jaculan_xbow" default_group="Ranged" level="21" name="{=!}Wilunding Jaculanese Crossbowman" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -845,7 +1012,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_vlandia_longbowman" default_group="Ranged" level="21" name="{=!}Vlandic Pravendian Longbowman" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_longbowman" default_group="Ranged" level="21" name="{=!}Wilunding Pravendian Longbowman" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -990,7 +1157,7 @@
     </Equipments>
   </NPCCharacter>
   
-   <NPCCharacter id="bk_vlandia_pikeman" default_group="Infantry" level="21" name="{=!}Vlandic Pikeman" occupation="Soldier" culture="Culture.vlandia">
+   <NPCCharacter id="bk_vlandia_pikeman" default_group="Infantry" level="21" name="{=!}Wilunding Pikeman" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -1021,7 +1188,7 @@
   
 
 
-  <NPCCharacter id="bk_vlandia_sergeant" default_group="Infantry" level="21" name="{=!}Vlandic Sergeant" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_sergeant" default_group="Infantry" level="21" name="{=!}Wilunding Sergeant" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -1122,7 +1289,7 @@
   <NPCCharacter id="bk_vlandia_militiaman"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Vlandic Militiaman"
+                name="{=!}Wilunding Militiaman"
                 occupation="Soldier"
                 culture="Culture.vlandia"
                 skill_template="SkillSet.bk_militia_melee_skills">
@@ -1266,7 +1433,7 @@
   <NPCCharacter id="bk_vlandia_billman"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Vlandic Billman"
+                name="{=!}Wilunding Billman"
                 occupation="Soldier"
                 culture="Culture.vlandia">
     <face>
@@ -1390,7 +1557,7 @@
   <NPCCharacter id="bk_vlandia_levy"
                 default_group="Infantry"
                 level="11"
-                name="{=!}Vlandic Levy"
+                name="{=!}Wilunding Levy"
                 occupation="Soldier"
                 culture="Culture.vlandia"
 				is_basic_troop="true"
@@ -1502,7 +1669,7 @@
   <NPCCharacter id="bk_vlandia_militiaman_longbow"
                 default_group="Ranged"
                 level="16"
-                name="{=!}Vlandic Militia Longbowman"
+                name="{=!}Wilunding Militia Longbowman"
                 occupation="Soldier"
                 culture="Culture.vlandia"
                 skill_template="SkillSet.bk_militia_bowman_skills">
@@ -1658,7 +1825,7 @@
   <NPCCharacter id="bk_vlandia_levy_longbow"
                 default_group="Ranged"
                 level="11"
-                name="{=!}Vlandic Levy Longbowman"
+                name="{=!}Wilunding Levy Longbowman"
                 occupation="Soldier"
                 culture="Culture.vlandia"
 				is_basic_troop="true"
@@ -1782,7 +1949,7 @@
   <NPCCharacter id="bk_vlandia_militiaman_crossbow"
                 default_group="Ranged"
                 level="16"
-                name="{=!}Vlandic Militia Crossbowman"
+                name="{=!}Wilunding Militia Crossbowman"
                 occupation="Soldier"
                 culture="Culture.vlandia"
                 skill_template="SkillSet.bk_militia_xbowman_skills">
@@ -1938,7 +2105,7 @@
   <NPCCharacter id="bk_vlandia_levy_crossbow"
                 default_group="Ranged"
                 level="11"
-                name="{=!}Vlandic Levy Crossbowman"
+                name="{=!}Wilunding Levy Crossbowman"
                 occupation="Soldier"
                 culture="Culture.vlandia"
 				is_basic_troop="true"

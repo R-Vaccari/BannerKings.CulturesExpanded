@@ -447,8 +447,6 @@
                     civilian="true" />
     </Equipments>
   </NPCCharacter>
-  
-
 
   <NPCCharacter id="bk_darshi_squire"
                 default_group="Cavalry"
