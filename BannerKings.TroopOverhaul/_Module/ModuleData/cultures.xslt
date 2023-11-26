@@ -37,6 +37,13 @@
         <xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.bk_imperial_militiaman_archer</xsl:attribute>
     </xsl:template>
 	
+	<xsl:template match="Culture[@id='empire']/basic_mercenary_troops">
+        <basic_mercenary_troops>
+            <template name="NPCCharacter.bk_imperial_mercenary" />
+        </basic_mercenary_troops>
+    </xsl:template>
+	
+	
 
     <xsl:template match="Culture[@id='aserai']/@elite_basic_troop">
         <xsl:attribute name="elite_basic_troop">NPCCharacter.bk_aserai_squire</xsl:attribute>
@@ -170,6 +177,12 @@
         <xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.bk_vlandia_militiaman_crossbow</xsl:attribute>
     </xsl:template>
 	
+	<xsl:template match="Culture[@id='vlandia']/basic_mercenary_troops">
+        <basic_mercenary_troops>
+            <template name="NPCCharacter.bk_vlandia_mercenary" />
+        </basic_mercenary_troops>
+    </xsl:template>
+	
 	
 	
     <xsl:template match="Culture[@id='battania']/@elite_basic_troop">
@@ -181,7 +194,7 @@
     </xsl:template>
 	
 	<xsl:template match="Culture[@id='battania']/@name">
-        <xsl:attribute name="name">Battanaidd</xsl:attribute>
+        <xsl:attribute name="name">Battaneid</xsl:attribute>
     </xsl:template>
 	
 	

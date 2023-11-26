@@ -669,7 +669,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_vlandia_mercenary" default_group="Cavalry" level="26" name="{=!}Wilunding Mercenary" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="bk_vlandia_mercenary" default_group="Cavalry" level="26" name="{=!}Wilunding Mercenary" occupation="Mercenary" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>

@@ -789,7 +789,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_imperial_mercenary" default_group="HorseArcher" level="26" name="{=!}Calradoi Buccellarius Hippotoxotes" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="bk_imperial_mercenary" default_group="HorseArcher" level="26" name="{=!}Calradoi Buccellarius Hippotoxotes" occupation="Mercenary" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
