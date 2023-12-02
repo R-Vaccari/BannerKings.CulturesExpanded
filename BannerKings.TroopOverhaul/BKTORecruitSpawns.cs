@@ -26,6 +26,8 @@ namespace BannerKings.CulturesExpanded
         public RecruitSpawn EmpireMeleeT2 { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireRangedT2 { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireMeleeT3 { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireXbowT1 { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireXbowT2 { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireEques { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireHippo { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireNoble { get; } = new RecruitSpawn();
@@ -124,6 +126,8 @@ namespace BannerKings.CulturesExpanded
                 yield return SturgiaNoble;
                 yield return EmpireMeleeT1;
                 yield return EmpireRangedT1;
+                yield return EmpireXbowT1;
+                yield return EmpireXbowT2;
                 yield return EmpireMeleeT2;
                 yield return EmpireRangedT2;
                 yield return EmpirePeltast;
@@ -133,12 +137,14 @@ namespace BannerKings.CulturesExpanded
                 yield return EmpireNoble;
                 yield return VlandiaMeleeT1;
                 yield return VlandiaRangedT1;
+                yield return VlandiaLongbowT1;
                 yield return VlandiaMeleeT2;
                 yield return VlandiaRangedT2;
+                yield return VlandiaLongbowT2;
                 yield return VlandiaMeleeT3;
                 yield return VlandiaPravend;
                 yield return VlandiaJaculan;
-                yield return VlandiaNoble;
+                yield return VlandiaNoble;   
                 yield return BattaniaMeleeT1;
                 yield return BattaniaMeleeT2;
                 yield return BattaniaMeleeT3;
@@ -432,7 +438,16 @@ namespace BannerKings.CulturesExpanded
                 new Dictionary<Managers.PopulationManager.PopType, float>()
                 {
                     {
-                        Managers.PopulationManager.PopType.Serfs, 0.3f
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
+                    }
+                });
+
+            EmpireXbowT1.Initialize(GetTroop("bk_imperial_levy_crossbow"),
+                empire,
+                new Dictionary<Managers.PopulationManager.PopType, float>()
+                {
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
                     }
                 });
 
@@ -442,6 +457,9 @@ namespace BannerKings.CulturesExpanded
                 {
                     {
                         Managers.PopulationManager.PopType.Tenants, 0.5f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
                     }
                 });
 
@@ -451,6 +469,9 @@ namespace BannerKings.CulturesExpanded
                 {
                     {
                         Managers.PopulationManager.PopType.Tenants, 0.2f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.075f
                     }
                 });
 
@@ -459,7 +480,22 @@ namespace BannerKings.CulturesExpanded
                 new Dictionary<Managers.PopulationManager.PopType, float>()
                 {
                     {
-                        Managers.PopulationManager.PopType.Tenants, 0.3f
+                        Managers.PopulationManager.PopType.Tenants, 0.15f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.075f
+                    }
+                });
+
+            EmpireRangedT2.Initialize(GetTroop("bk_imperial_militiaman_crossbow"),
+                empire,
+                new Dictionary<Managers.PopulationManager.PopType, float>()
+                {
+                    {
+                        Managers.PopulationManager.PopType.Tenants, 0.15f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.075f
                     }
                 });
 
