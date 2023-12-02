@@ -219,14 +219,14 @@ namespace BannerKings.CulturesExpanded.Cultures
                 yield return GeroiaPrince;
                 yield return GeroiaKnight;
 
-                yield return SiriEmperor;
+                //yield return SiriEmperor;
                 yield return SiriKing;
-                yield return SiriDuke;
-                yield return SiriCount;
-                yield return SiriBaron;
-                yield return SiriLord;
-                yield return SiriPrince;
-                yield return SiriKnight;
+               // yield return SiriDuke;
+                //yield return SiriCount;
+                //yield return SiriBaron;
+                //yield return SiriLord;
+                //yield return SiriPrince;
+                //yield return SiriKnight;
 
                 yield return MassaEmperor;
                 yield return MassaKing;
@@ -693,20 +693,20 @@ namespace BannerKings.CulturesExpanded.Cultures
             NordCount = CulturalTitleName.CreateCounty("NordCount",
                 nord,
                 new TextObject("{=!}Thegn"),
-                new TextObject("{=!}Marzban"),
-                new TextObject("{=!}Marzbananate"));
+                new TextObject("{=!}Thegna"),
+                new TextObject("{=!}Thegndómr"));
 
             NordBaron = CulturalTitleName.CreateBarony("NordBaron",
                 nord,
                 new TextObject("{=!}Aedling"),
                 new TextObject("{=!}Drott"),
-                new TextObject("{=!}Arg"));
+                new TextObject("{=!}Aedlingdómr"));
 
             NordLord = CulturalTitleName.CreateLordship("NordLord",
                 nord,
                 new TextObject("{=!}Hoevding"),
-                new TextObject("{=!}Masmughan"),
-                new TextObject("{=!}Lordship"));
+                new TextObject("{=!}Hoevdinga"),
+                new TextObject("{=!}Hoevdingdómr"));
 
             NordPrince = CulturalTitleName.CreatePrince("NordPrince",
                 nord,
@@ -783,9 +783,9 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             SiriKing = CulturalTitleName.CreateKingdom("SiriKing",
                 siri,
-                new TextObject("{=!}Arciducxate"),
-                new TextObject("{=!}Arciducxata"),
-                new TextObject("{=!}Arciducxateri"));
+                new TextObject("{=!}Arbaab"),
+                new TextObject("{=!}Kandake"),
+                new TextObject("{=!}Arbaab"));
 
             SiriDuke = CulturalTitleName.CreateDuchy("SiriDuke",
                 siri,
@@ -813,60 +813,60 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             SiriPrince = CulturalTitleName.CreatePrince("SiriPrince",
                 siri,
-                new TextObject("{=!}Principe"),
-                new TextObject("{=!}Principe"),
-                new TextObject("{=!}Principi"));
+                new TextObject("{=!}Urtod"),
+                new TextObject("{=!}Urtod"),
+                new TextObject("{=!}Urtod"));
 
             SiriKnight = CulturalTitleName.CreateKnight("SiriKnight",
                 siri,
-                new TextObject("{=!}Cavaliere"),
-                new TextObject("{=!}Cavaliere"),
-                new TextObject("{=!}Cavalieri"));
+                new TextObject("{=!}Kabi"),
+                new TextObject("{=!}Kabi"),
+                new TextObject("{=!}Kabi"));
 
             #endregion Siri
 
             #region Massa
             MassaEmperor = CulturalTitleName.CreateEmpire("MassaEmperor",
                 massa,
-                new TextObject("{=!}Braidareiks"),
-                new TextObject("{=!}Braidoqino"),
-                new TextObject("{=!}Braidoreiki"));
+                new TextObject("{=!}Fraujinonds"),
+                new TextObject("{=!}Fraujinonds"),
+                new TextObject("{=!}Fraujinondgardi"));
 
             MassaKing = CulturalTitleName.CreateKingdom("MassaKing",
                 massa,
-                new TextObject("{=!}Ao-Reiks"),
-                new TextObject("{=!}Ao-Qino"),
-                new TextObject("{=!}Ao-Reiki"));
+                new TextObject("{=!}Thiudans"),
+                new TextObject("{=!}Thiudana"),
+                new TextObject("{=!}Thiudangardi"));
 
             MassaDuke = CulturalTitleName.CreateDuchy("MassaDuke",
+                massa,
+                new TextObject("{=!}Ufarreiks"),
+                new TextObject("{=!}Ufarqino"),
+                new TextObject("{=!}Ufarreiki"));
+
+            MassaCount = CulturalTitleName.CreateCounty("MassaCount",
                 massa,
                 new TextObject("{=!}Reiks"),
                 new TextObject("{=!}Qino"),
                 new TextObject("{=!}Reiki"));
 
-            MassaCount = CulturalTitleName.CreateCounty("MassaCount",
-                massa,
-                new TextObject("{=!}Gondh"),
-                new TextObject("{=!}Gonda"),
-                new TextObject("{=!}Gonderi"));
-
             MassaBaron = CulturalTitleName.CreateBarony("MassaBaron",
                 massa,
-                new TextObject("{=!}Giudicadh"),
-                new TextObject("{=!}Giudicada"),
-                new TextObject("{=!}Giudicaderi"));
+                new TextObject("{=!}Harjatuga"),
+                new TextObject("{=!}Harjatugo"),
+                new TextObject("{=!}Harjatugianassus"));
 
             MassaLord = CulturalTitleName.CreateLordship("MassaLord",
                 massa,
-                new TextObject("{=!}Capitaine"),
-                new TextObject("{=!}Capitaine"),
-                new TextObject("{=!}Capitaneri"));
+                new TextObject("{=!}Frauja"),
+                new TextObject("{=!}Frauja"),
+                new TextObject("{=!}Fraujinassus"));
 
             MassaPrince = CulturalTitleName.CreatePrince("MassaPrince",
                 massa,
-                new TextObject("{=!}Reikisunus"),
-                new TextObject("{=!}Reikidauhtar"),
-                new TextObject("{=!}Reikifraiwa"));
+                new TextObject("{=!}Nithjis"),
+                new TextObject("{=!}Nithjo"),
+                new TextObject("{=!}Nithjos"));
 
             MassaKnight = CulturalTitleName.CreateKnight("MassaKnight",
                 massa,
