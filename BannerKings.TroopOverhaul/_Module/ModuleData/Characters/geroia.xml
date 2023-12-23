@@ -2,13 +2,13 @@
 <NPCCharacters>
 
 
-  <NPCCharacter id="bk_geroia_cavalier" default_group="Cavalry" level="31" name="{=!}Geroiako Cavalier" occupation="Soldier" culture="Culture.geroia">
+  <NPCCharacter id="bk_geroia_cavalier" default_group="HorseArcher" level="31" name="{=!}Geroiako Cavalier" occupation="Soldier" culture="Culture.geroia">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <skills>
-      <skill id="Athletics" value="150" />
-      <skill id="Riding" value="20" />
+      <skill id="Athletics" value="50" />
+      <skill id="Riding" value="150" />
       <skill id="OneHanded" value="250" />
       <skill id="TwoHanded" value="50" />
       <skill id="Polearm" value="90" />
@@ -28,6 +28,8 @@
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
 		<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />	
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentRoster>
 	    <equipment slot="Item0" id="Item.rapier1" />
@@ -38,6 +40,8 @@
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
 		<equipment slot="Cape" id="Item.pauldron_cape_a" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentRoster>
 	    <equipment slot="Item0" id="Item.rapier1" />
@@ -47,6 +51,8 @@
 	    <equipment slot="Body" id="Item.AR_empire_horseman_armor" />
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentRoster>
 	    <equipment slot="Item0" id="Item.rapier1" />
@@ -56,20 +62,20 @@
 	    <equipment slot="Body" id="Item.AR_empire_horseman_armor" />
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
   
-
-  
-  <NPCCharacter id="bk_geroia_highborn" default_group="Cavalry" level="31" name="{=!}Geroiako Privateer" occupation="Soldier" culture="Culture.geroia" is_basic_troop="true">
+  <NPCCharacter id="bk_geroia_highborn" default_group="HorseArcher" level="26" name="{=!}Geroiako Privateer" occupation="Soldier" culture="Culture.geroia" is_basic_troop="true">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <skills>
-      <skill id="Athletics" value="120" />
-      <skill id="Riding" value="20" />
+      <skill id="Athletics" value="40" />
+      <skill id="Riding" value="120" />
       <skill id="OneHanded" value="180" />
       <skill id="TwoHanded" value="50" />
       <skill id="Polearm" value="90" />
@@ -90,6 +96,8 @@
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
 		<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h" />	
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentRoster>
 	    <equipment slot="Item0" id="Item.rapier1" />
@@ -100,6 +108,8 @@
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
 		<equipment slot="Cape" id="Item.pauldron_cape_a" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentRoster>
 	    <equipment slot="Item0" id="Item.rapier1" />
@@ -109,6 +119,8 @@
 	    <equipment slot="Body" id="Item.AR_empire_scout_armor_d" />
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentRoster>
 	    <equipment slot="Item0" id="Item.rapier1" />
@@ -118,6 +130,8 @@
 	    <equipment slot="Body" id="Item.AR_empire_scout_armor_d" />
 	    <equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers" />
 	    <equipment slot="Leg" id="Item.TV_empire_boots_b" />
+		<equipment slot="Horse" id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness" id="Item.AR_horse_armor_n" />
       </EquipmentRoster>
 	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
