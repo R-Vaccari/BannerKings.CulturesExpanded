@@ -505,7 +505,6 @@
 			<equipment slot="Body" id="Item.northern_leather_vest" />
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
 			<equipment slot="Item0" id="Item.northern_round_shield" />
-			<equipment slot="Item0" id="Item.northern_round_shield" />
 			<equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
 			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
 		</EquipmentRoster>
@@ -513,7 +512,6 @@
 			<equipment slot="Cape" id="Item.scarf" />
 			<equipment slot="Body" id="Item.nordic_tunic" />
 			<equipment slot="Leg" id="Item.TV_aserai_boots_h" />
-			<equipment slot="Item0" id="Item.northern_round_shield" />
 			<equipment slot="Item0" id="Item.northern_round_shield" />
 			<equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
 			<equipment slot="Item2" id="Item.northern_spear_1_t2" />
