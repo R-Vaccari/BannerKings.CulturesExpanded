@@ -290,7 +290,7 @@
   </NPCCharacter>
 	
 
-  <NPCCharacter id="bk_massa_sergeant" default_group="Infantry" level="21" name="{=!}Massa Sergeant" occupation="Soldier" culture="Culture.massa">
+  <NPCCharacter id="bk_massa_sergeant" default_group="Infantry" level="21" name="{=!}Massa Gadrauhts" occupation="Soldier" culture="Culture.massa">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -315,8 +315,7 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots" />
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.bk_javelin_double_western" />
-		  <equipment slot="Item1" id="Item.AR_shield_infantry_d" />
+		  <equipment slot="Item2" id="Item.bk_javelin_double_western" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 		  <equipment slot="Head" id="Item.TV_khuzait_helmet_w" />
@@ -326,8 +325,7 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots" />
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.bk_javelin_double_western" />
-		  <equipment slot="Item1" id="Item.AR_shield_infantry_d" />
+		  <equipment slot="Item2" id="Item.bk_javelin_double_western" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 		  <equipment slot="Head" id="Item.AR_goth_helmet_d" />
@@ -337,8 +335,7 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots" />
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.bk_javelin_double_western" />
-		  <equipment slot="Item1" id="Item.AR_shield_infantry_d" />
+		  <equipment slot="Item2" id="Item.bk_javelin_double_western" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 		  <equipment slot="Head" id="Item.TV_khuzait_helmet_v" />
@@ -348,8 +345,7 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots" />
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.bk_javelin_double_western" />
-		  <equipment slot="Item1" id="Item.AR_shield_infantry_d" />
+		  <equipment slot="Item2" id="Item.bk_javelin_double_western" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 		  <equipment slot="Head" id="Item.AR_goth_helmet_f" />
@@ -358,8 +354,7 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots" />
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.bk_javelin_double_western" />
-		  <equipment slot="Item1" id="Item.AR_shield_infantry_d" />
+		  <equipment slot="Item2" id="Item.bk_javelin_double_western" />
 		</EquipmentRoster>
 		<EquipmentRoster>
 		  <equipment slot="Head" id="Item.AR_goth_helmet_f" />
@@ -369,8 +364,7 @@
 		  <equipment slot="Leg" id="Item.plated_strip_boots" />
 		  <equipment slot="Item0" id="Item.AR_shield_infantry_a"/>
 		  <equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-		  <equipment slot="Item0" id="Item.bk_javelin_double_western" />
-		  <equipment slot="Item1" id="Item.AR_shield_infantry_d" />
+		  <equipment slot="Item2" id="Item.bk_javelin_double_western" />
 		</EquipmentRoster>
 		<EquipmentSet id="vlandia_troop_civilian_template_t3"
 						civilian="true" />
@@ -449,7 +443,7 @@
   </NPCCharacter>
   
   
-  <NPCCharacter id="bk_massa_sergeant_pike" default_group="Infantry" level="21" name="{=!}Massa Sergeant" occupation="Soldier" culture="Culture.massa">
+  <NPCCharacter id="bk_massa_sergeant_pike" default_group="Infantry" level="21" name="{=!}Massa Pikeman Gadrauhts" occupation="Soldier" culture="Culture.massa">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -522,13 +516,11 @@
 						civilian="true" />
     </Equipments>
   </NPCCharacter>
-  
-  
 
   <NPCCharacter id="bk_massa_militiaman_pike"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Massa Militiaman"
+                name="{=!}Massa Milita Pikeman"
                 occupation="Soldier"
                 culture="Culture.massa"
                 skill_template="SkillSet.bk_militia_melee_skills">
