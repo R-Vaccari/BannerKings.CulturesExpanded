@@ -7,7 +7,7 @@ using TaleWorlds.Localization;
 
 namespace BannerKings.CulturesExpanded.Cultures
 {
-    public class BKTOTitleNames : DefaultTypeInitializer<BKTOTitleNames, CulturalTitleName>
+    public class BKCETitleNames : DefaultTypeInitializer<BKCETitleNames, CulturalTitleName>
     {
         #region Empire
         public CulturalTitleName EmpireEmperor { get; private set; }
@@ -140,8 +140,6 @@ namespace BannerKings.CulturesExpanded.Cultures
         public CulturalTitleName MassaPrince { get; private set; }
         public CulturalTitleName MassaKnight { get; private set; }
         #endregion Massa
-
-
 
         public override IEnumerable<CulturalTitleName> All
         {
@@ -625,7 +623,7 @@ namespace BannerKings.CulturesExpanded.Cultures
                 darshi,
                 new TextObject("{=!}Shahanshah"),
                 new TextObject("{=!}Shahbanu"),
-                new TextObject("{=!}Shahr"));
+                new TextObject("{=!}Shahanshahr"));
 
             DarshiKing = CulturalTitleName.CreateKingdom("DarshiKing",
                 darshi,
@@ -637,7 +635,7 @@ namespace BannerKings.CulturesExpanded.Cultures
                 darshi,
                 new TextObject("{=!}Shahrab"),
                 new TextObject("{=!}Shahrabanu"),
-                new TextObject("{=!}Satrapy"));
+                new TextObject("{=!}Shahrabr"));
 
             DarshiCount = CulturalTitleName.CreateCounty("DarshiCount",
                 darshi,
@@ -653,9 +651,9 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             DarshiLord = CulturalTitleName.CreateLordship("DarshiLord",
                 darshi,
-                new TextObject("{=!}Masmughan"),
-                new TextObject("{=!}Masmughan"),
-                new TextObject("{=!}Lordship"));
+                new TextObject("{=!}Dihqan"),
+                new TextObject("{=!}Dihqan"),
+                new TextObject("{=!}Deh"));
 
             DarshiPrince = CulturalTitleName.CreatePrince("DarshiPrince",
                 darshi,
@@ -814,7 +812,7 @@ namespace BannerKings.CulturesExpanded.Cultures
             SiriPrince = CulturalTitleName.CreatePrince("SiriPrince",
                 siri,
                 new TextObject("{=!}Urtod"),
-                new TextObject("{=!}Urtod"),
+                new TextObject("{=!}Kandakas"),
                 new TextObject("{=!}Urtod"));
 
             SiriKnight = CulturalTitleName.CreateKnight("SiriKnight",

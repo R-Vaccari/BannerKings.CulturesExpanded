@@ -6,7 +6,7 @@ using TaleWorlds.Localization;
 
 namespace BannerKings.CulturesExpanded.Cultures
 {
-    public class BKTOPopulationNames : DefaultTypeInitializer<BKTOPopulationNames, CulturalPopulationName>
+    public class BKCEPopulationNames : DefaultTypeInitializer<BKCEPopulationNames, CulturalPopulationName>
     {
         #region Empire
         public CulturalPopulationName EmpireNobles { get; set; }
@@ -31,6 +31,38 @@ namespace BannerKings.CulturesExpanded.Cultures
         public CulturalPopulationName VlandiaSerfs { get; set; }
         public CulturalPopulationName VlandiaSlaves { get; set; }
         #endregion Vlandia
+
+        #region Kannic
+        public CulturalPopulationName KannicNobles { get; set; }
+        public CulturalPopulationName KannicCraftsmen { get; set; }
+        public CulturalPopulationName KannicTenants { get; set; }
+        public CulturalPopulationName KannicSerfs { get; set; }
+        public CulturalPopulationName KannicSlaves { get; set; }
+        #endregion Kannic
+
+        #region Vakken
+        public CulturalPopulationName VakkenNobles { get; set; }
+        public CulturalPopulationName VakkenCraftsmen { get; set; }
+        public CulturalPopulationName VakkenTenants { get; set; }
+        public CulturalPopulationName VakkenSerfs { get; set; }
+        public CulturalPopulationName VakkenSlaves { get; set; }
+        #endregion Vakken
+
+        #region Jumne
+        public CulturalPopulationName JumneNobles { get; set; }
+        public CulturalPopulationName JumneCraftsmen { get; set; }
+        public CulturalPopulationName JumneTenants { get; set; }
+        public CulturalPopulationName JumneSerfs { get; set; }
+        public CulturalPopulationName JumneSlaves { get; set; }
+        #endregion Jumne
+
+        #region Massa
+        public CulturalPopulationName MassaNobles { get; set; }
+        public CulturalPopulationName MassaCraftsmen { get; set; }
+        public CulturalPopulationName MassaTenants { get; set; }
+        public CulturalPopulationName MassaSerfs { get; set; }
+        public CulturalPopulationName MassaSlaves { get; set; }
+        #endregion Massa
 
         #region Battania
         public CulturalPopulationName BattaniaNobles { get; set; }
@@ -122,6 +154,10 @@ namespace BannerKings.CulturesExpanded.Cultures
             var aserai = cultures.First(x => x.StringId == BannerKingsConfig.AseraiCulture);
             var sturgia = cultures.First(x => x.StringId == BannerKingsConfig.SturgiaCulture);
             var darshi = cultures.First(x => x.StringId == "darshi");
+            var massa = cultures.First(x => x.StringId == "massa");
+            var nord = cultures.First(x => x.StringId == "nord");
+            var vakken = cultures.First(x => x.StringId == "vakken");
+
             #region Empire
             EmpireNobles = CulturalPopulationName.CreateNobles("EmpireNobles",
                 empire,
@@ -210,6 +246,50 @@ namespace BannerKings.CulturesExpanded.Cultures
                 new TextObject("{=!}Theowe"));
             #endregion Vlandia
 
+            #region Massa
+            MassaNobles = CulturalPopulationName.CreateNobles("MassaNobles",
+                massa,
+                new TextObject("{=!}Gasinthjans"));
+
+            MassaCraftsmen = CulturalPopulationName.CreateCraftsmen("MassaCraftsmen",
+                massa,
+               new TextObject("{=!}Smithans"));
+
+            MassaTenants = CulturalPopulationName.CreateTenants("MassaTenants",
+                massa,
+                new TextObject("{=!}Wairos"));
+
+            MassaSerfs = CulturalPopulationName.CreateSerfs("MassaSerfs",
+                massa,
+                new TextObject("{=!}Thios"));
+
+            MassaSlaves = CulturalPopulationName.CreateSlaves("MassaSlaves",
+                massa,
+                new TextObject("{=!}Skalkans"));
+            #endregion Massa
+
+            #region Vakken
+            VakkenNobles = CulturalPopulationName.CreateNobles("VakkenNobles",
+                massa,
+                new TextObject("{=!}Aatelicet"));
+
+            VakkenCraftsmen = CulturalPopulationName.CreateCraftsmen("VakkenCraftsmen",
+                massa,
+               new TextObject("{=!}Kacitoolaicet"));
+
+            VakkenTenants = CulturalPopulationName.CreateTenants("VakkenTenants",
+                massa,
+                new TextObject("{=!}Vookratlaicet"));
+
+            VakkenSerfs = CulturalPopulationName.CreateSerfs("VakkenSerfs",
+                massa,
+                new TextObject("{=!}Viljelijat"));
+
+            VakkenSlaves = CulturalPopulationName.CreateSlaves("VakkenSlaves",
+                massa,
+                new TextObject("{=!}Orjat"));
+            #endregion Vakken
+
             /*
              *   #region Osrickin https://www.anglo-norman.net/entry/artificer
 
@@ -223,6 +303,9 @@ namespace BannerKings.CulturesExpanded.Cultures
                 new TextObject("{=!}Villeins"));
 
             #endregion Osrickin
+
+
+            Siri slave: medjun
              */
 
             #region Khuzait
