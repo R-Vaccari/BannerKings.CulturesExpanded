@@ -35,6 +35,8 @@ namespace BannerKings.CulturesExpanded.Behaviors
         {
             foreach (var kingdom in Kingdom.All)
             {
+                if (kingdom.IsEliminated) continue;
+
                 Hero ruler = kingdom.RulingClan.Leader;
                 if (ruler == Hero.MainHero) continue;
 
