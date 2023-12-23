@@ -6403,5 +6403,1170 @@
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+	
+	
+	<NPCCharacter
+		id="spc_wanderer_massa_0"
+		name="{=XuxARPTM}{FIRSTNAME} Bitterdraught"
+		voice="earnest"
+		age="31"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_0" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="2" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Surgeon"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_wanderer_massa_0" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- boorish noble -->
+	<NPCCharacter
+		id="spc_wanderer_massa_1"
+		name="{=ntkipfCV}{FIRSTNAME} the Loud"
+		voice="earnest"
+		age="25"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_1" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="KnightFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- bastard who went away to avoid complications for his family -->
+	<NPCCharacter
+		id="spc_wanderer_massa_2"
+		name="{=7lg12a57}{FIRSTNAME} the Brave"
+		voice="earnest"
+		age="21"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_2" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- veteran. decent man haunted by looting of cities. hated being loyal to men who saved his lives who turn out to be killers -->
+	<NPCCharacter
+		id="spc_wanderer_massa_3"
+		name="{=ZCc3VFat}{FIRSTNAME} the Grizzled"
+		voice="curt"
+		age="27"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_3" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="4" />
+			<Trait
+				id="SergeantCommandSkills"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!--the shark, butcher/criminal -->
+	<NPCCharacter
+		id="spc_wanderer_massa_4"
+		name="{=8o5SDCCJ}{FIRSTNAME} the Shark"
+		voice="ironic"
+		age="27"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_4" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="PeltastFightingSkills"
+				value="4" />
+			<Trait
+				id="RogueSkills"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- longshoreman, fled dominating guild. revenge against gang leader -->
+	<NPCCharacter
+		id="spc_wanderer_massa_5"
+		name="{=WvwWX4me}{FIRSTNAME} Barrelchest"
+		voice="softspoken"
+		age="24"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_5" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="HuscarlFightingSkills"
+				value="3" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- loner - father fled to avoid feud with bailiff, then disappeared in a blizzard -->
+	<NPCCharacter
+		id="spc_wanderer_massa_6"
+		name="{=OArAImbM}{FIRSTNAME} of the Hills"
+		voice="curt"
+		age="27"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_6" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="3" />
+			<Trait
+				id="ScoutSkills"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!--female. ex brother of the woods. Like any other group of bandits. -->
+	<NPCCharacter
+		id="spc_wanderer_massa_7"
+		name="{=zoaTZMm7}{FIRSTNAME} the Huntress"
+		voice="ironic"
+		age="26"
+		is_female="true"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_7" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="LordIsNemesis" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="4" />
+			<Trait
+				id="ScoutSkills"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- smith, struck dead a young knight who ran a boy down with his horse -->
+	<NPCCharacter
+		id="spc_wanderer_massa_8"
+		name="{=hrMatilh}{FIRSTNAME} the Smith"
+		voice="softspoken"
+		age="24"
+		default_group="Infantry"
+		is_template="true"
+		is_female="false"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_8" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<!--<Trait id="LordIsNemesis" value="1" />-->
+			<Trait
+				id="HuscarlFightingSkills"
+				value="3" />
+			<Trait
+				id="Blacksmith"
+				value="6" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- female bandit, left the woods because life expectancy too short -->
+	<NPCCharacter
+		id="spc_wanderer_massa_9"
+		name="{=7apnGFz7}{FIRSTNAME} the Black"
+		voice="ironic"
+		age="24"
+		default_group="Infantry"
+		is_template="true"
+		is_female="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_9" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="ArcherFIghtingSkills"
+				value="4" />
+			<Trait
+				id="RogueSkills"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="3" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!--female engineer, father emigrant to empire, killed in riots -->
+	<NPCCharacter
+		id="spc_wanderer_massa_10"
+		name="{=6CAbkgS4}{FIRSTNAME} the Wainwright"
+		voice="ironic"
+		age="26"
+		default_group="Infantry"
+		is_template="true"
+		is_female="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_10" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="ArcherFIghtingSkills"
+				value="2" />
+			<Trait
+				id="EngineerSkills"
+				value="5" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!--free company -->
+	<NPCCharacter
+		id="spc_wanderer_massa_11"
+		name="{=nDtjEazo}{FIRSTNAME} Bellowsbreath"
+		voice="earnest"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_wanderer_massa_11" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="WandererEquipment"
+				value="1" />
+			<!--<Trait id="SpawnAsPrisoner" value="1" />-->
+			<Trait
+				id="CrossbowmanStyle"
+				value="6" />
+			<Trait
+				id="Blacksmith"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Gamekeeper -->
+	<NPCCharacter
+		id="spc_wanderer_massa_12"
+		name="{=N4taBJyx}{FIRSTNAME} the Tracker"
+		voice="softspoken"
+		default_group="Infantry"
+		is_template="true"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Wanderer">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait
+				id="WandererEquipment"
+				value="1" />
+			<!--<Trait id="SpawnAsPrisoner" value="1" />-->
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="ScoutSkills"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="npc_companion_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<NPCCharacter
+		id="spc_notable_massa_merch1"
+		name="{=!}Ironic vlandia merchant"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits>
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_massa_merch1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_merch2"
+		name="{=!}curt Vlandia merchant"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits>
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_merch3"
+		name="{=!}Daring Vlandia merchant"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<Traits>
+			<Trait
+				id="Commander"
+				value="3" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_merch4"
+		name="{=!}Softspoken vlandia merchant"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_merch4" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait
+				id="Commander"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_massa_merch4" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_merch5"
+		name="{=!}{FIRSTNAME} the Manciple"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_merch5" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_massa_merch5" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_1"
+		name="{=!}{FIRSTNAME} the Warehouser"
+		voice="ironic"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_1" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_massa_1" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_1b"
+		name="{=!}{FIRSTNAME} the Heiress"
+		voice="ironic"
+		is_template="true"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Merchant">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_1b" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait
+				id="Commander"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_massa_1b" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_2"
+		name="{=!}Puritan male preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_2" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_massa_2" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_3"
+		name="{=!}Rebellious female preacher"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.massa"
+		occupation="Preacher">
+		<face>
+			<face_key_template
+				value="BodyProperty.townswoman_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_3" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_notable_massa_3" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Vlandian gang leaders-->
+	<NPCCharacter
+		id="spc_massa_gangleader_1"
+		name="{=!}Standard male gang leader"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_4" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_massa_gangleader_2"
+		name="{=!}Female gang leader"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.massa"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_gang_leader_2" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_massa_gangleader_3"
+		name="{=!}Male gang leader"
+		voice="ironic"
+		is_template="true"
+		default_group="Infantry"
+		is_female="true"
+		culture="Culture.massa"
+		occupation="GangLeader">
+		<face>
+			<face_key_template
+				value="BodyProperty.fighter_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_gang_leader_2" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+			<EquipmentSet
+				id="spc_massa_gangleader_3" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_artisan_1"
+		name="{=!}Vlandian artisan 1"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.massa"
+		occupation="Artisan">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_artisan_1" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_artisan_2"
+		name="{=!}Vlandian artisan 2"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.massa"
+		occupation="Artisan">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_artisan_2" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_rural_1"
+		name="{=!}Vlandian yeoman"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.massa"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_rural_2" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_notable_massa_rural_2"
+		name="{=!}Vlandian yeoman"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		culture="Culture.massa"
+		occupation="RuralNotable">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_rural_2" faction="Kingdom.vlandia" />-->
+		<Traits>
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_massa_headman_1"
+		name="{=!}vlandia rebellious headman"
+		voice="earnest"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_4" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="FrankishHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_massa_headman_2"
+		name="{=!}vlandia conservative headman"
+		voice="curt"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_4" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="FrankishHair"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="spc_massa_headman_3"
+		name="{=!}vlandia devious headman"
+		voice="softspoken"
+		is_template="true"
+		default_group="Infantry"
+		is_hero="false"
+		culture="Culture.massa"
+		occupation="Headman">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<!--<Hero id="spc_notable_massa_4" faction="Kingdom.vlandia" />-->
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="FrankishHair"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="npc_armed_wanderer_equipment_template_vlandia" />
+			<EquipmentSet
+				id="npc_wanderer_equipment_template_vlandia"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
 
 </NPCCharacters>
