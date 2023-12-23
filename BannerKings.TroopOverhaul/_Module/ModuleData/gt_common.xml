@@ -2,21 +2,64 @@
 
 <strings>
 	<string
-			id="str_culture_rich_name.vlandia"
-			text="{=!}Wilunding" />
-		<string
-			id="str_culture_rich_name.battania"
-			text="{=!}Battanaidd" />
-		<string
-			id="str_culture_rich_name.khuzait"
-			text="{=!}Devseg" />
-		<string
-			id="str_culture_rich_name.sturgia"
-			text="{=!}Sturgiske" />
-		<string
-			id="str_culture_rich_name.aserai"
-			text="{=!}Nahawasi" />
-		<string
-			id="str_culture_rich_name.empire"
-			text="{=!}Calradoi" />
+		id="str_culture_rich_name.vlandia"
+		text="{=!}Wilunding" />
+	<string
+		id="str_culture_rich_name.battania"
+		text="{=!}Battanaidd" />
+	<string
+		id="str_culture_rich_name.khuzait"
+		text="{=!}Devseg" />
+	<string
+		id="str_culture_rich_name.sturgia"
+		text="{=!}Sturgiske" />
+	<string
+		id="str_culture_rich_name.aserai"
+		text="{=!}Nahawasi" />
+	<string
+		id="str_culture_rich_name.empire"
+		text="{=!}Calradoi" />
+		
+	<string
+		id="str_culture_rich_name.darshi"
+		text="{=IHhWB1aa}Darshi" />
+	<string
+		id="str_culture_description.darshi"
+		text="{=!}The Darshi are an ancient civilization that sprung by the Teyagh river and its sibling, the Nahr al-Kals. For millenia they have mastered trading far and wide, as well as farming grains and dates by the riverbanks, making use of any fertile land they could control. Their cities, built with great stone walls, withstood the raids of barbarians long before the Calradoi would pride themselves over their masonry. Currently, many of the originally northern Darshi settlements are now ruled by the Khuzait horselords, and the Darshianshahr finds itself in a defensive position." />
+	
+	<string
+		id="str_culture_rich_name.geroia"
+		text="{=!}Geroiako" />
+	<string
+		id="str_culture_description.geroia"
+		text="{=!}Geroia lies in the heart of the Perassic sea, between the realms of the Calradoi and  the Nahawasi. Long since separated from the Calradoi, the Geroians have leveraged their position to exerce hegemony over the sea trade. For centuries they have supplied the Calradoi with ships and slaves, and profitted over the rich sea trade. Their cities, formerly independent republics, are binded together by their Archduke. Nevertheless, the duke's seat is not hereditary, and the Geroians still choose amongst themselves who to lead them." />
+	
+	<string
+		id="str_culture_rich_name.siri"
+		text="{=!}Siri" />
+	<string
+		id="str_culture_description.siri"
+		text="{=!}An ancient civilization born by the Aman river, known to the Nahawasi as Damar. The Siri, blessed by the fertility of the Aman, have mastered farming grain, dates and papyrus by the riverbanks such that their realm has great food abundance, despite being in the very core of the Nahasa desert. Unlike most cultures, they have organized themselves in a matriarchal system: women are supposed to lead families, and often a Siri queen leads the realm. Women also participate in war, though only as expert archers, with the men responsible for the brutality of melee. Many say only the Battaneid are a match for the Siri in terms of bowmanship." />
+	
+	<string
+		id="str_culture_rich_name.vakken"
+		text="{=bHh03ob0}Vakken" />
+	<string
+		id="str_culture_description.vakken"
+		text="{=!}The Vakken are tribes natural to the Ircaran Wildlands, close by the Kachyar peninsula. Long ago, the Vakken and the Sturgians were closer kin. Though they increasingly distanced themselves, both tribes remained binded by their geography and faiths, which still share ancient traits. Unlike the Sturgians, however, the Vakken have never organized themselves in a kingdom. Their tribes scattered along the northern forests, all the way to the Karakaz river. The strongest tribes have built themselves forest-forts, but most Vakken still live by their tribe, deep in the woods. The woodland is their home, and sacred to their faith. No one can match the Vakken in hunting or foresting." />
+		
+	<string
+		id="str_culture_rich_name.nord"
+		text="{=!}Jumne" />
+	<string
+		id="str_culture_description.nord"
+		text="{=!}The Jumne hail from a continent north of Calradia. Masters of the longship, they have long since reached Calradia in independent incursions, be them for trading, settling or pillaging. Most of their influence has been on the northern shores, largely in contact with the Sturgian and Vakken tribes. Many Sturgian dynasties can trace their origins to Jumne adventurers, such as the Gundaroving themselves. The saga of the Jumne has not yet finished, for there is still land to settle and kingdoms to pillage..." />
+	
+	<string
+		id="str_culture_rich_name.massa"
+		text="{=!}Massa" />
+	<string
+		id="str_culture_description.massa"
+		text="{=!}The Massa are one of the many Wilunding tribes, known to the Calradoi as Vlandians, that came from west-over-seas. Like their Wilunding kin, they migrated to Calradia in search of greener, more bountiful land. However, they were not accepted by their kin, and instead forced to fend for themselves. The Massa gathered in their last mass migration, and rode the sea southwards, to a densely wooded peninsula, inhabited by beasts and the Widugauja - native tribes with no kingdom to speak of." />
+
 </strings>
