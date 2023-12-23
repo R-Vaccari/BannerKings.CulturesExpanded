@@ -10,7 +10,7 @@ using TaleWorlds.ModuleManager;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.SaveSystem.Load;
 
-namespace BannerKings.CulturesExpanded.CharacterCreation
+namespace BannerKings.CulturesExpanded.CC
 {
     internal class BKCEGameManager : SandBoxGameManager
     {
