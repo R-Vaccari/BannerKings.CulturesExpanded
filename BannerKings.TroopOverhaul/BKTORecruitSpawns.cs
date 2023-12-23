@@ -1,6 +1,7 @@
 ﻿using BannerKings.Managers.Innovations.Eras;
 using BannerKings.Managers.Recruits;
 using System.Collections.Generic;
+using System.Linq;
 using TaleWorlds.CampaignSystem;
 
 namespace BannerKings.CulturesExpanded
@@ -32,6 +33,12 @@ namespace BannerKings.CulturesExpanded
         public RecruitSpawn EmpireHippo { get; } = new RecruitSpawn();
         public RecruitSpawn EmpireNoble { get; } = new RecruitSpawn();
         public RecruitSpawn EmpirePeltast { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireBorderBattania { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireBorderSturgia { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireBorderKhuzait { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireBorderAserai { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireRepublicT2 { get; } = new RecruitSpawn();
+        public RecruitSpawn EmpireRepublicT3 { get; } = new RecruitSpawn();
         #endregion empire
 
         #region Vlandia
@@ -132,6 +139,12 @@ namespace BannerKings.CulturesExpanded
                 yield return EmpireRangedT2;
                 yield return EmpirePeltast;
                 yield return EmpireMeleeT3;
+                yield return EmpireBorderBattania;
+                yield return EmpireBorderAserai;
+                yield return EmpireBorderKhuzait;
+                yield return EmpireBorderSturgia;
+                yield return EmpireRepublicT2;
+                yield return EmpireRepublicT3;
                 yield return EmpireEques;
                 yield return EmpireHippo;
                 yield return EmpireNoble;
@@ -462,6 +475,124 @@ namespace BannerKings.CulturesExpanded
                         Managers.PopulationManager.PopType.Serfs, 0.15f
                     }
                 });
+
+            EmpireBorderSturgia.Initialize(GetTroop("bk_imperial_liminatei_sturgia"),
+                empire,
+                new Dictionary<Managers.PopulationManager.PopType, float>()
+                {
+                    {
+                        Managers.PopulationManager.PopType.Tenants, 0.5f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
+                    }
+                });
+            EmpireBorderSturgia.AddFiefString("town_EN1");
+            EmpireBorderSturgia.AddFiefString("village_EN1_1");
+            EmpireBorderSturgia.AddFiefString("village_EN1_2");
+            EmpireBorderSturgia.AddFiefString("village_EN1_3");
+            EmpireBorderSturgia.AddFiefString("castle_EN9");
+            EmpireBorderSturgia.AddFiefString("castle_village_EN9_2");
+            EmpireBorderSturgia.AddFiefString("town_EN6");
+            EmpireBorderSturgia.AddFiefString("village_EN6_1");
+            EmpireBorderSturgia.AddFiefString("village_EN6_2");
+            EmpireBorderSturgia.AddFiefString("castle_EN7");
+            EmpireBorderSturgia.AddFiefString("castle_village_EN7_1");
+            EmpireBorderSturgia.AddFiefString("castle_village_EN7_2");
+
+            EmpireBorderBattania.Initialize(GetTroop("bk_imperial_liminatei_battania"),
+                empire,
+                new Dictionary<Managers.PopulationManager.PopType, float>()
+                {
+                    {
+                        Managers.PopulationManager.PopType.Tenants, 0.5f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
+                    }
+                });
+            EmpireBorderBattania.AddFiefString("town_EW1");
+            EmpireBorderBattania.AddFiefString("village_EW1_1");
+            EmpireBorderBattania.AddFiefString("village_EW1_2");
+            EmpireBorderBattania.AddFiefString("village_EN1_3");
+            EmpireBorderBattania.AddFiefString("castle_EW6");
+            EmpireBorderBattania.AddFiefString("castle_village_EW6_1");
+            EmpireBorderBattania.AddFiefString("castle_village_EW6_2");
+            EmpireBorderBattania.AddFiefString("castle_EW5");
+            EmpireBorderBattania.AddFiefString("castle_village_EW5_1");
+            EmpireBorderBattania.AddFiefString("castle_village_EW5_2");
+
+            EmpireBorderKhuzait.Initialize(GetTroop("bk_imperial_liminatei_khuzait"),
+               empire,
+               new Dictionary<Managers.PopulationManager.PopType, float>()
+               {
+                    {
+                        Managers.PopulationManager.PopType.Tenants, 0.5f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
+                    }
+               });
+            EmpireBorderKhuzait.AddFiefString("town_ES5");
+            EmpireBorderKhuzait.AddFiefString("village_ES5_1");
+            EmpireBorderKhuzait.AddFiefString("village_ES5_2");
+            EmpireBorderKhuzait.AddFiefString("village_ES5_3");
+            EmpireBorderKhuzait.AddFiefString("castle_ES2");
+            EmpireBorderKhuzait.AddFiefString("castle_village_ES2_1");
+            EmpireBorderKhuzait.AddFiefString("castle_village_ES2_2");
+            EmpireBorderKhuzait.AddFiefString("town_EN3");
+            EmpireBorderKhuzait.AddFiefString("village_EN3_1");
+            EmpireBorderKhuzait.AddFiefString("village_EN3_3");
+            EmpireBorderKhuzait.AddFiefString("castle_EN8");
+            EmpireBorderKhuzait.AddFiefString("castle_village_EN8_1");
+            EmpireBorderKhuzait.AddFiefString("castle_village_EN8_2");
+
+            EmpireBorderAserai.Initialize(GetTroop("bk_imperial_liminatei_aserai"),
+              empire,
+              new Dictionary<Managers.PopulationManager.PopType, float>()
+              {
+                    {
+                        Managers.PopulationManager.PopType.Tenants, 0.5f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
+                    }
+              });
+            EmpireBorderAserai.AddFiefString("town_ES1");
+            EmpireBorderAserai.AddFiefString("village_ES1_2");
+            EmpireBorderAserai.AddFiefString("village_ES1_3");
+            EmpireBorderAserai.AddFiefString("village_ES1_4");
+            EmpireBorderAserai.AddFiefString("castle_ES4");
+            EmpireBorderAserai.AddFiefString("castle_village_ES4_1");
+            EmpireBorderAserai.AddFiefString("castle_village_ES4_2");
+            EmpireBorderAserai.AddFiefString("town_ES2");
+            EmpireBorderAserai.AddFiefString("village_ES2_2");
+            EmpireBorderAserai.AddFiefString("village_ES2_3");
+            EmpireBorderAserai.AddFiefString("village_ES2_4");
+
+            Kingdom northEmpire = Kingdom.All.First(x => x.StringId == "empire");
+            EmpireRepublicT2.Initialize(GetTroop("bk_imperial_militiaman_republic"),
+             empire,
+             new Dictionary<Managers.PopulationManager.PopType, float>()
+             {
+                    {
+                        Managers.PopulationManager.PopType.Tenants, 0.5f
+                    },
+                    {
+                        Managers.PopulationManager.PopType.Serfs, 0.15f
+                    }
+             },
+             northEmpire);
+
+            EmpireMeleeT3.Initialize(GetTroop("bk_imperial_sergeant_republic"),
+               empire,
+               new Dictionary<Managers.PopulationManager.PopType, float>()
+               {
+                    {
+                        Managers.PopulationManager.PopType.Craftsmen, 1f
+                    }
+               },
+               northEmpire);
 
             EmpirePeltast.Initialize(GetTroop("bk_imperial_peltast"),
                 empire,
