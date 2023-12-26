@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 
-  <NPCCharacter id="bk_sturgia_druzhinnik" default_group="HorseArcher" level="31" name="{=!}Sturgian Druzhinnik" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="bk_sturgia_druzhinnik" default_group="HorseArcher" level="31" name="{=!}Sturgiske Druzhinnik" occupation="Soldier" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -100,7 +100,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_sturgia_squire" default_group="HorseArcher" level="26" name="{=!}Sturgian Varcheg" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="bk_sturgia_squire" default_group="HorseArcher" level="26" name="{=!}Sturgiske Varcheg" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -250,7 +250,7 @@
   </NPCCharacter>
 
 
-  <NPCCharacter id="bk_sturgia_mercenary" default_group="Infantry" level="26" name="{=!}Sturgian Mercenary Varcheg" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="bk_sturgia_mercenary" default_group="Infantry" level="26" name="{=!}Sturgiske Mercenary Varcheg" occupation="Soldier" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -325,7 +325,7 @@
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="bk_sturgia_cavalry" default_group="Infantry" level="21" name="{=!}Sturgian Remisnyky Cavalry" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="bk_sturgia_cavalry" default_group="Cavalry" level="21" name="{=!}Sturgiske Remisnyky Cavalry" occupation="Soldier" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -472,7 +472,7 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="bk_sturgia_sergeant" default_group="Infantry" level="21" name="{=!}Sturgian Voyak" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="bk_sturgia_sergeant" default_group="Infantry" level="21" name="{=!}Sturgiske Voyak" occupation="Soldier" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -602,7 +602,7 @@
   <NPCCharacter id="bk_sturgian_militiaman"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Sturgian Militiaman"
+                name="{=!}Sturgiske Militiaman"
                 occupation="Soldier"
                 culture="Culture.sturgia"
 				skill_template="SkillSet.bk_militia_melee_skills">
@@ -727,7 +727,7 @@
   <NPCCharacter id="bk_sturgian_skirmisher"
                 default_group="Infantry"
                 level="16"
-                name="{=!}Sturgian Forester"
+                name="{=!}Sturgiske Forester"
                 occupation="Soldier"
                 culture="Culture.sturgia"
 				skill_template="SkillSet.bk_militia_skirmisher_skills">
@@ -854,7 +854,7 @@
   <NPCCharacter id="bk_sturgian_levy"
                 default_group="Infantry"
                 level="11"
-                name="{=!}Sturgian Levy"
+                name="{=!}Sturgiske Levy"
                 occupation="Soldier"
                 culture="Culture.sturgia"
 				is_basic_troop="true"
@@ -986,23 +986,23 @@
 
   
   <NPCCharacter id="bk_sturgian_tyalese_archer"
-                default_group="Ranged"
+                default_group="HorseArcher"
                 level="21"
-                name="{=!}Sturgian Tyalese Outrider"
+                name="{=!}Sturgiske Tyalese Outrider"
                 occupation="Soldier"
                 culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
     <skills>
-      <skill id="Athletics" value="100" />
-      <skill id="Riding" value="30" />
-      <skill id="OneHanded" value="110" />
+      <skill id="Athletics" value="30" />
+      <skill id="Riding" value="110" />
+      <skill id="OneHanded" value="90" />
       <skill id="TwoHanded" value="40" />
       <skill id="Polearm" value="80" />
-      <skill id="Bow" value="45" />
+      <skill id="Bow" value="115" />
       <skill id="Crossbow" value="15" />
-      <skill id="Throwing" value="60" />
+      <skill id="Throwing" value="40" />
     </skills>
     <upgrade_targets>
 	</upgrade_targets>
@@ -1085,9 +1085,9 @@
   </NPCCharacter>
   
   <NPCCharacter id="bk_sturgian_tyalese_scout"
-                default_group="Ranged"
+                default_group="HorseArcher"
                 level="16"
-                name="{=!}Sturgian Tyalese Scout"
+                name="{=!}Sturgiske Tyalese Scout"
                 occupation="Soldier"
                 culture="Culture.sturgia"
 				is_basic_troop="true"
@@ -1114,7 +1114,7 @@
 		<EquipmentRoster>
 			<equipment slot="Head" id="Item.AR_vaegir_helmet_b" />
 			<equipment slot="Cape" id="Item.scarf" />
-			<equipment slot="Body" id="Item.heavy_fur_trimmed_short_tunic" />
+			<equipment slot="Body" id="Item.ao_sturgian_leather_over_cloth" />
 			<equipment slot="Gloves" id="Item.TV_vlandia_gloves_d" />
 			<equipment slot="Leg" id="Item.leather_shoes" />
 			<equipment slot="Item0" id="Item.steppe_bow" />
@@ -1244,7 +1244,7 @@
   <NPCCharacter id="bk_sturgian_militiaman_archer"
                 default_group="Ranged"
                 level="16"
-                name="{=!}Sturgian Archer"
+                name="{=!}Sturgiske Archer"
                 occupation="Soldier"
                 culture="Culture.sturgia"
 				skill_template="SkillSet.bk_militia_bowman_skills">
@@ -1378,7 +1378,7 @@
   <NPCCharacter id="bk_sturgian_levy_archer"
                 default_group="Ranged"
                 level="11"
-                name="{=!}Sturgian Levy Archer"
+                name="{=!}Sturgiske Levy Archer"
                 occupation="Soldier"
                 culture="Culture.sturgia"
 				is_basic_troop="true"
