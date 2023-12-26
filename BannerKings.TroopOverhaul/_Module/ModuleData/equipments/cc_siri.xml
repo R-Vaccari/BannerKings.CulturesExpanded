@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+
+	<EquipmentRoster
+		id="mother_char_creation_0_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_0_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_1_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.AR_bone_helmet_b" />
+			<Equipment slot="Body" id="Item.aserai_female_civil_b" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />		
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_1_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_2_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<equipment slot="Head" id="Item.AR_aserai_archer_helmet_d" />
+			<equipment slot="Cape" id="Item.leopard_pelt" />
+			<equipment slot="Body" id="Item.AR_aserai_lamellar_b" />
+			<equipment slot="Gloves" id="Item.TV_aserai_gloves_c" />
+			<equipment slot="Leg" id="Item.TV_moccasins_c" />
+			<equipment slot="Item0" id="Item.woodland_longbow" />
+			<equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_2_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_3_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_3_siri"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_1_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_1_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_2_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_2_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_3_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_3_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Leg" id="Item.southern_moccasins" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_4_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_4_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_5_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_5_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_6_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_6_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_9_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_9_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_siri_10_m"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_siri_10_f"
+		culture="Culture.siri">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item0" id="Item.hunting_bow" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		    <Equipment slot="Item2" id="Item.default_arrows" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Head" id="Item.ao_mabili_feathered_headband" />
+			<Equipment slot="Cape" id="Item.battania_civil_cape" />
+			<Equipment slot="Body" id="Item.ao_mabili_leopard_skirt" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+
+</EquipmentRosters>

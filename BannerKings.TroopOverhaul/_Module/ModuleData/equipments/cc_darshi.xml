@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+
+
+	<EquipmentRoster
+		id="mother_char_creation_0_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_a4" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_a6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_0_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_b2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_1_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_a4" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_a6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_1_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.AR_monk_robe_a2" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shows" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mother_char_creation_2_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_a4" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_a6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_2_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.TV_aserai_helmet_y2" />
+			<Equipment
+				slot="Body"
+				id="Item.AR_aserai_armor_t2" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_b2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mother_char_creation_3_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_a4" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_a6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_3_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.cts_persian_cloth_b" />
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_b2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="player_char_creation_show_darshi"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_b2" />
+			<Equipment
+				slot="Item1"
+				id="Item.vlandia_sword_1_t2" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.cts_persian_tunic_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_persian_pants_b2" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="player_char_creation_darshi_1_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_1_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_darshi_2_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_2_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_darshi_3_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_3_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_darshi_4_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_4_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_darshi_5_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_5_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_darshi_6_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_6_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_darshi_9_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_9_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_darshi_10_m"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_darshi_10_f"
+		culture="Culture.darshi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.eastern_wicker_shield" />
+			<Equipment slot="Item1" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_1_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_persian_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_persian_pants_b6" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+
+</EquipmentRosters>

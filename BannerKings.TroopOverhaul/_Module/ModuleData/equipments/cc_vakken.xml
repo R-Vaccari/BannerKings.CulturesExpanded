@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+
+
+	<EquipmentRoster
+		id="mother_char_creation_0_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_0_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_padded_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_1_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_1_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_padded_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_2_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_2_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mother_char_creation_3_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.northern_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_3_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.northern_fur_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.sackcloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="player_char_creation_show_vakken"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.nordic_padded_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+			<Equipment
+				slot="Item1"
+				id="Item.vlandia_sword_1_t2" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.nordic_padded_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+
+	<EquipmentRoster
+		id="player_char_creation_vakken_1_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_1_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_vakken_2_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_2_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_vakken_3_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_3_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_vakken_4_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_4_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_vakken_5_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_5_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_vakken_6_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_6_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_vakken_9_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_9_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_vakken_10_m"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_vakken_10_f"
+		culture="Culture.vakken">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.northern_round_shield" />
+			<Equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.northern_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+
+</EquipmentRosters>
