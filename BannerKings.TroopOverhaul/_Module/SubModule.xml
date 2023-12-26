@@ -123,7 +123,7 @@
             </IncludedGameTypes>
         </XmlNode>
 		<XmlNode>
-            <XmlName id="EquipmentRosters" path="equipment_sets"/>
+            <XmlName id="EquipmentRosters" path="equipments"/>
             <IncludedGameTypes>
                 <GameType value="Campaign"/>
                 <GameType value="CampaignStoryMode"/>
