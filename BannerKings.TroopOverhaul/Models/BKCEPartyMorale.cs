@@ -28,6 +28,11 @@ namespace BannerKings.CulturesExpanded.Models
                     proportion = proportion / (float)mobileParty.MemberRoster.TotalManCount;
                     result.Add(15f * proportion, BKCEDivinities.Instance.Ireos.Name);
                 }
+
+                if (BannerKingsConfig.Instance.ReligionsManager.HasBlessing(leader, BKCEDivinities.Instance.VineGoddess))
+                {
+                    result.Add(8f, BKCEDivinities.Instance.VineGoddess.Name);
+                }
             }
 
             return result;
