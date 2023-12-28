@@ -6,7 +6,7 @@ namespace BannerKings.CulturesExpanded.Religions
 {
     public class BKCEReligions : DefaultTypeInitializer<BKCEReligions, Religion>
     {
-        public Religion ImmortalFlame { get; } = new Religion("flame");
+        public Religion ImmortalFlame { get; } = new Religion("atash");
         public Religion Calradism { get; } = new Religion("calradian");
         public Religion Legionaries { get; } = new Religion("legionaries");
         public Religion AseraCode { get; } = new Religion("asera");
@@ -16,8 +16,10 @@ namespace BannerKings.CulturesExpanded.Religions
         public Religion Treelore { get; } = new Religion("treelore");
         public Religion Osfeyd { get; } = new Religion("osfeyd");
         public Religion SixWinds { get; } = new Religion("sixWinds");
-        public Religion Junme { get; } = new Religion("junme");
+        public Religion Jumne { get; } = new Religion("junme");
         public Religion Rodovera { get; } = new Religion("rodovera");
+        public Religion Siri { get; } = new Religion("siri");
+        public Religion Kannic { get; } = new Religion("kannic");
         public override IEnumerable<Religion> All
         {
             get
@@ -29,11 +31,12 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return AseraCode;
                 yield return SixWinds;
                 yield return Amra;
-                yield return Junme;
+                yield return Jumne;
                 yield return Rodovera;
                 yield return Treelore;
-                yield return Canticles;
-                //yield return ImmortalFlame;
+                yield return ImmortalFlame;
+                yield return Siri;
+                yield return Kannic;
             }
         }
 
@@ -47,10 +50,31 @@ namespace BannerKings.CulturesExpanded.Religions
             var sturgia = Utils.Helpers.GetCulture("sturgia");
             var vakken = Utils.Helpers.GetCulture("vakken");
             var nord = Utils.Helpers.GetCulture("nord");
+            var darshi = Utils.Helpers.GetCulture("darshi");
+            var siri = Utils.Helpers.GetCulture("siri");
             var swadia = Utils.Helpers.GetCulture("swadia");
             var rhodok = Utils.Helpers.GetCulture("rhodok");
             var osrickin = Utils.Helpers.GetCulture("osrickin");
+            var massa = Utils.Helpers.GetCulture("massa");
+            var kannic = Utils.Helpers.GetCulture("kannic");
 
+            Kannic.Initialize(BKCEFaiths.Instance.Kannic,
+               new List<CultureObject>()
+               {
+                    kannic
+               });
+
+            ImmortalFlame.Initialize(BKCEFaiths.Instance.ImmortalFlame,
+               new List<CultureObject>()
+               {
+                    darshi
+               });
+
+            Siri.Initialize(BKCEFaiths.Instance.Siri,
+               new List<CultureObject>()
+               {
+                    siri
+               });
 
             Legionaries.Initialize(BKCEFaiths.Instance.Legionaries,
                new List<CultureObject>()
@@ -80,16 +104,13 @@ namespace BannerKings.CulturesExpanded.Religions
             Martyrdom.Initialize(BKCEFaiths.Instance.Darusosian,
                 new List<CultureObject> { imperial });
 
-            Canticles.Initialize(BKCEFaiths.Instance.Canticles,
-                new List<CultureObject> { vlandia });
-
             Osfeyd.Initialize(BKCEFaiths.Instance.Osfeyd,
-                new List<CultureObject> { vlandia });
+                new List<CultureObject> { vlandia, massa });
 
             SixWinds.Initialize(BKCEFaiths.Instance.SixWinds,
                 new List<CultureObject> { khuzait });
 
-            Junme.Initialize(BKCEFaiths.Instance.Junme,
+            Jumne.Initialize(BKCEFaiths.Instance.Jumne,
                new List<CultureObject> { nord });
 
             foreach (var religion in All)

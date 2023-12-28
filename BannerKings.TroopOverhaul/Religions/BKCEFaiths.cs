@@ -25,14 +25,16 @@ namespace BannerKings.CulturesExpanded.Religions
         public MonotheisticFaith AseraCode { get; private set; } = new AseraFaith();
         public PolytheisticFaith AmraOllahm { get; private set; } = new AmraFaith();
         public MonotheisticFaith Darusosian { get; private set; } = new DarusosianFaith();
-        public PolytheisticFaith Canticles { get; private set; } = new CanticlesFaith();
         public PolytheisticFaith Treelore { get; private set; } = new TreeloreFaith();
         public PolytheisticFaith Osfeyd { get; private set; } = new Osfeyd();
         public PolytheisticFaith SixWinds { get; } = new SixWinds();
         public PolytheisticFaith Rodovera { get; } = new Rodovera();
         public MonotheisticFaith Calradism { get; } = new Calradism();
         public MonotheisticFaith Legionaries { get; } = new LegionariesSarapios();
-        public PolytheisticFaith Junme { get; } = new Junme();
+        public PolytheisticFaith Jumne { get; } = new Jumne();
+        public PolytheisticFaith Siri { get; } = new Siri();
+        public MonotheisticFaith ImmortalFlame { get; } = new ImmortalFlame();
+        public PolytheisticFaith Kannic { get; } = new Kannic();
 
         public override IEnumerable<Faith> All
         {
@@ -44,17 +46,84 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return Darusosian;
                 yield return Treelore;
                 yield return SixWinds;
-                yield return Canticles;
                 yield return Calradism;
                 yield return Legionaries;
-                yield return Junme;
+                yield return Jumne;
                 yield return Rodovera;
+                yield return ImmortalFlame;
+                yield return Siri;
+                yield return Kannic;
             }
         }
 
         public override void Initialize()
         {
-            Junme.Initialize(DefaultDivinities.Instance.GodsFate,
+            Kannic.Initialize(BKCEDivinities.Instance.VineGoddess,
+                new List<Divinity>
+                {
+                    BKCEDivinities.Instance.Eshora,
+                    BKCEDivinities.Instance.Jinn
+                },
+                new Dictionary<TraitObject, bool>
+                {
+                    {DefaultTraits.Generosity, false},
+                    {DefaultTraits.Valor, true},
+                    {BKTraits.Instance.Ambitious, true}
+                },
+                BKCEFaithGroups.Instance.AseraGroup,
+                new List<Doctrine>
+                {
+                    DefaultDoctrines.Instance.AncestorWorship,
+                    DefaultDoctrines.Instance.Astrology,
+                    DefaultDoctrines.Instance.Animism
+                },
+                new List<Rite>
+                {
+                });
+
+            Siri.Initialize(BKCEDivinities.Instance.GreatLion,
+                new List<Divinity>
+                {
+                },
+                new Dictionary<TraitObject, bool>
+                {
+                    {DefaultTraits.Honor, true},
+                    {DefaultTraits.Valor, true},
+                    {DefaultTraits.Mercy, true}
+                },
+                BKCEFaithGroups.Instance.AseraGroup,
+                new List<Doctrine>
+                {
+                    DefaultDoctrines.Instance.AncestorWorship,
+                    DefaultDoctrines.Instance.Shamanism,
+                    DefaultDoctrines.Instance.Animism
+                },
+                new List<Rite>
+                {
+                });
+
+            ImmortalFlame.Initialize(BKCEDivinities.Instance.ImmortalFlame,
+                new List<Divinity>
+                {
+                },
+                new Dictionary<TraitObject, bool>
+                {
+                    {DefaultTraits.Honor, true},
+                    {DefaultTraits.Generosity, true},
+                    {BKTraits.Instance.Just, true}
+                },
+                new List<Doctrine>
+                {
+                    DefaultDoctrines.Instance.AncestorWorship,
+                    DefaultDoctrines.Instance.Esotericism,
+                    DefaultDoctrines.Instance.Literalism
+                },
+                BKCEFaithGroups.Instance.DarshiGroup,         
+                new List<Rite>
+                {
+                });
+
+            Jumne.Initialize(DefaultDivinities.Instance.GodsFate,
                 new List<Divinity>
                 {
                 },
@@ -64,7 +133,7 @@ namespace BannerKings.CulturesExpanded.Religions
                     {DefaultTraits.Valor, true},
                     {BKTraits.Instance.Just, true}
                 },
-                BKCEFaithGroups.Instance.SturgiaGroup,
+                BKCEFaithGroups.Instance.VlandiaGroup,
                 new List<Doctrine>
                 {
                     DefaultDoctrines.Instance.AncestorWorship,
@@ -234,22 +303,6 @@ namespace BannerKings.CulturesExpanded.Religions
                     new Lustratio()
                 },
                 Behaviours.Feasts.Feast.FeastType.Astaronia);
-
-            Canticles.Initialize(DefaultDivinities.Instance.VlandiaMain,
-                new List<Divinity>
-                    {DefaultDivinities.Instance.VlandiaSecondary1, DefaultDivinities.Instance.VlandiaSecondary2},
-                new Dictionary<TraitObject, bool>
-                {
-                    {DefaultTraits.Mercy, false},
-                    {DefaultTraits.Valor, true}
-                },
-                BKCEFaithGroups.Instance.VlandiaGroup,
-                new List<Doctrine>
-                {
-                    DefaultDoctrines.Instance.Literalism
-                },
-                new List<Rite>());
-            Canticles.Active = false;
 
             Osfeyd.Initialize(DefaultDivinities.Instance.Wilund,
                 new List<Divinity>
