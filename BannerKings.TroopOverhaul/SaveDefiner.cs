@@ -14,8 +14,11 @@ namespace BannerKings
         {
             AddClassDefinition(typeof(Calradism), 1);
             AddClassDefinition(typeof(LegionariesSarapios), 2);
-            AddClassDefinition(typeof(Junme), 3);
+            AddClassDefinition(typeof(Jumne), 3);
             AddClassDefinition(typeof(Rodovera), 4);
+            AddClassDefinition(typeof(ImmortalFlame), 5);
+            AddClassDefinition(typeof(Siri), 6);
+            AddClassDefinition(typeof(Kannic), 7);
         }
 
         protected override void DefineContainerDefinitions()
