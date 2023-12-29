@@ -17,9 +17,13 @@ namespace BannerKings.CulturesExpanded.Religions
         public Divinity Erithrians { get; } = new Divinity("Erithrians");
         public Divinity Perkos { get; } = new Divinity("Perkos");
         public Divinity GreatLion { get; } = new Divinity("GreatLion");
+        public Divinity SiriRam { get; } = new Divinity("SiriRam");
         public Divinity VineGoddess { get; } = new Divinity("VineGoddess");
         public Divinity Jinn { get; } = new Divinity("Jinn");
         public Divinity Eshora { get; } = new Divinity("Eshora");
+        public Divinity DarshiWater { get; } = new Divinity("DarshiWater");
+        public Divinity DarshiBattle { get; } = new Divinity("DarshiBattle");
+
 
         public override IEnumerable<Divinity> All
         {
@@ -35,11 +39,22 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return Eshora;
                 yield return VineGoddess;
                 yield return Jinn;
+                yield return Ahhak;
+                yield return DarshiWater; 
+                yield return DarshiBattle;
             }
         }
 
         public override void Initialize()
         {
+            Ahhak.Initialize(new TextObject("{=!}Ahhak"),
+               new TextObject("{=!}The King of Sorcery, shoulder flowing serpents Ahhak. To the Darshi of the Atashyasna, he was a demon inpersonated, and a tyrant. He is said to have lived for centuries, to be a master of dark sorceries, and to have serpents flowing on his shoulders that erupted from his flesh. These serpents were said to require to feed on human sacrifices, otherwise would destroy Ahhak himself. He was the one with all sins, the opposite of absolute good. To the Atash Amesha, he is a heresy that must be purified by the burning Immortal Flame. For his sorceries, his followers call him Yatuanshah, King of Sorcery."),
+               new TextObject("{=!}Increased lifespan"),
+               new TextObject("{=!}Flowing Serpents King"),
+               500,
+               new TextObject(),
+               new TextObject());
+
             VineGoddess.Initialize(new TextObject("{=!}Ailatyn"),
                new TextObject("{=!}The Kannic goddess of war, wine, trade and love. Her cult goes back as far as the first Kannic colony by the Jade sea, and is the core of Kannic beliefs and practices. The goddess represents what others might call a hedonistic imperative, for all the pleasures man can have are assocaited with them: that of food, drink, love and killing. This imperative is interpreted by the Kannic as a legitimization of their ambition."),
                new TextObject("{=!}Improved trade penalties\nIncreased party morale"),
@@ -73,14 +88,38 @@ namespace BannerKings.CulturesExpanded.Religions
                new TextObject(),
                Settlement.All.First(x => x.StringId == "town_A9"));
 
+            SiriRam.Initialize(new TextObject("{=!}Tapna-Itt"), // "woman of the horns"
+               new TextObject("{=!}Tapna-Itt is represented by the Siri as a woman with ram horns. In her honor, the Tillik-Unnol, high shamaness and wisewoman of the Siri, wears a horned headwear. Tapna-Itt is associated with fertility and hunting. She is said to be often by the Aman, her presence a purifying force for the waters. Huntresses pray to her for bountiful game, as pure and ample water also means many a game to hunt down."),
+               new TextObject("{=!}Increased Siri livestock and agricultural village hearth growth"),
+               new TextObject("{=!}Ram-Goddess"),
+               300,
+               new TextObject(),
+               new TextObject());
+
             ImmortalFlame.Initialize(new TextObject("{=!}Atash Amesha"),
                new TextObject("{=!}The divine force of creation, the Immortal Flame is the fire of creation of the world. Like the flames of a forge, the world was forged by this force, according to the Darshi. A long Darshi literary tradition of poets and treatises describe many allegories around the Flame, the world and t he founding of the Darshianshahr. These texts are the basis of the Darshi theology, which revolves around the Atash. According to them, not unlike how the world was created, one day the Flame will cleanse the world, and a flood of molten metal will cleanse the earth."),
                new TextObject("{=!}Increased stability for Darshi fiefs{newline}Increased legitimacy for Darshi rulers"),
-               new TextObject("{=!}Divine Force"),
+               new TextObject("{=!}Greatest Yazata"),
                200,
                new TextObject(),
                new TextObject(),
                Settlement.All.First(x => x.StringId == "town_Darshi_1"));
+
+            DarshiWater.Initialize(new TextObject("{=!}Apas Suras"), //https://en.wikipedia.org/wiki/Anahita
+               new TextObject("{=!}The divine force of creation, the Immortal Flame is the fire of creation of the world. Like the flames of a forge, the world was forged by this force, according to the Darshi. A long Darshi literary tradition of poets and treatises describe many allegories around the Flame, the world and t he founding of the Darshianshahr. These texts are the basis of the Darshi theology, which revolves around the Atash. According to them, not unlike how the world was created, one day the Flame will cleanse the world, and a flood of molten metal will cleanse the earth."),
+               new TextObject("{=!}Increased stability for Darshi fiefs{newline}Increased legitimacy for Darshi rulers"),
+               new TextObject("{=!}Fertility Yazata"),
+               200,
+               new TextObject(),
+               new TextObject());
+
+            DarshiBattle.Initialize(new TextObject("{=!}Vahram"), //https://en.wikipedia.org/wiki/Verethragna
+               new TextObject("{=!}The divine force of creation, the Immortal Flame is the fire of creation of the world. Like the flames of a forge, the world was forged by this force, according to the Darshi. A long Darshi literary tradition of poets and treatises describe many allegories around the Flame, the world and t he founding of the Darshianshahr. These texts are the basis of the Darshi theology, which revolves around the Atash. According to them, not unlike how the world was created, one day the Flame will cleanse the world, and a flood of molten metal will cleanse the earth."),
+               new TextObject("{=!}Increased stability for Darshi fiefs{newline}Increased legitimacy for Darshi rulers"),
+               new TextObject("{=!}Victory Yazata"),
+               200,
+               new TextObject(),
+               new TextObject());
 
             Perkos.Initialize(new TextObject("{=qBT3wpBX}Pérkos, Thunder Wielder"),
                new TextObject("{=!}Once, there was naught between the Underworld, nested deep in the roots of the Great Oak, and the heavenly canopy of the gods. Pérkos struck the Great Tree's bark, and from it's sap, mankind blossomed. Such is the tale told by the Volkhvs of the Rodovera. The children of the forest, however, have a different tale. Nevertheless, both the Sturgian and Vakken faiths share the belief on the Thunder-Wielder, for long ago both tribes were closer kin than they are today."),

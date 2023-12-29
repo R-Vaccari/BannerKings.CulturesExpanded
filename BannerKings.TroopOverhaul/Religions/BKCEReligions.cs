@@ -20,6 +20,7 @@ namespace BannerKings.CulturesExpanded.Religions
         public Religion Rodovera { get; } = new Religion("rodovera");
         public Religion Siri { get; } = new Religion("siri");
         public Religion Kannic { get; } = new Religion("kannic");
+        public Religion Ahhak { get; } = new Religion("ahhak");
         public override IEnumerable<Religion> All
         {
             get
@@ -28,15 +29,15 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return Legionaries;
                 yield return Calradism;
                 yield return Osfeyd;
-                yield return AseraCode;
-                yield return SixWinds;
                 yield return Amra;
-                yield return Jumne;
-                yield return Rodovera;
-                yield return Treelore;
+                yield return AseraCode;
+                yield return Ahhak;
                 yield return ImmortalFlame;
+                yield return SixWinds;     
                 yield return Siri;
                 yield return Kannic;
+                yield return Jumne;
+                yield return Rodovera;
             }
         }
 
@@ -57,6 +58,12 @@ namespace BannerKings.CulturesExpanded.Religions
             var osrickin = Utils.Helpers.GetCulture("osrickin");
             var massa = Utils.Helpers.GetCulture("massa");
             var kannic = Utils.Helpers.GetCulture("kannic");
+
+            Ahhak.Initialize(BKCEFaiths.Instance.Ahhak,
+               new List<CultureObject>()
+               {
+                    darshi, khuzait
+               });
 
             Kannic.Initialize(BKCEFaiths.Instance.Kannic,
                new List<CultureObject>()

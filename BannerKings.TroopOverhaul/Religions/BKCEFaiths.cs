@@ -33,8 +33,9 @@ namespace BannerKings.CulturesExpanded.Religions
         public MonotheisticFaith Legionaries { get; } = new LegionariesSarapios();
         public PolytheisticFaith Jumne { get; } = new Jumne();
         public PolytheisticFaith Siri { get; } = new Siri();
-        public MonotheisticFaith ImmortalFlame { get; } = new ImmortalFlame();
+        public PolytheisticFaith ImmortalFlame { get; } = new ImmortalFlame();
         public PolytheisticFaith Kannic { get; } = new Kannic();
+        public PolytheisticFaith Ahhak { get; } = new Ahhakism();
 
         public override IEnumerable<Faith> All
         {
@@ -58,6 +59,27 @@ namespace BannerKings.CulturesExpanded.Religions
 
         public override void Initialize()
         {
+            Ahhak.Initialize(BKCEDivinities.Instance.Ahhak,
+                new List<Divinity>
+                {
+                },
+                new Dictionary<TraitObject, bool>
+                {
+                    {DefaultTraits.Mercy, false},
+                    {DefaultTraits.Honor, false},
+                    {BKTraits.Instance.Just, false}
+                },
+                BKCEFaithGroups.Instance.DarshiGroup,
+                new List<Doctrine>
+                {
+                    DefaultDoctrines.Instance.AncestorWorship,
+                    DefaultDoctrines.Instance.Esotericism,
+                    DefaultDoctrines.Instance.Literalism
+                },
+                new List<Rite>
+                {
+                });
+
             Kannic.Initialize(BKCEDivinities.Instance.VineGoddess,
                 new List<Divinity>
                 {
@@ -84,6 +106,7 @@ namespace BannerKings.CulturesExpanded.Religions
             Siri.Initialize(BKCEDivinities.Instance.GreatLion,
                 new List<Divinity>
                 {
+                    BKCEDivinities.Instance.SiriRam
                 },
                 new Dictionary<TraitObject, bool>
                 {
@@ -105,6 +128,8 @@ namespace BannerKings.CulturesExpanded.Religions
             ImmortalFlame.Initialize(BKCEDivinities.Instance.ImmortalFlame,
                 new List<Divinity>
                 {
+                    BKCEDivinities.Instance.DarshiWater,
+                    BKCEDivinities.Instance.DarshiBattle
                 },
                 new Dictionary<TraitObject, bool>
                 {
@@ -112,13 +137,13 @@ namespace BannerKings.CulturesExpanded.Religions
                     {DefaultTraits.Generosity, true},
                     {BKTraits.Instance.Just, true}
                 },
+                BKCEFaithGroups.Instance.DarshiGroup,
                 new List<Doctrine>
                 {
                     DefaultDoctrines.Instance.AncestorWorship,
                     DefaultDoctrines.Instance.Esotericism,
                     DefaultDoctrines.Instance.Literalism
-                },
-                BKCEFaithGroups.Instance.DarshiGroup,         
+                },           
                 new List<Rite>
                 {
                 });
@@ -126,6 +151,8 @@ namespace BannerKings.CulturesExpanded.Religions
             Jumne.Initialize(DefaultDivinities.Instance.GodsFate,
                 new List<Divinity>
                 {
+                    DefaultDivinities.Instance.Gundar,
+                    DefaultDivinities.Instance.Arkina
                 },
                 new Dictionary<TraitObject, bool>
                 {
