@@ -76,6 +76,13 @@ namespace BannerKings.CulturesExpanded.Models
                 {
                     baseResult.Add(0.06f, BKCEDivinities.Instance.Jinn.Name);
                 }
+
+                if (village.Settlement.Culture.StringId == "siri" &&
+                    BannerKingsConfig.Instance.ReligionsManager.HasBlessing(owner, BKCEDivinities.Instance.SiriRam, rel) &&
+                    (village.IsAnimalVillage() || village.IsFarmingVillage()))
+                {
+                    baseResult.Add(0.1f, BKCEDivinities.Instance.SiriRam.Name);
+                }
             }
 
             return baseResult;

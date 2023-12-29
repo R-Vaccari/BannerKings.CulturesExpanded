@@ -9,8 +9,6 @@ using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
-using SandBox;
-using TaleWorlds.SaveSystem.Load;
 using System.Collections.Generic;
 using System.Linq;
 using BannerKings.CulturesExpanded.CC;
@@ -34,6 +32,11 @@ namespace BannerKings.CulturesExpanded
             campaignStarter.AddModel(new BKCELoyaltyModel());
             campaignStarter.AddModel(new BKCEProsperityModel());
             campaignStarter.AddModel(new BKCEVolunteerModel());
+            campaignStarter.AddModel(new BKCEPartySpeedModel());
+            campaignStarter.AddModel(new BKCEDeathModel());
+            campaignStarter.AddModel(new BKCEPartyHealingModel());
+            campaignStarter.AddModel(new BKCEPartyMorale());
+            campaignStarter.AddModel(new BKCEPriceModel());
 
             BannerKingsConfig.Instance.AddInitializer(BKTORecruitSpawns.Instance);
             BannerKingsConfig.Instance.AddInitializer(BKCEPopulationNames.Instance);
@@ -47,6 +50,7 @@ namespace BannerKings.CulturesExpanded
 
             BannerKingsConfig.Instance.CultureModel = new BKCECultureModel();
             BannerKingsConfig.Instance.ReligionModel = new BKCEReligionModel();
+            BannerKingsConfig.Instance.LegitimacyModel = new BKCELegitimacyModel();
 
             BannerKingsConfig.Instance.TitlesGeneratorPath = BasePath.Name + "Modules/BannerKings.CulturesExpanded/ModuleData/titles.xml";
         }
@@ -68,11 +72,6 @@ namespace BannerKings.CulturesExpanded
             {
                 MBGameManager.StartNewGame(new BKCEGameManager());
             }, () => new ValueTuple<bool, TextObject>(Module.CurrentModule.IsOnlyCoreContentEnabled, new TextObject("{=V8BXjyYq}Disabled during installation."))));
-        }
-
-        private void StartGame(LoadResult loadResult)
-        {
-            MBGameManager.StartNewGame(new SandBoxGameManager(loadResult));
         }
     }
 }

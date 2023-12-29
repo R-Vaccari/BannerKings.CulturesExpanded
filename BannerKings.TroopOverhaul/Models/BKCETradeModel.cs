@@ -21,7 +21,6 @@ namespace BannerKings.CulturesExpanded.Models
                         result.AddFactor(-0.1f);
                     }
                 }
-               
             }
 
             return result.ResultNumber;
