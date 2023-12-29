@@ -85,13 +85,17 @@ namespace BannerKings.CulturesExpanded.Religions
             return new TextObject("{=!}Set sail and take up on the sword. Conquer thy fate as the gods instruct us.[if:convo_excited]");
         }
 
-        public override TextObject GetClergyPreachingAnswer(int rank) => new TextObject("{=!}Folks come to me to hear of our Truva, passed on to us by our ancestors.");
+        public override TextObject GetClergyPreachingAnswer(int rank) 
+            => new TextObject("{=!}Folks come to me to hear of our Truva, passed on to us by our ancestors. We uphold their way, and that of the gods. What way, you may ask? Simple: havest thou heard the saga of Gundar?");
 
-        public override TextObject GetClergyPreachingAnswerLast(int rank) => new TextObject("{=!}");
+        public override TextObject GetClergyPreachingAnswerLast(int rank) 
+            => new TextObject("{=!}Gundar came to this continent and conquered his part of the world. That is our way. To take what is ours. We do it, because the gods allow it. And the gods allow it to those with the resolve to do so. Our venture is holy, and our success proves it.");
 
-        public override TextObject GetClergyProveFaith(int rank) => new TextObject("{=!}If thou wishest to prove thyself, do as our ancestors did. Set sail to lands far, found a dynasty, and most of all, achieve conquest over thy enemies. To fight is to prove thy faith - that is the only way thou wilt know what fate the gods have weaved for thee.");
+        public override TextObject GetClergyProveFaith(int rank) => 
+            new TextObject("{=!}If thou wishest to prove thyself, do as our ancestors did. Set sail to lands far, found a dynasty, and most of all, achieve conquest over thy enemies. To fight is to prove thy faith - that is the only way thou wilt know what fate the gods have weaved for thee.");
 
-        public override TextObject GetClergyProveFaithLast(int rank) => new TextObject("{=!}");
+        public override TextObject GetClergyProveFaithLast(int rank) => 
+            new TextObject("{=!}Thy actions shall be how the gods judge thee.");
         
         public override TextObject GetFaithDescription() => new TextObject("{=!}Far north, where the land is frozen water, lies the realm of the giants. The gods once fought them, slaying their master and creating the land for man. The Great Oak they say, much like some native Calradian beliefs, is where all life blossoms. From dark corners and depths, evil forces continuously try to unroot the Oak. Among these stands out Ásbani, the God-Devouring Serpent.{newline}The Jumne believe the gods reward the virtuous with bountiful fate. That is how they justify invading and conquering foreign lands - if they won, it is because the gods wished so, and so their exploits were justified. As such, great heroes and conquerors are, within Jumne tradition, annointed as quasi-divine figures. Their beliefs have flourished within the Sturgian realm, whose nobility has been gradually being replaced or assimilated by Jumne descendants. Among them stands out the ruling dynasty itself, Gundavoring, the descendants of the Jumne hero Gundar.");
 
