@@ -42,6 +42,7 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return Ahhak;
                 yield return DarshiWater; 
                 yield return DarshiBattle;
+                yield return SiriRam;
             }
         }
 

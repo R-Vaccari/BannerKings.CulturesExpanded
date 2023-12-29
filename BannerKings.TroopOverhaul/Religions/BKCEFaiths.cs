@@ -54,6 +54,7 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return ImmortalFlame;
                 yield return Siri;
                 yield return Kannic;
+                yield return Ahhak;
             }
         }
 
