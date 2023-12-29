@@ -11,7 +11,7 @@ namespace BannerKings.CulturesExpanded.Religions
     public class Kannic : PolytheisticFaith
     {
         public override Settlement FaithSeat => Settlement.All.First(x => x.StringId == "town_Kanic_1");
-        public override Banner GetBanner() => new Banner("11.162.166.1528.1528.764.764.1.0.0.10134.212.116.400.400.755.755.0.0.0");
+        public override Banner GetBanner() => new Banner("11.149.19.1836.1836.779.782.1.0.-30.519.8.116.200.200.764.764.0.0.0.504.8.116.78.355.764.629.0.0.0.504.8.116.78.255.854.674.0.0.-44.504.8.116.78.255.674.854.0.0.135.504.8.116.78.255.674.674.0.0.48.504.8.116.78.255.853.854.0.0.-132.504.8.116.78.355.899.764.0.0.-91.504.8.116.78.355.629.764.0.0.90.504.8.116.78.354.764.899.0.0.180.450.128.116.129.129.764.764.0.0.0");
 
         public override TextObject GetBlessingAction() => new TextObject("{=!}I would like to be blessed by the gods.");
 
@@ -33,7 +33,7 @@ namespace BannerKings.CulturesExpanded.Religions
                 return new TextObject("{=!}Thy teachings of Asera, of course! Your kind has corruped our Politeia, pillaging our colonies and teaching thy false prophecies.");
             }
 
-            return new TextObject("{=!}");
+            return new TextObject("{=!}There is little the goddess prohibits, for to take our enemies down, we must be ready to do what it takes. Others preach for humility, generosity - nonsense! Where would we be if we lived not by waging war and bankrupting our enemies?");
         }
 
         public override TextObject GetClergyForbiddenAnswerLast(int rank)
@@ -43,7 +43,7 @@ namespace BannerKings.CulturesExpanded.Religions
                 return new TextObject("{=!}Return to thy hut in the desert, your ancestral home. You, the Aserai, have too long sullied our once pristine cities.");
             }
 
-            return new TextObject("{=!}");
+            return new TextObject("{=!}Yet, to be one of the Aserai is a great insult to her. The Nahawasi dogs have sullied our pristine cities, and taken down the statues of the goddess, together with the Calradoi, who hated our dominance over the seas. But the goddess hsa taught us ambition. There is much to reclaim, and no quarter to give...");
         }
 
         public override TextObject GetClergyGreeting(int rank)
