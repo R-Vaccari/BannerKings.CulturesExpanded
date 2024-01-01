@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster
+		id="mother_char_creation_0_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_0_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_1_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_1_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.TV_vlandia_shoulders_b2" />
+			<Equipment
+				slot="Body"
+				id="Item.AR_vlandia_lamellar_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.TV_vlandia_boots_b" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_2_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_2_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_3_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_3_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="player_char_creation_show_bragantia"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+			<Equipment
+				slot="Item1"
+				id="Item.vlandia_sword_1_t2" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="player_char_creation_bragantia_1_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_1_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_bragantia_2_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_2_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_bragantia_3_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_3_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_bragantia_4_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_4_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_bragantia_5_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_5_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_bragantia_6_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_6_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_bragantia_9_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_9_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_bragantia_10_m"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_bragantia_10_f"
+		culture="Culture.bragantia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_heater_shield" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+
+</EquipmentRosters>

@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<EquipmentRoster
+		id="mother_char_creation_0_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_0_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.AR_vlandia_armor_g" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_1_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_1_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Cape"
+				id="Item.TV_vlandia_shoulders_h" />
+			<Equipment
+				slot="Body"
+				id="Item.TV_vlandia_armor_r" />
+			<Equipment
+				slot="Leg"
+				id="Item.mail_chausses" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_2_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_2_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.AR_vlandia_armor_g" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_3_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.vlandian_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_3_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.AR_vlandia_armor_g" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="player_char_creation_show_balion"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.AR_vlandia_armor_g" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+			<Equipment
+				slot="Item1"
+				id="Item.vlandia_sword_1_t2" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.AR_vlandia_armor_g" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="player_char_creation_balion_1_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_1_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_balion_2_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_2_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_balion_3_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_3_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_balion_4_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_4_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_balion_5_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_5_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_balion_6_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_6_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_balion_9_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_9_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_balion_10_m"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_balion_10_f"
+		culture="Culture.balion">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_shield_infantry_d" />
+			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Item2" id="Item.western_spear_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g" />
+			<Equipment slot="Cape" id="Item.female_scarf" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+
+</EquipmentRosters>

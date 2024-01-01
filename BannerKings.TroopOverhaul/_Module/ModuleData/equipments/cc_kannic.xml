@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+
+
+	<EquipmentRoster
+		id="mother_char_creation_0_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_villager_female_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_0_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.exomis_3" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="mother_char_creation_1_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_villager_female_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_1_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+		    <Equipment slot="Item2" id="Item.bk_kanic_sword_t5" />
+			<Equipment slot="Head" id="Item.phrygian_6" />
+			<Equipment slot="Body" id="Item.greek_musculata_2" />
+			<Equipment slot="Leg" id="Item.bronze_greaves_dual_2" />
+			<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_e" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mother_char_creation_2_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_villager_female_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_2_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.exomis_4" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="mother_char_creation_3_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.aserai_villager_female_dress" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="father_char_creation_3_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_carthage_tunic_a" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="player_char_creation_show_kannic"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.cts_carthage_tunic_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.cts_carthage_tunic_b" />
+			<Equipment
+				slot="Leg"
+				id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+
+	<EquipmentRoster
+		id="player_char_creation_kannic_1_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_1_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_kannic_2_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_2_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_kannic_3_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_3_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_kannic_4_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_4_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_kannic_5_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_5_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_kannic_6_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_6_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_kannic_9_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_9_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+	
+	<EquipmentRoster
+		id="player_char_creation_kannic_10_m"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster
+		id="player_char_creation_kannic_10_f"
+		culture="Culture.kannic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.cts_carthage_republic_shield_a2" />
+			<Equipment slot="Item1" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Item2" id="Item.imperial_spear_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+			<Equipment slot="Horse" id="Item.sumpter_horse" />
+			<Equipment slot="HorseHarness" id="Item.aseran_village_harness" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment slot="Item0" id="Item.southern_small_axe_t2" />
+			<Equipment slot="Body" id="Item.cts_carthage_tunic_a" />
+			<Equipment slot="Cape" id="Item.scarf" />
+			<Equipment slot="Leg" id="Item.cts_roman_sandals_a" />
+		</EquipmentSet>
+	</EquipmentRoster> 
+
+</EquipmentRosters>
