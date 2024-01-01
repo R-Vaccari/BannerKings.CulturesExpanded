@@ -4,7 +4,7 @@
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd">
 	<Id value="BannerKings.CulturesExpanded" />
 	<Name value="BannerKings - Cultures Expanded" />
-	<Version value="v1.0.0" />
+	<Version value="v1.0.1" />
 	<Official value="false" />
 	<DefaultModule value="true" />
 	<ModuleCategory value="Singleplayer" />
