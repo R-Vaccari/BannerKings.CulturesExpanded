@@ -42,6 +42,12 @@ namespace BannerKings.CulturesExpanded.Patches
                 dic.Add(cultures.First(x => x.StringId == BannerKingsConfig.BattaniaCulture),
                     "<BodyProperties version='4' age='25.84' weight='0.5000' build='0.5000'  key='000000058000200D79766434475CDCBAC34E866255A096777441DA49838BF6A50F7776F20BA7B7A500000000000000000000000000000000000000003CFC0002'/>");
 
+                dic.Add(cultures.First(x => x.StringId == "balion"),
+                    "<BodyProperties version='4' age='22.12' weight='0.5' build='0.5'  key='000A600800003004BA478A1C6585B8B57AAB788C8578874555B29832874A693C00777603072DA68200000000000000000000000000000000000000003EFC1042'  />");
+                dic.Add(cultures.First(x => x.StringId == "bragantia"),
+                    "<BodyProperties version='4' age='22.12' weight='0.5' build='0.5'  key='000A600800003004BA478A1C6585B8B57AAB788C8578874555B29832874A693C00777603072DA68200000000000000000000000000000000000000003EFC1042'  />");
+                dic.Add(cultures.First(x => x.StringId == "kannic"),
+                    "<BodyProperties version='4' age='22.12' weight='0.5' build='0.5'  key='001EA80D8000100EA856B79A98C4983BA5638966589AAD689A67426959A88A170077760307776A67000000000000000000000000000000000000000042F41042'  />");
                 dic.Add(cultures.First(x => x.StringId == "darshi"),
                     "<BodyProperties version='4' age='22.12' weight='0.5' build='0.5'  key='001EA80D8000100EA856B79A98C4983BA5638966589AAD689A67426959A88A170077760307776A67000000000000000000000000000000000000000042F41042'  />");
                 dic.Add(cultures.First(x => x.StringId == "siri"),

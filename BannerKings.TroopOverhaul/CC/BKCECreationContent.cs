@@ -18,11 +18,14 @@ namespace BannerKings.CulturesExpanded.CC
             AddAgeSelectionMenu(characterCreation);
 
             _startingPoints.Add("siri", new Vec2(385.5405f, 53.993f));
-            _startingPoints.Add("darshi", new Vec2(764.147f, 147.43f));
+            _startingPoints.Add("darshi", new Vec2(765.1729f, 150.5149f));
             _startingPoints.Add("geroia", new Vec2(478.6044f, 217.9456f));
-            _startingPoints.Add("nord", new Vec2(172.637f, 589.918f));
-            _startingPoints.Add("massa", new Vec2(193.524f, 185.269f));
-            _startingPoints.Add("vakken", new Vec2(640.26f, 625.285f));
+            _startingPoints.Add("nord", new Vec2(170.9158f, 587.5662f));
+            _startingPoints.Add("massa", new Vec2(191.1839f, 181.5139f));
+            _startingPoints.Add("vakken", new Vec2(642.2234f, 624.5721f));
+            _startingPoints.Add("kannic", new Vec2(262.9534f, 263.2021f));
+            _startingPoints.Add("balion", new Vec2(61.83505f, 334.9693f));
+            _startingPoints.Add("bragantia", new Vec2(61.83505f, 334.9693f));
         }
 
         protected new void AddParentsMenu(CharacterCreation characterCreation) 
@@ -144,7 +147,7 @@ namespace BannerKings.CulturesExpanded.CC
                 true,
                 true),
                 (CharacterCreation characterCreation) => FinalizeParents(),
-                new TextObject("{=!}Your father served as a Herbad to the Atash Amesha - the faith of the Darshi. He taught your writting and literature, specially by means of the holy poetry of the Atash.", null),
+                new TextObject("{=!}Your father served as a Herbad to the Atashyasna - the faith of the Darshi. He taught you writting and literature, specially by means of the holy poetry of the Atash.", null),
                 null,
                 0,
                 0,
@@ -598,6 +601,276 @@ namespace BannerKings.CulturesExpanded.CC
                 0,
                 0,
                 0);
+
+            CharacterCreationCategory balionCategory = menu
+              .AddMenuCategory(new CharacterCreationOnCondition(BalionCondition));
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.Athletics,
+                DefaultSkills.TwoHanded
+            };
+            effectedAttribute = DefaultCharacterAttributes.Vigor;
+            balionCategory.AddCategoryOption(new TextObject("{=!}Huscarl", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                1,
+                OccupationTypes.Retainer,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your father served as one of the Huscarls, the companions of Balion aristocrats. He taught you athleticism and the way of long ax.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.Athletics,
+                DefaultSkills.Polearm
+            };
+            effectedAttribute = DefaultCharacterAttributes.Endurance;
+            balionCategory.AddCategoryOption(new TextObject("{=!}Tenants", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                2,
+                OccupationTypes.Farmer,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your parents were typical Balion tenant farms. On your youth, you tended to the farm and farm animals, scaring off predators with your father's spear.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.Trade,
+                DefaultSkills.OneHanded
+            };
+            effectedAttribute = DefaultCharacterAttributes.Social;
+            balionCategory.AddCategoryOption(new TextObject("{=!}Merchants", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                3,
+                OccupationTypes.Merchant,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your parents were sea traders. Their trips often took them between Balion and Calradia, bringing wine, silks and olives to your homeland. Due to Jumne raiders spread out across the trade routes, your father taught you how to defend yourself.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            CharacterCreationCategory bragantiaCategory = menu
+             .AddMenuCategory(new CharacterCreationOnCondition(BiscaniaCondition));
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.OneHanded,
+                DefaultSkills.Throwing
+            };
+            effectedAttribute = DefaultCharacterAttributes.Vigor;
+            bragantiaCategory.AddCategoryOption(new TextObject("{=!}Mesnadeiro", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                1,
+                OccupationTypes.Retainer,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your father served as one of the Mesnadeiros, companions to the isle lords. He taught you in the way of fighting, specially ship deck fighting.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.Athletics,
+                DefaultSkills.Polearm
+            };
+            effectedAttribute = DefaultCharacterAttributes.Endurance;
+            bragantiaCategory.AddCategoryOption(new TextObject("{=!}Cattle Raisers", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                2,
+                OccupationTypes.Farmer,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your parents were typical cattle raises of the Biscanian islands. The lush grassy hills and mild weather have long sustained this tradition.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.Trade,
+                DefaultSkills.Crafting
+            };
+            effectedAttribute = DefaultCharacterAttributes.Social;
+            bragantiaCategory.AddCategoryOption(new TextObject("{=!}Merchants", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                3,
+                OccupationTypes.Merchant,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your parents were sea traders and artisans. They traded often at the port city of Bragantja, where trade routes from all directions converge.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            CharacterCreationCategory kannicCategory = menu
+             .AddMenuCategory(new CharacterCreationOnCondition(KannicCondition));
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.OneHanded,
+                DefaultSkills.Polearm
+            };
+            effectedAttribute = DefaultCharacterAttributes.Vigor;
+            kannicCategory.AddCategoryOption(new TextObject("{=!}Citizen Militia", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                1,
+                OccupationTypes.Retainer,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your father was part of the citizen class, a high class within Kannic society. He served with the citizen militia as a hoplite, and taught you the basics of Kannic warfare.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.Crafting,
+                DefaultSkills.Steward
+            };
+            effectedAttribute = DefaultCharacterAttributes.Intelligence;
+            kannicCategory.AddCategoryOption(new TextObject("{=!}Urban Artisans", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                2,
+                OccupationTypes.Artisan,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your parents were part of the lively manufacting economy within Lys. They taught you craftsmanship and how to take care of your assets.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
+
+            effectedSkills = new MBList<SkillObject>
+            {
+                DefaultSkills.Trade,
+                DefaultSkills.Athletics
+            };
+            effectedAttribute = DefaultCharacterAttributes.Social;
+            kannicCategory.AddCategoryOption(new TextObject("{=!}Merchants", null),
+                effectedSkills,
+                effectedAttribute,
+                FocusToAdd,
+                SkillLevelToAdd,
+                AttributeLevelToAdd,
+                null,
+                (CharacterCreation characterCreation) => SetParentAndOccupationType(characterCreation,
+                3,
+                OccupationTypes.Merchant,
+                "",
+                "",
+                true,
+                true),
+                (CharacterCreation characterCreation) => FinalizeParents(),
+                new TextObject("{=!}Your parents were itinerary traders, travelling much of Calradia in search of profit. You accompanied them and learned how to endure the trips and make the best profit.", null),
+                null,
+                0,
+                0,
+                0,
+                0,
+                0);
         }
 
         protected bool MassaCondition() => GetSelectedCulture().StringId == "massa";
@@ -606,5 +879,8 @@ namespace BannerKings.CulturesExpanded.CC
         protected bool GeroiaCondition() => GetSelectedCulture().StringId == "geroia";
         protected bool NordCondition() => GetSelectedCulture().StringId == "nord";
         protected bool VakkenCondition() => GetSelectedCulture().StringId == "vakken";
+        protected bool BiscaniaCondition() => GetSelectedCulture().StringId == "bragantia";
+        protected bool BalionCondition() => GetSelectedCulture().StringId == "balion";
+        protected bool KannicCondition() => GetSelectedCulture().StringId == "kannic";
     }
 }
