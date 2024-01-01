@@ -114,6 +114,7 @@ namespace BannerKings.CulturesExpanded.Goals
                 options,
                 true,
                 1,
+                1,
                 GameTexts.FindText("str_done").ToString(),
                 GameTexts.FindText("str_cancel").ToString(),
                 delegate (List<InquiryElement> selectedOptions)
