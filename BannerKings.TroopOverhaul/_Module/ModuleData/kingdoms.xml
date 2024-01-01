@@ -7,11 +7,12 @@
 		  settlement_banner_mesh="encounter_flag_f" 
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Darshianshahr" 
-		  short_name="{=!}darshianshahr" 
+		  short_name="{=!}Darshi" 
 		  title="{=!}Darshianshahr"
 		  ruler_title="{=|}" 
 		  text="{=!}">
     <relationships>
+	  <relationship kingdom="Kingdom.empire_s" value="1" isAtWar="false" />
       <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
     </relationships>
   </Kingdom>
@@ -24,13 +25,31 @@
 		  culture="Culture.massa" 
 		  settlement_banner_mesh="encounter_flag_c" 
 		  flag_mesh="info_screen_flags_a" 
-		  name="{=!}Masso Ufarreiki" 
-		  short_name="{=!}masso Ufarreiki" 
+		  name="{=!}Massa" 
+		  short_name="{=!}Massa" 
 		  title="{=!}Masso Ufarreiki"
+		  ruler_title="{=!}" 
+		  text="{=!}The realm of the Massa was stablished in the last decades. Originally a Wilunding nomadic tribe, the Massa came to the continent for the promises of land and wealth. Due to their destructive nature, constant attriction with other Wilunding tribes led to the Massa once again embarking on a journey for new lands. As the east was blocked off by the stone walls of the Calradoi, the Massa rode south, over the water, to a land of everlasting green unlike anything they had seen before.">
+    <relationships>
+      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+    </relationships>
+  </Kingdom>
+  
+   <Kingdom id="bragantia" owner="Hero.bk_bragantia_1" 
+		  banner_key="8.159.22.1528.1528.764.764.1.0.0.316.123.171.483.483.764.764.1.0.0.125.143.116.281.296.755.777.1.0.0" 
+		  primary_banner_color="0xff198304" 
+		  secondary_banner_color="0xff9E2007" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.massa" 
+		  settlement_banner_mesh="encounter_flag_c" 
+		  flag_mesh="info_screen_flags_a" 
+		  name="{=!}Bragantja" 
+		  short_name="{=!}Bragantja" 
+		  title="{=!}Condado de Bragantja"
 		  ruler_title="{=!}" 
 		  text="{=!}">
     <relationships>
-      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+      <relationship kingdom="Kingdom.massa" value="1" isAtWar="false" />
     </relationships>
   </Kingdom>
   
@@ -42,13 +61,46 @@
 		  culture="Culture.kannic" 
 		  settlement_banner_mesh="encounter_flag_c" 
 		  flag_mesh="info_screen_flags_a" 
-		  name="{=!}Kannic Politeia" 
-		  short_name="{=!}kannic Politeia" 
+		  name="{=!}Kannic" 
+		  short_name="{=!}Kannic" 
 		  title="{=!}Kannic Politeia"
+		  ruler_title="{=!}" 
+		  text="{=!}The Kannic have ruled over the shores of the Perassic and Jade seas long before the advent of the Nahawasi confederation. Their ships, adorned with the vines of their Goddess, at first held hegemon over the seas. With the rise of the Calradoi, their trading ships were replaced by war triremes, and for centuries both forces fought over absolute control of trade routes. Weakened by the might of the Calradoi, the Kannic lost control over their colonies, now city-states independent of a larger Kannic politeia. The Nahawasi, with the support of the Calradoi, overthrew many such colonies, taking that which they could not build themselves. Today, the Eshorid remain the strongest bastion of the Kannic legacy, and lay claim to the entire southern coast as rightful domain of the Kannic.">
+    <relationships>
+      <relationship kingdom="Kingdom.massa" value="1" isAtWar="false" />
+    </relationships>
+  </Kingdom>
+  
+  <Kingdom id="urik_thegndom" owner="Hero.bk_jumne_4" 
+		  banner_key="11.227.40.2000.2000.768.746.0.0.0.10087.127.116.402.403.755.755.1.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.nord" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Thegndómr af Urikshal" 
+		  short_name="{=!}Thegndómr af Urikshal" 
+		  title="{=!}Thegndómr af Urikshal"
+		  ruler_title="{=!}" 
+		  text="{=!}">
+  </Kingdom>
+  
+  <Kingdom id="byal_thegndom" owner="Hero.bk_jumne_5" 
+		  banner_key="12.226.35.1528.1528.764.764.1.0.0.307.148.116.400.400.884.755.1.1.324.307.148.116.400.400.660.755.1.0.44.332.207.116.400.400.755.755.1.0.0" 
+		  primary_banner_color="0xff1B5840" 
+		  secondary_banner_color="0xffE8EEEB" label_color="FF850C6D" color="FF674A73" color2="FFDFC8A3" alternative_color="FFffffff" 
+		  alternative_color2="FF660653" 
+		  culture="Culture.nord" 
+		  settlement_banner_mesh="encounter_flag_a" 
+		  flag_mesh="info_screen_flags_b" 
+		  name="{=!}Thegndómr af Byalakort" 
+		  short_name="{=!}Byalakort" 
+		  title="{=!}Thegndómr af Byalakort"
 		  ruler_title="{=!}" 
 		  text="{=!}">
     <relationships>
-      <relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true" />
+      <relationship kingdom="Kingdom.urik_thegndom" value="1" isAtWar="false" />
     </relationships>
   </Kingdom>
   
@@ -60,8 +112,8 @@
 		  settlement_banner_mesh="encounter_flag_a" 
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Jarldómr af Ebor" 
-		  short_name="{=!}Jarldómr af Ebor" 
-		  title="{=!}jarldómr af Ebor"
+		  short_name="{=!}Ebor" 
+		  title="{=!}Jarldómr af Ebor"
 		  ruler_title="{=!}" 
 		  text="{=!}">
   </Kingdom>
@@ -76,9 +128,12 @@
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Pólis tou Zendar" 
 		  short_name="{=!}Zendar" 
-		  title="{=!}pólis tou Zendar"
+		  title="{=!}Pólis tou Zendar"
 		  ruler_title="{=!}" 
 		  text="{=!}">
+    <relationships>
+      <relationship kingdom="Kingdom.battania" value="1" isAtWar="false" />
+    </relationships>
   </Kingdom>
   
   <Kingdom id="vakken_barony_1" owner="Hero.bk_vakken_1" 
@@ -91,9 +146,12 @@
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Vuulinnan Vapaaherrakunta" 
 		  short_name="{=!}Vuulinna" 
-		  title="{=!}vuulinnan Vapaaherrakunta"
+		  title="{=!}Vuulinnan Vapaaherrakunta"
 		  ruler_title="{=!}" 
 		  text="{=!}">
+	<relationships>
+      <relationship kingdom="Kingdom.sturgia" value="1" isAtWar="false" />
+    </relationships>
   </Kingdom>
   
   <Kingdom id="vakken_barony_2" owner="Hero.bk_vakken_2" 
@@ -106,9 +164,12 @@
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Kuravan Vapaaherrakunta" 
 		  short_name="{=!}Kurava" 
-		  title="{=!}kuravan Vapaaherrakunta"
+		  title="{=!}Kuravan Vapaaherrakunta"
 		  ruler_title="{=!}" 
 		  text="{=!}">
+    <relationships>
+      <relationship kingdom="Kingdom.sturgia" value="1" isAtWar="false" />
+    </relationships>
   </Kingdom>
   
   <Kingdom id="vakken_barony_3" owner="Hero.bk_vakken_3" 
@@ -121,9 +182,12 @@
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Karalinnan Vapaaherrakunta" 
 		  short_name="{=!}Karalinna" 
-		  title="{=!}karalinnan Vapaaherrakunta"
+		  title="{=!}Karalinnan Vapaaherrakunta"
 		  ruler_title="{=!}" 
 		  text="{=!}">
+    <relationships>
+      <relationship kingdom="Kingdom.sturgia" value="1" isAtWar="false" />
+    </relationships>
   </Kingdom>
   
   <Kingdom id="siri" owner="Hero.bk_siri_1" banner_key="35.97.40.1528.1528.764.764.1.0.0.143.171.96.483.483.764.764.1.0.0" 
@@ -135,7 +199,7 @@
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Siri Queendom" 
 		  short_name="{=!}Siri" 
-		  title="{=!}siri Queendom"
+		  title="{=!}Siri Queendom"
 		  ruler_title="{=!}" 
 		  text="{=!}">
   </Kingdom>
@@ -148,8 +212,8 @@
 		  settlement_banner_mesh="encounter_flag_a" 
 		  flag_mesh="info_screen_flags_b" 
 		  name="{=!}Geroiako Ducxate" 
-		  short_name="{=!}Geroiako Ducxate" 
-		  title="{=!}geroiako Ducxate"
+		  short_name="{=!}Geroia" 
+		  title="{=!}Geroiako Ducxate"
 		  ruler_title="{=!}" 
 		  text="{=!}">
   </Kingdom>
