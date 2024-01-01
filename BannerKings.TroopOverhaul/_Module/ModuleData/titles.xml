@@ -16,6 +16,9 @@
 				<county settlement="town_V5" deJure="lord_4_1">
 					<barony settlement="castle_V2" deJure="lord_4_27" />
 				</county>
+				<county settlement="town_Isles" deJure="bk_bragantia_1">
+					<barony settlement="castle_Isles" deJure="bk_bragantia_1" />
+				</county>
 			</duchy>
 			<duchy name="{=VkkdAZ6s}Paravenon" deJure="lord_4_3">
 				<county settlement="town_V3" deJure="lord_4_3">
@@ -33,6 +36,23 @@
 				<county settlement="town_V8" deJure="bk_jumne_2">
 					<barony settlement="castle_V5" deJure="bk_jumne_1" />
 				</county>
+			</duchy>
+		</kingdom>
+		
+		<kingdom faction="massa" government="Tribal" succession="WilundingElective" inheritance="Seniority" genderLaw="Agnatic" deJure="bk_massa_1">
+			<duchy name="{=!}Niuja Landa" deJure="bk_massa_1">
+				<county settlement="town_Massa_2" deJure="bk_massa_1"/>
+				<county settlement="town_Massa_1" deJure="bk_massa_2"/>
+			</duchy>
+		</kingdom>
+		
+		<kingdom faction="geroia" government="Republic" succession="Republic" inheritance="Seniority" genderLaw="Agnatic" deJure="bk_geroia_1">
+			<duchy name="{=!}Geroia" deJure="bk_geroia_1">
+				<county settlement="town_Geroia_2" deJure="bk_geroia_1">
+					<barony settlement="castle_Geroia_1" deJure="bk_geroia_1" />
+				</county>
+				<county settlement="town_Geroia_1" deJure="bk_geroia_3"/>
+				<county settlement="town_Geroia_3" deJure="bk_geroia_2"/>
 			</duchy>
 		</kingdom>
 
@@ -184,40 +204,81 @@
 				</county>
 			</duchy>
 		</kingdom>
-
-
-		<kingdom faction="aserai" government="Tribal" succession="AseraiElective" inheritance="Primogeniture" genderLaw="Agnatic" deJure="lord_3_1">
-			<duchy name="{=HPbbd80j}Perassia" deJure="lord_3_1">
+		
+		<kingdom faction="kannic" government="Republic" succession="Republic" inheritance="Primogeniture" genderLaw="Agnatic" deJure="bk_kannic_1">
+			<duchy name="{=!}Lys" deJure="bk_kannic_1">
 				<county settlement="town_A1" deJure="lord_3_1">
-					<barony settlement="castle_A1" deJure="lord_3_1" />
-				</county>
-				<county settlement="town_A6" deJure="lord_3_1">
 					<barony settlement="castle_A7" deJure="lord_3_19" />
-					<barony settlement="castle_A3" deJure="lord_3_19" />
+				</county>
+				<county settlement="town_Kanic_1" deJure="bk_kannic_1">
+					<barony settlement="castle_A1" deJure="bk_kannic_2" />
 				</county>
 			</duchy>
+		</kingdom>
+		
+		<kingdom faction="aserai" government="Tribal" succession="AseraiElective" inheritance="Primogeniture" genderLaw="Agnatic" deJure="lord_3_1">
 			<duchy name="{=1sClYUoR}Jarjarys" deJure="lord_3_16">
 				<county settlement="town_A7" deJure="lord_3_17">
 					<barony settlement="castle_A9" deJure="lord_A9_l" />
 				</county>
 				<county settlement="town_A3" deJure="lord_3_16">
-					<barony settlement="castle_A5" deJure="lord_3_16" />
+					<barony settlement="castle_A3" deJure="lord_3_19" />
 				</county>
 			</duchy>
-			<duchy name="{=cRAddvoP}Retana" deJure="lord_3_5">
+			<duchy name="{=HPbbd80j}Perassia" deJure="lord_3_1">
 				<county settlement="town_A8" deJure="lord_3_18">
-					<barony settlement="castle_A4" deJure="lord_3_3" />
+					<barony settlement="castle_A5" deJure="lord_3_16" />
 				</county>
-				<county settlement="town_A5" deJure="lord_3_5">
-					<barony settlement="castle_A2" deJure="lord_3_5" />
+				<county settlement="town_A6" deJure="lord_3_1">
+					<barony settlement="castle_A4" deJure="lord_3_3" />
 				</county>
 			</duchy>
 			<duchy name="{=AJxv9Eqo}Caldea" deJure="lord_3_3">
 				<county settlement="town_A4" deJure="lord_3_3">
 					<barony settlement="castle_A8" deJure="lord_3_22" />
 				</county>
-				<county settlement="town_A2" deJure="lord_3_3">
+				<county settlement="town_A2" deJure="bk_fulq_1">
 					<barony settlement="castle_A6" deJure="lord_3_5" />
+				</county>
+			</duchy>
+		</kingdom>
+		
+		<kingdom faction="darshi" government="Feudal" succession="Hereditary" inheritance="Primogeniture" genderLaw="Agnatic" deJure="bk_darshi_1_1">
+			<duchy name="{=!}Kugabak" deJure="bk_darshi_1_1">
+				<county settlement="town_Darshi_1" deJure="bk_darshi_1_1">
+					<barony settlement="castle_Darshi_6" deJure="bk_darshi_1_1" />
+				</county>
+				<county settlement="town_Darshi_4" deJure="bk_darshi_1_5">
+					<barony settlement="castle_Darshi_7" deJure="bk_darshi_10_1" />
+					<barony settlement="castle_Darshi_4" deJure="bk_darshi_1_5" />
+				</county>
+			</duchy>
+			<duchy name="{=!}Teyagh" deJure="bk_darshi_1_2">
+				<county settlement="town_Darshi_5" deJure="bk_darshi_1_2">
+					<barony settlement="castle_Darshi_5" deJure="bk_darshi_1_6" />
+				</county>
+				<county settlement="town_Darshi_3" deJure="bk_darshi_1_4">
+					<barony settlement="castle_Darshi_3" deJure="bk_darshi_1_1" />
+				</county>
+				<county settlement="town_Darshi_6" deJure="bk_darshi_1_2"/>
+			</duchy>
+			<duchy name="{=!}Ashaba" deJure="bk_darshi_1_3">
+				<county settlement="town_Darshi_2" deJure="bk_darshi_1_3">
+					<barony settlement="castle_Darshi_2" deJure="bk_darshi_1_7" />
+				</county>
+				<county settlement="town_A5" deJure="lord_3_5">
+					<barony settlement="castle_A2" deJure="lord_3_5" />
+				</county>
+			</duchy>
+		</kingdom>
+		
+		<kingdom faction="siri" government="Tribal" succession="TribalElective" inheritance="Primogeniture" genderLaw="Enatic" deJure="bk_siri_1">
+			<duchy name="{=!}Agiosinkipt" deJure="bk_siri_1">
+				<county settlement="town_A10" deJure="bk_siri_1">
+					<barony settlement="castle_A11" deJure="bk_siri_4" />
+				</county>
+				<county settlement="town_A9" deJure="bk_siri_2">
+					<barony settlement="castle_A10" deJure="bk_siri_3" />
 				</county>
 			</duchy>
 		</kingdom>
@@ -226,9 +287,13 @@
 			<duchy name="{=kRXucvyJ}Kohi Rohini" deJure="lord_6_17">
 				<county settlement="town_K6" deJure="lord_6_17">
 					<barony settlement="castle_K7" deJure="lord_6_19" />
+					<barony settlement="castle_Darshi_1" deJure="bk_darshi_1_8" />
 				</county>
 				<county settlement="town_K2" deJure="lord_6_16">
 					<barony settlement="castle_K8" deJure="lord_K9_l" />
+				</county>
+				<county settlement="town_Darshi_7" deJure="bk_darshi_1_9">
+					<barony settlement="castle_Darshi_8" deJure="bk_darshi_1_9" />
 				</county>
 			</duchy>
 			<duchy name="{=iuKWscHa}Tanaz Baikal" deJure="lord_6_1">
@@ -244,14 +309,11 @@
 					<barony settlement="castle_K3" deJure="lord_6_20" />
 					<barony settlement="castle_K5" deJure="lord_6_19" />
 				</county>
-			</duchy>
-			<duchy name="{=krEv7xsL}Bars Dagan" deJure="lord_6_4">
 				<county settlement="town_K1" deJure="lord_6_4">
 					<barony settlement="castle_K9" deJure="lord_6_18" />
 					<barony settlement="castle_K6" deJure="lord_6_18" />
 				</county>
 			</duchy>
 		</kingdom>
-
 	</titles>
 </base>
