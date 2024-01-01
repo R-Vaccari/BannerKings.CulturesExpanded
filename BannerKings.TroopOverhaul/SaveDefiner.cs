@@ -19,6 +19,7 @@ namespace BannerKings
             AddClassDefinition(typeof(ImmortalFlame), 5);
             AddClassDefinition(typeof(Siri), 6);
             AddClassDefinition(typeof(Kannic), 7);
+            AddClassDefinition(typeof(Ahhakism), 8);
         }
 
         protected override void DefineContainerDefinitions()
