@@ -9,7 +9,7 @@ namespace BannerKings.CulturesExpanded.Patches
         [HarmonyPatch(typeof(DefaultCulturalFeats))]
         public class DefaultCulturalFeatsPatch
         {
-            [HarmonyPrefix]
+            [HarmonyPostfix]
             [HarmonyPatch("InitializeAll")]
             static void Refresh(DefaultCulturalFeats __instance)
             {
