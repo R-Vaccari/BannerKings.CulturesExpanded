@@ -24,7 +24,6 @@ namespace BannerKings.CulturesExpanded.Religions
         public Divinity DarshiWater { get; } = new Divinity("DarshiWater");
         public Divinity DarshiBattle { get; } = new Divinity("DarshiBattle");
 
-
         public override IEnumerable<Divinity> All
         {
             get
@@ -50,7 +49,7 @@ namespace BannerKings.CulturesExpanded.Religions
         {
             Ahhak.Initialize(new TextObject("{=!}Ahhak"),
                new TextObject("{=!}The King of Sorcery, shoulder flowing serpents Ahhak. To the Darshi of the Atashyasna, he was a demon inpersonated, and a tyrant. He is said to have lived for centuries, to be a master of dark sorceries, and to have serpents flowing on his shoulders that erupted from his flesh. These serpents were said to require to feed on human sacrifices, otherwise would destroy Ahhak himself. He was the one with all sins, the opposite of absolute good. To the Atash Amesha, he is a heresy that must be purified by the burning Immortal Flame. For his sorceries, his followers call him Yatuanshah, King of Sorcery."),
-               new TextObject("{=!}Increased lifespan"),
+               new TextObject("{=!}Increased lifespan (reduced old age death chance)"),
                new TextObject("{=!}Flowing Serpents King"),
                500,
                new TextObject(),

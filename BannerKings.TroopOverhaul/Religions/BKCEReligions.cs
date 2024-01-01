@@ -38,6 +38,7 @@ namespace BannerKings.CulturesExpanded.Religions
                 yield return Kannic;
                 yield return Jumne;
                 yield return Rodovera;
+                yield return Treelore;
             }
         }
 
