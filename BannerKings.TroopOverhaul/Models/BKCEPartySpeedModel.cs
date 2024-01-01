@@ -4,6 +4,7 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 using BannerKings.Settings;
+using BannerKings.CulturesExpanded.Cultures;
 
 namespace BannerKings.CulturesExpanded.Models
 {
@@ -21,7 +22,8 @@ namespace BannerKings.CulturesExpanded.Models
 
                 string culture = mobileParty.ActualClan != null ? mobileParty.ActualClan.Culture.StringId :
                     mobileParty.Owner.Culture.StringId;
-                if (culture == "nord" || culture == "kannic" || culture == "geroia") speed.Add(0.15f, GameTexts.FindText("str_culture"));
+                
+                Utils.Helpers.ApplyFeat(BKCEFeats.Instance.SailingSpeed, mobileParty.Party, ref speed);
 
                 if (BannerKingsSettings.Instance.SlowerParties > 0f)
                 {
