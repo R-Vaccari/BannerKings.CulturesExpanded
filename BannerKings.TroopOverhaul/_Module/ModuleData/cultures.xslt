@@ -20,6 +20,9 @@
         <xsl:attribute name="name">Calradoi</xsl:attribute>
     </xsl:template>
 	
+	<xsl:template match="Culture[@id='empire']/@militia_party_template">
+        <xsl:attribute name="militia_party_template">PartyTemplate.bkce_militia_empire_template</xsl:attribute>
+    </xsl:template>
 	
 	<xsl:template match="Culture[@id='empire']/@melee_militia_troop">
         <xsl:attribute name="melee_militia_troop">NPCCharacter.bk_imperial_levy</xsl:attribute>
@@ -47,6 +50,10 @@
 
     <xsl:template match="Culture[@id='aserai']/@elite_basic_troop">
         <xsl:attribute name="elite_basic_troop">NPCCharacter.bk_aserai_squire</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='aserai']/@militia_party_template">
+        <xsl:attribute name="militia_party_template">PartyTemplate.bkce_militia_aserai_template</xsl:attribute>
     </xsl:template>
 
     <xsl:template match="Culture[@id='aserai']/@basic_troop">
@@ -78,6 +85,10 @@
 
     <xsl:template match="Culture[@id='sturgia']/@elite_basic_troop">
         <xsl:attribute name="elite_basic_troop">NPCCharacter.bk_sturgia_squire</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='sturgia']/@militia_party_template">
+        <xsl:attribute name="militia_party_template">PartyTemplate.bkce_militia_sturgia_template</xsl:attribute>
     </xsl:template>
 
     <xsl:template match="Culture[@id='sturgia']/@basic_troop">
@@ -151,6 +162,10 @@
     <xsl:template match="Culture[@id='vlandia']/@elite_basic_troop">
         <xsl:attribute name="elite_basic_troop">NPCCharacter.bk_vlandia_squire</xsl:attribute>
     </xsl:template>
+	
+	<xsl:template match="Culture[@id='vlandia']/@militia_party_template">
+        <xsl:attribute name="militia_party_template">PartyTemplate.bkce_militia_vlandia_template</xsl:attribute>
+    </xsl:template>
 
     <xsl:template match="Culture[@id='vlandia']/@basic_troop">
         <xsl:attribute name="basic_troop">NPCCharacter.bk_vlandia_levy</xsl:attribute>
@@ -177,16 +192,14 @@
         <xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.bk_vlandia_militiaman_crossbow</xsl:attribute>
     </xsl:template>
 	
-	<xsl:template match="Culture[@id='vlandia']/basic_mercenary_troops">
-        <basic_mercenary_troops>
-            <template name="NPCCharacter.bk_vlandia_mercenary" />
-        </basic_mercenary_troops>
-    </xsl:template>
-	
 	
 	
     <xsl:template match="Culture[@id='battania']/@elite_basic_troop">
         <xsl:attribute name="elite_basic_troop">NPCCharacter.bk_battanian_squire</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='battania']/@militia_party_template">
+        <xsl:attribute name="militia_party_template">PartyTemplate.bkce_militia_battania_template</xsl:attribute>
     </xsl:template>
 
     <xsl:template match="Culture[@id='battania']/@basic_troop">
@@ -218,6 +231,10 @@
 
     <xsl:template match="Culture[@id='khuzait']/@elite_basic_troop">
         <xsl:attribute name="elite_basic_troop">NPCCharacter.bk_khuzait_squire</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='khuzait']/@militia_party_template">
+        <xsl:attribute name="militia_party_template">PartyTemplate.bkce_militia_khuzait_template</xsl:attribute>
     </xsl:template>
 
     <xsl:template match="Culture[@id='khuzait']/@basic_troop">

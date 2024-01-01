@@ -96,7 +96,7 @@
 		faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai"
 		caravan_party_template="PartyTemplate.caravan_template_aserai"
-		militia_party_template="PartyTemplate.militia_aserai_template"
+		militia_party_template="PartyTemplate.bkce_militia_siri_template"
 		rebels_party_template="PartyTemplate.rebels_aserai_template"
 		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
 		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
@@ -233,12 +233,9 @@
 			<name name="{=!}Shikas" />
 		</clan_names>
 		<cultural_feats>
-			<feat
-				id="aserai_cheaper_caravans" />
-			<feat
-				id="aserai_desert_speed" />
-			<feat
-				id="aserai_increased_wages" />
+			<feat id="BKCE_south_production" />
+			<feat id="BKCE_siri_archers" />
+			<feat id="aserai_increased_wages" />
 		</cultural_feats>
 		<possible_clan_banner_icon_ids>
 			<icon
@@ -458,7 +455,7 @@
 		faction_banner_key="11.14.14.1536.1536.764.764.1.0.0.160.15.15.497.497.764.764.1.0.0"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_vlandia"
 		caravan_party_template="PartyTemplate.caravan_template_vlandia"
-		militia_party_template="PartyTemplate.militia_vlandia_template"
+		militia_party_template="PartyTemplate.bkce_militia_massa_template"
 		rebels_party_template="PartyTemplate.rebels_vlandia_template"
 		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_vlandia"
 		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
@@ -527,12 +524,6 @@
 			<item
 				id="Item.vlandia_sword_5_t5" />
 		</banner_bearer_replacement_weapons>
-		<default_policies>
-			<policy
-				id="policy_feudal_inheritance" />
-			<policy
-				id="policy_castle_charters" />
-		</default_policies>
 		<male_names>
 			<name
 				name="{=fUQlCkCQ}Anbard" />
@@ -1059,12 +1050,12 @@
 		is_main_culture="true"
 		color="0xff8D291A"
 		color2="0xffF7BF46"
-		elite_basic_troop="NPCCharacter.bk_massa_squire"
-		basic_troop="NPCCharacter.bk_massa_levy"
-		melee_militia_troop="NPCCharacter.bk_massa_levy"
-		ranged_militia_troop="NPCCharacter.bk_massa_levy_sling"
-		melee_elite_militia_troop="NPCCharacter.bk_massa_militiaman"
-		ranged_elite_militia_troop="NPCCharacter.bk_massa_militiaman_sling"
+		elite_basic_troop="NPCCharacter.bk_balion_squire"
+		basic_troop="NPCCharacter.bk_balion_levy"
+		melee_militia_troop="NPCCharacter.bk_balion_levy"
+		ranged_militia_troop="NPCCharacter.bk_balion_levy_longbow"
+		melee_elite_militia_troop="NPCCharacter.bk_balion_militiaman"
+		ranged_elite_militia_troop="NPCCharacter.bk_balion_militiaman_longbow"
 		can_have_settlement="true"
 		town_edge_number="16"
 		villager_party_template="PartyTemplate.villager_vlandia_template"
@@ -1674,21 +1665,21 @@
 		is_main_culture="true"
 		color="0xff8D291A"
 		color2="0xffF7BF46"
-		elite_basic_troop="NPCCharacter.bk_massa_squire"
-		basic_troop="NPCCharacter.bk_massa_levy"
-		melee_militia_troop="NPCCharacter.bk_massa_levy"
-		ranged_militia_troop="NPCCharacter.bk_massa_levy_sling"
-		melee_elite_militia_troop="NPCCharacter.bk_massa_militiaman"
-		ranged_elite_militia_troop="NPCCharacter.bk_massa_militiaman_sling"
+		elite_basic_troop="NPCCharacter.bk_bragantia_squire"
+		basic_troop="NPCCharacter.bk_bragantia_levy"
+		melee_militia_troop="NPCCharacter.bk_bragantia_levy"
+		ranged_militia_troop="NPCCharacter.bk_bragantia_levy_crossbow"
+		melee_elite_militia_troop="NPCCharacter.bk_bragantia_militiaman"
+		ranged_elite_militia_troop="NPCCharacter.bk_bragantia_militiaman_crossbow"
 		can_have_settlement="true"
 		town_edge_number="16"
 		villager_party_template="PartyTemplate.villager_vlandia_template"
-		default_party_template="PartyTemplate.bk_massa_party_template"
+		default_party_template="PartyTemplate.bk_bragantia_party_template"
 		encounter_background_mesh="encounter_vlandia"
 		faction_banner_key="11.14.14.1536.1536.764.764.1.0.0.160.15.15.497.497.764.764.1.0.0"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_vlandia"
 		caravan_party_template="PartyTemplate.caravan_template_vlandia"
-		militia_party_template="PartyTemplate.militia_vlandia_template"
+		militia_party_template="PartyTemplate.bkce_militia_bragantia_template"
 		rebels_party_template="PartyTemplate.rebels_vlandia_template"
 		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_vlandia"
 		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
@@ -2303,7 +2294,7 @@
 		faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai"
 		caravan_party_template="PartyTemplate.caravan_template_aserai"
-		militia_party_template="PartyTemplate.militia_aserai_template"
+		militia_party_template="PartyTemplate.bkce_militia_kannic_template"
 		rebels_party_template="PartyTemplate.rebels_aserai_template"
 		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
 		default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
@@ -2672,7 +2663,7 @@
            faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
            elite_caravan_party_template="PartyTemplate.elite_caravan_template_aserai"
            caravan_party_template="PartyTemplate.caravan_template_aserai"
-           militia_party_template="PartyTemplate.militia_aserai_template"
+           militia_party_template="PartyTemplate.bkce_militia_darshi_template"
            rebels_party_template="PartyTemplate.rebels_aserai_template"
            vassal_reward_party_template="PartyTemplate.vassal_reward_troops_aserai"
            default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
@@ -2953,7 +2944,7 @@
 		default_party_template="PartyTemplate.bk_geroia_party_template"
 		caravan_party_template="PartyTemplate.caravan_template_empire"
 		elite_caravan_party_template="PartyTemplate.elite_caravan_template_empire"
-		militia_party_template="PartyTemplate.militia_empire_template"
+		militia_party_template="PartyTemplate.bkce_militia_geroia_template"
 		rebels_party_template="PartyTemplate.rebels_empire_template"
 		vassal_reward_party_template="PartyTemplate.vassal_reward_troops_empire"
 		prosperity_bonus="1"
@@ -3239,7 +3230,7 @@
            faction_banner_key="11.12.12.4345.4345.764.764.1.0.0.462.13.13.512.512.764.764.1.0.0"
            elite_caravan_party_template="PartyTemplate.elite_caravan_template_sturgia"
            caravan_party_template="PartyTemplate.caravan_template_sturgia"
-           militia_party_template="PartyTemplate.militia_sturgia_template"
+           militia_party_template="PartyTemplate.bkce_militia_nord_template"
            rebels_party_template="PartyTemplate.rebels_sturgia_template"
            vassal_reward_party_template="PartyTemplate.vassal_reward_troops_sturgia"
            default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
@@ -3585,43 +3576,18 @@
 	  <name name="{=!}Laila" />
     </female_names>
     <clan_names>
-      <name name="{=tGEChxdb}Achanoving" />
-      <name name="{=OLLYkaWd}Asraloving" />
-      <name name="{=Y9qYt71a}Balikoving" />
-      <name name="{=yUuM8a0j}Boranoving" />
-      <name name="{=XJZJIZ9Q}Cholokhoving" />
-      <name name="{=NbprLzeU}Dazheroving" />
-      <name name="{=eNSZGTbN}Doronoving" />
-      <name name="{=euyyBbjq}Folyoroving" />
-      <name name="{=tKUIAmbV}Fyomanoving" />
-      <name name="{=ODcWVL1a}Gendiroving" />
-      <name name="{=NLXHafGS}Gissinoving" />
-      <name name="{=Va35TmQW}Igrunoving" />
-      <name name="{=UYqwbjTP}Iskanoving" />
-      <name name="{=dey9d9DX}Kasyoving" />
-      <name name="{=ctJub9Ah}Khirinoving" />
-      <name name="{=YJ6JKs9O}Kyorinoving" />
-      <name name="{=Vp9n86Wy}Lezhanoving" />
-      <name name="{=z2Oqk8aq}Maregoving" />
-      <name name="{=bBD4tF2y}Morochoving" />
-      <name name="{=XQfYxgti}Nimanoving" />
-      <name name="{=DxU5mVDg}Pyasoving" />
-      <name name="{=RpDv3cGI}Rimanoving" />
-      <name name="{=BrI1aJdo}Rukhanoving" />
-      <name name="{=lpbIXNdK}Suratoving" />
-      <name name="{=Lcbrsqw8}Syaveroving" />
-      <name name="{=jqaH0a35}Tymanoving" />
-      <name name="{=IVHobRWE}Usharoving" />
-      <name name="{=RFapQLfR}Vyshoving" />
-      <name name="{=OrUdifEU}Yathanoving" />
-      <name name="{=gC1paDtD}Yerchoving" />
-      <name name="{=DakafAXa}Zamantoving" />
-      <name name="{=qD72Ya4I}Zhanoving" />
+      <name name="{=!}Keminen" />
+      <name name="{=!}Vecinen" />
+      <name name="{=!}Kentenen" />	  
+	  <name name="{=!}Kulanen" />
+      <name name="{=!}Vecinen" />
+      <name name="{=!}Puunen" />
+	  <name name="{=!}Linnanen" />
     </clan_names>
     <cultural_feats>
-      <feat id="sturgian_cheaper_recruits_infantry" />
-      <feat id="sturgian_decreased_cohesion_rate" />
-      <feat id="sturgian_increased_decision_penalty" />
+      <feat id="battanian_forest_speed" />
+      <feat id="battanian_militia_production" />
+      <feat id="battanian_slower_construction" />
     </cultural_feats>
     <possible_clan_banner_icon_ids>
       <icon id="112" />
