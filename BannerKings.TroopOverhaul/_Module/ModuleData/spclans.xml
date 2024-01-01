@@ -132,19 +132,28 @@
            super_faction="Kingdom.siri"
            is_noble="true"
            banner_key="11.143.127.1528.1528.764.764.1.0.0.10044.123.96.483.483.764.764.1.0.0.311.123.116.304.319.862.614.0.1.0" /> 
+		   
+    <Faction id="bk_clan_bragantia_1"
+           name="{=!}de Bragantja"
+           tier="4"
+           owner="Hero.bk_bragantia_1"
+           culture="Culture.massa"
+           super_faction="Kingdom.bragantia"
+           is_noble="true"
+           banner_key="8.159.22.1528.1528.764.764.1.0.0.316.123.171.483.483.764.764.1.0.0.125.143.116.281.296.755.777.1.0.0" />
 	
 	<Faction id="bk_clan_massa_1"
            name="{=!}Respendaling"
-           tier="5"
+           tier="4"
            owner="Hero.bk_massa_1"
            culture="Culture.massa"
            super_faction="Kingdom.massa"
            is_noble="true"
-           banner_key="11.158.166.1528.1528.764.764.1.0.0.10232.5.171.483.483.764.764.0.0.0" />
+           banner_key="36.159.82.645.967.768.746.0.0.0.124.22.106.410.409.768.769.0.1.0" />
 		   
     <Faction id="bk_clan_massa_2"
            name="{=!}Geseriling"
-           tier="4"
+           tier="3"
            owner="Hero.bk_massa_2"
            culture="Culture.massa"
            super_faction="Kingdom.massa"
@@ -291,7 +300,7 @@
            tier="3"
            owner="Hero.bk_jumne_4"
            culture="Culture.nord"
-           super_faction="Kingdom.ebor_jarldom"
+           super_faction="Kingdom.urik_thegndom"
            is_noble="true"
            banner_key="11.227.40.2000.2000.768.746.0.0.0.10087.127.116.402.403.755.755.1.0.0" />
 		   
@@ -300,7 +309,7 @@
            tier="3"
            owner="Hero.bk_jumne_5"
            culture="Culture.nord"
-           super_faction="Kingdom.ebor_jarldom"
+           super_faction="Kingdom.byal_thegndom"
            is_noble="true"
            banner_key="12.226.35.1528.1528.764.764.1.0.0.307.148.116.400.400.884.755.1.1.324.307.148.116.400.400.660.755.1.0.44.332.207.116.400.400.755.755.1.0.0" />
 		   
@@ -367,7 +376,7 @@
            culture="Culture.geroia"
            super_faction="Kingdom.geroia"
            is_noble="true"
-           banner_key="3.142.162.645.967.768.746.0.0.0.326.22.106.531.531.768.769.0.1.0" />   
+           banner_key="3.142.162.645.967.768.746.0.0.0.328.22.106.236.235.768.769.0.1.0.333.212.22.201.209.589.589.0.0.0.117.162.20.201.201.919.603.0.0.0.105.162.162.201.201.611.919.1.0.0.335.212.116.200.201.920.906.1.0.0" />   
    
    <!-- <Faction
 		id="clan_battania_2"

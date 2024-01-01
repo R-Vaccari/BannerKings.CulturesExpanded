@@ -166,6 +166,50 @@
   </NPCCharacter>
   
   <NPCCharacter
+		id="bk_bragantia_1"
+		name="{=!}Roderico"
+		voice="curt"
+		default_group="Infantry"
+		age="42"
+		is_hero="true"
+		culture="Culture.bragantia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.04" weight="0.4315" build="0.8898" 
+			key="00185406D44434051CE78E78E188386856C48889C599A78B795CB364B88C942A00AD66030A4CC9950000000000000000000000000000000000000000035C2082"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Oligarchic" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+			  <equipment slot="Head" id="Item.tv_vlandia_lord_helmet_f2" />
+			  <equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2" />
+			  <equipment slot="Body" id="Item.AR_empire_scale_armor_e3" />
+			  <equipment slot="Gloves" id="Item.hmj_plated_mail_mittens" />
+			  <equipment slot="Leg" id="Item.AR_vlandia_boots_c" />
+			  <equipment slot="Horse" id="Item.t3_vlandia_horse" />
+			  <equipment slot="HorseHarness" id="Item.AR_horse_armor_k" />
+			  <equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+			  <equipment slot="Item1" id="Item.vlandia_lance_3_t5" />
+			  <equipment slot="Item2" id="Item.AR_shield_infantry_e2" />
+			</EquipmentRoster>
+			<EquipmentSet
+				id="bk_massa_mercenaries_template"
+				civilian="true" />
+		</Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
 		id="bk_massa_1"
 		name="{=!}Respendal"
 		voice="curt"
@@ -893,8 +937,8 @@
  
  
   <NPCCharacter id="bk_darshi_1_1"
-                name="{=!}Shahbuhr"
-                age="44"
+                name="{=!}Rashid"
+                age="62"
                 voice="ironic"
                 culture="Culture.darshi"
                 occupation="Lord"
