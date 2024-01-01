@@ -302,6 +302,10 @@ namespace BannerKings.CulturesExpanded.Cultures
                 vlandia,
                 new TextObject("{=!}Villeins"));
 
+            Kannic
+            Craftsmen - baalit
+            Tenants - mish
+
             #endregion Osrickin
 
 

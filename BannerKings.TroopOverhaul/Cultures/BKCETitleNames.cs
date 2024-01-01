@@ -141,6 +141,17 @@ namespace BannerKings.CulturesExpanded.Cultures
         public CulturalTitleName MassaKnight { get; private set; }
         #endregion Massa
 
+        #region Bragantia
+        public CulturalTitleName BragantiaEmperor { get; private set; }
+        public CulturalTitleName BragantiaKing { get; private set; }
+        public CulturalTitleName BragantiaDuke { get; private set; }
+        public CulturalTitleName BragantiaCount { get; private set; }
+        public CulturalTitleName BragantiaBaron { get; private set; }
+        public CulturalTitleName BragantiaLord { get; private set; }
+        public CulturalTitleName BragantiaPrince { get; private set; }
+        public CulturalTitleName BragantiaKnight { get; private set; }
+        #endregion Bragantia
+
         public override IEnumerable<CulturalTitleName> All
         {
             get
@@ -235,6 +246,15 @@ namespace BannerKings.CulturesExpanded.Cultures
                 yield return MassaPrince;
                 yield return MassaKnight;
 
+                yield return BragantiaEmperor;
+                yield return BragantiaKing;
+                yield return BragantiaDuke;
+                yield return BragantiaCount;
+                yield return BragantiaBaron;
+                yield return BragantiaLord;
+                yield return BragantiaPrince;
+                yield return BragantiaKnight;
+
                 yield return DarshiEmperor;
                 yield return DarshiKing;
                 yield return DarshiDuke;
@@ -270,6 +290,8 @@ namespace BannerKings.CulturesExpanded.Cultures
             var geroia = cultures.First(x => x.StringId == "geroia");
             var massa = cultures.First(x => x.StringId == "massa");
             var siri = cultures.First(x => x.StringId == "siri");
+            var balion = cultures.First(x => x.StringId == "balion");
+            var bragantia = cultures.First(x => x.StringId == "bragantia");
 
             #region Empire
             if (BKTOSettings.Instance.LatinTitles)
@@ -874,12 +896,63 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             #endregion Massa
 
+            #region Bragantia
+            BragantiaEmperor = CulturalTitleName.CreateEmpire("BragantiaEmperor",
+                bragantia,
+                new TextObject("{=!}Grão-Rei"),
+                new TextObject("{=!}Grã-Reinna"),
+                new TextObject("{=!}Grão-Reinato"));
+
+            BragantiaKing = CulturalTitleName.CreateKingdom("BragantiaKing",
+                bragantia,
+                new TextObject("{=!}Rei"),
+                new TextObject("{=!}Reinna"),
+                new TextObject("{=!}Reinato"));
+
+            BragantiaDuke = CulturalTitleName.CreateDuchy("BragantiaDuke",
+                bragantia,
+                new TextObject("{=!}Duc"),
+                new TextObject("{=!}Duca"),
+                new TextObject("{=!}Ducato"));
+
+            BragantiaCount = CulturalTitleName.CreateCounty("BragantiaCount",
+                bragantia,
+                new TextObject("{=!}Conde"),
+                new TextObject("{=!}Condessa"),
+                new TextObject("{=!}Condato"));
+
+            BragantiaBaron = CulturalTitleName.CreateBarony("BragantiaBaron",
+                bragantia,
+                new TextObject("{=!}Barão"),
+                new TextObject("{=!}Baronesa"),
+                new TextObject("{=!}Baronato"));
+
+            BragantiaLord = CulturalTitleName.CreateLordship("BragantiaLord",
+                bragantia,
+                new TextObject("{=!}Sennor"),
+                new TextObject("{=!}Sennora"),
+                new TextObject("{=!}Sennorio"));
+
+            BragantiaPrince = CulturalTitleName.CreatePrince("BragantiaPrince",
+                bragantia,
+                new TextObject("{=!}Principe"),
+                new TextObject("{=!}Princesa"),
+                new TextObject("{=!}Principes"));
+
+            BragantiaKnight = CulturalTitleName.CreateKnight("BragantiaKnight",
+                bragantia,
+                new TextObject("{=!}Mesnadeiro"),
+                new TextObject("{=!}Mesnadeira"),
+                new TextObject("{=!}Mesnadeiros"));
+
+            #endregion Bragantia
+
             #region Geroia
             GeroiaEmperor = CulturalTitleName.CreateEmpire("GeroiaEmperor",
                 geroia,
-                new TextObject("{=!}Arciducxate"),
-                new TextObject("{=!}Arciducxata"),
-                new TextObject("{=!}Arciducxateri"));
+                new TextObject("{=!}Arciprincipe"),
+                new TextObject("{=!}Arciprincipa"),
+                new TextObject("{=!}Arciprincipateri"));
 
             GeroiaKing = CulturalTitleName.CreateKingdom("GeroiaKing",
                 geroia,
@@ -908,13 +981,13 @@ namespace BannerKings.CulturesExpanded.Cultures
             GeroiaLord = CulturalTitleName.CreateLordship("GeroiaLord",
                 geroia,
                 new TextObject("{=!}Capitaine"),
-                new TextObject("{=!}Capitaine"),
+                new TextObject("{=!}Capitaina"),
                 new TextObject("{=!}Capitaneri"));
 
             GeroiaPrince = CulturalTitleName.CreatePrince("GeroiaPrince",
                 geroia,
                 new TextObject("{=!}Principe"),
-                new TextObject("{=!}Principe"),
+                new TextObject("{=!}Principa"),
                 new TextObject("{=!}Principi"));
 
             GeroiaKnight = CulturalTitleName.CreateKnight("GeroiaKnight",
@@ -932,6 +1005,13 @@ namespace BannerKings.CulturesExpanded.Cultures
 
             /*
              * LaconiaDuke = Polemarchos
+             * 
+             * Kannic
+            adon = lord, master
+             * King = Milkh / Milkhat (female)
+             * Prince Milkhbin / Milkhbint / Milkzar
+            Emperor = rabbrab
+            Lord = rab / rabbat 
              */
         }
     }
